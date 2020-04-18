@@ -28,8 +28,8 @@ AppAsset::register($this);
     <meta name="keywords" content="" />
     <link rel="shortcut icon" type="image/x-icon" href="http://bis.tpu.ru/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" />
-    <link rel="stylesheet" type="text/css" href="/assets/4e3454c7/styles.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/4e3454c7/landing.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/combined/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/combined/<?=$this->params['css_name'] ?? 'landing'?>.css" />
 <!--Вставлено-->
 
     <?php $this->registerCsrfMetaTags() ?>
@@ -117,8 +117,6 @@ AppAsset::register($this);
         © 2019 - Национальный исследовательский Томский политехнический университет
     </div>
 </footer>
-<script type="text/javascript" src="/assets/4e3454c7/scripts.js"></script>
-<script type="text/javascript" src="/assets/4e3454c7/landing.js"></script>
 <script type="text/javascript">
     /*<![CDATA[*/
     jQuery(function($) {

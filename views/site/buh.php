@@ -1,24 +1,5 @@
 <?php
 ?>
-
-<header>
-    <div class="container-fluid">
-        <div class="row flex-column align-items-center justify-content-center flex-lg-row justify-content-lg-between">
-            <div class="col-auto pt-2 pb-2">
-                <div class="d-flex flex-row align-items-center">
-                    <div class="logo-icon"></div>
-                    <div class="logo-text">томский<br>политехнический<br>университет</div>
-                </div>
-            </div>
-            <div class="col-auto pt-2 pb-2">
-                <div class="d-flex flex-column flex-sm-row align-items-center">
-                    <a href="tel:+79069565644" class="header-tel mb-3 mb-sm-0">+7 (906) <span>956-56-44</span></a>
-                    <a href="mailto:bis.tpu@yandex.ru" class="btn btn-outline-secondary btn-sm header-btn">связаться с нами</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
 <div class="wrapper">
     <section class="section-welcome">
         <div class="section-content">
@@ -90,25 +71,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 wow bounceInLeft" data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('/assets/95e116c4/main/i/buh/icons/purpose1.png');">
+                        <div class="benefit-item" style="background-image: url('/assets/combined/main/i/buh/icons/purpose1.png');">
                             <div class="benefit-title">Цель программы</div>
                             <div class="benefit-text">Развитие профессиональных компетенций, необходимых для ведения нового вида профессиональной деятельности в сфере бухгалтерского учета, анализа и аудита.</div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="100ms" data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('/assets/95e116c4/main/i/buh/icons/purpose3.png');">
+                        <div class="benefit-item" style="background-image: url('/assets/combined/main/i/buh/icons/purpose3.png');">
                             <div class="benefit-title">Диплом</div>
                             <div class="benefit-text">Слушателям, успешно закончившим курс, выдается документ - диплом о профессиональной переподготовке.</div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="200ms" data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('/assets/95e116c4/main/i/buh/icons/purpose2.png');">
+                        <div class="benefit-item" style="background-image: url('/assets/combined/main/i/buh/icons/purpose2.png');">
                             <div class="benefit-title">Формат</div>
                             <div class="benefit-text">Обучение построено на интерактивных методах (кейсы, сквозные практикумы).</div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="300ms" data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('/assets/95e116c4/main/i/buh/icons/purpose4.png');">
+                        <div class="benefit-item" style="background-image: url('/assets/combined/main/i/buh/icons/purpose4.png');">
                             <div class="benefit-title">Целевая группа</div>
                             <div class="benefit-text">Бакалавры, магистры, специалисты с высшим и/или средним профессиональным образованием.</div>
                         </div>
@@ -150,21 +131,21 @@
                     <div class="result-items">
                         <div class="result-item">
                             <div class="result-block">
-                                <div class="result-pic wow flipInX bounce" data-wow-duration="600ms" style="background-image: url('/assets/95e116c4/main/i/buh/result1.jpg');"></div>
+                                <div class="result-pic wow flipInX bounce" data-wow-duration="600ms" style="background-image: url('/assets/combined/main/i/buh/result1.jpg');"></div>
                                 <div class="result-title">Электронный<br/>документооборот</div>
                             </div>
                             <div class="result-text">Организация электронного документооборота: правовое сопровождение, порядок архивации, система обмена и регистрации входящих/исходящих данных.</div>
                         </div>
                         <div class="result-item">
                             <div class="result-block">
-                                <div class="result-pic wow flipInX bounce" data-wow-delay="100ms" data-wow-duration="600ms" style="background-image: url('/assets/95e116c4/main/i/buh/result2.jpg');"></div>
+                                <div class="result-pic wow flipInX bounce" data-wow-delay="100ms" data-wow-duration="600ms" style="background-image: url('/assets/combined/main/i/buh/result2.jpg');"></div>
                                 <div class="result-title">Бухгалтерское<br/>делопроизводство</div>
                             </div>
                             <div class="result-text">Постановка и организация бухгалтерского учета на предприятиях, техника формирования и сдачи бухгалтерской финансовой отчетности, систематизация рработы бухгалтерской службы.</div>
                         </div>
                         <div class="result-item">
                             <div class="result-block">
-                                <div class="result-pic wow flipInX bounce" data-wow-delay="200ms" data-wow-duration="600ms" style="background-image: url('/assets/95e116c4/main/i/buh/result3.jpg');"></div>
+                                <div class="result-pic wow flipInX bounce" data-wow-delay="200ms" data-wow-duration="600ms" style="background-image: url('/assets/combined/main/i/buh/result3.jpg');"></div>
                                 <div class="result-title">Аудит</div>
                             </div>
                             <div class="result-text">Организация и проведение аудита финансово-хозяйственной деятельности предприятия постановка системы внутреннего контроля.</div>
@@ -304,25 +285,25 @@
                 <div class="row">
                     <div class="section-title wow fadeInUp" data-wow-duration="500ms">Чему вы научитесь</div>
                     <div class="col-12 col-md-6 wow bounceInLeft" data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('/assets/95e116c4/main/i/buh/icons/skill1.png');">
+                        <div class="benefit-item" style="background-image: url('/assets/combined/main/i/buh/icons/skill1.png');">
                             <div class="benefit-title">Бухгалтерскому учету</div>
                             <div class="benefit-text">Развитие профессиональных компетенций, необходимых для ведения нового вида профессиональной деятельности в сфере бухгалтерского учета, анализа и аудита.</div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="100ms" data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('/assets/95e116c4/main/i/buh/icons/skill3.png');">
+                        <div class="benefit-item" style="background-image: url('/assets/combined/main/i/buh/icons/skill3.png');">
                             <div class="benefit-title">Подсчету налогов</div>
                             <div class="benefit-text">Слушателям, успешно закончившим курс, выдается документ - диплом о профессиональной переподготовке.</div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 wow bounceInLeft" data-wow-delay="200ms" data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('/assets/95e116c4/main/i/buh/icons/skill2.png');">
+                        <div class="benefit-item" style="background-image: url('/assets/combined/main/i/buh/icons/skill2.png');">
                             <div class="benefit-title">Вести документацию</div>
                             <div class="benefit-text">Обучение построено на интерактивных методах (кейсы, сквозные практикумы).</div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 wow bounceInRight" data-wow-delay="300ms" data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('/assets/95e116c4/main/i/buh/icons/skill4.png');">
+                        <div class="benefit-item" style="background-image: url('/assets/combined/main/i/buh/icons/skill4.png');">
                             <div class="benefit-title">Структурированию работы</div>
                             <div class="benefit-text">Бакалавры, магистры, специалисты с высшим и/или средним профессиональным образованием.</div>
                         </div>
@@ -345,7 +326,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="item">
-                                <div class="item-pic" style="background-image: url('/assets/95e116c4/main/i/pics/b-specialist9.jpg')"></div>
+                                <div class="item-pic" style="background-image: url('/assets/combined/main/i/pics/b-specialist9.jpg')"></div>
                                 <div class="item-content">
                                     <div class="item-title"><span>Олег</span> Андриенко</div>
                                     <div class="item-text">
@@ -359,7 +340,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="item">
-                                <div class="item-pic" style="background-image: url('/assets/95e116c4/main/i/pics/b-specialist5.jpg')"></div>
+                                <div class="item-pic" style="background-image: url('/assets/combined/main/i/pics/b-specialist5.jpg')"></div>
                                 <div class="item-content">
                                     <div class="item-title"><span>Эмилия</span> Плучевская</div>
                                     <div class="item-text">
@@ -374,7 +355,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="item">
-                                <div class="item-pic" style="background-image: url('/assets/95e116c4/main/i/pics/b-specialist7.jpg')"></div>
+                                <div class="item-pic" style="background-image: url('/assets/combined/main/i/pics/b-specialist7.jpg')"></div>
                                 <div class="item-content">
                                     <div class="item-title"><span>Татьяна</span> Арцер</div>
                                     <div class="item-text">
@@ -387,7 +368,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="item">
-                                <div class="item-pic" style="background-image: url('/assets/95e116c4/main/i/pics/b-specialist6.jpg')"></div>
+                                <div class="item-pic" style="background-image: url('/assets/combined/main/i/pics/b-specialist6.jpg')"></div>
                                 <div class="item-content">
                                     <div class="item-title"><span>Тамара</span> Сыроватская</div>
                                     <div class="item-text">
@@ -413,7 +394,7 @@
             <div class="container">
                 <div class="section-title wow fadeInUp" data-wow-duration="500ms">Как проходит обучение</div>
                 <div class="step-items">
-                    <div class="step-item step-item--1 wow fadeIn" data-wow-duration="500ms" style="background-image: url('/assets/95e116c4/main/i/buh/icons/step1.png');">
+                    <div class="step-item step-item--1 wow fadeIn" data-wow-duration="500ms" style="background-image: url('/assets/combined/main/i/buh/icons/step1.png');">
                         <div class="step-number">1</div>
                         <div class="step-title">Теория</div>
                         <div class="step-text">
@@ -422,17 +403,17 @@
                             Что нужно знать бухгалтеру при постановке, организации и ведении бухгалтерского учета
                         </div>
                     </div>
-                    <div class="step-item step-item--2 wow fadeIn" data-wow-delay="100ms" data-wow-duration="500ms" style="background-image: url('/assets/95e116c4/main/i/buh/icons/step2.png');">
+                    <div class="step-item step-item--2 wow fadeIn" data-wow-delay="100ms" data-wow-duration="500ms" style="background-image: url('/assets/combined/main/i/buh/icons/step2.png');">
                         <div class="step-number">2</div>
                         <div class="step-title">Практика</div>
                         <div class="step-text">Интерактив: погружение в бухгалтерию и анализ деятельности предприятия на практических примерах</div>
                     </div>
-                    <div class="step-item step-item--3 wow fadeIn" data-wow-delay="200ms" data-wow-duration="500ms" style="background-image: url('/assets/95e116c4/main/i/buh/icons/step3.png');">
+                    <div class="step-item step-item--3 wow fadeIn" data-wow-delay="200ms" data-wow-duration="500ms" style="background-image: url('/assets/combined/main/i/buh/icons/step3.png');">
                         <div class="step-number">3</div>
                         <div class="step-title">Сопровождение</div>
                         <div class="step-text">Консультации и поддержка в рабочих вопросах по бухгалтерскому учету, налогообложению, аудиту и хозяйственной деятельности предприятия</div>
                     </div>
-                    <div class="step-item step-item--4 wow fadeIn" data-wow-delay="300ms" data-wow-duration="500ms" style="background-image: url('/assets/95e116c4/main/i/buh/icons/step4.png');">
+                    <div class="step-item step-item--4 wow fadeIn" data-wow-delay="300ms" data-wow-duration="500ms" style="background-image: url('/assets/combined/main/i/buh/icons/step4.png');">
                         <div class="step-number">4</div>
                         <div class="step-title">Карьера</div>
                         <div class="step-text">Индивидуальные консультации с HR-специалистом, помощь в подготовке резюме и подборе вакансий.</div>

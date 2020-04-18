@@ -61,19 +61,24 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        Yii::$app->view->params['css_name'] = 'landing';
         return $this->render('index');
     }
     public function actionBuh()
     {
+        Yii::$app->view->params['css_name'] = 'buh';
         return $this->render('buh');
     }
 
     public function actionUp()
     {
+        Yii::$app->view->params['css_name'] = 'up';
         return $this->render('up');
     }
     public function actionIvt()
     {
+        Yii::$app->view->params['css_name'] = 'landing';
+
         return $this->render('ivt');
     }
 

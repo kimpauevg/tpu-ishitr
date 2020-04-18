@@ -619,5 +619,41 @@ section.section-courses {
 }
 
 
+
+
+
+.modal-dialog-custom {
+ margin-top: 5rem;
+ color: #1c1d21
+}
+
+@media (min-width:1200px) {
+ section .container {
+  max-width: 1440px
+ }
+}
+
+
+.dpo-courses-list .course-item {
+ background-color: #ffffff
+}
+
+.dpo-courses-list,
+.dpo-courses-list a,
+.dpo-courses-list a:hover {
+ color: #000
+}
+.dpo-courses-list .course-item .course-subject {
+ padding-left: 30px;
+ padding-top: 30px;
+ color: gray;
+}
+.dpo-courses-list .course-item .course-title {
+ max-width: 175px;
+}
+.dpo-courses-list .course-item .course-cond {
+ display: table;
+}
+
 /* Конец новых стилей */
 
