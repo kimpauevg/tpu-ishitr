@@ -60,7 +60,7 @@ $this->title = 'Школа инженерного предприниматель
             </div>
 
 
-            <div class="container">
+            <div class="container-wide">
                 <div class="programs-list row">
 
                     <div class="col-12 col-lg-4">
