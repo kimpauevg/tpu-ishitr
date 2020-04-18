@@ -64,26 +64,53 @@ AppAsset::register($this);
 </div>
 
 <footer>
-    <div class="container">
-        <div class="row flex-column align-items-center justify-content-center flex-lg-row justify-content-lg-between">
-            <div class="col-auto pt-2 pb-2">
+    <div class="container-wide">
+        <div class="row align-items-center justify-content-center flex-lg-row justify-content-lg-between">
+            <div class="col-lg-3 pt-2 pb-2">
                 <div class="d-flex flex-row align-items-center">
                     <div class="logo-icon"></div>
-                    <div class="logo-text">школа<br>инженерного<br>предпринимательства</div>
+                    <div>
+                        <div class="logo-text">Инженерная школа<br>информационных технологий<br>и робототехники</div>
+                        <div class="logo-subtext">томский политехнический университет</div>
+
+                    </div>
                 </div>
             </div>
-            <div class="col-auto pt-2 pb-2">
-                <div class="d-flex flex-row align-items-center justify-content-center">
-                    <a href="https://vk.com/iptpu" target="_blank" class="social-icon"><div class="vk"></div></a>
-                    <a href="https://www.instagram.com/school.ip/" target="_blank" class="social-icon"><div class="instagram"></div></a>
-                    <a href="https://www.youtube.com/channel/UCiS2pGJFfEAxphqZ-7fW5mA" target="_blank" class="social-icon"><div class="youtube"></div></a>
-                </div>
+            <div class="col-lg-3">
+
             </div>
-            <div class="col-auto pt-2 pb-2">
-                <div class="d-flex flex-row align-items-center">
-                    <a href="mailto:bis.tpu@yandex.ru" class="btn btn-success btn-sm footer-btn">связаться с нами</a>
+            <style>
+                .contact{
+                    font-size: 15px;
+                    display: table-cell;
+                    padding-left: 10px;
+                    text-transform: uppercase;
+                }
+                .contact-fade {
+                    opacity: .65;
+                }
+                .contact-bold {
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+            </style>
+            <div class="col-lg-4 table">
+                <div class="flex-row">
+                    <div class="contact-fade contact">
+                        Для связи с нами
+                    </div>
+                    <div class="contact-bold contact">
+                        +7 (3822) 22-12-36
+                    </div>
                 </div>
+
             </div>
+            <div class="col-lg-2 table">
+                <div class="social-icon vk"></div>
+                <div class="social-icon whatsapp"></div>
+
+            </div>
+
         </div>
     </div>
     <div class="copyright">

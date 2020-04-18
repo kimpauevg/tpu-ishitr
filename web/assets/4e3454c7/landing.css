@@ -528,18 +528,25 @@ footer {
 }
 footer .logo-icon {
  background:url(main/css/../i/logo-color.png) no-repeat;
- width:65px;
- height:65px;
+ width:75px;
+ height:75px;
  margin-right:16px
 }
 footer .logo-text {
- font-size:20px;
+ font-size:12px;
+ font-weight: bold;
+ line-height:1.25;
+ color:#1c1d21;
+ padding-bottom: 15px;
+}
+footer .logo-subtext {
+ font-size: 8px;
  text-transform:uppercase;
  line-height:1.25;
  color:#1c1d21
 }
+
 footer .social-icon {
- display:flex;
  align-items:center;
  justify-content:center;
  width:50px;
@@ -548,29 +555,69 @@ footer .social-icon {
  margin-right:15px;
  border-radius:25px;
  background-color:#afb3ba;
- transition:background-color .15s ease-in-out
+ transition:background-color .15s ease-in-out;
+ display: table-cell;
 }
-footer .social-icon:hover {
- background-color:#4c9c00
+
+footer .social-icon.vk {
+ background:url(new_landing/icons8-vk-round-100.png) no-repeat;
+ transform: scale(0.4);
+ width: 100px;
+ height: 100px;
 }
-.social-icon .vk {
- background:url(main/css/../i/icons/social-vk.png) no-repeat;
- width:27px;
- height:16px
+footer .social-icon.whatsapp {
+ background:url(new_landing/icons8-whatsapp-90.png) no-repeat;
+ transform: scale(0.44);
+ width:90px;
+ height:90px
 }
-.social-icon .instagram {
- background:url(main/css/../i/icons/social-instagram.png) no-repeat;
- width:23px;
- height:23px
-}
-.social-icon .youtube {
- background:url(main/css/../i/icons/social-youtube.png) no-repeat;
- width:27px;
- height:19px
-}
+
 footer .copyright {
  color:#767676;
  font-size:14px;
  text-align:center;
  padding-top:25px
 }
+/* Новые стили*/
+.course-icon{
+ transform: scale(0.4);
+ background-size:contain;
+ display: table-cell;
+ opacity: 0.3;
+ height:50px;
+ width:50px;
+
+}
+.places {
+ background-image: url(new_landing/icons8-man-50.png);
+}
+.years {
+ background-image: url(new_landing/icons8-clock-50.png);
+}
+.learn {
+ background-image: url(new_landing/icons8-open-book-50.png);
+}
+.course-row {
+ padding-right: 70px;
+}
+
+.dpo-courses-list .course-item .course-cond__label {
+ opacity: .65;
+ font-size: 12px;
+ line-height: 1;
+ display: table-cell;
+ vertical-align: middle;
+}
+.container-wide {
+ max-width: 1440px;
+ align-content: center;
+ margin-right: auto;
+ margin-left: auto;
+}
+section.section-courses {
+ padding-top: 80px;
+}
+
+
+/* Конец новых стилей */
+

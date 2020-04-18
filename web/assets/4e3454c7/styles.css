@@ -14479,7 +14479,7 @@ section .container {
 
 @media (min-width:1200px) {
  section .container {
-  max-width: 1180px
+  max-width: 1440px
  }
 }
 
@@ -14525,10 +14525,6 @@ section .row>[class*="col-"] {
  }
 }
 
-section.section-courses {
- padding-top: 80px;
- padding-bottom: 80px
-}
 
 section.section-courses .section-title {
  max-width: 540px;
@@ -14571,7 +14567,8 @@ section.section-courses .section-title {
 
 .dpo-courses-list .course-item .course-subject {
  padding-left: 30px;
- padding-top: 30px
+ padding-top: 30px;
+ color: gray;
 }
 
 .dpo-courses-list .course-item .course-title {
@@ -14585,7 +14582,8 @@ section.section-courses .section-title {
  padding-right: 5px;
  background: no-repeat 40px center;
  line-height: 1.2;
- height: 115px
+ height: 115px;
+ max-width: 175px;
 }
 
 .dpo-courses-list .course-item--buh .course-title {
@@ -14626,15 +14624,10 @@ section.section-courses .section-title {
 .dpo-courses-list .course-item .course-cond {
  padding-left: 30px;
  padding-top: 20px;
- padding-bottom: 20px
+ padding-bottom: 20px;
+ display: table;
 }
 
-.dpo-courses-list .course-item .course-cond__label {
- opacity: .65;
- text-transform: uppercase;
- font-size: 12px;
- line-height: 1
-}
 
 .dpo-courses-list .course-item .course-cond__value {
  line-height: 1;
@@ -14675,7 +14668,7 @@ section.section-courses .section-title {
 
 @media (min-width:992px) {
  .dpo-courses-list .course-item {
-  margin: 23px 8px
+  margin: 30px 25px
  }
  .dpo-courses-list .course-item .course-title {
   height: 145px
@@ -14701,9 +14694,6 @@ section.section-courses .section-title {
  }
  .dpo-courses-list .course-item--mened .course-title {
   font-size: 15px
- }
- .dpo-courses-list .course-item .course-cond {
-  padding-left: 30px
  }
 }
 
@@ -14859,11 +14849,6 @@ section.section-courses .section-title {
  background-image: url(main/i/icons/ic-book.svg);
  background-size: 16px
 }
-/* Новые стили*/
-.places {
- background-image: url(new_landing/icons8-man-50.png);
-}
-/* Конец новых стилей */
 
 
 footer {

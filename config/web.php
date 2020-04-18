@@ -1,5 +1,7 @@
 <?php
 
+use yii\web\UrlManager;
+
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
@@ -47,8 +49,10 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '\w+' => 'site/\w+'
-            ],
+                '<action:\w+>' => 'site/<action>',
+                ],
+            'class'           => yii\web\UrlManager::class,
+
         ],
     ],
     'params' => $params,
