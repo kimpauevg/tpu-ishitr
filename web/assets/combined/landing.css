@@ -86,7 +86,7 @@ header .header-btn {
  }
 }
 section.section-welcome {
- background:url(main/css/../i/landing/3922.jpg) ;
+ background:url(main/css/../i/landing/bg-main.jpg) ;
  background-size:cover;
  background-position: right;
 
@@ -579,81 +579,5 @@ footer .copyright {
  padding-top:25px
 }
 /* Новые стили*/
-.course-icon{
- transform: scale(0.4);
- background-size:contain;
- display: table-cell;
- opacity: 0.3;
- height:50px;
- width:50px;
-
-}
-.places {
- background-image: url(new_landing/icons8-man-50.png);
-}
-.years {
- background-image: url(new_landing/icons8-clock-50.png);
-}
-.learn {
- background-image: url(new_landing/icons8-open-book-50.png);
-}
-.course-row {
- padding-right: 70px;
-}
-
-.dpo-courses-list .course-item .course-cond__label {
- opacity: .65;
- font-size: 12px;
- line-height: 1;
- display: table-cell;
- vertical-align: middle;
-}
-.container-wide {
- max-width: 1440px;
- align-content: center;
- margin-right: auto;
- margin-left: auto;
-}
-section.section-courses {
- padding-top: 80px;
-}
-
-
-
-
-
-.modal-dialog-custom {
- margin-top: 5rem;
- color: #1c1d21
-}
-
-@media (min-width:1200px) {
- section .container {
-  max-width: 1440px
- }
-}
-
-
-.dpo-courses-list .course-item {
- background-color: #ffffff
-}
-
-.dpo-courses-list,
-.dpo-courses-list a,
-.dpo-courses-list a:hover {
- color: #000
-}
-.dpo-courses-list .course-item .course-subject {
- padding-left: 30px;
- padding-top: 30px;
- color: gray;
-}
-.dpo-courses-list .course-item .course-title {
- max-width: 175px;
-}
-.dpo-courses-list .course-item .course-cond {
- display: table;
-}
-
 /* Конец новых стилей */
 

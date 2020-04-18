@@ -1,4 +1,6 @@
-/*! jQuery v3.3.1 | (c) JS Foundation and other contributors | jquery.org/license */ ! function(e, t) {
+
+/*! jQuery v3.3.1 | (c) JS Foundation and other contributors | jquery.org/license */
+! function(e, t) {
     "use strict";
     "object" == typeof module && "object" == typeof module.exports ? module.exports = e.document ? t(e, !0) : function(e) {
         if (!e.document) throw new Error("jQuery requires a window with a document");
@@ -8230,9 +8232,12 @@ jQuery.fn.exists = function() {
 };
 var Helper = {
     trackEvent: function(name) {
-        VK.Retargeting.Event(name);
-        fbq('trackCustom', name, {});
-        ym(55747102, 'reachGoal', name)
+        let event = 'zayavka-' + name;
+        let goal = 'lead-' + name;
+        VK.Retargeting.Event(event);
+        VK.Goal(goal);
+        fbq('trackCustom', event, {});
+        ym(55747102, 'reachGoal', event)
     }
 };
 var FMessage = {

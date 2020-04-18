@@ -53,18 +53,6 @@ $this->title = 'Школа инженерного предприниматель
 <section class="courses">
     <div class="section-content">
         <style>
-            .light-grey-holder {
-                background: #ebebeb;
-            }
-            .headline {
-                text-align: center;
-                font-size: 36px;
-                padding: 150px;
-                font-weight: bold;
-            }
-            .green-headline {
-                color: #3e9983;
-            }
         </style>
         <div class="light-grey-holder">
             <div class="green-headline headline">
@@ -73,205 +61,208 @@ $this->title = 'Школа инженерного предприниматель
 
 
             <div class="container">
-                <div class="row dpo-courses-list">
-
+                <div class="programs-list row">
 
                     <div class="col-12 col-lg-4">
-                        <a href="/buh" class="course-item">
-                            <div class="course-subject">
+                        <a href="/buh" class="program-item">
+                            <div class="program-subject">
                                 09.03.02
                             </div>
-                            <div class="course-title">Информационные системы и технологии</div>
-                            <div class="course-sep"></div>
-                            <div class="row flex-column flex-sm-row course-row">
+                            <div class="program-title">Информационные системы и технологии</div>
+                            <div class="program-sep"></div>
+                            <div class="row flex-column flex-sm-row program-row">
                                 <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon places">
+                                    <div class="program-cond">
+                                        <div class="program-icon places">
                                         </div>
-                                        <div class="course-cond__label">11 мест</div>
+                                        <div class="program-text">11 мест</div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon years"></div>
+                                    <div class="program-cond">
+                                        <div class="program-icon years"></div>
 
-                                        <div class="course-cond__label">2 года</div>
+                                        <div class="program-text">2 года</div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon learn"></div>
+                                    <div class="program-cond">
+                                        <div class="program-icon learn"></div>
 
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a href="/buh" class="course-item">
-                            <div class="course-subject">
-                                09.03.02
-                            </div>
-                            <div class="course-title">Информационные системы и технологии</div>
-                            <div class="course-sep"></div>
-                            <div class="row flex-column flex-sm-row course-row">
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon places">
-                                        </div>
-                                        <div class="course-cond__label">11 мест</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon years"></div>
-
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon learn"></div>
-
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a href="/buh" class="course-item">
-                            <div class="course-subject">
-                                09.03.02
-                            </div>
-                            <div class="course-title">Информационные системы и технологии</div>
-                            <div class="course-sep"></div>
-                            <div class="row flex-column flex-sm-row course-row">
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon places">
-                                        </div>
-                                        <div class="course-cond__label">11 мест</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon years"></div>
-
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon learn"></div>
-
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a href="/buh" class="course-item">
-                            <div class="course-subject">
-                                09.03.02
-                            </div>
-                            <div class="course-title">Информационные системы и технологии</div>
-                            <div class="course-sep"></div>
-                            <div class="row flex-column flex-sm-row course-row">
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon places">
-                                        </div>
-                                        <div class="course-cond__label">11 мест</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon years"></div>
-
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon learn"></div>
-
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a href="/buh" class="course-item">
-                            <div class="course-subject">
-                                09.03.02
-                            </div>
-                            <div class="course-title">Информационные системы и технологии</div>
-                            <div class="course-sep"></div>
-                            <div class="row flex-column flex-sm-row course-row">
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon places">
-                                        </div>
-                                        <div class="course-cond__label">11 мест</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon years"></div>
-
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon learn"></div>
-
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <a href="/buh" class="course-item">
-                            <div class="course-subject">
-                                09.03.02
-                            </div>
-                            <div class="course-title">Информационные системы и технологии</div>
-                            <div class="course-sep"></div>
-                            <div class="row flex-column flex-sm-row course-row">
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon places">
-                                        </div>
-                                        <div class="course-cond__label">11 мест</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon years"></div>
-
-                                        <div class="course-cond__label">2 года</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    <div class="course-cond">
-                                        <div class="course-icon learn"></div>
-
-                                        <div class="course-cond__label">2 года</div>
+                                        <div class="program-text">2 года</div>
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
 
+
+                    <div class="col-12 col-lg-4">
+                        <a href="/buh" class="program-item">
+                            <div class="program-subject">
+                                09.03.02
+                            </div>
+                            <div class="program-title">Информационные системы и технологии</div>
+                            <div class="program-sep"></div>
+                            <div class="row flex-column flex-sm-row program-row">
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon places">
+                                        </div>
+                                        <div class="program-text">11 мест</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon years"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon learn"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <a href="/buh" class="program-item">
+                            <div class="program-subject">
+                                09.03.02
+                            </div>
+                            <div class="program-title">Информационные системы и технологии</div>
+                            <div class="program-sep"></div>
+                            <div class="row flex-column flex-sm-row program-row">
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon places">
+                                        </div>
+                                        <div class="program-text">11 мест</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon years"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon learn"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <a href="/buh" class="program-item">
+                            <div class="program-subject">
+                                09.03.02
+                            </div>
+                            <div class="program-title">Информационные системы и технологии</div>
+                            <div class="program-sep"></div>
+                            <div class="row flex-column flex-sm-row program-row">
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon places">
+                                        </div>
+                                        <div class="program-text">11 мест</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon years"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon learn"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <a href="/buh" class="program-item">
+                            <div class="program-subject">
+                                09.03.02
+                            </div>
+                            <div class="program-title">Информационные системы и технологии</div>
+                            <div class="program-sep"></div>
+                            <div class="row flex-column flex-sm-row program-row">
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon places">
+                                        </div>
+                                        <div class="program-text">11 мест</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon years"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon learn"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <a href="/buh" class="program-item">
+                            <div class="program-subject">
+                                09.03.02
+                            </div>
+                            <div class="program-title">Информационные системы и технологии</div>
+                            <div class="program-sep"></div>
+                            <div class="row flex-column flex-sm-row program-row">
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon places">
+                                        </div>
+                                        <div class="program-text">11 мест</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon years"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="program-cond">
+                                        <div class="program-icon learn"></div>
+
+                                        <div class="program-text">2 года</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
 
                 </div>
-
 
             </div>
         </div>

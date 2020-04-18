@@ -1,0 +1,410 @@
+section.section-programs {
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+
+section.section-programs .section-title {
+    max-width: 540px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 32px
+}
+
+@media (min-width:576px) {
+    section.section-programs .section-title {
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+.programs-list,
+.programs-list a,
+.programs-list a:hover {
+    color: #fff
+}
+
+.programs-list {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding-bottom: 10px;
+}
+
+.programs-list .program-item {
+    display: block;
+    max-width: 580px;
+    margin: 23px auto;
+    border-radius: 0
+}
+
+.programs-list .program-item{
+    background-color: #4c9c00
+}
+
+
+.programs-list .program-item .program-subject {
+    padding-left: 30px;
+    padding-top: 30px
+}
+
+.programs-list .program-item .program-title {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 5px;
+    background: no-repeat 40px center;
+    line-height: 1.2;
+    height: 115px
+}
+
+.programs-list .program-item .program-title {
+    font-size: 30px
+}
+
+.programs-list .program-item .program-sep {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    opacity: .1
+}
+
+.programs-list .program-item .program-cond {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.programs-list .program-item .program-text {
+    opacity: .65;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1
+}
+
+.programs-list .program-item .program-cond__value {
+    line-height: 1;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700
+}
+
+@media (max-width:450px) {
+    .programs-list .program-item .program-title {
+        font-size: 24px!important
+    }
+    .programs-list .program-item--mened .program-title {
+        font-size: 16px!important
+    }
+}
+
+@media (min-width:576px) {
+    .programs-list .program-item {
+        border-radius: 8px
+    }
+    .programs-list .program-item .program-title {
+        padding-left: 30px;
+        padding-right: 30px;
+        background-position-x: 45px
+    }
+    .programs-list .program-item--mened .program-title {
+        font-size: 24px
+    }
+}
+
+@media (min-width:768px) {
+    .programs-list {
+        margin-left: -8px!important;
+        margin-right: -8px!important
+    }
+}
+
+@media (min-width:992px) {
+    .programs-list .program-item {
+        margin: 23px 8px
+    }
+    .programs-list .program-item .program-title {
+        height: 145px
+    }
+    .programs-list .program-item--buh .program-title {
+        font-size: 25px
+    }
+}
+
+@media (min-width:1200px) {
+    .programs-list .program-item .program-title {
+        height: 115px
+    }
+    .programs-list .program-item .program-title {
+        font-size: 25px
+    }
+    .programs-list .program-item .program-cond {
+        padding-left: 30px
+    }
+}
+
+.master-programs-list,
+.master-programs-list a,
+.master-programs-list a:hover {
+    color: #1c1d21
+}
+
+.master-programs-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+@media (min-width:992px) {
+    .master-programs-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around
+    }
+}
+
+@media (min-width:1200px) {
+    .master-programs-list {
+        justify-content: space-between
+    }
+}
+
+.master-programs-list .program-item {
+    position: relative;
+    display: block;
+    width: 375px;
+    height: 225px;
+    margin-bottom: 25px;
+    padding: 30px 50px 25px 35px;
+    border-radius: 8px;
+    background: #fff
+}
+
+.master-programs-list .program-item--empty {
+    background-color: transparent;
+    opacity: 0
+}
+
+.master-programs-list .program-item:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 8px;
+    border-radius: 8px 0 0 8px;
+    transition: width 0.15s ease-in-out;
+    content: ''
+}
+
+.master-programs-list .program-item:hover:before {
+    width: 20px
+}
+
+.master-programs-list .program-item:after {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 25px;
+    margin-top: -7px;
+    background: url(main/i/card-arrow.png) no-repeat -20px center;
+    width: 20px;
+    height: 14px;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out, background-position 0.15s ease-in-out;
+    content: ''
+}
+
+.master-programs-list .program-item:hover:after {
+    opacity: 1;
+    background-position-x: 0
+}
+
+.master-programs-list .program-item--ip:before {
+    background: #009698
+}
+
+.master-programs-list .program-item--cm:before {
+    background: #22b2b7
+}
+
+.master-programs-list .program-item--tb:before {
+    background: #517ab8
+}
+
+.master-programs-list .program-item--nef:before {
+    background: #554fb1
+}
+
+.master-programs-list .program-item--emp:before {
+    background: #5175a7
+}
+
+.master-programs-list .program-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.master-programs-list .program-subject {
+    flex-shrink: 0;
+    opacity: .5;
+    padding-bottom: 15px;
+    font-size: 14px;
+    text-transform: uppercase
+}
+
+.master-programs-list .program-title {
+    flex-grow: 1;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.master-programs-list .program-footer {
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #767676
+}
+
+.master-programs-list .program-footer__item {
+    display: inline-block;
+    background: transparent no-repeat left center
+}
+
+.master-programs-list .program-footer__item+.program-footer__item {
+    margin-left: 30px
+}
+
+.master-programs-list .program-footer__item.user {
+    padding-left: 20px;
+    background-image: url(main/i/icons/ic-user.svg);
+    background-size: 13px
+}
+
+.master-programs-list .program-footer__item.time {
+    padding-left: 22px;
+    background-image: url(main/i/icons/ic-time.svg);
+    background-size: 10px
+}
+
+.master-programs-list .program-footer__item.period {
+    padding-left: 27px;
+    background-image: url(main/i/icons/ic-book.svg);
+    background-size: 16px
+}
+
+footer {
+    position: relative;
+    z-index: 2
+}
+.program-icon{
+    transform: scale(0.4);
+    background-size:contain;
+    display: table-cell;
+    opacity: 0.3;
+    height:50px;
+    width:50px;
+
+}
+.places {
+    background-image: url(new_landing/icons8-man-50.png);
+}
+.years {
+    background-image: url(new_landing/icons8-clock-50.png);
+}
+.learn {
+    background-image: url(new_landing/icons8-open-book-50.png);
+}
+.program-row {
+    padding-right: 30px;
+}
+
+.programs-list .program-item .program-text {
+    opacity: .65;
+    font-size: 12px;
+    line-height: 1;
+    display: table-cell;
+    vertical-align: middle;
+}
+.container-wide {
+    max-width: 1440px;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+section.section-programs {
+    padding-top: 80px;
+}
+
+
+
+
+
+.modal-dialog-custom {
+    margin-top: 5rem;
+    color: #1c1d21
+}
+
+@media (min-width:1200px) {
+    section .container {
+        max-width: 1440px
+    }
+}
+
+
+.programs-list .program-item {
+    background-color: #ffffff
+}
+
+.programs-list,
+.programs-list a,
+.programs-list a:hover {
+    color: #000
+}
+.programs-list .program-item .program-subject {
+    padding-left: 30px;
+    padding-top: 30px;
+    color: gray;
+}
+.programs-list .program-item .program-title {
+    max-width: 175px;
+}
+.programs-list .program-item .program-cond {
+    display: table;
+}
+
+/*ivt*/
+.light-grey-holder {
+    background: #ebebeb;
+}
+.headline {
+    text-align: center;
+    font-size: 36px;
+    padding: 150px;
+    font-weight: bold;
+}
+.green-headline {
+    color: #3e9983;
+}
+
+
+/*footer*/
+.contact{
+    font-size: 15px;
+    display: table-cell;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.contact-fade {
+    opacity: .65;
+}
+.contact-bold {
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -29,7 +29,8 @@ AppAsset::register($this);
     <link rel="shortcut icon" type="image/x-icon" href="http://bis.tpu.ru/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" />
     <link rel="stylesheet" type="text/css" href="/assets/combined/styles.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/combined/<?=$this->params['css_name'] ?? 'landing'?>.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/combined/common.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/combined/<?=$this->params['action_name'] ?? 'landing'?>.css" />
 <!--Вставлено-->
 
     <?php $this->registerCsrfMetaTags() ?>
@@ -79,21 +80,6 @@ AppAsset::register($this);
             <div class="col-lg-3">
 
             </div>
-            <style>
-                .contact{
-                    font-size: 15px;
-                    display: table-cell;
-                    padding-left: 10px;
-                    text-transform: uppercase;
-                }
-                .contact-fade {
-                    opacity: .65;
-                }
-                .contact-bold {
-                    font-weight: bold;
-                    font-size: 20px;
-                }
-            </style>
             <div class="col-lg-4 table">
                 <div class="flex-row">
                     <div class="contact-fade contact">
@@ -117,6 +103,9 @@ AppAsset::register($this);
         © 2019 - Национальный исследовательский Томский политехнический университет
     </div>
 </footer>
+<script type="text/javascript" src="/assets/combined/scripts.js"></script>
+<script type="text/javascript" src="/assets/combined/<?=$this->params['action_name'] ?? 'landing'?>.js"></script>
+
 <script type="text/javascript">
     /*<![CDATA[*/
     jQuery(function($) {
