@@ -77,7 +77,7 @@ class SiteController extends Controller
     }
     public function actionIvt()
     {
-        Yii::$app->view->params['action_name'] = 'landing';
+        Yii::$app->view->params['action_name'] = 'ivt';
 
         return $this->render('ivt');
     }

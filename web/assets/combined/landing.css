@@ -546,31 +546,19 @@ footer .logo-subtext {
  color:#1c1d21
 }
 
-footer .social-icon {
- align-items:center;
- justify-content:center;
- width:50px;
- height:50px;
- margin-left:15px;
- margin-right:15px;
- border-radius:25px;
- background-color:#afb3ba;
- transition:background-color .15s ease-in-out;
- display: table-cell;
-}
 
-footer .social-icon.vk {
- background:url(new_landing/icons8-vk-round-100.png) no-repeat;
- transform: scale(0.4);
- width: 100px;
- height: 100px;
-}
-footer .social-icon.whatsapp {
- background:url(new_landing/icons8-whatsapp-90.png) no-repeat;
- transform: scale(0.44);
- width:90px;
- height:90px
-}
+/*footer .social-icon.vk {*/
+/* background:url(new_landing/icons8-vk-round-100.png) no-repeat;*/
+/* transform: scale(0.4);*/
+/* width: 100px;*/
+/* height: 100px;*/
+/*}*/
+/*footer .social-icon.whatsapp {*/
+/* background:url(new_landing/icons8-whatsapp-90.png) no-repeat;*/
+/* transform: scale(0.44);*/
+/* width:90px;*/
+/* height:90px*/
+/*}*/
 
 footer .copyright {
  color:#767676;

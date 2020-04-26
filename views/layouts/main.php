@@ -77,9 +77,6 @@ AppAsset::register($this);
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
-
-            </div>
             <div class="col-lg-4 table">
                 <div class="flex-row">
                     <div class="contact-fade contact">
@@ -92,8 +89,16 @@ AppAsset::register($this);
 
             </div>
             <div class="col-lg-2 table">
-                <div class="social-icon vk"></div>
-                <div class="social-icon whatsapp"></div>
+                <div class="row">
+                    <div class="social-icon">
+                        <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
+                    </div>
+                    <div class="social-icon">
+                        <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="vk">
+
+                    </div>
+
+                </div>
 
             </div>
 

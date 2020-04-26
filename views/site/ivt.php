@@ -8,54 +8,211 @@ use yii\web\View;
 
 $this->title = 'Школа инженерного предпринимательства | ТПУ';
 ?>
-<section class="section-subscribe">
-    <div class="fig"></div>
-    <div class="section-content">
-        <div class="container">
-            <div class="section-title">Томский политехнический университет</div>
-            <div class="section-text">Подпишитесь на рассылку</div>
-            <div class="subscribe-blocks">
-                <div class="subscribe-block subscribe-block--subjects">
-                    <ul class="subscribe-subjects">
-                        <li class="subscribe-subject">анонсы программ</li>
-                        <li class="subscribe-subject">скидки</li>
-                        <li class="subscribe-subject">подборка статей</li>
-                    </ul>
+<section class="frequent-questions">
+    <div class="white-holder">
+
+        <div class="questions-container">
+            <div class="headline">
+                Часто задаваемые вопросы
+            </div>
+            <div class="nav-container">
+                <div class="answers">
+                    <div class="answer visible" data-index="1">
+                        Ответ
+                    </div>
+                    <div class="answer" data-index="2">
+                        Ответ 2
+                    </div>
+                    <div class="answer" data-index="3">
+                        Ответ 3
+                    </div>
+                    <div class="answer" data-index="4">
+                        Ответ 4
+                    </div>
+
                 </div>
-                <div class="subscribe-block subscribe-block--form">
-                    <form class="form subscribe-form" id="subscribe-form" action="/" method="post">
-                        <div class="field-row">
-                            <input id="subscribe-name" class="field" placeholder="Имя" name="SubscribeForm[name]" type="text" maxlength="256" />                            <div class="error-message" id="subscribe-name_em_" style="display:none"></div>                        </div>
-                        <div class="field-row">
-                            <input id="subscribe-email" class="field" placeholder="Email" name="SubscribeForm[email]" type="email" />                            <div class="error-message" id="subscribe-email_em_" style="display:none"></div>                        </div>
-                        <div class="field-row">
-                            <div class="field-checkbox">
-                                <label>
-                                    <input id="ytsubscribe-personal-data" type="hidden" value="0" name="SubscribeForm[personal_data]" /><input id="subscribe-personal-data" name="SubscribeForm[personal_data]" value="1" type="checkbox" /><span></span>согласие на обработку персональных данных                                </label>
+                <div class="gradient-navbar">
+                    <div class="choices">
+                        <div class="choice-wrap chosen" data-index="1">
+                            <div class="choice">
+                                Есть ли что-то
                             </div>
-                            <div class="error-message" id="subscribe-personal-data_em_" style="display:none"></div>                        </div>
-                        <div class="btn-box">
-                            <button id="subscribe-submit-btn" class="btn btn-danger btn-lg" type="submit">подписаться</button>
                         </div>
-                    </form>                    </div>
-                <div class="subscribe-block subscribe-block--info">
-                    <div class="course-item">
-                        <div class="course-item__label">вопросы  по  телефону</div>
-                        <div class="course-item__value">
-                            <a href="tel:+73822563529">+7 (3822) 56-35-29</a>
+                        <div class="choice-wrap-after"></div>
+                        <div class="choice-wrap" data-index="2">
+                            <div class="choice">
+                                Есть ли что-то 2
+                            </div>
+
+                        </div>
+                        <div class="choice-wrap-after"></div>
+
+                        <div class="choice-wrap" data-index="3">
+                            <div class="choice">
+                                Есть ли что-то 3
+                            </div>
+
+                        </div>
+                        <div class="choice-wrap-after"></div>
+
+                        <div class="choice-wrap" data-index="4">
+                            <div class="choice">
+                                Есть ли что-то 4
+                            </div>
+
+                        </div>
+                        <div class="choice-wrap-after"></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="reviews">
+    <div class="light-grey-holder">
+        <div class="headline">
+            Отзывы наших выпускников
+        </div>
+        <div class="left-right-container">
+<!--            <div class="arrow-left">-->
+<!---->
+<!--            </div>-->
+            <div id="reviews" class="left-right-content">
+                <div class="item">
+                    <div class="photo">
+
+                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+
+
+                    </div>
+                    <div class="info">
+
+                        <div class="info-name">
+                            Кирилл Иванов
+                        </div>
+                        <div class="info-text">
+                            Выпускник ИШИТР<br/>
+                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.
                         </div>
                     </div>
                 </div>
+                <div class="item">
+                    <div class="photo">
+
+                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+
+
+                    </div>
+                    <div class="info">
+
+                        <div class="info-name">
+                            Другой Иванов
+                        </div>
+                        <div class="info-text">
+                            Выпускник ИШИТР<br/>
+                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="dots">
+
+        </div>
+
+    </div>
+</section>
+
+<section class="partners">
+    <div class="white-holder">
+        <div class="headline">
+            Стратегические партнеры
+        </div>
+    </div>
+</section>
+
+<section class="contacts">
+    <div class="section-content">
+        <div class="green-gradient-holder">
+            <div class="contacts-table">
+                <div class="contacts-table-info">
+                    <div class="row">
+                        <div class="contacts-white-headline">
+                            Получите подробную инструкцию и все материалы для поступления
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contacts-white-text">
+                            Мы отправим вам
+
+                        </div>
+                    </div>
+                    <div class="contacts-table-subinfo">
+                        <div class="row">
+                            <div class="subinfo-cell">
+                                ДЛЯ СВЯЗИ С НАМИ
+                            </div>
+                            <div class="subinfo-cell">
+                                +7 (3822) 22-12-36
+                                <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="social-transparent">
+                                <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="social-transparent">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="subinfo-cell">
+                                ПОДАЧА ДОКУМЕНТОВ
+                            </div>
+                            <div class="subinfo-cell">
+                                С 01 декабря 2019 по 14 августа 2020
+                            </div>
+                        </div>
+                        <button class="contacts-button-documents">
+                            Подать документы сейчас!
+                        </button>
+                    </div>
+                </div>
+                <div class="contacts-table-form">
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" placeholder="Имя">
+                    </div>
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" placeholder="Фамилия">
+
+                    </div>
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" placeholder="Телефон">
+
+                    </div>
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" placeholder="Email">
+
+                    </div>
+                    <button class="contacts-button-submit">
+                        Получить!
+                    </button>
+                </div>
+
             </div>
         </div>
     </div>
 </section>
+
+
+
+
+
+
 <section class="courses">
     <div class="section-content">
         <style>
         </style>
         <div class="light-grey-holder">
-            <div class="green-headline headline">
+            <div class="headline">
                 Другие магистерские программы
             </div>
 
