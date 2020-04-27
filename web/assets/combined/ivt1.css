@@ -10,106 +10,45 @@ a:hover {
 h1 {
     color: #456c7a
 }
+
 .btn-danger {
-    color: #fff;
-    background-color: #de6800;
-    border-color: #de6800
+    color: black;
+    background-color: #d7ec9d;
+    border-color: #d7ec9d
 }
 
 .btn-danger:hover,
 .btn-danger:not(:disabled):not(.disabled).active,
 .btn-danger:not(:disabled):not(.disabled):active {
     color: #fff;
-    background-color: #de5400;
-    border-color: #de5400
-}
-
-.btn-success {
-    color: #fff;
-    background-color: #428700;
-    border-color: #428700
-}
-
-.btn-success:hover,
-.btn-success:not(:disabled):not(.disabled).active,
-.btn-success:not(:disabled):not(.disabled):active {
-    color: #fff;
-    background-color: #427300;
-    border-color: #427300
-}
-
-.btn-outline-secondary {
-    color: #fff;
-    background-color: transparent;
-    border-color: #848586
-}
-
-.btn-outline-secondary:hover,
-.btn-outline-secondary:not(:disabled):not(.disabled).active,
-.btn-outline-secondary:not(:disabled):not(.disabled):active {
-    color: #1c1d21;
-    background-color: #848586;
-    border-color: #848586
-}
-
-.single-slider .item-content {
-    height: 320px;
-    justify-content: flex-start
-}
-
-@media (min-width:992px) {
-    .single-slider .item-content {
-        height: inherit;
-        justify-content: center
-    }
-}
-
-
-@media (min-width:576px) {
-    header .header-tel {
-        margin-right: 50px
-    }
-}
-
-section .section-title {
-    color: #fff
-}
-
-section .section-text .emphasize {
-    color: #3f8401
+    background-color: #d7ec9d;
+    border-color: #d7ec9d
 }
 
 .benefit-item {
     width: 100%;
-    padding-left: 110px;
-    padding-bottom: 45px;
-    background: transparent no-repeat 0 10px
+    
+    padding-bottom: 60px;
+    background: transparent no-repeat 0 10px;
+   margin-left: 40%;
+        
 }
 
-.benefit-item .benefit-title {
-    color: #4c9c00;
+.benefit-title {
+    color: #4d94a1;
     font-size: 22px;
     font-weight: 700;
     line-height: 1.1;
-    padding-bottom: 20px
+    padding-top: 20px;
+
 }
 
-.benefit-item .benefit-text {
+.benefit-text {
     font-size: 14px;
-    max-width: 400px
+   
 }
 
-@media (min-width:768px) {
-    .benefit-item {
-        padding-left: 100px
-    }
-}
 
-@media (min-width:992px) {
-    .benefit-item {
-        padding-left: 110px
-    }
-}
 
 .statistic-block {
     display: flex;
@@ -120,12 +59,12 @@ section .section-text .emphasize {
     width: 250px;
     height: 250px;
     text-align: center;
-    border: rgba(76, 156, 0, .12) solid 15px;
+    border: #85cacf solid 15px;
     border-radius: 50%
 }
 
 .statistic-block .stat-title {
-    color: #428700;
+    color: #456c7a;
     font-size: 30px;
     font-weight: 700;
     line-height: 1;
@@ -134,7 +73,8 @@ section .section-text .emphasize {
 
 .statistic-block .stat-text {
     font-size: 14px;
-    line-height: 1.5
+    line-height: 1.5color: #456c7a;
+    color: #456c7a;
 }
 
 .step-items {
@@ -304,7 +244,7 @@ section .section-text .emphasize {
 
 section.section-welcome {
     padding-top: 100px;
-    background: url(ivt\bg-main.jpg) no-repeat top center;
+    background: url(ivt/bg-main.jpg) no-repeat top center;
     background-size: cover
 }
 
@@ -350,7 +290,7 @@ section.section-welcome p {
         padding-bottom: 180px
     }
     section.section-welcome h1 {
-        width: 50%
+        width: 100%
     }
     section.section-welcome p {
         width: 50%
@@ -503,22 +443,26 @@ section.section-benefits .container {
 @media (min-width:992px) {
     section.section-benefits {
         padding-top: 150px;
-        padding-bottom: 110px
+        padding-bottom: 60px
     }
 }
 
 section.section-why {
-    padding-bottom: 100px
+    padding-bottom: 60px
 }
 
 section.section-why .section-title {
-    max-width: 440px;
-    margin-bottom: 40px;
-    font-size: 32px
+  
+    font-size: 32px;
+    color: #3e9983;
+    padding-top: 40px;
+    margin-bottom: 30px;
+        
 }
 
 section.section-why .section-text {
-    text-align: left
+    text-align: left;
+  font-size: 16px;
 }
 
 section.section-why .left-block {
@@ -544,7 +488,7 @@ section.section-why .container {
 
 @media (min-width:992px) {
     section.section-why {
-        padding-bottom: 150px
+        padding-bottom: 60px;
     }
     section.section-why .left-block {
         max-width: 600px
@@ -569,8 +513,14 @@ section.section-results {
 }
 
 section.section-results .section-title {
-    max-width: 590px;
-    margin-bottom: 30px
+   margin: 0 auto;
+    margin-bottom: 30px;
+    width: auto;
+    color: #456c7a;
+    text-align: center;
+    margin-top: 70px;
+    
+        
 }
 
 section.section-results .section-title,
@@ -712,6 +662,16 @@ section.section-skills {
     padding-bottom: 60px
 }
 
+section.section-skills .section-title {
+   margin: 0 auto;
+    margin-bottom: 30px;
+    width: auto;
+    color: #456c7a;
+    text-align: center;
+    margin-top: 70px;
+    
+        
+}
 section.section-skills .container {
     padding-left: 15px;
     padding-right: 15px
@@ -907,39 +867,125 @@ section.section-subscribe .section-title {
 }
 
 .badge-secondary {
- color: #464646;
- background-color: #e5edef
+    color: #464646;
+    background-color: #e5edef
 }
 
 .badge-pill {
- padding-right: .6em;
- padding-left: .6em;
- border-radius: 10rem
+    padding-right: .6em;
+    padding-left: .6em;
+    font-size: 14px;
+    margin: 10px 10px 10px;
+    border-radius: 10rem
 }
 
+.grid3{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+section.section-results .section-text {
+   
+    background-color: #f2f2f2;  
+}
+
+.grid2{
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+     border-radius: 15px;
+    margin: 0 auto;
+} 
+
+.grid6{
+    display: grid;  
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr ; 
+    grid-template-rows: 1fr 2fr;
+}
 .col-auto1 {
- -ms-flex: 0 0 auto;
- flex: 0 0 auto;
- width: auto;
- max-width: 100%;
-border: 4px solid #a6c9d0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    border: 4px solid #a6c9d0;
     border-radius: 15px;
     padding: 15px;
     margin: 10px 10px 10px
 }
+
+
 .grid-container {
   display: grid;  
   grid-template-rows:  1fr 1fr; 
   grid-template-columns: 1fr 1fr;
   background: linear-gradient(45deg, #4a919e, #40b28b);
-   border-radius: 15px;
-}
-.grid2{
-   display: grid;  
- 
-  grid-template-columns: 1fr 1fr 1fr; 
+  border-radius: 15px;
 }
 
-.row1{
+.row1 {
+    color: #ffffff;
+    font-size: 24px;
+     font-weight:700;
+    padding: 20px
     
+}
+.row2 {
+     color: #ffffff;
+    font-size:20px;
+    padding: 20px
+}
+.col1{
+    text-align:center ;
+    padding-top: calc(10% - 24px)
+}
+.list-group1{
+    background: linear-gradient(45deg, #4a919e, #40b28b);
+    padding: 0px;
+    border-radius: 15px 0 0 15px;
+   
+}
+
+
+.changing_div {
+    position: absolute;
+    display: none;    
+    background-color: #f2f2f2;
+}
+/* для кнопок в блоке resalt*/
+.btn-group button {
+    display: inline-block;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;    
+    text-align: center;
+    outline: none;
+    
+    text-decoration: none;
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */    
+    float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #c8e59c;
+    border-radius: 15px 0 0 15px;
+}
+/*-----*/
+
+.disciplin {
+    padding: 30px;
+    font-size:16px;
 }

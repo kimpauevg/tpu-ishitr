@@ -1,3 +1,29 @@
+header .social-icon {
+    align-items:center;
+    justify-content:center;
+    width:50px;
+    height:50px;
+    margin-left:15px;
+    margin-right:15px;
+    border-radius:25px;
+    background-color:#afb3ba;
+    transition:background-color .15s ease-in-out;
+    display: table-cell;
+}
+
+header .social-icon.vk {
+    background:url(new_landing/icons8-vk-round-100.png) no-repeat;
+    transform: scale(0.4);
+    width: 100px;
+    height: 100px;
+}
+header .social-icon.whatsapp {
+    background:url(new_landing/icons8-whatsapp-90.png) no-repeat;
+    transform: scale(0.44);
+    width:90px;
+    height:90px
+}
+
 body {
  background-color:#e8f1f1;
  color:#1c1d21
@@ -68,15 +94,45 @@ header .logo-text {
 header .header-tel {
  margin-left:0;
  font-weight:700;
- color:#8a8a8a
+ color:#1c1d21
 }
-.header-tel span {
- color:#4c9c00
-}
+
 header .header-btn {
  border-width:2px;
  margin-left:0
 }
+
+header .header-btn {
+    border-width: 2px
+}
+
+header .social-icon {
+    align-items:center;
+    justify-content:center;
+    width:50px;
+    height:50px;
+    margin-left:15px;
+    margin-right:15px;
+    border-radius:25px;
+    background-color:#afb3ba;
+    transition:background-color .15s ease-in-out;
+    display: table-cell;
+}
+
+header .social-icon.vk {
+    background:url(new_landing/icons8-vk-round-100.png) no-repeat;
+    transform: scale(0.4);
+    width: 100px;
+    height: 100px;
+}
+header .social-icon.whatsapp {
+    background:url(new_landing/icons8-whatsapp-90.png) no-repeat;
+    transform: scale(0.44);
+    width:90px;
+    height:90px
+}
+
+
 @media (min-width:768px) {
  header .header-tel+.header-btn {
   margin-left:50px
@@ -565,7 +621,7 @@ footer .social-icon.vk {
  width: 100px;
  height: 100px;
 }
-footer .social-icon.whatsapp {
+header footer .social-icon.whatsapp {
  background:url(new_landing/icons8-whatsapp-90.png) no-repeat;
  transform: scale(0.44);
  width:90px;

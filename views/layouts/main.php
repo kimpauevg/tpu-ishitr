@@ -49,8 +49,13 @@ AppAsset::register($this);
             </div>
             <div class="col-auto pt-2 pb-2">
                 <div class="d-flex flex-column flex-md-row align-items-center">
-                    <a href="tel:+73822563529" class="header-tel mb-3 mb-md-0">+7 (3822) <span>56-35-29</span></a>
-                    <a href="mailto:bis.tpu@yandex.ru" class="btn btn-outline-secondary btn-sm header-btn">связаться с нами</a>
+                    <a href="tel:+73822221236" class="header-tel mb-3 mb-md-0">+7 (3822)22-12-36</a>
+                    
+                     
+                <div class="social-icon vk"></div>
+                <div class="social-icon whatsapp"></div>
+
+            
                 </div>
             </div>
         </div>

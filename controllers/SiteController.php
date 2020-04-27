@@ -81,7 +81,12 @@ class SiteController extends Controller
 
         return $this->render('ivt');
     }
+    public function actionIvt1()
+    {
+        Yii::$app->view->params['action_name'] = 'ivt1';
 
+        return $this->render('ivt1');
+    }
     /**
      * Login action.
      *
