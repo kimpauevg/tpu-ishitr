@@ -50,12 +50,19 @@ AppAsset::register($this);
             <div class="col-auto pt-2 pb-2">
                 <div class="d-flex flex-column flex-md-row align-items-center">
                     <a href="tel:+73822221236" class="header-tel mb-3 mb-md-0">+7 (3822)22-12-36</a>
-                    
-                     
-                <div class="social-icon vk"></div>
-                <div class="social-icon whatsapp"></div>
 
-            
+                    <div class="row">
+                        <div class="social-icon">
+                            <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
+                        </div>
+                        <div class="social-icon">
+                            <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="vk">
+
+                        </div>
+
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -94,7 +101,7 @@ AppAsset::register($this);
 
             </div>
             <div class="col-lg-2 table">
-                <div class="row">
+                <div class="social-row">
                     <div class="social-icon">
                         <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
                     </div>

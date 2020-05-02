@@ -22,7 +22,7 @@
     table-layout: fixed;
 }
 .contacts-table-subinfo .row .subinfo-cell {
-    width: 50%;
+    min-width: 50%;
     padding-bottom: 32px;
 }
 .contacts-table-form {

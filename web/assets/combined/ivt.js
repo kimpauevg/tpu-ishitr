@@ -1,19 +1,25 @@
 $(document).ready(function() {
-    var reviews=$('#reviews ');
-    if(reviews.exists()) {
-        reviews.slick( {
-            slidesToShow:1,
-            slidesToScroll:1,
-            dots: true,
-            // autoplay:!0,
-            // autoplaySpeed:5000,
-            prevArrow:'<div class="arrow-left"></div>',
-            nextArrow:'<div class="arrow-right"></div>',
-            appendDots: reviews.parent().siblings(".dots")
+    var reviews = $('.left-right-content');
+    reviews.each((index, review) => {
+
+        review = $(review);
+        review.slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                // autoplay:!0,
+                // autoplaySpeed:5000,
+                prevArrow: '<div class="arrow-left"></div>',
+                nextArrow: '<div class="arrow-right"></div>',
+                appendDots: review.parent().siblings(".dots")
             }
         )
-        $('.slick-track').height($('.slick-list').height())
-    }
+        let track = review.children('.slick-list').children('.slick-track');
+        track.height($('.left-right-container').height())
+
+    })
+
+
     $('.choice-wrap').click(function () {
         let clicked = $(this);
         let previous = $(this).siblings('.choice-wrap.chosen');
@@ -24,18 +30,21 @@ $(document).ready(function() {
         previous.removeClass('chosen');
         clicked.addClass('chosen');
         let id = clicked.attr('data-index');
-        let prev_id = previous.attr('data-index');
         let answers = clicked.parents('.nav-container').children('.answers');
         let prev_answer = answers.children('.answer.visible');
-        console.log(prev_answer)
         let new_answer = answers.children('[data-index='+id+']');
-        console.log(new_answer)
+        prev_answer.removeClass('visible');
+        new_answer.addClass('visible')
+    })
 
-
-        if (new_answer && prev_answer) {
-            prev_answer.removeClass('visible');
-            new_answer.addClass('visible')
+    $('.arrow-down').click(function () {
+        let prev_id = $(this).parent().siblings('.choice-wrap.chosen').attr('data-index');
+        let new_id = prev_id+++1;
+        let elem = $(this).parent().siblings('.choice-wrap[data-index="'+new_id+'"]');
+        if (!elem.exists()) {
+            elem = $(this).parent().siblings('.choice-wrap[data-index="1"]');
         }
+        elem.click();
     })
 
 })
