@@ -75,12 +75,100 @@ class SiteController extends Controller
         Yii::$app->view->params['action_name'] = 'up';
         return $this->render('up');
     }
+
+    //Информатики и вычислительная техника
+
     public function actionIvt()
     {
         Yii::$app->view->params['action_name'] = 'ivt';
 
         return $this->render('ivt');
     }
+    public function actionBivt()
+    {
+        Yii::$app->view->params['action_name'] = 'bivt';
+
+        return $this->render('b-ivt');
+    }
+
+    //Автоматизация технологических процессов и производств
+
+    public function actionAtp()
+    {
+        Yii::$app->view->params['action_name'] = 'atp';
+
+        return $this->render('atp');
+    }
+    public function actionBatp()
+    {
+        Yii::$app->view->params['action_name'] = 'batp';
+
+        return $this->render('b-atp');
+    }
+
+    //Дизайн
+
+    public function actionDes()
+    {
+        Yii::$app->view->params['action_name'] = 'des';
+
+        return $this->render('des');
+    }
+    public function actionBdes()
+    {
+        Yii::$app->view->params['action_name'] = 'bdes';
+
+        return $this->render('b-des');
+    }
+
+    //Мехатроника и робототехника
+
+    public function actionMir()
+    {
+        Yii::$app->view->params['action_name'] = 'mir';
+
+        return $this->render('mir');
+    }
+    public function actionBmir()
+    {
+        Yii::$app->view->params['action_name'] = 'bmir';
+
+        return $this->render('b-mir');
+    }
+
+    //Программная инженерия
+
+    public function actionPri()
+    {
+        Yii::$app->view->params['action_name'] = 'pri';
+
+        return $this->render('pri');
+    }
+    public function actionBpri()
+    {
+        Yii::$app->view->params['action_name'] = 'pri';
+
+        return $this->render('b-pri');
+    }
+
+    //Информационные системы и технологии
+
+    public function actionIst()
+    {
+        Yii::$app->view->params['action_name'] = 'ist';
+
+        return $this->render('ist');
+    }
+
+    //Стандартизация и метрология
+
+    public function actionSim()
+    {
+        Yii::$app->view->params['action_name'] = 'sim';
+
+        return $this->render('sim');
+    }
+
     public function actionIvt1()
     {
         Yii::$app->view->params['action_name'] = 'ivt1';

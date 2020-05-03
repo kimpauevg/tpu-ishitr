@@ -1,29 +1,29 @@
 header {
- position:relative;
- top:0;
- color:#1c1d21;
- background:#fff
+    position:relative;
+    top:0;
+    color:#1c1d21;
+    background:#fff
 }
 header .logo-icon {
- background:url(main/css/../i/logo-color.png) no-repeat;
- width:63px;
- height:63px;
- margin-right:16px
+    background:url(main/css/../i/logo-color.png) no-repeat;
+    width:63px;
+    height:63px;
+    margin-right:16px
 }
 header .logo-text {
- font-size:18px;
- text-transform:uppercase;
- line-height:1.25
+    font-size:18px;
+    text-transform:uppercase;
+    line-height:1.25
 }
 header .header-tel {
- margin-left:0;
- font-weight:700;
- color:#1c1d21
+    margin-left:0;
+    font-weight:700;
+    color:#1c1d21
 }
 
 header .header-btn {
- border-width:2px;
- margin-left:0
+    border-width:2px;
+    margin-left:0
 }
 
 header .header-btn {
@@ -1766,8 +1766,7 @@ footer .logo-subtext {
 
 
 
- .social-icon {
-     padding-left: ;
+.social-icon {
     align-items:center;
     justify-content:center;
     width: 45px;
@@ -1813,4 +1812,72 @@ footer .social-row {
         font-size: 10px;
     }
 
+}
+.contacts-table {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.contacts-table-info{
+    margin-right: 150px;
+}
+
+.contacts-white-headline {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 44px;
+}
+.contacts-white-text {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 54px;
+}
+.contacts-table-subinfo {
+    table-layout: fixed;
+}
+.contacts-table-subinfo .row .subinfo-cell {
+    min-width: 50%;
+    padding-bottom: 32px;
+}
+.contacts-table-form {
+    width: 446px;
+    max-height: 506px;
+    padding: 60px 75px;
+    background: white;
+    border-radius: 35px;
+}
+.contacts-form-field {
+    margin-bottom: 27px;
+    height: 52px;
+}
+.contacts-form-input{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px 28px;
+}
+.contacts-form-field .input[type='text']::placeholder{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.contacts-button-submit{
+    width: 300px;
+    height: 70px;
+    font-size: 21px;
+    background: #d7ec9d;
+    border-radius: 35px;
+    border: none;
+    font-weight: bold;
+}
+
+.contacts-button-documents{
+    width: 446px;
+    height: 70px;
+    border-radius: 35px;
+    background: #b2dee1;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 46px 0;
 }
