@@ -65,15 +65,15 @@ $this->title = 'Инженерная школа информационных т�
             <div class="container">
                 <div class="row">
                     <div class="grid6 " data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-цель-100.png'); "></div>
+                        <div class="benefit-item benefit-target"></div>
 
                         <div class="benefit-title">Цель программы</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-suitcase-100.png');"> </div>
+                        <div class="benefit-item benefit-suitcase"> </div>
 
                         <div class="benefit-title">Формат обучения</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-academy-hat-100.png'); ">  </div>
+                        <div class="benefit-item benefit-hat" >  </div>
 
                         <div class="benefit-title">Диплом </div>
 
@@ -222,15 +222,15 @@ $this->title = 'Инженерная школа информационных т�
             <div class="container">
                 <div class="row">
                     <div class="grid6 " data-wow-duration="500ms">
-                          <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-graph-100.png'); "></div>
+                        <div class="benefit-item benefit-graph"></div>
 
                         <div class="benefit-title">Анализ</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-программирование-на-ноутбуке-100.png');"> </div>
+                        <div class="benefit-item benefit-programming"> </div>
 
                         <div class="benefit-title">Разработка</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-parallel-task-100.png'); ">  </div>
+                        <div class="benefit-item benefit-task">  </div>
 
                         <div class="benefit-title">Решение задач </div>
 

@@ -57,18 +57,18 @@
             <div class="container">
                 <div class="row">
                     <div class="grid6 " data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-цель-100 — копия.png'); "></div>
-                        
+                        <div class="benefit-item benefit-target"></div>
+
                         <div class="benefit-title">Цель программы</div>
-                        
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-suitcase-100 — копия.png');"> </div>
-                        
+
+                        <div class="benefit-item benefit-suitcase"> </div>
+
                         <div class="benefit-title">Формат обучения</div>
-                        
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-academy-hat-100 — копия.png'); ">  </div>
-                        
+
+                        <div class="benefit-item benefit-hat" >  </div>
+
                         <div class="benefit-title">Диплом </div>
-                        
+
                         <div></div>
                         
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
@@ -212,31 +212,31 @@
                 <div class="row">
                      <div class="section-title wow fadeInUp" data-wow-duration="500ms">Программа нацелена на получение компетенций</div>
                   <div class="grid6 " data-wow-duration="500ms">
-                      
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-цель-100 — копия.png'); "></div>
+
+                      <div class="benefit-item benefit-target"></div>
+
+                      <div class="benefit-title">Цель программы</div>
+
+                      <div class="benefit-item benefit-suitcase"> </div>
+
+                      <div class="benefit-title">Формат обучения</div>
+
+                      <div class="benefit-item benefit-hat" >  </div>
+
+                      <div class="benefit-title">Диплом </div>
+
+                      <div></div>
+
+                      <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями разработки.</div>
                         
-                        <div class="benefit-title">Анализ</div>
+                      <div></div>
                         
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-suitcase-100 — копия.png');"> </div>
+                      <div class="benefit-text">Использование разнообразных ресурсов и стилей обучени, учитывающих постоянно изменяющуюся среду для ведения.</div>
                         
-                        <div class="benefit-title">Разработка </div>
+                      <div></div>
                         
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-academy-hat-100 — копия.png'); ">  </div>
-                        
-                        <div class="benefit-title">Решение задач </div>
-                        
-                        <div></div>
-                        
-                        <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями разработки.</div>
-                        
-                        <div></div>
-                        
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучени, учитывающих постоянно изменяющуюся среду для ведения.</div>
-                        
-                        <div></div>
-                        
-                        <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
+                      <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
                       
                     
                     </div>

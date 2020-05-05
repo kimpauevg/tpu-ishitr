@@ -65,15 +65,15 @@ $this->title = 'Школа инженерного предприниматель
             <div class="container">
                 <div class="row">
                     <div class="grid6 " data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-цель-100 — копия.png'); "></div>
+                        <div class="benefit-item benefit-target"></div>
 
                         <div class="benefit-title">Цель программы</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-suitcase-100 — копия.png');"> </div>
+                        <div class="benefit-item benefit-suitcase"> </div>
 
                         <div class="benefit-title">Формат обучения</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-academy-hat-100 — копия.png'); ">  </div>
+                        <div class="benefit-item benefit-hat" >  </div>
 
                         <div class="benefit-title">Диплом </div>
 
@@ -222,15 +222,15 @@ $this->title = 'Школа инженерного предприниматель
             <div class="container">
                 <div class="row">
                     <div class="grid6 " data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-цель-100 — копия.png'); "></div>
+                        <div class="benefit-item benefit-target"></div>
 
                         <div class="benefit-title">Цель программы</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-suitcase-100 — копия.png');"> </div>
+                        <div class="benefit-item benefit-suitcase"> </div>
 
                         <div class="benefit-title">Формат обучения</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-academy-hat-100 — копия.png'); ">  </div>
+                        <div class="benefit-item benefit-hat" >  </div>
 
                         <div class="benefit-title">Диплом </div>
 

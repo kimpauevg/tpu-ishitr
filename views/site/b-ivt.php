@@ -96,15 +96,15 @@ $this->title = 'Инженерная школа информационных т�
             <div class="container">
                 <div class="row">
                     <div class="grid6 " data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-graph-100.png'); "></div>
+                        <div class="benefit-item benefit-graph"></div>
 
                         <div class="benefit-title">Анализ</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-программирование-на-ноутбуке-100.png');"> </div>
+                        <div class="benefit-item benefit-programming"> </div>
 
                         <div class="benefit-title">Разработка</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-parallel-task-100.png'); ">  </div>
+                        <div class="benefit-item benefit-task">  </div>
 
                         <div class="benefit-title">Решение задач </div>
 

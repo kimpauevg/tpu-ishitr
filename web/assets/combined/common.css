@@ -746,9 +746,8 @@ h1 {
 
 .benefit-item {
     width: 100%;
-
     padding-bottom: 60px;
-    background: transparent no-repeat 0 10px;
+    background: transparent no-repeat;
     margin-left: 40%;
 
 }
@@ -766,8 +765,24 @@ h1 {
     font-size: 14px;
 
 }
-
-
+.benefit-target{
+    background-image: url(new_landing/icons8-target-100.png);
+}
+.benefit-suitcase{
+    background-image: url(new_landing/icons8-suitcase-100.png);
+}
+.benefit-hat{
+    background-image: url(new_landing/icons8-academy-hat-100.png);
+}
+.benefit-graph{
+    background-image: url(new_landing/icons8-graph-100.png);
+}
+.benefit-programming{
+    background-image: url(new_landing/icons8-programming-100.png);
+}
+.benefit-task{
+    background-image: url(new_landing/icons8-parallel-task-100.png);
+}
 
 .statistic-block {
     display: flex;
