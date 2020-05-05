@@ -42,18 +42,18 @@ $this->title = 'Инженерная школа информационных т�
             </div>
             <div class="grid3">                
                 <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
-                    <div>
-                        <img src="assets/combined/main/i/landing/pngwing.com1.png"> Общежитие      
+                    <div class="course-item-benefit">
+                        <div class="img-tick"></div> Общежитие
                     </div>
                 </div>
                 <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
-                    <div>
-                        <img src="assets/combined/main/i/landing/pngwing.com1.png"> Военная кафедра
+                    <div class="course-item-benefit">
+                        <div class="img-tick"></div> Военная кафедра
                     </div>                
                 </div>
                 <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
-                    <div>
-                        <img src="assets/combined/main/i/landing/pngwing.com1.png">  Электронное обучение  
+                    <div class="course-item-benefit">
+                        <div class="img-tick"></div>  Электронное обучение
                     </div>
                 </div>
             </div>

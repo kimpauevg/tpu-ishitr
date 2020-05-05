@@ -1035,8 +1035,12 @@ section.section-welcome .course-item {
     width: 100%;
     padding: 10px 25px 10px;
     color:#7d7d7d
-}
 
+}
+.course-item-benefit{
+    display: flex;
+    align-content: center;
+}
 section.section-welcome .course-item__label {
     opacity: .3;
     text-transform: uppercase;
@@ -1894,4 +1898,12 @@ footer .social-row {
     font-size: 18px;
     font-weight: bold;
     margin: 46px 0;
+}
+
+.img-tick{
+    box-sizing: border-box;
+    background: url(new_landing/red-mark.jpg) no-repeat;
+    width: 29px;
+    height: 30px;
+    padding-left: 35px;
 }
