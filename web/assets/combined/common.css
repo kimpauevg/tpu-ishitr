@@ -2,7 +2,6 @@ header {
     position:relative;
     top:0;
     color:#1c1d21;
-    background:#fff
 }
 header .logo-icon {
     background:url(main/css/../i/logo-color.png) no-repeat;
@@ -56,12 +55,6 @@ header .social-icon.whatsapp {
     height:90px
 }
 
-header {
-    position:relative;
-    top:0;
-    color:#1c1d21;
-    background:#fff
-}
 header .logo-icon {
     background:url(main/css/../i/logo-color.png) no-repeat;
     width:63px;
@@ -488,6 +481,7 @@ section.section-programs {
     color: #3e9983;
 }
 .white-holder .headline {
+    background: white;
     color: #456c7a;
 }
 .green-gradient-holder {
@@ -674,12 +668,17 @@ section.section-programs {
 .choice-wrap.chosen, .choice-wrap:hover{
     background: linear-gradient(90deg, #c7e699 0%, #c8e39b 100%);
     color: black;
-
 }
 .navbar-right .choice-wrap.chosen:first-child{
     border-top-right-radius: inherit;
 }
 .navbar-left .choice-wrap.chosen:first-child{
+    border-top-left-radius: inherit;
+}
+.navbar-right .choice-wrap:first-child:hover{
+    border-top-right-radius: inherit;
+}
+.navbar-left .choice-wrap:first-child:hover{
     border-top-left-radius: inherit;
 }
 
