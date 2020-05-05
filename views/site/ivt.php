@@ -6,7 +6,7 @@
 
 use yii\web\View;
 
-$this->title = 'Школа инженерного предпринимательства | ТПУ';
+$this->title = 'Инженерная школа информационных технологий и робототехники | ТПУ';
 ?>
 
     <section class="section-welcome">
@@ -65,15 +65,15 @@ $this->title = 'Школа инженерного предприниматель
             <div class="container">
                 <div class="row">
                     <div class="grid6 " data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-цель-100 — копия.png'); "></div>
+                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-цель-100.png'); "></div>
 
                         <div class="benefit-title">Цель программы</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-suitcase-100 — копия.png');"> </div>
+                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-suitcase-100.png');"> </div>
 
                         <div class="benefit-title">Формат обучения</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-academy-hat-100 — копия.png'); ">  </div>
+                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-academy-hat-100.png'); ">  </div>
 
                         <div class="benefit-title">Диплом </div>
 
@@ -222,17 +222,17 @@ $this->title = 'Школа инженерного предприниматель
             <div class="container">
                 <div class="row">
                     <div class="grid6 " data-wow-duration="500ms">
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-цель-100 — копия.png'); "></div>
+                          <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-graph-100.png'); "></div>
 
-                        <div class="benefit-title">Цель программы</div>
+                        <div class="benefit-title">Анализ</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-suitcase-100 — копия.png');"> </div>
+                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-программирование-на-ноутбуке-100.png');"> </div>
 
-                        <div class="benefit-title">Формат обучения</div>
+                        <div class="benefit-title">Разработка</div>
 
-                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-academy-hat-100 — копия.png'); ">  </div>
+                        <div class="benefit-item" style="background-image: url('assets/combined/new_landing/icons8-parallel-task-100.png'); ">  </div>
 
-                        <div class="benefit-title">Диплом </div>
+                        <div class="benefit-title">Решение задач </div>
 
                         <div></div>
 
@@ -245,9 +245,9 @@ $this->title = 'Школа инженерного предприниматель
                         <div></div>
 
                         <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
-
-
                     </div>
+
+                  
 
                 </div>
             </div>
