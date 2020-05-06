@@ -332,7 +332,7 @@ $this->title = 'Инженерная школа информационных т�
             <div class="headline">
                 Часто задаваемые вопросы
             </div>
-            <div class="nav-container">
+            <div class="nav-container nav-reverse">
                 <div class="answers">
                     <div class="answer visible" data-index="1">
                         Ответ
@@ -348,7 +348,7 @@ $this->title = 'Инженерная школа информационных т�
                     </div>
 
                 </div>
-                <div class="gradient-navbar navbar-right">
+                <div class="gradient-navbar navbar-right ">
                     <div class="choices">
                         <button class="choice-wrap chosen" data-index="1">
                             <div class="choice">

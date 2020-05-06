@@ -78,8 +78,9 @@ AppAsset::register($this);
 
 <footer>
     <div class="container-wide">
-        <div class="row align-items-center justify-content-center flex-lg-row justify-content-lg-between">
-            <div class="col-lg-3 pt-2 pb-2">
+        <div class="footer-row">
+            <div class="footer-container">
+
                 <div class="d-flex flex-row align-items-center">
                     <div class="logo-icon"></div>
                     <div>
@@ -88,9 +89,10 @@ AppAsset::register($this);
 
                     </div>
                 </div>
+
             </div>
-            <div class="col-lg-4 table">
-                <div class="flex-row">
+            <div class="footer-container">
+                <div class="contact-row">
                     <div class="contact-fade contact">
                         Для связи с нами
                     </div>
@@ -100,7 +102,7 @@ AppAsset::register($this);
                 </div>
 
             </div>
-            <div class="col-lg-2 table">
+            <div class="footer-container">
                 <div class="social-row">
                     <div class="social-icon">
                         <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
