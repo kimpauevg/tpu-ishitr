@@ -2016,6 +2016,12 @@ footer .social-row {
     .programs-list .program-item .program-title{
         font-size: 20px;
     }
+    footer .contact-bold{
+        font-size: 18px;
+    }
+    footer .contact-fade{
+        font-size: 14px;
+    }
 
 
 }
