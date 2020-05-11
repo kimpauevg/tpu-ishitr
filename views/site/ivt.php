@@ -533,8 +533,6 @@ $this->title = 'Инженерная школа информационных т�
 
 <section class="courses">
     <div class="section-content">
-        <style>
-        </style>
         <div class="light-grey-holder">
             <div class="headline">
                 Другие магистерские программы

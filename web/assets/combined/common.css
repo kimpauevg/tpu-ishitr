@@ -628,10 +628,29 @@ section.section-programs {
     all: initial;
 }
 
+
+.program-target{
+    padding: 100px 0;
+    max-width: 950px;
+    justify-self: center;
+}
+.program-holder {
+    display: grid;
+    align-items: center;
+}
+.qualification-list{
+    max-width: 950px;
+    display: table-row;
+    justify-items: center;
+}
+
+
+
+
 .gradient-navbar{
     background-image: url(main/i/green-gradient.jpg);
 }
-.gradient-navbar1{
+.gradient-navbar.navbar-bakalavriat{
     background-image: url(main/i/red-gradient.jpg);
 }
 .nav-container{
@@ -677,34 +696,6 @@ section.section-programs {
     text-align: left;
 
 }
-.gradient-navbar1{
-    background-size: 100%;
-    top: 0;
-    left: 50%;
-    width: 50%;
-    height: 100%;
-}
-.gradient-navbar1.navbar-right{
-    border-bottom-right-radius: inherit;
-    border-top-right-radius: inherit;
-
-}
-.gradient-navbar1.navbar-left{
-    border-bottom-left-radius: inherit;
-    border-top-left-radius: inherit;
-
-}
-
-.gradient-navbar1 .choices{
-    position: relative;
-    border-radius: inherit;
-}
-.gradient-navbar1 .choices div.choice{
-    font-size: 18px;
-    vertical-align: center;
-    text-align: left;
-
-}
 .choice-wrap{
     color: white;
     width: 100%;
@@ -720,7 +711,12 @@ section.section-programs {
     background: linear-gradient(90deg, #c7e699 0%, #c8e39b 100%);
     color: black;
 }
-    .navbar-right .choice-wrap.chosen:first-child{
+.navbar-bakalavriat .choice-wrap.chosen, .navbar-bakalavriat .choice-wrap:hover{
+    background: linear-gradient(90deg, #f4e5b1 0%, #fdeaab 100%);
+    color: black;
+}
+
+.navbar-right .choice-wrap.chosen:first-child{
     border-top-right-radius: inherit;
 }
 .navbar-left .choice-wrap.chosen:first-child{
@@ -730,33 +726,6 @@ section.section-programs {
     border-top-right-radius: inherit;
 }
 .navbar-left .choice-wrap:first-child:hover{
-    border-top-left-radius: inherit;
-}
-.choice-wrap1{
-    color: white;
-    width: 100%;
-    padding-left: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    cursor: pointer;
-    background: none;
-    border-width: 0;
-
-}
-.choice-wrap1.chosen, .choice-wrap1:hover{
-    background: linear-gradient(90deg, #f4e5b1 0%, #fdeaab 100%);
-    color: black;
-}
-.navbar-right .choice-wrap1.chosen:first-child{
-    border-top-right-radius: inherit;
-}
-.navbar-left .choice-wrap1.chosen:first-child{
-    border-top-left-radius: inherit;
-}
-.navbar-right .choice-wrap1:first-child:hover{
-    border-top-right-radius: inherit;
-}
-.navbar-left .choice-wrap1:first-child:hover{
     border-top-left-radius: inherit;
 }
 
@@ -770,15 +739,8 @@ section.section-programs {
     position: absolute;
     left: 0;
 }
-.gradient-navbar1 .choices div.choice-wrap-after{
+.gradient-navbar.navbar-bakalavriat .choices div.choice-wrap-after{
     background: linear-gradient(90deg, #915493 0%, #e88958 100%);
-
-    height: 1px;
-    content: '';
-    max-height: 1px;
-    width: 100%;
-    position: absolute;
-    left: 0;
 }
 .nav-container .answers{
     width: 50%;
@@ -822,32 +784,12 @@ section.section-programs {
         border-bottom-right-radius: 0;
     }
     
-    .gradient-navbar1.navbar-right, .gradient-navbar1.navbar-left{
-        width: 100%;
-        height: 50%;
 
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-    }
-    
     .choice-wrap{
         padding: 30px 0;
     }
     .gradient-navbar .choices div.choice{
         text-align: center;
-    }
-    .choice-wrap1{
-        padding: 30px 0;
-    }
-    .gradient-navbar1 .choices div.choice{
-        text-align: center;
-    }
-    .navbar-right .choice-wrap.chosen:first-child, .navbar-left .choice-wrap.chosen:first-child,
-    .navbar-right .choice-wrap:first-child:hover, .navbar-left .choice-wrap:first-child:hover{
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
     }
 }
 @media (max-width: 500px) {
@@ -1432,8 +1374,10 @@ section.section-why .container {
 
 .li_style::before {
     content: '\25c9'; /* Добавляем маркер в шестнадцатеричном формате*/
-    padding-right: 5px; /* Расстояние от маркеров до текста */
+    padding-right: 15px; /* Расстояние от маркеров до текста */
+    font-size: 30px;
     color: #b486a6; /* Маркеры  цвета */
+    display: inline-block;
 }
 
 .li-text {
@@ -1445,7 +1389,7 @@ section.section-why .container {
     border-radius: 20px;
     display: flex;
     margin-bottom: 150px;
-    
+    justify-content: center;
 }
 
 

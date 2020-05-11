@@ -67,7 +67,7 @@ $this->title = 'Инженерная школа информационных т�
     </div>
 </section>
 <!--форма подать заявку-->
-<section class="section-request top">
+<section class="section-request">
     <div class="section-content">
         <div class="container">
             <div class="grid-container1 row">
@@ -81,13 +81,13 @@ $this->title = 'Инженерная школа информационных т�
 <section class="section-competencies">
     <div class="section-content">
         <div class="container">
-            <div class="row">
-                <div> 
+            <div class="program-holder">
+                <div class="program-target">
                     <div class="headline"> Цель программы </div>
                     <p class="text">Изучение и освоение совокупности принципов, методов и способов человеческой деятельности, направленные на анализ, создание и применение автоматизированных систем обработки информации и управления, ЭВМ, систем и сетей, программного обеспечения вычислительной техники и автоматизированных систем.</p>
                 </div>
-                <hr class="horizontal-line">
             </div>
+            <hr class="horizontal-line">
         </div>
     </div>
 </section>
@@ -177,15 +177,15 @@ $this->title = 'Инженерная школа информационных т�
             </div>
 
             <div class="nav-container">
-                <div class="gradient-navbar1 navbar-left">
+                <div class="gradient-navbar navbar-bakalavriat navbar-left">
                     <div class="choices">
-                        <button class="choice-wrap1 chosen" data-index="1">
+                        <button class="choice-wrap chosen" data-index="1">
                             <div class="choice">
                                 Есть ли что-то
                             </div>
                         </button>
                         <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap1" data-index="2">
+                        <button class="choice-wrap" data-index="2">
                             <div class="choice">
                                 Есть ли что-то 2
                             </div>
@@ -193,7 +193,7 @@ $this->title = 'Инженерная школа информационных т�
                         </button>
                         <div class="choice-wrap-after"></div>
 
-                        <button class="choice-wrap1" data-index="3">
+                        <button class="choice-wrap" data-index="3">
                             <div class="choice">
                                 Есть ли что-то 3
                             </div>
@@ -201,7 +201,7 @@ $this->title = 'Инженерная школа информационных т�
                         </button>
                         <div class="choice-wrap-after"></div>
 
-                        <button class="choice-wrap1" data-index="4">
+                        <button class="choice-wrap" data-index="4">
                             <div class="choice">
                                 Есть ли что-то 4
                             </div>
@@ -316,7 +316,7 @@ $this->title = 'Инженерная школа информационных т�
 </section>
 <!--темы работ-->
 <section class="qualification-topics">
-   <div class="white-holder">
+   <div class="white-holder1">
        <div class="headline">
            Темы выпускных<br> квалификационных работ
        </div>
@@ -324,11 +324,11 @@ $this->title = 'Инженерная школа информационных т�
            <div class="container">
                <div class="row">
                    <div class="li-text">
-                       <ul >
-                           <li class="li_style">тема 1</li>
-                           <li class="li_style">тема2</li>
-                           <li class="li_style">тема3</li>
-                       </ul>            
+                       <div class="qualification-list" >
+                           <div class="li_style">Внедрение системы поведенческого аудита в процесс управления промышленной безопасностью на предприятии нефтегазовой отрасли</div>
+                           <div class="li_style">тема2</div>
+                           <div class="li_style">тема3</div>
+                       </div>
                    </div>
                </div>
            </div>
@@ -390,7 +390,7 @@ $this->title = 'Инженерная школа информационных т�
     </div>
 </section>
 
-<section class="section-request top">
+<section class="section-request">
     <div class="section-content">
         <div class="container">
             <div class="grid-container1 row">
