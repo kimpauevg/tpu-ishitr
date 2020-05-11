@@ -826,7 +826,7 @@ h1 {
     background-color: #d7ec9d;
     border-color: #d7ec9d
 }
-.btn-danger1 {
+.bakalavriat .btn-danger {
     color: black;
     background-color: #fff5b4;
     border-color: #fff5b4
@@ -839,9 +839,9 @@ h1 {
     background-color: #d7ec9d;
     border-color: #d7ec9d
 }
-.btn-danger1:hover,
-.btn-danger1:not(:disabled):not(.disabled).active,
-.btn-danger1:not(:disabled):not(.disabled):active {
+.bakalavriat .btn-danger:hover,
+.bakalavriat .btn-danger:not(:disabled):not(.disabled).active,
+.bakalavriat .btn-danger:not(:disabled):not(.disabled):active {
     color: #000;
     background-color: #fff5b4;
     border-color: #fff5b4

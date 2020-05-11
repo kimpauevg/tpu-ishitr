@@ -86,6 +86,7 @@ class SiteController extends Controller
     }
     public function actionBivt()
     {
+        Yii::$app->view->params['bakalavriat'] = true;
         Yii::$app->view->params['action_name'] = 'bivt';
 
         return $this->render('b-ivt');
@@ -101,6 +102,7 @@ class SiteController extends Controller
     }
     public function actionBatp()
     {
+        Yii::$app->view->params['bakalavriat'] = true;
         Yii::$app->view->params['action_name'] = 'batp';
 
         return $this->render('b-atp');
@@ -116,6 +118,7 @@ class SiteController extends Controller
     }
     public function actionBdes()
     {
+        Yii::$app->view->params['bakalavriat'] = true;
         Yii::$app->view->params['action_name'] = 'bdes';
 
         return $this->render('b-des');
@@ -131,6 +134,7 @@ class SiteController extends Controller
     }
     public function actionBmir()
     {
+        Yii::$app->view->params['bakalavriat'] = true;
         Yii::$app->view->params['action_name'] = 'bmir';
 
         return $this->render('b-mir');
@@ -140,12 +144,14 @@ class SiteController extends Controller
 
     public function actionPri()
     {
+        Yii::$app->view->params['bakalavriat'] = true;
         Yii::$app->view->params['action_name'] = 'pri';
 
         return $this->render('pri');
     }
     public function actionBpri()
     {
+        Yii::$app->view->params['bakalavriat'] = true;
         Yii::$app->view->params['action_name'] = 'pri';
 
         return $this->render('b-pri');
@@ -169,12 +175,6 @@ class SiteController extends Controller
         return $this->render('sim');
     }
 
-    public function actionIvt1()
-    {
-        Yii::$app->view->params['action_name'] = 'ivt1';
-
-        return $this->render('ivt1');
-    }
     /**
      * Login action.
      *

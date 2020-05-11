@@ -10,43 +10,47 @@ $this->title = 'Инженерная школа информационных т�
 ?>
 
 <section class="section-welcome">
+    <div class="background"></div>
     <div class="section-content">
         <div class="container pb-5">
             <h1  >Информатика и вычислительная техника</h1>
-            <div class="container pb-4 wow fadeInDown" data-wow-delay="300ms">
-                <span class="badge badge-pill badge-secondary">Бакалаврское направление <wbr> подготовки</span>
-                <span class="badge badge-pill badge-secondary">09.04.01 – информатика и  вычислительная техника</span>
+            <div class="container pill-container pb-4 wow fadeInDown" data-wow-delay="300ms">
+                <div class="badge-pill badge-secondary">
+                    <div class="pill-text">
+                        Магистерская образовательная программа
+                    </div>
+                </div>
+                <div class="badge-pill badge-secondary pill-multirow">
+                    <div class="pill-text">
+                        09.04.01 – информатика и <br/> вычислительная техника
+                    </div>
+                </div>
             </div>
             <p>По оценкам экспертов, наукоемкий бизнес – это наиболее динамично развивающийся сектор в России в целом, а в Томской области особенно.</p>
         </div>        
         <div class="container">
-            <div class="row ">
-                <div class="col-4 ">
+                <div class="row flex-column flex-lg-row">
                     <div class="col-auto1">
-                    <div class="course-item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="400ms">
-                        <div class="course-item__label">Места</div>
-                        <div class="course-item__value">25 бюджетных мест<br>20 платных мест</div>
+                        <div class="course-item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="400ms">
+                            <div class="course-item__label">Места</div>
+                            <div class="course-item__value">25 бюджетных мест<br>20 платных мест</div>
+                        </div>
                     </div>
+                    <div class="col-auto1">
+                        <div class="course-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
+                            <div class="course-item__label">форма обучения</div>
+                            <div class="course-item__value">Очная – вечернее обучение </div>
+                        </div>
+                    </div>
+                    <div class="col-auto1">
+                        <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
+                            <div class="course-item__label">Проходной балл </div>
+                            <div class="course-item__value">2019 год – 255<br>2018 год – 248</div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-4 ">
-                    <div class="col-auto1">
-                    <div class="course-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
-                        <div class="course-item__label">форма обучения</div>
-                        <div class="course-item__value">Очная – 4 года<br>Очно-заочная – 5 лет</div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="col-auto1">
-                    <div class="course-item  wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
-                        <div class="course-item__label">Проходной балл </div>
-                        <div class="course-item__value">2019 год – 255<br>2018 год – 248</div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">                
+
+            <div class="row flex-column flex-sm-row">
                 <div class="course-item wow fadeInUp col-4" data-wow-delay="300ms" data-wow-duration="400ms">
                     <div class="course-item-benefit">
                         <div class="img-tick"></div> Общежитие
@@ -70,10 +74,18 @@ $this->title = 'Инженерная школа информационных т�
 <section class="section-request">
     <div class="section-content">
         <div class="container">
-            <div class="grid-container1 row">
-                <div class="row2 col-6" >Вы можете подать заявление на обучение у нас уже сейчас </div>
-                <div class="col1 col-6"> <a href="#" class="btn btn-danger1 btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a></div>
+            <div class="grid-container">
+                <div class="grid-instruction-row">
+                    <div class="grid-container-item grid-instuction-bold">
+                        Вы можете подать заявление на обучение у нас уже сейчас
+                    </div>
+                    <div class="grid-container-item">
+                        <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a>
+                    </div>
+
+                </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -136,19 +148,19 @@ $this->title = 'Инженерная школа информационных т�
                     <div class="col-auto left-block">
                         <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
                         <div class="section-text row">
-                            <div class="col-4">
+                            <div class="col-sm-4 col-12">
                                 <div class="circle " > 
                                     <div class="circle-title">55</div>
                                     <div class="">математика</div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-sm-4 col-12">
                                 <div class="circle">  
                                     <div class="circle-title">53</div>
                                     <div class="">информатика </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-sm-4 col-12">
                                 <div class="circle"> 
                                     <div class="circle-title">45</div>
                                     <div class="">русский </div>
@@ -393,9 +405,16 @@ $this->title = 'Инженерная школа информационных т�
 <section class="section-request">
     <div class="section-content">
         <div class="container">
-            <div class="grid-container1 row">
-                <div class="row2 col-6" >Вы можете подать заявление на обучение у нас уже сейчас </div>
-                <div class="col1 col-6"> <a href="#" class="btn btn-danger1 btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a></div>
+            <div class="grid-container">
+                <div class="grid-instruction-row">
+                    <div class="grid-container-item grid-instuction-bold">
+                        Вы можете подать заявление на обучение у нас уже сейчас
+                    </div>
+                    <div class="grid-container-item">
+                        <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>

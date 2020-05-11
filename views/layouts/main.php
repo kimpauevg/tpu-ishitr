@@ -10,6 +10,8 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 
+$bakalavriat = $this->params['bakalavriat'] ?? false;
+
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -39,39 +41,43 @@ AppAsset::register($this);
 </head>
 <body>
 <header>
-    <div class="container-fluid">
-        <div class="row flex-column align-items-center justify-content-center flex-lg-row justify-content-lg-between">
-            <div class="col-auto pt-2 pb-2">
+    <div class="container-wide">
+        <div class="header-row">
+            <div class="header-container">
                 <div class="d-flex flex-row align-items-center">
                     <div class="logo-icon"></div>
                     <div class="logo-text">томский<br>политехнический<br>университет</div>
                 </div>
             </div>
-            <div class="col-auto pt-2 pb-2">
-                <div class="d-flex flex-column flex-md-row align-items-center">
-                    <a href="tel:+73822221236" class="header-tel mb-3 mb-md-0">+7 (3822)22-12-36</a>
+            <div class="header-container">
+                <div class="contact-row">
+                    <div class="contact-bold contact">
+                        +7 (3822) 22-12-36
+                    </div>
+                </div>
 
-                    <div class="row">
-                        <div class="social-icon">
-                            <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
-                        </div>
-                        <div class="social-icon">
-                            <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="vk">
-
-                        </div>
-
+                <div class="social-row">
+                    <div class="social-icon">
+                        <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
+                    </div>
+                    <div class="social-icon">
+                        <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="vk">
+                    </div>
+                    <div class="social-icon instagram">
+                        <img src="assets/combined/new_landing/instagram.png" class="vk">
                     </div>
 
-
                 </div>
+
             </div>
+
         </div>
     </div>
 </header>
 
 <?php $this->beginBody() ?>
 
-<div class="wrapper">
+<div class="wrapper <?= $bakalavriat? 'bakalavriat': ''?>">
         <?= Alert::widget() ?>
         <?= $content ?>
 </div>
@@ -109,7 +115,9 @@ AppAsset::register($this);
                     </div>
                     <div class="social-icon">
                         <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="vk">
-
+                    </div>
+                    <div class="social-icon instagram">
+                        <img src="assets/combined/new_landing/instagram.png" class="vk">
                     </div>
 
                 </div>
