@@ -16,3 +16,6 @@ h1 {
 .slick-dots li.slick-active button{
     background: #f1a783;
 }
+.background{
+    background: url(ivt/bg-tree.jpg) no-repeat top right;
+}

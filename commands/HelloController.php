@@ -27,6 +27,21 @@ class HelloController extends Controller
      */
     public function actionIndex($message = 'hello world')
     {
+        for ($i = 1; $i <= 100; $i++){
+            if ($i % 15 == 0) {
+                echo 'FizzBuzz'.PHP_EOL;
+                continue;
+            }
+            if ($i % 5 == 0){
+                echo 'Buzz'.PHP_EOL;
+                continue;
+            }
+            if ($i % 3 == 0) {
+                echo 'Fizz'.PHP_EOL;
+                continue;
+            }
+            echo $i.PHP_EOL;
+        }
         echo $message . "\n";
 
         return ExitCode::OK;
