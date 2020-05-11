@@ -8,34 +8,36 @@ use yii\web\View;
 
 $this->title = 'Инженерная школа информационных технологий и робототехники | ТПУ';
 ?>
+<section class="section-welcome">
+    <div class="background1">
 
-    <section class="section-welcome">
-        <div class="section-content">
+    </div>
+    <div class="section-content">
 
-            <div class="container pb-5">
-                <h1  >Информатика и вычислительная техника</h1>
-                <div class="container pb-4 wow fadeInDown grid3" data-wow-delay="300ms">
+        <div class="pb-5 container">
+            <h1> Информатика и вычислительная техника  </h1>
+                    <div class="container pb-4 wow fadeInDown" data-wow-delay="300ms">
                     <span class="badge badge-pill badge-secondary">Магистерская образовательная программа</span>
-                    <span class="badge badge-pill badge-secondary">09.04.01 – информатика и <br> вычислительная техника</span>
+                    <span class="badge badge-pill badge-secondary">09.04.01 – информатика и  вычислительная техника</span>
                 </div>
                 <p>По оценкам экспертов, наукоемкий бизнес – это наиболее динамично развивающийся сектор в России в целом, а в Томской области особенно.</p>
             </div>
 
             <div class="container">
-                <div class="row flex-column flex-lg-row grid3">
-                    <div class="col-auto1">
+                <div class="row flex-column flex-lg-row">
+                    <div class="col-auto1 col-4">
                         <div class="course-item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="400ms">
                             <div class="course-item__label">подача документов</div>
                             <div class="course-item__value">С 01 декабря 2019 года по 14 августа 2020 года</div>
                         </div>
                     </div>
-                    <div class="col-auto1">
+                    <div class="col-auto1 col-4">
                         <div class="course-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
                             <div class="course-item__label">форма обучения</div>
                             <div class="course-item__value">Очная – вечернее обучение </div>
                         </div>
                     </div>
-                    <div class="col-auto1">
+                    <div class="col-auto1 col-4">
                         <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
                             <div class="course-item__label">Места </div>
                             <div class="course-item__value">14 бюджетных мест</div>
@@ -45,58 +47,60 @@ $this->title = 'Инженерная школа информационных т�
             </div>
         </div>
     </section>
+
     <section class="section-request top">
         <div class="section-content">
             <div class="container">
-                <div class="grid-container">
-
-                    <div class="row1">Получите подробную инструкцию и все материалы для поступления</div>
-                    <div class="row2">Мы отправим Вам все необходимые материалы, а так же ссылки на полезные ресурсы</div>
-
-                    <div class="row2">Заполните анкету, и после обработки мы вышлем ссылку для скачивания Вам на электронную почту</div>
-                    <div class="col1"> <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">получить!</a></div>
-
+                <div class=" grid-container">
+                    <div class="row">
+                        <div class="row1 col-6">
+                            Получите подробную инструкцию и все материалы для поступления</div>  
+                        <div class="row2 col-6">
+                            Мы отправим Вам все необходимые материалы, а так же ссылки на полезные ресурсы
+                        </div>                        
+                    </div>
+                    <div class="row">  
+                        <div class="row2 col-6">
+                            Заполните анкету, и после обработки мы вышлем ссылку для скачивания Вам на электронную почту
+                        </div> 
+                        <div class="col1 col-6"> 
+                            <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">получить!</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+       
     </section>
     <section class="section-benefits">
         <div class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class="grid6 " data-wow-duration="500ms">
-                        <div class="benefit-item benefit-target"></div>
-
-                        <div class="benefit-title">Цель программы</div>
-
-                        <div class="benefit-item benefit-suitcase"> </div>
-
-                        <div class="benefit-title">Формат обучения</div>
-
-                        <div class="benefit-item benefit-hat" >  </div>
-
-                        <div class="benefit-title">Диплом </div>
-
-                        <div></div>
-
+                    <div class=" col-sm-4" data-wow-duration="500ms">
+                        <div class="row">
+                            <div class="benefit-item benefit-target col-3"></div>
+                            <div class="benefit-title col-9">Цель программы</div>
+                        </div>
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-
-                        <div></div>
-
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-
-                        <div></div>
-
-                        <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
-
-
                     </div>
-
+                    <div class=" col-sm-4" data-wow-duration="500ms">
+                        <div class="row">
+                            <div class="benefit-item benefit-suitcase col-3"> </div>
+                            <div class="benefit-title col-9">Формат обучения</div>
+                        </div>
+                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
+                    </div>
+                    <div class=" col-sm-4" data-wow-duration="500ms"> 
+                        <div class="row">
+                            <div class="benefit-item benefit-hat col-3" >  </div>
+                            <div class="benefit-title col-9">Диплом </div>
+                        </div>
+                        <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
+                    </div>
                 </div>
             </div>
         </div>
-
-    </section>
+</section>
     <section class="section-why" style="background-color:#ebebeb">
         <div class="section-content">
             <div class="container" >
@@ -221,56 +225,56 @@ $this->title = 'Инженерная школа информационных т�
         <div class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class="grid6 " data-wow-duration="500ms">
-                          <div class="benefit-item benefit-graph"></div>
-
-                        <div class="benefit-title">Анализ</div>
-
-                        <div class="benefit-item benefit-programming"> </div>
-
-                        <div class="benefit-title">Разработка</div>
-
-                        <div class="benefit-item benefit-task">  </div>
-
-                        <div class="benefit-title">Решение задач </div>
-
-                        <div></div>
-
+                    <div class="col-sm-4" data-wow-duration="500ms">
+                        <div class="row">                                                   <div class="benefit-item benefit-graph col-3"></div>
+                            <div class="benefit-title col-9">Анализ</div>
+                        </div>
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-
-                        <div></div>
-
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-
-                        <div></div>
-
-                        <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
                     </div>
-
-                  
-
-                </div>
-            </div>
-        </div>
-
-        <div class="section-content">
-            <div class="container gradient-container">
-                <div class="grid-container">
-
-                    <div class="row1">Получите подробную инструкцию и все материалы для поступления</div>
-                    <div class="row2">Мы отправим Вам все необходимые материалы, а так же ссылки на полезные ресурсы</div>
-
-                    <div class="row2">Заполните анкету, и после обработки мы вышлем ссылку для скачивания Вам на электронную почту</div>
-                    <div class="col1"> <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">получить!</a></div>
+                    <div class="col-sm-4" data-wow-duration="500ms">
+                        <div class="row">
+                            <div class="benefit-item benefit-programming col-3"> </div>
+                            <div class="benefit-title col-9">Разработка</div>
+                        </div>
+                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
+                    </div>
+                    <div class="col-sm-4" data-wow-duration="500ms">
+                        <div class="row">
+                            <div class="benefit-item benefit-task col-3">  </div>
+                            <div class="benefit-title col-9">Решение задач </div>
+                        </div>
+                        <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>   
+                    </div>              
 
                 </div>
             </div>
         </div>
-
     </div>
 
-</section>
 
+        <div class="section-content">
+            <div class="container">
+                <div class=" grid-container">
+                    <div class="row">
+                        <div class="row1 col-6">
+                            Получите подробную инструкцию и все материалы для поступления</div>  
+                        <div class="row2 col-6">
+                            Мы отправим Вам все необходимые материалы, а так же ссылки на полезные ресурсы
+                        </div>                        
+                    </div>
+                    <div class="row">  
+                        <div class="row2 col-6">
+                            Заполните анкету, и после обработки мы вышлем ссылку для скачивания Вам на электронную почту
+                        </div> 
+                        <div class="col1 col-6"> 
+                            <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">получить!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
 
 <section class="lecturers">
     <div class="light-grey-holder">

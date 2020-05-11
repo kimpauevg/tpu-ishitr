@@ -13,45 +13,51 @@ $this->title = 'Инженерная школа информационных т�
     <div class="section-content">
         <div class="container pb-5">
             <h1  >Информатика и вычислительная техника</h1>
-            <div class="container pb-4 wow fadeInDown grid3" data-wow-delay="300ms">
+            <div class="container pb-4 wow fadeInDown" data-wow-delay="300ms">
                 <span class="badge badge-pill badge-secondary">Бакалаврское направление <wbr> подготовки</span>
-                <span class="badge badge-pill badge-secondary">09.04.01 – информатика и <br> вычислительная техника</span>
+                <span class="badge badge-pill badge-secondary">09.04.01 – информатика и  вычислительная техника</span>
             </div>
             <p>По оценкам экспертов, наукоемкий бизнес – это наиболее динамично развивающийся сектор в России в целом, а в Томской области особенно.</p>
         </div>        
         <div class="container">
-            <div class="row flex-column flex-lg-row grid3">
-                <div class="col-auto1">
+            <div class="row ">
+                <div class="col-4 ">
+                    <div class="col-auto1">
                     <div class="course-item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="400ms">
                         <div class="course-item__label">Места</div>
                         <div class="course-item__value">25 бюджетных мест<br>20 платных мест</div>
                     </div>
+                    </div>
                 </div>
-                <div class="col-auto1">
+                <div class="col-4 ">
+                    <div class="col-auto1">
                     <div class="course-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
                         <div class="course-item__label">форма обучения</div>
                         <div class="course-item__value">Очная – 4 года<br>Очно-заочная – 5 лет</div>
                     </div>
+                    </div>
                 </div>
-                <div class="col-auto1">
-                    <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="col-4">
+                    <div class="col-auto1">
+                    <div class="course-item  wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
                         <div class="course-item__label">Проходной балл </div>
                         <div class="course-item__value">2019 год – 255<br>2018 год – 248</div>
                     </div>
+                    </div>
                 </div>
             </div>
-            <div class="grid3">                
-                <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
+            <div class="row">                
+                <div class="course-item wow fadeInUp col-4" data-wow-delay="300ms" data-wow-duration="400ms">
                     <div class="course-item-benefit">
                         <div class="img-tick"></div> Общежитие
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-4" data-wow-delay="300ms" data-wow-duration="400ms">
                     <div class="course-item-benefit">
                         <div class="img-tick"></div> Военная кафедра
                     </div>                
                 </div>
-                <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-4" data-wow-delay="300ms" data-wow-duration="400ms">
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>  Электронное обучение
                     </div>
@@ -64,15 +70,15 @@ $this->title = 'Инженерная школа информационных т�
 <section class="section-request top">
     <div class="section-content">
         <div class="container">
-            <div class="grid-container">
-                <div class="row2">Вы можете подать заявление на обучение у нас уже сейчас </div>
-                <div class="col1"> <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a></div>
+            <div class="grid-container1 row">
+                <div class="row2 col-6" >Вы можете подать заявление на обучение у нас уже сейчас </div>
+                <div class="col1 col-6"> <a href="#" class="btn btn-danger1 btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a></div>
             </div>
         </div>
     </div>
 </section>
 <!--цель--> 
-<section class="section-benefits">
+<section class="section-competencies">
     <div class="section-content">
         <div class="container">
             <div class="row">
@@ -87,43 +93,39 @@ $this->title = 'Инженерная школа информационных т�
 </section>
 
 <!--компетанции-->
-<section class="section-competencies">
-    <div class="white-holder">
+<section class="section-benefits ">
+    <div class="white-holder2">
         <div class="headline">
             Программа нацелена на компетенции
         </div>
         <div class="section-content">
             <div class="container">
-                <div class="row">
-                    <div class="grid6 " data-wow-duration="500ms">
-                        <div class="benefit-item benefit-graph"></div>
-
-                        <div class="benefit-title">Анализ</div>
-
-                        <div class="benefit-item benefit-programming"> </div>
-
-                        <div class="benefit-title">Разработка</div>
-
-                        <div class="benefit-item benefit-task">  </div>
-
-                        <div class="benefit-title">Решение задач </div>
-
-                        <div></div>
-
+               <div class="row">
+                    <div class=" col-sm-4" data-wow-duration="500ms">
+                        <div class="row">
+                            <div class="benefit-item benefit-target col-3"></div>
+                            <div class="benefit-title col-9">Цель программы</div>
+                        </div>
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-
-                        <div></div>
-
+                    </div>
+                    <div class=" col-sm-4" data-wow-duration="500ms">
+                        <div class="row">
+                            <div class="benefit-item benefit-suitcase col-3"> </div>
+                            <div class="benefit-title col-9">Формат обучения</div>
+                        </div>
                         <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-
-                        <div></div>
-
+                    </div>
+                    <div class=" col-sm-4" data-wow-duration="500ms"> 
+                        <div class="row">
+                            <div class="benefit-item benefit-hat col-3" >  </div>
+                            <div class="benefit-title col-9">Диплом </div>
+                        </div>
                         <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 </section>      
 
 <!--баллы егэ-->
@@ -132,27 +134,33 @@ $this->title = 'Инженерная школа информационных т�
             <div class="container" >
                 <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                     <div class="col-auto left-block">
-                        <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#776c7e;" >Выпускник может претендовать на вакансии </div>
-                        <div class="section-text grid3">
-                            <div class="circle"> 
-                                 <div class="circle-title">55</div>
-                                 <div class="">математика</div>
-                             </div>
-                             <div class="circle">  
-                                 <div class="circle-title">53</div>
-                                 <div class="">информатика </div>
-                             </div>
-                             <div class="circle"> 
-                                 <div class="circle-title">45</div>
-                                 <div class="">русский </div>
-                             </div>
+                        <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
+                        <div class="section-text row">
+                            <div class="col-4">
+                                <div class="circle " > 
+                                    <div class="circle-title">55</div>
+                                    <div class="">математика</div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="circle">  
+                                    <div class="circle-title">53</div>
+                                    <div class="">информатика </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="circle"> 
+                                    <div class="circle-title">45</div>
+                                    <div class="">русский </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-auto right-block">                       
-                         <div class="statistic-block">
-                             <div class="stat-title">89</div>
-                             <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
-                             </div>   
+                    <div class="col-auto right-block">                          
+                        <div class="statistic-block1" >
+                            <div class="stat-title">89</div>
+                            <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
+                            </div>                             
                         </div>
                     </div>
                 </div>
@@ -169,15 +177,15 @@ $this->title = 'Инженерная школа информационных т�
             </div>
 
             <div class="nav-container">
-                <div class="gradient-navbar navbar-left">
+                <div class="gradient-navbar1 navbar-left">
                     <div class="choices">
-                        <button class="choice-wrap chosen" data-index="1">
+                        <button class="choice-wrap1 chosen" data-index="1">
                             <div class="choice">
                                 Есть ли что-то
                             </div>
                         </button>
                         <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="2">
+                        <button class="choice-wrap1" data-index="2">
                             <div class="choice">
                                 Есть ли что-то 2
                             </div>
@@ -185,7 +193,7 @@ $this->title = 'Инженерная школа информационных т�
                         </button>
                         <div class="choice-wrap-after"></div>
 
-                        <button class="choice-wrap" data-index="3">
+                        <button class="choice-wrap1" data-index="3">
                             <div class="choice">
                                 Есть ли что-то 3
                             </div>
@@ -193,7 +201,7 @@ $this->title = 'Инженерная школа информационных т�
                         </button>
                         <div class="choice-wrap-after"></div>
 
-                        <button class="choice-wrap" data-index="4">
+                        <button class="choice-wrap1" data-index="4">
                             <div class="choice">
                                 Есть ли что-то 4
                             </div>
@@ -236,13 +244,13 @@ $this->title = 'Инженерная школа информационных т�
             <div class="container" >
                 <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                     <div class="col-auto left-block">
-                        <div class="section-title wow fadeInUp" data-wow-duration="500ms">Выпускник может претендовать на вакансии </div>
+                        <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Выпускник может претендовать на вакансии </div>
                         <div class="section-text">
                             в организациях и предприятиях, использующих наукоемкое производство: в НИИ и подразделениях НИОКР предприятий; в организациях инфраструктуры инновационной деятельности (технопарки, инкубаторы, фонды и др.); а отделах маркетинга рекламы и PR коммерческих и государственных предприятий; в органах государственной власти и общественных организациях; в коммуникационных, маркетинговых, рекламных и PR-агентствах различного уровня; средствах массовой информации.
                         </div>
                     </div>
                     <div class="col-auto right-block">
-                        <div class="statistic-block">
+                        <div class="statistic-block1">
                             <div class="stat-title">≈ 80 000</div>
                             <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>
                         </div>
@@ -255,7 +263,7 @@ $this->title = 'Инженерная школа информационных т�
 
 <!--преподаватели-->
 <section class="lecturers">
-    <div class="light-grey-holder">
+    <div class="light-grey-holder1">
         <div class="headline">
             Преподаватели и эксперты
         </div>
@@ -330,7 +338,7 @@ $this->title = 'Инженерная школа информационных т�
 
 <!--отзывы-->
 <section class="reviews">
-    <div class="light-grey-holder">
+    <div class="light-grey-holder1">
         <div class="headline">
             Отзывы наших выпускников
         </div>
@@ -385,13 +393,14 @@ $this->title = 'Инженерная школа информационных т�
 <section class="section-request top">
     <div class="section-content">
         <div class="container">
-            <div class="grid-container">
-                <div class="row2">Вы можете подать заявление на обучение у нас уже сейчас </div>
-                <div class="col1"> <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a></div>
+            <div class="grid-container1 row">
+                <div class="row2 col-6" >Вы можете подать заявление на обучение у нас уже сейчас </div>
+                <div class="col1 col-6"> <a href="#" class="btn btn-danger1 btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a></div>
             </div>
         </div>
     </div>
 </section>
+
 <!--партнеры-->
 <section class="partners">
     <div class="white-holder1">
