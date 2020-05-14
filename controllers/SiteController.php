@@ -64,116 +64,123 @@ class SiteController extends Controller
         Yii::$app->view->params['action_name'] = 'landing';
         return $this->render('index');
     }
-    public function actionBuh()
-    {
-        Yii::$app->view->params['action_name'] = 'buh';
-        return $this->render('buh');
-    }
 
-    public function actionUp()
-    {
-        Yii::$app->view->params['action_name'] = 'up';
-        return $this->render('up');
-    }
+
 
     //Информатики и вычислительная техника
 
-    public function actionIvt()
-    {
-        Yii::$app->view->params['action_name'] = 'ivt';
-
-        return $this->render('ivt');
-    }
     public function actionBivt()
     {
         Yii::$app->view->params['bakalavriat'] = true;
-        Yii::$app->view->params['action_name'] = 'bivt';
+        Yii::$app->view->params['action_name'] = 'b-ivt';
 
         return $this->render('b-ivt');
     }
 
     //Автоматизация технологических процессов и производств
 
-    public function actionAtp()
-    {
-        Yii::$app->view->params['action_name'] = 'atp';
-
-        return $this->render('atp');
-    }
     public function actionBatp()
     {
         Yii::$app->view->params['bakalavriat'] = true;
-        Yii::$app->view->params['action_name'] = 'batp';
+        Yii::$app->view->params['action_name'] = 'b-atp';
 
         return $this->render('b-atp');
     }
 
     //Дизайн
 
-    public function actionDes()
-    {
-        Yii::$app->view->params['action_name'] = 'des';
-
-        return $this->render('des');
-    }
     public function actionBdes()
     {
         Yii::$app->view->params['bakalavriat'] = true;
-        Yii::$app->view->params['action_name'] = 'bdes';
+        Yii::$app->view->params['action_name'] = 'b-des';
 
         return $this->render('b-des');
     }
 
     //Мехатроника и робототехника
 
-    public function actionMir()
-    {
-        Yii::$app->view->params['action_name'] = 'mir';
-
-        return $this->render('mir');
-    }
     public function actionBmir()
     {
         Yii::$app->view->params['bakalavriat'] = true;
-        Yii::$app->view->params['action_name'] = 'bmir';
+        Yii::$app->view->params['action_name'] = 'b-mir';
 
         return $this->render('b-mir');
     }
 
     //Программная инженерия
 
-    public function actionPri()
-    {
-        Yii::$app->view->params['bakalavriat'] = true;
-        Yii::$app->view->params['action_name'] = 'pri';
-
-        return $this->render('pri');
-    }
     public function actionBpri()
     {
         Yii::$app->view->params['bakalavriat'] = true;
-        Yii::$app->view->params['action_name'] = 'pri';
+        Yii::$app->view->params['action_name'] = 'b-pri';
 
         return $this->render('b-pri');
     }
 
-    //Информационные системы и технологии
 
-    public function actionIst()
-    {
-        Yii::$app->view->params['action_name'] = 'ist';
+    //Дальше идут программы магистров
 
-        return $this->render('ist');
+    //Разработка интернет-приложений
+    public function actionRip(){
+
+        Yii::$app->view->params['action_name'] = 'rip';
+        return $this->render('rip');
+    }
+    //Искусственный интеллект и машинное обучение
+    public function actionIim(){
+        return $this->render('iim');
     }
 
-    //Стандартизация и метрология
-
-    public function actionSim()
-    {
-        Yii::$app->view->params['action_name'] = 'sim';
-
-        return $this->render('sim');
+    // Мобильные приложения и виртуальная реальность
+    public function actionMvr(){
+        Yii::$app->view->params['action_name'] = 'mvr';
+        return $this->render('mvr');
     }
+    // Медицинские информационные системы и телемедицина
+    public function actionMst(){
+        Yii::$app->view->params['action_name'] = 'mst';
+        return $this->render('mst');
+    }
+    // Big Data Solutions* (Технологии больших данных) англ. язык
+    public function actionBds(){
+        Yii::$app->view->params['action_name'] = 'bds';
+        return $this->render('bds');
+    }
+
+    // Интернет вещей и цифровое производство
+    public function actionIvp(){
+        Yii::$app->view->params['action_name'] = 'ivp';
+        return $this->render('ivp');
+    }
+    // IoT & Digital Production - англ. язык
+    public function actionIot(){
+        Yii::$app->view->params['action_name'] = 'iot';
+        return $this->render('iot');
+    }
+    // Управление робототехническими комплексами и мехатронными системами
+    public function actionUrs(){
+        Yii::$app->view->params['action_name'] = 'urs';
+        return $this->render('urs');
+    }
+    // Инженерия реабилитационных и вспомогательных технологий
+    public function actionIrt(){
+        Yii::$app->view->params['action_name'] = 'irt';
+        return $this->render('irt');
+    }
+    // Автоматизация измерений и контроля
+    public function actionAik(){
+        Yii::$app->view->params['action_name'] = 'aik';
+        return $this->render('aik');
+    }
+    // Промышленный дизайн
+    public function actionPd(){
+        Yii::$app->view->params['action_name'] = 'pd';
+        return $this->render('pd');
+    }
+
+
+
+
 
     /**
      * Login action.

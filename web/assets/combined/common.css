@@ -487,6 +487,10 @@ section.section-programs {
     color: #6a5e72;
 }
 
+.white-holder {
+    background: white;
+}
+
 .white-holder .headline {
     background: white;
     color: #456c7a;
@@ -1864,7 +1868,7 @@ section.section-results .section-text {
     border-radius: 15px;
     padding: 15px;
     margin: 10px 10px 10px;
-    background: white;
+    background: #ffffff80;
 }
 .bakalavriat .col-auto1{
     border: 2px solid #cbc0d0;
@@ -1875,11 +1879,31 @@ section.section-results .section-text {
 .bakalavriat .grid-container-item .btn{
     padding: 25px 100px;
 }
+.bakalavriat h1 {
+    color: #6a5e72
+}
+
+.bakalavriat .section-content .headline {
+    color: #6a5e72;
+    /*padding: 10px 10px 0;*/
+}
+.bakalavriat .benefit-title {
+    color: #8e6a8e;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.1;
+    padding-top: 20px;
+}
+.bakalavriat .slick-dots li.slick-active button{
+    background: #f1a783;
+}
+
 
 .grid-container {
     background: linear-gradient(45deg, #4a919e, #40b28b);
     border-radius: 15px;
     padding: 40px;
+    margin: 20px 0 ;
 }
 .grid-instruction-row {
     display: flex;

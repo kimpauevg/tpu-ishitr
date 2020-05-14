@@ -6,7 +6,7 @@ section.section-welcome{
  position: static;
 }
 section.section-welcome .background{
- background: url(new_landing/bg-landing.png) no-repeat top right ;
+ background: url(../new_landing/bg-landing.png) no-repeat top right ;
  position: absolute;
  top: 0;
  height: 100%;

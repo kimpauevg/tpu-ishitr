@@ -11,6 +11,7 @@ use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 
 $bakalavriat = $this->params['bakalavriat'] ?? false;
+$action_name = $this->params['action_name'] ?? 'landing';
 
 AppAsset::register($this);
 ?>
@@ -32,7 +33,7 @@ AppAsset::register($this);
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" />
     <link rel="stylesheet" type="text/css" href="/assets/combined/styles.css" />
     <link rel="stylesheet" type="text/css" href="/assets/combined/common.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/combined/<?=$this->params['action_name'] ?? 'landing'?>.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/combined/<?=$action_name . '/' . $action_name?>.css" />
 <!--Вставлено-->
 
     <?php $this->registerCsrfMetaTags() ?>
@@ -131,7 +132,7 @@ AppAsset::register($this);
     </div>
 </footer>
 <script type="text/javascript" src="/assets/combined/scripts.js"></script>
-<script type="text/javascript" src="/assets/combined/<?=$this->params['action_name'] ?? 'landing'?>.js"></script>
+<!--<script type="text/javascript" src="/assets/combined/--><?//=$this->params['action_name'] ?? 'landing'?><!--.js"></script>-->
 
 <script type="text/javascript">
     /*<![CDATA[*/
