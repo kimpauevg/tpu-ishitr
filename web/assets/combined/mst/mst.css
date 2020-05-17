@@ -1,0 +1,15 @@
+.background {
+    background: url(bg-mst.png) no-repeat top right ;
+     background-size: contain;
+    
+}
+section.section-welcome h1 {
+    font-size: 50px;
+}
+
+.partners-style {
+    padding: 10px;
+    width: 100%;
+    object-fit: cover;
+    
+}

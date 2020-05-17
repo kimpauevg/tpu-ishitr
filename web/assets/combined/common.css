@@ -1385,7 +1385,16 @@ section.section-why .container {
      font-size: 20px;
 }
 
-
+.partners {
+    margin-bottom: 100px;
+    
+}
+.partners-style {
+    padding: 10px;
+    width: 100%;
+    object-fit: cover;
+    
+}
 
 .text {
     text-align: center;
@@ -1838,7 +1847,7 @@ section.section-subscribe .section-title {
     vertical-align: middle;
     height: 60px;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
 
 }
 .pill-container{
