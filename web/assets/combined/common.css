@@ -1887,6 +1887,7 @@ section.section-results .section-text {
 }
 .bakalavriat .col-auto1{
     border: 2px solid #cbc0d0;
+    padding-bottom: 15px;
 }
 .bakalavriat .grid-container{
     background: linear-gradient(45deg, #925592, #e98958);
