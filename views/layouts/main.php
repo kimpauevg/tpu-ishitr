@@ -132,8 +132,6 @@ AppAsset::register($this);
     </div>
 </footer>
 <script type="text/javascript" src="/assets/combined/scripts.js"></script>
-<!--<script type="text/javascript" src="/assets/combined/--><?//=$this->params['action_name'] ?? 'landing'?><!--.js"></script>-->
-
 <script type="text/javascript">
     /*<![CDATA[*/
     jQuery(function($) {
