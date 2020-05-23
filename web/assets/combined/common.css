@@ -127,6 +127,16 @@ section.section-programs .section-title {
     border-radius: 0
 }
 
+.bakalavriat .programs-list .program-item{
+    max-width: 375px;
+    min-width: 300px;
+}
+.bakalavriat .programs-list .program-item .program-title{
+    font-size: 22px;
+
+}
+
+
 .programs-list .program-item{
     background-color: #4c9c00
 }
@@ -657,6 +667,7 @@ section.section-programs {
     background-color: #f2f2f2;
     width: 75%;
     min-width: 355px;
+    max-width: 1440px;
     height: auto;
     position: relative;
     align-self: center;
@@ -890,30 +901,20 @@ h1 {
 .benefit-task{
     background-image: url(new_landing/icons8-parallel-task-100.png);
 }
-.statistic-block1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
-    text-align: center;
+.bakalavriat .statistic-block {
     border: #f0ae8d solid 15px;
-    border-radius: 50%
 }
 
-.statistic-block1 .stat-title {
+.bakalavriat .statistic-block .stat-title {
     color: #b16763;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1;
-    margin-bottom: 20px
+}
+.statistic-block.gap-block .stat-title {
+    font-size: 25px;
 }
 
-.statistic-block1 .stat-text {
-    font-size: 14px;
-    line-height: 1.5color: #b16763;
+
+.bakalavriat .statistic-block .stat-text {
+    line-height: 1.5;
     color: #b16763;
 }
 .statistic-block {

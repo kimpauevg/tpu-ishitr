@@ -119,7 +119,7 @@ $this->title = 'Инженерная школа информационных т�
                     </div>
                     <div class="col-auto right-block">
                         <div class="statistic-block">
-                            <div class="stat-title">до 110 000</div>
+                            <div class="stat-title stat-title-gap">до 110 000</div>
                             <div class="stat-text">рублей средняя зарплата <br />  в России <br /> </div>
                         </div>
                     </div>
