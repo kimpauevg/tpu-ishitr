@@ -17,7 +17,7 @@ $this->title = 'Инженерная школа информационных т�
             <div class="container pill-container pb-4 wow fadeInDown" data-wow-delay="300ms">
                 <div class="badge-pill badge-secondary">
                     <div class="pill-text">
-                       Баколавриат
+                       Бакалавриат
                     </div>
                 </div>
                 <div class="badge-pill badge-secondary pill-multirow">
