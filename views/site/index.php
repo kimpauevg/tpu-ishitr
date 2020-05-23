@@ -7,7 +7,7 @@
 
         <div class="pb-5 main-container">
             <div class="main-container--title">
-                Информатика и вычислительная техника
+                Инженерная школа информационных<br/> технологий и робототехники
             </div>
             <div class="main-container--text">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit,

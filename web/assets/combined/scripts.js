@@ -8340,8 +8340,15 @@ $(document).ready(function() {
         let answers = clicked.parents('.nav-container').children('.answers');
         let prev_answer = answers.children('.answer.visible');
         let new_answer = answers.children('[data-index='+id+']');
+        prev_answer.fadeOut(250);
         prev_answer.removeClass('visible');
         new_answer.addClass('visible')
+
+        new_answer.fadeIn(250);
+
+        $([document.documentElement, document.body]).animate({
+            scrollTop: new_answer.offset().top
+        }, 500);
     })
 
     $('.arrow-down').click(function () {

@@ -432,7 +432,7 @@ section.section-programs {
 
 @media (min-width:1200px) {
     section .container {
-        max-width: 1180px
+        max-width: 1440px
     }
 }
 
@@ -2195,6 +2195,11 @@ footer .copyright {
     width: 100%;
     font-size: 15px;
     padding: 15px 28px;
+}
+
+.pb-5 p{
+    background: #ffffff80;
+    border-radius: 5px;
 }
 .contacts-form-field .input[type='text']::placeholder{
     font-size: 15px;

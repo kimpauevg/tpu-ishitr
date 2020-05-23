@@ -1,4 +1,4 @@
-require 'yaml'
+zrequire 'yaml'
 require 'fileutils'
 
 required_plugins = %w( vagrant-hostmanager vagrant-vbguest )

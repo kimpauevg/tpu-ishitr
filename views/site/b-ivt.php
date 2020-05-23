@@ -182,7 +182,7 @@ $this->title = 'Инженерная школа информационных т�
 
 <!--дисциплины-->
 <section class="frequent-questions">
-    <div class="white-holder1">
+    <div class="white-holder">
         <div class="questions-container">
             <div class="headline">
                 Дисциплины бакалаврвской программы
