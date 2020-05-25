@@ -83,6 +83,24 @@ header .header-btn {
         margin-left:25px
     }
 }
+.alert-success {
+    z-index: 5;
+    position: fixed;
+    right: 0;
+    min-width: 360px;
+    display: none;
+}
+
+div.success-modal {
+    z-index: 5;
+    position: fixed;
+    font-size: 50px;
+    width: 90%;
+    height: 60px;
+    display: flex;
+    background: #adff2fee;
+    border-radius: 30px;
+}
 
 section.section-programs {
     padding-top: 80px;

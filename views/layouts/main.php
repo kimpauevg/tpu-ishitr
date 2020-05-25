@@ -78,6 +78,11 @@ AppAsset::register($this);
 
 <?php $this->beginBody() ?>
 
+<div class="alert alert-success alert-dismissible">
+    <button type="button" class="close"><span aria-hidden="true">&times;</span></button>
+    Успех
+</div>
+
 <div class="wrapper <?= $bakalavriat? 'bakalavriat': ''?>">
         <?= Alert::widget() ?>
         <?= $content ?>

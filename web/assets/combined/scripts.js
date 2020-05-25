@@ -8376,6 +8376,12 @@ $(document).ready(function() {
             form,
             function (data) {
                 if (data.success) {
+                    $("button.contacts-button-submit").attr('disabled', 'disabled');
+                    let modal  = $("div.alert-success");
+                    modal.fadeIn(500);
+                    modal.children('button.close').click(function(){
+                        $(this).parent().fadeOut(500);
+                    })
 
                 } else {
                     for (let err_val in data.info) {
