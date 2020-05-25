@@ -1392,15 +1392,30 @@ section.section-why .container {
      font-size: 20px;
 }
 
-.partners {
+section.partners {
     margin-bottom: 100px;
-    
+}
+.partners-container {
+    max-width: 1440px;
+    display: block;
+    align-self: center;
+    margin: 0 auto;
+}
+div.partners{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .partners-style {
     padding: 10px;
-    width: 100%;
     object-fit: cover;
     
+}
+.partners-style > img {
+    max-height: 165px;
+    max-width: inherit;
+    width: auto;
 }
 
 .text {
@@ -2196,7 +2211,7 @@ footer .copyright {
     height: 100%;
     width: 100%;
     font-size: 15px;
-    padding: 15px 28px;
+    padding: 0 28px;
 }
 
 .pb-5 p{
@@ -2228,7 +2243,13 @@ footer .copyright {
     font-weight: bold;
     margin: 46px 0;
 }
-
+label.error {
+    font-size: 15px;
+    color: red;
+}
+input.wrong-data {
+    color: red;
+}
 .img-tick{
     box-sizing: border-box;
     background: url(new_landing/red-mark.jpg) no-repeat;

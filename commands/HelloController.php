@@ -7,6 +7,7 @@
 
 namespace app\commands;
 
+use Yii;
 use yii\console\Controller;
 use yii\console\ExitCode;
 
@@ -45,5 +46,18 @@ class HelloController extends Controller
         echo $message . "\n";
 
         return ExitCode::OK;
+    }
+    public function actionSend(){
+        $send = Yii::$app->mailer->compose()
+            ->setTo('kimpauevg@mail.ru')
+            ->setFrom(['tpuexamplemail@gmail.com' => Yii::$app->params['senderName']])
+            ->setReplyTo(['pek5@tpu.ru' => 'Pekar'])
+            ->setSubject('Test mail')
+            ->setTextBody('Test body');
+        try {
+            $send->send();
+        } catch (\Exception $e) {
+            var_dump($e->getMessage());
+        }
     }
 }

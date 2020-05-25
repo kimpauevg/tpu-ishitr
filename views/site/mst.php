@@ -606,15 +606,15 @@ $this->title = 'Инженерная школа информационных т�
         <div class="headline">
             Стратегические партнеры             
         </div>
-        <div class="container">
-            <div class="row partners">
-                <div class="col-4 partners-style ">
+        <div class="partners-container">
+            <div class="partners">
+                <div class="partners-style">
                 <img src="assets/combined/mst/toronto.jpg" class="" >
                 </div>
-                <div class="partners-style col-4">
+                <div class="partners-style">
                 <img src="assets/combined/mst/skolkovo.jpg" class="" >
                 </div>
-                 <div class="partners-style col-4">
+                 <div class="partners-style">
                 <img src="assets/combined/mst/TSKM.jpg" class="" >
                 </div>
             </div>
@@ -662,26 +662,27 @@ $this->title = 'Инженерная школа информационных т�
                         </button>
                     </div>
                 </div>
-                <div class="contacts-table-form">
+                <form class="contacts-table-form">
                     <div class="contacts-form-field">
-                        <input type="text" class="contacts-form-input" placeholder="Имя">
+                        <input type="text" class="contacts-form-input" name="name" placeholder="Имя">
                     </div>
                     <div class="contacts-form-field">
-                        <input type="text" class="contacts-form-input" placeholder="Фамилия">
+                        <input type="text" class="contacts-form-input" name="surname" placeholder="Фамилия">
 
                     </div>
                     <div class="contacts-form-field">
-                        <input type="text" class="contacts-form-input" placeholder="Телефон">
+                        <input type="tel" class="contacts-form-input" name="phone" placeholder="Телефон">
 
                     </div>
                     <div class="contacts-form-field">
-                        <input type="text" class="contacts-form-input" placeholder="Email">
+                        <input type="text" class="contacts-form-input" name="email" placeholder="Email">
 
                     </div>
-                    <button class="contacts-button-submit">
+                    <input type="hidden" name="<?= Yii::$app->request->csrfParam ?>" value="<?= Yii::$app->request->getCsrfToken() ?>"/>
+                    <button class="contacts-button-submit" type="button">
                         Получить!
                     </button>
-                </div>
+                </form>
 
             </div>
         </div>

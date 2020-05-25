@@ -8359,6 +8359,43 @@ $(document).ready(function() {
             elem = $(this).parent().siblings('.choice-wrap[data-index="1"]');
         }
         elem.click();
+    });
+
+
+    $('button.contacts-button-submit').click(function() {
+        let form = $(this).parents("form");
+        form = form.serializeArray();
+        for (let i in form) {
+            if (form[i].name === 'phone'){
+                form[i].value = form[i].value.replace(/[^0-9]+/g, '');
+
+            }
+        }
+        $.post(
+            "/notify",
+            form,
+            function (data) {
+                if (data.success) {
+
+                } else {
+                    for (let err_val in data.info) {
+                        let err_input = $('input[name='+err_val+']');
+                        err_input.addClass('wrong-data');
+                        err_input.parent().append(
+                            '<label class="error">' +
+                            data.info[err_val][0] +
+                            '</label>'
+                        );
+                        $('input.wrong-data').focus(function() {
+                            $(this).removeClass('wrong-data');
+                            $(this).siblings('label.error').remove();
+                        })
+
+
+                    }
+                }
+            }, 'json')
+
     })
 
 })

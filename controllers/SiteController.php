@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\EmailForm;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -21,8 +22,7 @@ class SiteController extends Controller
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    '*' => ['GET'],
-                    'notify' => ['post'],
+                    'notify' => ['POST'],
                 ],
             ],
         ];
@@ -195,8 +195,21 @@ class SiteController extends Controller
     }
 
     public function actionNotify() {
-        $form = new ContactForm(Yii::$app->request->post());
+        Yii::$app->response->format = Response::FORMAT_JSON;
+        $form = new EmailForm();
+        $form->setAttributes(Yii::$app->request->post(), true);
+        if (!$form->validate()) {
+            return [
+                'success' => false,
+                'info' => $form->getErrors()
+            ];
 
+        }
+        $form->send();
+        return [
+            'success' => true,
+            'info' => []
+        ];
     }
 
 }
