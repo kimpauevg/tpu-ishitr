@@ -58,7 +58,7 @@ $this->title = 'Инженерная школа информационных т�
         <div class="section-content">
             <div class="grid-container">
                 <div class="grid-instruction-row">
-                    <div class="grid-container-item grid-instuction-bold">
+                    <div class="grid-container-item grid-instruction-bold">
                         Получите подробную инструкцию и все материалы для поступления
                     </div>
                     <div class="grid-container-item">
@@ -107,26 +107,66 @@ $this->title = 'Инженерная школа информационных т�
             </div>
         </div>
 </section>
-    <section class="section-why" style="background-color:#ebebeb">
-        <div class="section-content">
-            <div class="container" >
-                <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
-                    <div class="col-auto left-block">
-                        <div class="section-title wow fadeInUp" data-wow-duration="500ms">Выпускник может претендовать на вакансии</div>
-                        <div class="section-text">
-                           в крупных медицинских центрах, территориальных управлениях здравоохранениея,  IT компаниях, занимающихся разработкой информационных систем для нужд медицины, эксплуатирующих и обсуживающих организации, особые экономические Зоны с направлениями в части медицины («Санкт-Петербург», «Томск», «Иннополис»). <br>Партнерами программы выступают организации г.Томска: ООО Медицинские облачные технологии, ООО Центр корпоративной медицины, ООО ТомскАсуПроект, ООО Нео стек технологии, ООО Медицинские информационные технологии, ООО Рубиус групп, Другие города, ООО МедпромИнжиниринг г. Москва, ООО «Microsoft Rus», г. Москва; ООО «SotfLine», г. Москва, г. Новосибирск; ИЦ Сколково и др.
-                        </div>
+<section class="section-why" style="">
+    <div class="section-content">
+        <div class="container" >
+            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
+                <div class="col-auto left-block">
+                    <div class="section-title wow fadeInUp" data-wow-duration="500ms">Выпускник может претендовать на вакансии</div>
+                    <div class="section-text">
+                        в крупных медицинских центрах, территориальных управлениях здравоохранениея,  IT компаниях, занимающихся разработкой информационных систем для нужд медицины, эксплуатирующих и обсуживающих организации, особые экономические Зоны с направлениями в части медицины («Санкт-Петербург», «Томск», «Иннополис»). <br>Партнерами программы выступают организации г.Томска: ООО Медицинские облачные технологии, ООО Центр корпоративной медицины, ООО ТомскАсуПроект, ООО Нео стек технологии, ООО Медицинские информационные технологии, ООО Рубиус групп, Другие города, ООО МедпромИнжиниринг г. Москва, ООО «Microsoft Rus», г. Москва; ООО «SotfLine», г. Москва, г. Новосибирск; ИЦ Сколково и др.
                     </div>
-                    <div class="col-auto right-block">
-                        <div class="statistic-block">
-                            <div class="stat-title stat-title-gap">до 110 000</div>
-                            <div class="stat-text">рублей средняя зарплата <br />  в России <br /> </div>
-                        </div>
+                </div>
+                <div class="col-auto right-block">
+                    <div class="statistic-block">
+                        <div class="stat-title stat-title-gap">до 110 000</div>
+                        <div class="stat-text">рублей средняя зарплата <br />  в России <br /> </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+<section class="section-why section-vacancy">
+    <div class="section-content">
+        <div class="container">
+            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
+                <div class="col-auto left-block">
+                    <div class="section-title wow fadeInUp" data-wow-duration="500ms">Выпускник может претендовать на вакансии </div>
+                    <div class="section-text">
+                        <div class="li_style">в крупных медицинских центрах</div>
+                        <div class="li_style">территориальных управлениях здравоохранения</div>
+                        <div class="li_style">IT-компаниях, занимающихся разработкой информационных систем для нужд медицины</div>
+                        <div class="li_style">IT-компаниях, обсуживающих организации и особые экономические Зоны с направлениями в сфере медицины («Санкт-Петербург», «Томск», «Иннополис»)</div>
+                    </div>
+                </div>
+                <div class="col-auto left-block">
+                    <div class="section-title wow fadeInUp" data-wow-duration="500ms">
+                        Организации-партнеры программы
+                    </div>
+                    <div class="section-text">
+                        <div class="li_style">
+                            в г. Томск: ООО «Медицинские облачные технологии», ООО «Центр корпоративной медицины», ООО «ТомскАСУПроект», ООО «Нео стек технологии», ООО «Медицинские информационные технологии», ООО «Рубиус Групп»
+                        </div>
+                        <div class="li_style">
+                            в г. Москва: ООО «МедПромИнжиниринг», ООО «Microsoft Rus»,ООО «SoftLine», ИЦ «Сколково»и др.
+                        </div>
+                        <div class="li_style">
+                            в г.Новосибирск: ООО «SoftLine» и др.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto right-block">
+                    <div class="statistic-block">
+                        <div class="stat-title">≈ 80 000</div>
+                        <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="frequent-questions">
     <div class="white-holder">
@@ -331,7 +371,7 @@ $this->title = 'Инженерная школа информационных т�
             <div class="container">
                 <div class="grid-container">
                     <div class="grid-instruction-row">
-                        <div class="grid-container-item grid-instuction-bold">
+                        <div class="grid-container-item grid-instruction-bold">
                             Получите подробную инструкцию и все материалы для поступления
                         </div>
                         <div class="grid-container-item">
@@ -363,13 +403,9 @@ $this->title = 'Инженерная школа информационных т�
             <div class="left-right-content">
                 <div class="item">
                     <div class="photo">
-
                         <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
-
-
                     </div>
                     <div class="info">
-
                         <div class="info-name">
                              Гергет О.М. 
                         </div>
@@ -380,10 +416,7 @@ $this->title = 'Инженерная школа информационных т�
                 </div>
                 <div class="item">
                     <div class="photo">
-
                         <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
-
-
                     </div>
                     <div class="info">
 
@@ -400,7 +433,6 @@ $this->title = 'Инженерная школа информационных т�
                         <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
                     </div>
                     <div class="info">
-                        
                         <div class="info-name"> Савельев В.В.
                         </div>
                         <div class="info-text">
@@ -408,15 +440,11 @@ $this->title = 'Инженерная школа информационных т�
                         </div>
                     </div>
                 </div>
-                     <div class="item">
+                <div class="item">
                     <div class="photo">
-
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
-
-
+                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item">
                     </div>
                     <div class="info">
-
                         <div class="info-name">
                            Светлик М.В.
                         </div>
@@ -427,10 +455,9 @@ $this->title = 'Инженерная школа информационных т�
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item">
                     </div>
                     <div class="info">
-                        
                         <div class="info-name"> 
                             Желева О.В.
                         </div>
@@ -439,14 +466,10 @@ $this->title = 'Инженерная школа информационных т�
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
         <div class="dots">
-
         </div>
-
     </div>
 </section>
 
@@ -557,13 +580,9 @@ $this->title = 'Инженерная школа информационных т�
             <div class="left-right-content">
                 <div class="item">
                     <div class="photo">
-
                         <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
-
-
                     </div>
                     <div class="info">
-
                         <div class="info-name">
                             Кирилл Иванов
                         </div>
@@ -575,13 +594,9 @@ $this->title = 'Инженерная школа информационных т�
                 </div>
                 <div class="item">
                     <div class="photo">
-
                         <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
-
-
                     </div>
                     <div class="info">
-
                         <div class="info-name">
                             Другой Иванов
                         </div>
@@ -591,7 +606,6 @@ $this->title = 'Инженерная школа информационных т�
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="dots">

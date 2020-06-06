@@ -30,7 +30,7 @@ $this->title = 'Инженерная школа информационных т�
         </div>        
         <div class="container">
             <div class="row flex-column flex-sm-row">
-                <div class=" col-4">
+                <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
                     <div class=" course-item wow fadeInUp " data-wow-delay="100ms" data-wow-duration="400ms">
                         
@@ -39,7 +39,7 @@ $this->title = 'Инженерная школа информационных т�
                     </div>
                     </div>
                 </div>
-                <div class=" col-4">
+                <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
                     <div class="course-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
                         
@@ -48,7 +48,7 @@ $this->title = 'Инженерная школа информационных т�
                         </div>
                     </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12 course-item-holder">
                          <div class="col-auto1">
                         <div class="course-item wow fadeInUp " data-wow-delay="300ms" data-wow-duration="400ms">
                            
@@ -59,18 +59,19 @@ $this->title = 'Инженерная школа информационных т�
                     </div>
                 </div>
 
-            <div class="row flex-column flex-sm-row">
-                <div class="course-item wow fadeInUp col-4" data-wow-delay="300ms" data-wow-duration="400ms">
+            <div class="row flex-column flex-sm-row ">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
                     <div class="course-item-benefit">
-                        <div class="img-tick"></div> Общежитие
+                        <div class="img-tick"></div>
+                        <div>Общежитие</div>
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-4" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
                     <div class="course-item-benefit">
                         <div class="img-tick"></div> Военная кафедра
                     </div>                
                 </div>
-                <div class="course-item wow fadeInUp col-4" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>  Электронное обучение
                     </div>
@@ -85,7 +86,7 @@ $this->title = 'Инженерная школа информационных т�
         <div class="container">
             <div class="grid-container">
                 <div class="grid-instruction-row">
-                    <div class="grid-container-item grid-instuction-bold">
+                    <div class="grid-container-item grid-instruction-bold">
                         Вы можете подать заявление на обучение у нас уже сейчас
                     </div>
                     <div class="grid-container-item">
@@ -125,47 +126,29 @@ $this->title = 'Инженерная школа информационных т�
                     <div class=" col-sm-4" data-wow-duration="500ms">
                         <div class="row">
                             <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-9">Цель программы</div>
+                            <div class="benefit-title col-8">Цель программы</div>
                         </div>
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
                     </div>
                     <div class=" col-sm-4" data-wow-duration="500ms">
                         <div class="row">
                             <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-9">Формат обучения</div>
+                            <div class="benefit-title col-8">Формат обучения</div>
                         </div>
                         <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
                     </div>
                     <div class=" col-sm-4" data-wow-duration="500ms"> 
                         <div class="row">
                             <div class="benefit-item benefit-task col-3" >  </div>
-                            <div class="benefit-title col-9">Диплом </div>
+                            <div class="benefit-title col-8">Диплом </div>
                         </div>
                         <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
-                        <div class="row">
-                            <div class="benefit-item benefit-target col-3"></div>
-                            <div class="benefit-title col-9">Цель программы</div>
-                        </div>
-                        <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-                    </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
-                        <div class="row">
-                            <div class="benefit-item benefit-suitcase col-3"> </div>
-                            <div class="benefit-title col-9">Формат обучения</div>
-                        </div>
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-                    </div>
-                    <div class="col-2"></div>
-                   
-                </div>
+
             </div>
         </div>
-    </div>    
+    </div>
 </section>      
 
 <!--баллы егэ-->
@@ -207,7 +190,6 @@ $this->title = 'Инженерная школа информационных т�
             </div>
         </div>
     </section>
-
 <!--дисциплины-->
 <section class="frequent-questions">
     <div class="white-holder">
@@ -215,82 +197,200 @@ $this->title = 'Инженерная школа информационных т�
             <div class="headline">
                 Дисциплины бакалаврвской программы
             </div>
-
             <div class="nav-container">
-                <div class="gradient-navbar navbar-bakalavriat navbar-left">
-                    <div class="choices">
-                        <button class="choice-wrap chosen" data-index="1">
+                <div class="navbar-bakalavriat gradient-navbar-table">
+                    <div class="choice-row">
+                        <div class="choice-wrap">
                             <div class="choice">
-                                Есть ли что-то
+                                Информатика
                             </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="2">
+                        </div>
+                        <div class="choice-wrap-after after-invisible"></div>
+
+                        <div class="choice-wrap">
                             <div class="choice">
-                                Есть ли что-то 2
+                                Программирование
                             </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <button class="choice-wrap" data-index="3">
+                        </div>
+                    </div>
+                    <div class="choice-wrap-after"></div>
+                    <div class="choice-row">
+                        <div class="choice-wrap">
                             <div class="choice">
-                                Есть ли что-то 3
+                                Технологии программирования
                             </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <button class="choice-wrap" data-index="4">
+                        </div>
+                        <div class="choice-wrap-after after-invisible"></div>
+                        <div class="choice-wrap">
                             <div class="choice">
-                                Есть ли что-то 4
+                                Программирование мобильных устройств
                             </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <div class="arrow-holder">
-                            <div class="arrow-down">
-
+                        </div>
+                    </div>
+                    <div class="choice-wrap-after"></div>
+                    <div class="choice-row">
+                        <div class="choice-wrap">
+                            <div class="choice">
+                                Базы данных
                             </div>
-
+                        </div>
+                        <div class="choice-wrap-after after-invisible"></div>
+                        <div class="choice-wrap">
+                            <div class="choice">
+                                Web- программирование
+                            </div>
+                        </div>
+                    </div>
+                <div class="choice-wrap-after"></div>
+                <div class="choice-row">
+                    <div class="choice-wrap">
+                        <div class="choice">
+                            Организация ЭВМ
+                        </div>
+                    </div>
+                    <div class="choice-wrap-after after-invisible"></div>
+                    <div class="choice-wrap">
+                        <div class="choice">
+                            Сети и телекоммуникации
                         </div>
                     </div>
                 </div>
-
-                <div class="answers">
-                    <div class="answer visible" data-index="1">
-                        Ответ
+                <div class="choice-wrap-after"></div>
+                <div class="choice-row">
+                    <div class="choice-wrap">
+                        <div class="choice">
+                            Операционные системы
+                        </div>
                     </div>
-                    <div class="answer" data-index="2">
-                        Ответ 2
+                    <div class="choice-wrap-after after-invisible"></div>
+                    <div class="choice-wrap">
+                        <div class="choice">
+                            Защита информации
+                        </div>
                     </div>
-                    <div class="answer" data-index="3">
-                        Ответ 3
-                    </div>
-                    <div class="answer" data-index="4">
-                        Ответ 4
-                    </div>
-
                 </div>
+                <div class="choice-wrap-after"></div>
+                <div class="choice-row">
+                    <div class="choice-wrap">
+                        <div class="choice">
+                            Микропроцессорные системы
+                        </div>
+                    </div>
+                    <div class="choice-wrap-after after-invisible"></div>
+                    <div class="choice-wrap">
+                        <div class="choice">
+                            Мультимедиа и компьютерная графика
+                        </div>
+                    </div>
+                </div>
+                <div class="choice-wrap-after"></div>
+                <div class="choice-row">
+                    <div class="choice-wrap">
+                        <div class="choice">
+                            Администрирование вычислительных сетей
+                        </div>
+                    </div>
+                    <div class="choice-wrap-after after-invisible"></div>
+                    <div class="choice-wrap">
+                        <div class="choice">
+                            Программирование искусственного интеллекта
+                        </div>
+                    </div>
+                </div>
+                <div class="choice-wrap-after"></div>
 
             </div>
+            </div>
+<!--            <div class="nav-container">-->
+<!--                <div class="gradient-navbar navbar-bakalavriat navbar-left">-->
+<!--                    <div class="choices">-->
+<!--                        <button class="choice-wrap chosen" data-index="1">-->
+<!--                            <div class="choice">-->
+<!--                                Есть ли что-то-->
+<!--                            </div>-->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!--                        <button class="choice-wrap" data-index="2">-->
+<!--                            <div class="choice">-->
+<!--                                Есть ли что-то 2-->
+<!--                            </div>-->
+<!---->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!---->
+<!--                        <button class="choice-wrap" data-index="3">-->
+<!--                            <div class="choice">-->
+<!--                                Есть ли что-то 3-->
+<!--                            </div>-->
+<!---->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!---->
+<!--                        <button class="choice-wrap" data-index="4">-->
+<!--                            <div class="choice">-->
+<!--                                Есть ли что-то 4-->
+<!--                            </div>-->
+<!---->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!--                        <div class="arrow-holder">-->
+<!--                            <div class="arrow-down">-->
+<!---->
+<!--                            </div>-->
+<!---->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="answers">-->
+<!--                    <div class="answer visible" data-index="1">-->
+<!--                        Ответ-->
+<!--                    </div>-->
+<!--                    <div class="answer" data-index="2">-->
+<!--                        Ответ 2-->
+<!--                    </div>-->
+<!--                    <div class="answer" data-index="3">-->
+<!--                        Ответ 3-->
+<!--                    </div>-->
+<!--                    <div class="answer" data-index="4">-->
+<!--                        Ответ 4-->
+<!--                    </div>-->
+<!---->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
 
         </div>
     </div>
 </section>
 <!--вакансии-->
-<section class="section-why" style="background-color:#f5f5f5">
+<section class="section-why section-vacancy">
     <div class="section-content">
-        <div class="container" >
+        <div class="container">
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Выпускник может претендовать на вакансии </div>
+                    <div class="section-title wow fadeInUp" data-wow-duration="500ms">Выпускник может претендовать на вакансии </div>
                     <div class="section-text">
-                        Центробанк (г. Москва), ОАО «Томскнефть» ВНК, ООО «Томская электронная компания», ОАО «Востокгазпром», Институт оптики атмосферы СО РАН, ТНЦ СО РАН, ОАО «ТомскНИПИнефть ВНК», Томсктрансгаз, ОАО Томское пиво, ЗАО «ЭлеСи» (г. Томск), группа компаний «ИНКОМ» (г. Томск), Dillinger Stahlbau, Siemens (Германия), Samsung Electronics (Ю. Корея), BMW England, Hughes Corp International, A&AT и др.<br>
-
-                        Возможные должности:
-                        Программист, системный архитектор, аналитик и системный администратор, администратор баз данных, специалист по информационным системам и ресурсам, менеджер по продажам решений и сложных технических систем, менеджер информационных технологий.
-
+                        <div class="li_style">в крупных медицинских центрах</div>
+                        <div class="li_style">территориальных управлениях здравоохранения</div>
+                        <div class="li_style">IT-компаниях, занимающихся разработкой информационных систем для нужд медицины</div>
+                        <div class="li_style">IT-компаниях, обсуживающих организации и особые экономические Зоны с направлениями в сфере медицины («Санкт-Петербург», «Томск», «Иннополис»)</div>
+                    </div>
+                </div>
+                <div class="col-auto left-block">
+                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">
+                        Организации-партнеры программы
+                    </div>
+                    <div class="section-text">
+                        <div class="li_style">
+                            в г. Томск: ООО «Медицинские облачные технологии», ООО «Центр корпоративной медицины», ООО «ТомскАСУПроект», ООО «Нео стек технологии», ООО «Медицинские информационные технологии», ООО «Рубиус Групп»
+                        </div>
+                        <div class="li_style">
+                            в г. Москва: ООО «МедПромИнжиниринг», ООО «Microsoft Rus»,ООО «SoftLine», ИЦ «Сколково»и др.
+                        </div>
+                        <div class="li_style">
+                            в г.Новосибирск: ООО «SoftLine» и др.
+                        </div>
                     </div>
                 </div>
                 <div class="col-auto right-block">
@@ -303,27 +403,28 @@ $this->title = 'Инженерная школа информационных т�
         </div>
     </div>
 </section>
+
 <!--TODO remove -->
-<section class="section-why" style="background-color:#f5f5f5">
-    <div class="section-content">
-        <div class="container" >
-            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
-                <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Пример с промежутком </div>
-                    <div class="section-text">
-                        Это потом нужно удалить
-                    </div>
-                </div>
-                <div class="col-auto right-block">
-                    <div class="statistic-block gap-block">
-                        <div class="stat-title">≈ 80 - 90 000</div>
-                        <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!--<section class="section-why" style="background-color:#f5f5f5">-->
+<!--    <div class="section-content">-->
+<!--        <div class="container" >-->
+<!--            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">-->
+<!--                <div class="col-auto left-block">-->
+<!--                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Пример с промежутком </div>-->
+<!--                    <div class="section-text">-->
+<!--                        Это потом нужно удалить-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-auto right-block">-->
+<!--                    <div class="statistic-block gap-block">-->
+<!--                        <div class="stat-title">≈ 80 - 90 000</div>-->
+<!--                        <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 
 <!--преподаватели-->
@@ -413,7 +514,7 @@ $this->title = 'Инженерная школа информационных т�
 </section>
 <!--темы работ-->
 <section class="qualification-topics">
-   <div class="white-holder1">
+   <div class="white-holder">
        <div class="headline">
            Темы выпускных<br> квалификационных работ
        </div>
@@ -474,7 +575,7 @@ $this->title = 'Инженерная школа информационных т�
         <div class="container">
             <div class="grid-container">
                 <div class="grid-instruction-row">
-                    <div class="grid-container-item grid-instuction-bold">
+                    <div class="grid-container-item grid-instruction-bold">
                         Вы можете подать заявление на обучение у нас уже сейчас
                     </div>
                     <div class="grid-container-item">
@@ -514,57 +615,41 @@ $this->title = 'Инженерная школа информационных т�
                 <div class="programs-list row">
                     <a href="/buh" class="program-item">
                         <div class="program-subject">
-                            09.03.02
+                            15.03.04
                         </div>
-                        <div class="program-title">Информационные системы и технологии</div>
+                        <div class="program-title">Автоматизация технологических процессов и производств</div>
                         <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places"></div>
-                                <div class="program-text">11 мест</div>
-                            </div>                            
-                        </div>
+<!--                        <div class="program-row">-->
+<!--                            <div class="program-cond">-->
+<!--                                <div class="program-icon places"></div>-->
+<!--                                <div class="program-text">11 мест</div>-->
+<!--                            </div>                            -->
+<!--                        </div>-->
                     </a>
                     <a href="/buh" class="program-item">
                         <div class="program-subject">
-                            09.03.02
+                            54.03.01
                         </div>
-                        <div class="program-title">Информационные системы и технологии</div>
-                        <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places"></div>
-                                <div class="program-text">11 мест</div>
-                            </div>
-                        </div>
+                        <div class="program-title">Дизайн</div>
                     </a>
+<!--                    <a href="/buh" class="program-item">-->
+<!--                        <div class="program-subject">-->
+<!--                            09.03.01-->
+<!--                        </div>-->
+<!--                        <div class="program-title">Информатика и вычислительная техника</div>-->
+<!--                    </a>-->
                     <a href="/buh" class="program-item">
                         <div class="program-subject">
-                            09.03.02
+                            15.03.06
                         </div>
-                        <div class="program-title">Информационные системы и технологии</div>
-                        <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places">
-                                </div>
-                                <div class="program-text">11 мест</div>
-                            </div> 
-                        </div>
+                        <div class="program-title">Мехатроника и робототехника</div>
                     </a>
+
                     <a href="/buh" class="program-item">
                         <div class="program-subject">
-                            09.03.02
+                            09.03.04
                         </div>
-                        <div class="program-title">Информационные системы и технологии</div>
-                        <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places">
-                                </div>
-                                <div class="program-text">11 мест</div>
-                            </div>                           
-                        </div>
+                        <div class="program-title">Программная инженерия</div>
                     </a>
                 </div>
             </div>   

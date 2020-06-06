@@ -58,7 +58,7 @@ $this->title = 'Инженерная школа информационных т�
         <div class="section-content">
             <div class="grid-container">
                 <div class="grid-instruction-row">
-                    <div class="grid-container-item grid-instuction-bold">
+                    <div class="grid-container-item grid-instruction-bold">
                         Получите подробную инструкцию и все материалы для поступления
                     </div>
                     <div class="grid-container-item">
@@ -306,7 +306,7 @@ $this->title = 'Инженерная школа информационных т�
             <div class="container">
                 <div class="grid-container">
                     <div class="grid-instruction-row">
-                        <div class="grid-container-item grid-instuction-bold">
+                        <div class="grid-container-item grid-instruction-bold">
                             Получите подробную инструкцию и все материалы для поступления
                         </div>
                         <div class="grid-container-item">

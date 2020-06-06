@@ -8321,8 +8321,11 @@ $(document).ready(function() {
                 appendDots: review.parent().siblings(".dots")
             }
         )
-        let track = review.children('.slick-list').children('.slick-track');
-        track.height($('.left-right-container').height())
+        if (window.screen.width > 1000) {
+            let track = review.children('.slick-list').children('.slick-track');
+            track.height($('.left-right-container').height())
+
+        }
 
     })
 
@@ -8331,7 +8334,6 @@ $(document).ready(function() {
         let clicked = $(this);
         let previous = $(this).siblings('.choice-wrap.chosen');
         if (!previous.exists()) {
-            console.log('already clicked');
             return false;
         }
         previous.removeClass('chosen');

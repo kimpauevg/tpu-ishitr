@@ -139,18 +139,22 @@ section.section-programs .section-title {
 .programs-list .program-item {
     display: block;
     max-width: 580px;
-    min-width: 375px;
+    min-width: 320px;
 
     margin: 23px auto;
-    border-radius: 0
+    border-radius: 20px;
 }
 
 .bakalavriat .programs-list .program-item{
     max-width: 375px;
     min-width: 300px;
+    height: 250px;
 }
 .bakalavriat .programs-list .program-item .program-title{
     font-size: 22px;
+    text-transform: none;
+    padding-top: 25px;
+    align-items: initial;
 
 }
 
@@ -206,6 +210,10 @@ section.section-programs .section-title {
     .programs-list .program-item--mened .program-title {
         font-size: 16px!important
     }
+    section .left-right-container{
+        width: 100%;
+        border-radius: 0;
+    }
 }
 
 @media (min-width:576px) {
@@ -239,6 +247,10 @@ section.section-programs .section-title {
     .programs-list .program-item--buh .program-title {
         font-size: 25px
     }
+    section.section-welcome .container:nth-child(2){
+        max-width: 1000px;
+    }
+
 }
 
 @media (min-width:1200px) {
@@ -280,7 +292,7 @@ section.section-programs .section-title {
 .master-programs-list .program-item {
     position: relative;
     display: block;
-    width: 375px;
+    width: 360px;
     height: 225px;
     margin-bottom: 25px;
     padding: 30px 50px 25px 35px;
@@ -523,7 +535,7 @@ section.section-programs {
     background: white;
     color: #456c7a;
 }
-.white-holder1 .headline {
+.bakalavriat .white-holder .headline {
     color: #6a5e72;
 }
 
@@ -541,7 +553,7 @@ section.section-programs {
     max-width: 1440px;
     width: 75%;
     min-height: 520px;
-    min-width: 375px;
+    min-width: 320px;
 
     background: white;
     border-radius: 40px;
@@ -549,7 +561,7 @@ section.section-programs {
     position: relative;
 }
 .left-right-container .arrow-right{
-    background-image: url(new_landing/icons8-double-arrow-right-100.png);
+    background: url(new_landing/icons8-double-arrow-right-100.png), #ffffff;
     position: absolute;
     top: 50%;
     right: 40px;
@@ -558,10 +570,10 @@ section.section-programs {
     max-width: 35px;
     max-height: 35px;
     z-index: 5;
-
+    border-radius: 10px;
 }
 .left-right-container .arrow-left{
-    background-image: url(new_landing/icons8-double-arrow-left100.png);
+    background: url(new_landing/icons8-double-arrow-left100.png), #ffffff;
     position: absolute;
     top: 50%;
     left: 40px;
@@ -570,6 +582,7 @@ section.section-programs {
     max-width: 35px;
     max-height: 35px;
     z-index: 5;
+    border-radius: 10px;
 }
 
 .left-right-container .left-right-content{
@@ -581,11 +594,11 @@ section.section-programs {
     width: 100%;
     height: 100%;
     float: left;
-    padding: 30px 100px;
+    padding: 50px 100px;
 }
 .left-right-content .item .photo {
     max-width: 50%;
-    max-height: 100%;
+    max-height: 500px;
     position: relative;
     top: 50%;
     padding: 17px;
@@ -593,33 +606,39 @@ section.section-programs {
 
 }
 .left-right-content .item .photo .photo-item{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 500px;
     vertical-align: middle;
     object-fit: contain;
-    display: block;
+    margin: auto;
 
+}
+.bakalavriat section.section-why{
+    background-color:#f5f5f5
+}
+.bakalavriat section.section-why .section-title{
+    color:#b87571;
 }
 
 
 .left-right-content .item .info{
     width: 50%;
+    margin: auto 0 auto auto;
     position: absolute;
-    padding-left: 17px;
-    padding-right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
     right: 0;
-    top:0;
-    bottom: 0;
 }
 .left-right-content .item .info .info-name{
-    padding-top: 100px;
     font-size: 25px;
     font-weight: bold;
+    width: 75%;
+
 }
 .left-right-content .item .info .info-text{
     padding-top: 60px;
     font-size: 18px;
-    width: 100%;
+    width: 75%;
 
 }
 .left-right-content .slick-list{
@@ -667,7 +686,6 @@ section.section-programs {
     align-items: center;
 }
 .qualification-list{
-    max-width: 950px;
     display: table-row;
     justify-items: center;
 }
@@ -675,11 +693,11 @@ section.section-programs {
 
 
 
-.gradient-navbar{
+.gradient-navbar, .gradient-navbar-table{
     background-image: url(main/i/green-gradient.jpg);
 }
-.gradient-navbar.navbar-bakalavriat{
-    background-image: url(main/i/red-gradient.jpg);
+.gradient-navbar.navbar-bakalavriat, .bakalavriat .gradient-navbar-table{
+    background: linear-gradient(90deg, #792e7b 0%,#8a386f 25%,#b7514f 50%, #e68659 100%);
 }
 .nav-container{
     background-color: #f2f2f2;
@@ -744,6 +762,10 @@ section.section-programs {
     background: linear-gradient(90deg, #f4e5b1 0%, #fdeaab 100%);
     color: black;
 }
+.gradient-navbar-table .choice-wrap:hover{
+    background: initial;
+    color: white;
+}
 
 .navbar-right .choice-wrap.chosen:first-child{
     border-top-right-radius: inherit;
@@ -768,8 +790,8 @@ section.section-programs {
     position: absolute;
     left: 0;
 }
-.gradient-navbar.navbar-bakalavriat .choices div.choice-wrap-after{
-    background: linear-gradient(90deg, #915493 0%, #e88958 100%);
+.bakalavriat div.choice-wrap-after{
+    background: linear-gradient(45deg, #925592, #e98958);
 }
 .nav-container .answers{
     width: 50%;
@@ -781,6 +803,17 @@ section.section-programs {
     display: block;
     padding: 30px;
 
+}
+.arrow-round{
+    background: #ffffff30;
+    width: 35px;
+    height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    z-index: 5;
+}
+.after-invisible{
+    display: none;
 }
 .arrow-holder{
     display: flex;
@@ -805,7 +838,38 @@ section.section-programs {
     font-size: 17px;
 }
 
+.gradient-navbar-table {
+    display: table;
+    width: 100%;
+    border-radius: inherit;
+    padding: 50px 0;
+}
+.choice-row{
+    display: table-row;
+}
+.gradient-navbar-table .choice-wrap-after {
+    width: 200%;
+    display: block;
+    height: 3px;
+}
+.choice-row > .choice-wrap {
+    display: table-cell;
+    max-width: 50%;
+    min-width: 50%;
+    width: 50%;
+}
 
+.gradient-navbar-table > .choice-row > .choice-wrap{
+    cursor: unset;
+}
+
+.section-vacancy .li_style{
+    padding: 0 40px;
+}
+
+section.section-why.section-vacancy .section-title{
+    font-size: 28px;
+}
 
 @media (max-width: 1000px) {
     .nav-container{
@@ -814,6 +878,11 @@ section.section-programs {
     .nav-reverse{
         flex-direction: column-reverse;
     }
+    .course-item-holder > div {
+        align-items: center;
+        margin: 10px auto;
+    }
+
     .gradient-navbar.navbar-right, .gradient-navbar.navbar-left, .nav-container .answers{
         width: 100%;
         height: 50%;
@@ -827,6 +896,21 @@ section.section-programs {
     .choice-wrap{
         padding: 30px 0;
     }
+    .gradient-navbar-table > .choice-row > .choice-wrap{
+        text-align: center;
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+    .gradient-navbar-table .choice-wrap-after {
+        width: 100%;
+    }
+    .after-invisible{
+        display: block;
+    }
+    .gradient-navbar-table .choice-row{
+        display: block;
+    }
     .gradient-navbar .choices div.choice{
         text-align: center;
     }
@@ -838,6 +922,17 @@ section.section-programs {
     }
 }
 @media (max-width: 500px) {
+
+    section.section-why.section-vacancy .section-title{
+        font-size: 24px;
+    }
+
+    .left-right-container .arrow-left{
+        left: 10px;
+    }
+    .left-right-container .arrow-right{
+        right: 10px;
+    }
 
 }
 
@@ -880,19 +975,21 @@ h1 {
     border-color: #fff5b4
 }
 .benefit-item {
-    width: 100%;
+    min-width: 70px;
+    min-height: 62px;
     padding-bottom: 60px;
     background: transparent no-repeat;
    
 
 }
 
-.benefit-title {
+.row .row > .benefit-title {
     color: #4d94a1;
     font-size: 22px;
     font-weight: 700;
     line-height: 1.1;
     padding-top: 20px;
+    padding-left: 10px; !important;
 
 }
 
@@ -1197,12 +1294,14 @@ section.section-welcome p {
 section.section-welcome .course-item {
     width: 100%;
     padding: 10px 25px 10px;
-    color:#7d7d7d
+    color:#7d7d7d;
 
 }
 .course-item-benefit{
     display: flex;
     align-content: center;
+    max-width: 400px;
+
 }
 section.section-welcome .course-item__label {
     color: #464646b4;
@@ -1355,12 +1454,13 @@ section.section-benefits .container {
 @media (min-width:992px) {
     section.section-benefits {
         padding-top: 100px;
-        padding-bottom: 60px
+        padding-bottom: 160px
     }
 }
 
 section.section-why {
-    padding-bottom: 60px
+    padding-bottom: 60px;
+    background-color:#ebebeb;
 }
 
 section.section-why .section-title {
@@ -1383,7 +1483,7 @@ section.section-why .left-block {
 
 section.section-why .right-block {
     margin-top: 50px;
-    align-self: center
+    align-self: center;
 }
 
 section.section-why .container {
@@ -1475,7 +1575,9 @@ div.partners{
     border:none!important;
     border-radius:5px;
     height:1px;
+    margin-top: 90px;
 }
+
 
 @media (min-width:576px) {
     section.section-why .container {
@@ -1488,9 +1590,11 @@ div.partners{
         margin: 10px auto;
     }
 
+
 }
 @media (min-width:992px) {
     section.section-why {
+        padding-top: 100px;
         padding-bottom: 60px;
     }
     section.section-why .left-block {
@@ -1501,16 +1605,22 @@ div.partners{
         margin-right: 50px
     }
 }
-
+@media (min-width: 1300px) {
+    section.section-why.section-vacancy .left-block {
+        max-width: 450px
+    }
+}
 @media (min-width:1200px) {
     section.section-why .left-block {
         max-width: 750px
     }
+
     section.section-why .right-block {
         margin-right: 100px
     }
-}
 
+
+}
 section.section-results {
     padding-bottom: 100px
 }
@@ -1543,6 +1653,10 @@ section.section-results .section-text {
 @media (min-width:992px) {
     section.section-results {
         padding-bottom: 150px
+    }
+    section.section-vacancy .left-block {
+        max-width: 90%;
+        min-width: 360px;
     }
 }
 
@@ -1910,14 +2024,17 @@ section.section-results .section-text {
     background-color: #f2f2f2;
 }
 
+
 .col-auto1 {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     border: 2px solid #4d94a1;
     border-radius: 15px;
     padding: 15px;
-    margin: 10px 10px 10px;
+    margin: 10px;
     background: #ffffff80;
+    max-width: 400px;
+    height: 113px;
 }
 .bakalavriat .col-auto1{
     border: 2px solid #cbc0d0;
@@ -1937,12 +2054,8 @@ section.section-results .section-text {
     color: #6a5e72;
     /*padding: 10px 10px 0;*/
 }
-.bakalavriat .benefit-title {
+.bakalavriat .row .row > .benefit-title {
     color: #8e6a8e;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 1.1;
-    padding-top: 20px;
 }
 .bakalavriat .slick-dots li.slick-active button{
     background: #f1a783;
@@ -1959,8 +2072,8 @@ section.section-results .section-text {
     display: flex;
     justify-content: space-between;
 }
-.grid-container-item.grid-instuction-bold{
-    font-size: 24px;
+.grid-container-item.grid-instruction-bold{
+    font-size: 28px;
     font-weight: bold;
 }
 .grid-container-item{
@@ -1982,6 +2095,13 @@ section.section-results .section-text {
         max-width: 100%;
         margin: 10px;
     }
+    .headline {
+        padding: 70px 0;
+    }
+    section.section-why.section-vacancy .right-block {
+        margin: 50px auto auto auto;
+    }
+
 }
 @media (max-width: 500px){
     .grid-container-item {
@@ -1991,6 +2111,11 @@ section.section-results .section-text {
         padding: 25px 0;
         width: 100%;
     }
+    .headline {
+        font-size: 28px;
+        padding: 30px 0;
+    }
+
 }
 
 .grid-container1 {
@@ -2300,14 +2425,18 @@ input.wrong-data {
         right: 0;
     }
     .left-right-content .item .info{
-
         position: relative;
         width: 100%;
-        padding: auto;
+        padding-top: 30px;
+        transform: unset;
     }
     .left-right-content .item .info .info-name{
-        padding-top: unset;
         text-align: center;
+        width: 100%;
+    }
+    .left-right-content .item .info .info-text{
+        text-align: center;
+        width: 100%;
     }
 
 
@@ -2342,7 +2471,7 @@ input.wrong-data {
         align-self: center;
     }
     .left-right-content .item{
-        padding: 30px 1%;
+        padding: 0;
     }
     .green-gradient-holder{
         padding: 60px 10px;
