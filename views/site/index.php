@@ -132,7 +132,7 @@
     <div class="white-holder">
         <div class="questions-container">
             <div class="headline">
-                Отделение ведет подготовку по следующим направлениям:
+                Инженерная школа ведет подготовку по следующим направлениям:
             </div>
             <div class="rows-wrapper">
                 <div class="long-row bachelors">

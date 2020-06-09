@@ -145,7 +145,24 @@ $this->title = 'Инженерная школа информационных т�
                         <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
                     </div>
                 </div>
-
+                <div class="row">
+                    <div class="col-2"></div>
+                      <div class=" col-sm-4" data-wow-duration="500ms">
+                        <div class="row">
+                            <div class="benefit-item benefit-graph col-3"></div>
+                            <div class="benefit-title col-8">Цель программы</div>
+                        </div>
+                        <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
+                    </div>
+                    <div class=" col-sm-4" data-wow-duration="500ms">
+                        <div class="row">
+                            <div class="benefit-item benefit-programming col-3"> </div>
+                            <div class="benefit-title col-8">Формат обучения</div>
+                        </div>
+                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
             </div>
         </div>
     </div>

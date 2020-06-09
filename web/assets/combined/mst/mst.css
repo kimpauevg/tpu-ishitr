@@ -6,4 +6,15 @@
 section.section-welcome h1 {
     font-size: 50px;
 }
+section.section-why.section-vacancy.li_style::before {
+    padding-bottom: 10px;
+      list-style: none; /* Скрываем маркеры списка */
+    text-indent: -1em; /* Сдвигаем элементы списка влево */
+    padding: 10px 70px;
+    color: #4d94a1; /* Маркеры  цвета */
+}
 
+section.section-why.section-vacancy .statistic-block{
+     width: 350px;
+    height: 350px;
+}
