@@ -1,3 +1,19 @@
 .background {
     background: url(bg-rip.png) no-repeat top right;
 }
+header .container-wide {
+    background: #ffffff80;
+    border-radius: 15px;
+}
+.left-right-content .item .info #2.info-text{
+    font-size: 14px;
+}
+
+@media (max-width: 1500px) {
+    .left-right-content .item .info .info-text{
+        font-size: 16px;
+    }
+    .left-right-content .item .info .info-text.info-text__small{
+        font-size: 12px;
+    }
+}

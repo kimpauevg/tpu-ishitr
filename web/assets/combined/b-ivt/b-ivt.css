@@ -1,3 +1,6 @@
 .background{
     background: url(bg-bivt.png) no-repeat top right;
 }
+section.reviews div.dots{
+    margin-bottom: 0;
+}

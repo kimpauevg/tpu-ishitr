@@ -8405,5 +8405,23 @@ $(document).ready(function() {
             }, 'json')
 
     })
+    function elemToLink(elem, href) {
+        let link = $('<a href="'+href+'">');
+        link.insertAfter(elem);
+        $(elem).appendTo(link);
+    }
+    $('img.vk, img.social-vk').each(function(){
+        elemToLink(this, 'https://vk.com/ic_tpu');
+    });
+    $('img.instagram').click(function(){
+        elemToLink(this, 'https://www.instagram.com/ishitr_tpu/');
+    });
+
+    $('.frame .frame-button').each(function() {
+        $(this).attr('href', 'https://apply.tpu.ru/');
+    })
+    // let height = $('section.section-welcome').css('height');
+    // let back = $('div.background');
+    // $('div.background').css('max-height', height);
 
 })

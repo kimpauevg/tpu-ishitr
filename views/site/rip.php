@@ -1,13 +1,3 @@
-<?php
-?>
-<?php
-
-/* @var $this yii\web\View */
-
-use yii\web\View;
-
-$this->title = 'Инженерная школа информационных технологий и робототехники | ТПУ';
-?>
 <section class="section-welcome">
     <div class="background"></div>
     <div class="section-content">
@@ -70,7 +60,7 @@ $this->title = 'Инженерная школа информационных т�
                         Мы отправим Вам все необходимые материалы, а так же ссылки на полезные ресурсы
                     </div>
                     <div class="grid-container-item">
-                        <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">получить!</a>
+                        <a href="#" class="btn btn-danger btn-lg">получить!</a>
                     </div>
 
                 </div>
@@ -128,119 +118,85 @@ $this->title = 'Инженерная школа информационных т�
         </div>
     </section>
 
-<section class="frequent-questions">
+<section class="frequent-questions section-vacancy">
     <div class="white-holder">
         <div class="questions-container">
             <div class="headline">
                 Дисциплины магистерской программы
             </div>
 
+
+
             <div class="nav-container">
-                <div class="gradient-navbar navbar-left">
-                    <div class="choices">
-                        <button class="choice-wrap" data-index="1">
+                <div class="navbar-bakalavriat gradient-navbar-table">
+                    <div class="choice-row">
+                        <div class="choice-wrap">
                             <div class="choice">
                                 Стратегическое управление
                             </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap chosen" data-index="2">
+                        </div>
+                        <div class="choice-wrap-after after-invisible"></div>
+
+                        <div class="choice-wrap">
                             <div class="choice">
                                 Управление продажами
                             </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <button class="choice-wrap" data-index="3">
+                        </div>
+                    </div>
+                    <div class="choice-wrap-after"></div>
+                    <div class="choice-row">
+                        <div class="choice-wrap">
                             <div class="choice">
                                 Совместные производственные системы
+
                             </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <button class="choice-wrap" data-index="4">
+                        </div>
+                        <div class="choice-wrap-after after-invisible"></div>
+                        <div class="choice-wrap">
                             <div class="choice">
                                 Маркетинг инноваций
                             </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <button class="choice-wrap" data-index="5">
+                        </div>
+                    </div>
+                    <div class="choice-wrap-after"></div>
+                    <div class="choice-row">
+                        <div class="choice-wrap">
                             <div class="choice">
                                 Теория решения изобретательских задач
                             </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="6">
+                        </div>
+                        <div class="choice-wrap-after after-invisible"></div>
+                        <div class="choice-wrap">
                             <div class="choice">
                                 Команда и эффективные коммуникации
                             </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="7">
+                        </div>
+                    </div>
+                    <div class="choice-wrap-after"></div>
+                    <div class="choice-row">
+                        <div class="choice-wrap">
                             <div class="choice">
                                 Управление персоналом и лидерство
                             </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <div class="arrow-holder">
-                            <div class="arrow-down"></div>
                         </div>
-                    </div>
-                </div>
-
-                <div class="answers">
-                    <div class="answer " data-index="1">
-                        Ответ 1
-                    </div>
-                    <div class="answer visible" data-index="2">
-                        <div class="answer-headline">
-                            Управление продажами
+                        <div class="choice-wrap-after after-invisible"></div>
+                        <div class="choice-wrap">
+                            <div class="choice">
+                                Сети и телекоммуникации
+                            </div>
                         </div>
-                        <div class="answer-text">
-                            Подготовка специалистов, способных разрабатывать
-                            план и программу продвижения инновационного
-                            продукта, проводить аудит и анализ бизнес
-                            процессов, выполнять маркетинговые исследования
-                        </div>
-                        <div class="answer-text">
-                            Подготовка специалистов, способных разрабатывать
-                            план и программу продвижения инновационного
-                            продукта, проводить аудит и анализ бизнес
-                            процессов, выполнять маркетинговые исследования
-                        </div>
-
-                    </div>
-                    <div class="answer" data-index="3">
-                        Ответ 3
-                    </div>
-                    <div class="answer" data-index="4">
-                        Ответ 4
-                    </div>
-                    <div class="answer" data-index="5">
-                        Ответ 4
-                    </div>
-                    <div class="answer" data-index="6">
-                        Ответ 4
-                    </div>
-                    <div class="answer" data-index="7">
-                        Ответ 4
                     </div>
 
                 </div>
-
             </div>
+
+
+
 
         </div>
     </div>
 </section>
+
 
 
 
@@ -346,29 +302,50 @@ $this->title = 'Инженерная школа информационных т�
                     <div class="info">
 
                         <div class="info-name">
-                            Кирилл Иванов
+                            Фадеев А.С.
                         </div>
                         <div class="info-text">
-                            Выпускник ИШИТР<br/>
-                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.
+                            к.т.н., доцент, Проректор по информатизации – Администрирование в информационных системах
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="photo">
-
                         <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
-
-
                     </div>
                     <div class="info">
-
                         <div class="info-name">
-                            Другой Иванов
+                            Пономарев А.А.
                         </div>
                         <div class="info-text">
-                            Выпускник ИШИТР<br/>
-                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.
+                            к.т.н., доцент – Технологии и инструменты банков данных
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="photo">
+                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                    </div>
+                    <div class="info">
+                        <div class="info-name">
+                            Соколова В.В.
+                        </div>
+                        <div class="info-text">
+                            к.т.н., доцент – Проектирование интернет приложений
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="photo">
+                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                    </div>
+                    <div class="info">
+                        <div class="info-name">
+                            Саврасов Ф.В.
+                        </div>
+                        <div class="info-text">
+                            к.т.н., доцент – Пользовательские интерфейсы в интернет приложениях
                         </div>
                     </div>
                 </div>
@@ -383,102 +360,102 @@ $this->title = 'Инженерная школа информационных т�
 </section>
 
 
-<section class="frequent-questions">
-    <div class="white-holder">
-        <div class="questions-container">
-            <div class="headline">
-                Часто задаваемые вопросы
-            </div>
-            <div class="nav-container nav-reverse">
-                <div class="answers">
-                    <div class="answer visible" data-index="1">
-                        Ответ
-                    </div>
-                    <div class="answer" data-index="2">
-                        Ответ 2
-                    </div>
-                    <div class="answer" data-index="3">
-                        Ответ 3
-                    </div>
-                    <div class="answer" data-index="4">
-                        Ответ 4
-                    </div>
-                    <div class="answer" data-index="5">
-                        Ответ 4
-                    </div>
-                    <div class="answer" data-index="6">
-                        Ответ 4
-                    </div>
-                    <div class="answer" data-index="7">
-                        Ответ 4
-                    </div>
-
-                </div>
-                <div class="gradient-navbar navbar-right ">
-                    <div class="choices">
-                        <button class="choice-wrap chosen" data-index="1">
-                            <div class="choice">
-                                Есть ли общежитие?
-                            </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="2">
-                            <div class="choice">
-                                Сложно ли поступить после другой специальности?
-                            </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <button class="choice-wrap" data-index="3">
-                            <div class="choice">
-                                Могу ли я поступить после окончания специалитета?
-                            </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <button class="choice-wrap" data-index="4">
-                            <div class="choice">
-                                Можно ли совмещать учебу с работой?
-                            </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="5">
-                            <div class="choice">
-                                Что дает магистратура?
-                            </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="6">
-                            <div class="choice">
-                                Как поступить, если я из другой страны?
-                            </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="7">
-                            <div class="choice">
-                                Где я могу работать после окончания обучения?
-                            </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <div class="arrow-holder">
-                            <div class="arrow-down">
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-</section>
+<!--<section class="frequent-questions">-->
+<!--    <div class="white-holder">-->
+<!--        <div class="questions-container">-->
+<!--            <div class="headline">-->
+<!--                Часто задаваемые вопросы-->
+<!--            </div>-->
+<!--            <div class="nav-container nav-reverse">-->
+<!--                <div class="answers">-->
+<!--                    <div class="answer visible" data-index="1">-->
+<!--                        Ответ-->
+<!--                    </div>-->
+<!--                    <div class="answer" data-index="2">-->
+<!--                        Ответ 2-->
+<!--                    </div>-->
+<!--                    <div class="answer" data-index="3">-->
+<!--                        Ответ 3-->
+<!--                    </div>-->
+<!--                    <div class="answer" data-index="4">-->
+<!--                        Ответ 4-->
+<!--                    </div>-->
+<!--                    <div class="answer" data-index="5">-->
+<!--                        Ответ 4-->
+<!--                    </div>-->
+<!--                    <div class="answer" data-index="6">-->
+<!--                        Ответ 4-->
+<!--                    </div>-->
+<!--                    <div class="answer" data-index="7">-->
+<!--                        Ответ 4-->
+<!--                    </div>-->
+<!---->
+<!--                </div>-->
+<!--                <div class="gradient-navbar navbar-right ">-->
+<!--                    <div class="choices">-->
+<!--                        <button class="choice-wrap chosen" data-index="1">-->
+<!--                            <div class="choice">-->
+<!--                                Есть ли общежитие?-->
+<!--                            </div>-->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!--                        <button class="choice-wrap" data-index="2">-->
+<!--                            <div class="choice">-->
+<!--                                Сложно ли поступить после другой специальности?-->
+<!--                            </div>-->
+<!---->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!---->
+<!--                        <button class="choice-wrap" data-index="3">-->
+<!--                            <div class="choice">-->
+<!--                                Могу ли я поступить после окончания специалитета?-->
+<!--                            </div>-->
+<!---->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!---->
+<!--                        <button class="choice-wrap" data-index="4">-->
+<!--                            <div class="choice">-->
+<!--                                Можно ли совмещать учебу с работой?-->
+<!--                            </div>-->
+<!---->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!--                        <button class="choice-wrap" data-index="5">-->
+<!--                            <div class="choice">-->
+<!--                                Что дает магистратура?-->
+<!--                            </div>-->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!--                        <button class="choice-wrap" data-index="6">-->
+<!--                            <div class="choice">-->
+<!--                                Как поступить, если я из другой страны?-->
+<!--                            </div>-->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!--                        <button class="choice-wrap" data-index="7">-->
+<!--                            <div class="choice">-->
+<!--                                Где я могу работать после окончания обучения?-->
+<!--                            </div>-->
+<!--                        </button>-->
+<!--                        <div class="choice-wrap-after"></div>-->
+<!---->
+<!--                        <div class="arrow-holder">-->
+<!--                            <div class="arrow-down">-->
+<!---->
+<!--                            </div>-->
+<!---->
+<!--                        </div>-->
+<!---->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
+<!---->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 <section class="reviews">
     <div class="light-grey-holder">
@@ -490,36 +467,58 @@ $this->title = 'Инженерная школа информационных т�
                 <div class="item">
                     <div class="photo">
 
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="assets/combined/rip/Khusainova.jpg" class="photo-item" >
 
 
                     </div>
                     <div class="info">
 
                         <div class="info-name">
-                            Кирилл Иванов
+                            Хусаинова Олеся
                         </div>
-                        <div class="info-text">
-                            Выпускник ИШИТР<br/>
-                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.
+                        <div class="info-text info-text__small">
+                            Меня зовут Хусаинова Олеся и я окончила магистерскую программу ТПУ &quot;Разработка интернет-приложений&quot;. На мой взгляд эта программа охватывает
+                            основные области компьютерных технологий, необходимые современному разработчику. Мне особенно нравится то, что программа включает не только
+                            предметы, посвященные непосредственно разработке приложений, но и их администрированию (&quot;Администрирование в информационных системах&quot;) и
+                            менеджменту (&quot;Управление проектами&quot;), охватывая полный цикл разработки приложений. К тому же программа включает такие современные и
+                            востребованные сферы компьютерных наук, как облачные технологии и машинное обучение. Таким образом, я могу смело рекомендовать
+                            образовательную программу Томского Политехнического Университета &quot;Разработка интернет-приложений&quot;.
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="photo">
-
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
-
-
+                        <img src="assets/combined/rip/Oblozhenko.jpg" class="photo-item" >
                     </div>
                     <div class="info">
-
                         <div class="info-name">
-                            Другой Иванов
+                            Обложенко Алена
                         </div>
-                        <div class="info-text">
-                            Выпускник ИШИТР<br/>
-                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.
+                        <div id="2" class="info-text info-text__small">
+                            В настоящий момент являюсь студентом-выпускником магистерского направления «Информатика и вычислительная техника». Два года назад, после
+                            окончания бакалавриата, решался вопрос о дальнейшем обучении. Тогда только разрабатывалась и внедрялась совсем новая образовательная
+                            программа «Разработка интернет-приложений». Представилась возможность разрабатывать Web-приложения; проектировать и программировать взаимодействие с базами, банками и другими хранилищами данных. Помимо этого, изучалось
+                            проектирование дизайна приложений и несколько новых языков программирования, которых не было в бакалавриате. Для магистранта также можно
+                            совмещать параллельно учебу и работу по специальности, особенно это удобно в период практик. Воспользовавшись такой возможностью, устроилась
+                            в качестве стажера в компанию, которая занимается разработкой систем технологической связи и автоматизации. В данный момент работаю там
+                            официально на позиции «Разработчик», Elcomplus
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="photo">
+                        <img src="assets/combined/rip/Kostina.jpg" class="photo-item" >
+                    </div>
+                    <div class="info">
+                        <div class="info-name">
+                            Анастасия Костина
+                        </div>
+                        <div id="2" class="info-text">
+                            Выпускник 2016г., ООО Рубиус групп, разработчик<br/>
+                            Эта программа позволяет подготовиться к работе в практически любой сфере, будь то разработка мобильных приложений, сайтов, игр или сложного
+                            инженерного ПО. Полученные знания обеспечат хорошую базу для последующего роста в любом направлении отрасли. Работа над реальными
+                            практическими задачами в рамках курсовых и дипломных работ позволит получить необходимые практические навыки, а результаты таких работ можно
+                            включить в резюме.
                         </div>
                     </div>
                 </div>
@@ -564,8 +563,8 @@ $this->title = 'Инженерная школа информационных т�
                             </div>
                             <div class="subinfo-cell">
                                 +7 (3822) 22-12-36
-                                <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="social-transparent">
-                                <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="social-transparent">
+<!--                                <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="social-transparent">-->
+                                <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="social-transparent social-vk">
                             </div>
                         </div>
                         <div class="row">

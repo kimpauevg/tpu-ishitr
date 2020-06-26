@@ -5,13 +5,8 @@ section.section-welcome{
  background: none;
  position: static;
 }
-section.section-welcome .background{
+ .background{
  background: url(../new_landing/bg-landing.png) no-repeat top right ;
- position: absolute;
- top: 0;
- height: 100%;
- width: 100%;
- z-index: -1;
 }
 section.section-welcome .section-content{
  padding-bottom: 0;
@@ -33,6 +28,9 @@ section.section-welcome .main-container .main-container--text{
  color: #464646;
  max-width: 900px;
  padding-right: 0;
+ background-color: #ffffff80;
+ border-radius: 10px;
+
 
 }
 section.section-welcome .main-row{
@@ -84,10 +82,6 @@ section.section-welcome .main-item--text{
  section.section-welcome .main-item--text{
   font-size: 15px;
 
- }
- section.section-welcome .main-container .main-container--text{
-  background-color: #ffffff80;
-  border-radius: 10px;
  }
 }
 
@@ -198,20 +192,19 @@ section.section-welcome .main-item--text{
 }
 .frame .button-wrapper{
  width: 50%;
- display: flex;
+ display: table;
  height: 70px;
- padding: auto;
+ padding: 0 3%;
 }
 .frame .frame-button{
  font-weight: bold;
- align-self: center;
  background-color: #3878c1;
- width: 75%;
- height: 100%;
  border-radius: 35px;
  border-width: 0;
  color: black;
- margin: auto;
+ text-align: center;
+ display: table-cell;
+ vertical-align: middle;
 }
 .frame .frame-button:hover{
  color: white;
@@ -219,7 +212,7 @@ section.section-welcome .main-item--text{
 
 @media (max-width: 1300px) {
  .long-row .long-row--item-value {
-  font-size: 12px;
+  font-size: 14px;
  }
  .long-row .long-row--item-name{
   font-size: 16px;

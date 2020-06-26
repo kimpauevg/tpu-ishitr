@@ -61,11 +61,11 @@ AppAsset::register($this);
                     <div class="social-icon">
                         <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
                     </div>
-                    <div class="social-icon">
-                        <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="vk">
-                    </div>
+<!--                    <div class="social-icon">-->
+<!--                        <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="whatsapp">-->
+<!--                    </div>-->
                     <div class="social-icon instagram">
-                        <img src="assets/combined/new_landing/instagram.png" class="vk">
+                        <img src="assets/combined/new_landing/instagram.png" class="instagram">
                     </div>
 
                 </div>
@@ -119,11 +119,11 @@ AppAsset::register($this);
                     <div class="social-icon">
                         <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
                     </div>
-                    <div class="social-icon">
-                        <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="vk">
-                    </div>
+<!--                    <div class="social-icon">-->
+<!--                        <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="whatsapp">-->
+<!--                    </div>-->
                     <div class="social-icon instagram">
-                        <img src="assets/combined/new_landing/instagram.png" class="vk">
+                        <img src="assets/combined/new_landing/instagram.png" class="instagram">
                     </div>
 
                 </div>

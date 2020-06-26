@@ -462,7 +462,9 @@ section.section-programs {
     padding-top: 80px;
 }
 
-
+section.section-competencies .section-content{
+    background: white;
+}
 
 
 .modal-dialog-custom {
@@ -561,6 +563,7 @@ section.section-programs {
     position: relative;
 }
 .left-right-container .arrow-right{
+    display: none;
     background: url(new_landing/icons8-double-arrow-right-100.png), #ffffff;
     position: absolute;
     top: 50%;
@@ -573,6 +576,7 @@ section.section-programs {
     border-radius: 10px;
 }
 .left-right-container .arrow-left{
+    display: none;
     background: url(new_landing/icons8-double-arrow-left100.png), #ffffff;
     position: absolute;
     top: 50%;
@@ -607,8 +611,8 @@ section.section-programs {
 }
 .left-right-content .item .photo .photo-item{
     max-width: 90%;
-    max-height: 500px;
     vertical-align: middle;
+    max-height: 500px;
     object-fit: contain;
     margin: auto;
 
@@ -640,6 +644,9 @@ section.section-programs {
     font-size: 18px;
     width: 75%;
 
+}
+.left-right-content .item .info .info-text.info-text__small{
+    font-size: 14px;
 }
 .left-right-content .slick-list{
     min-height: 100%;
@@ -781,8 +788,6 @@ section.section-programs {
 }
 
 .gradient-navbar .choices div.choice-wrap-after{
-    background: linear-gradient(90deg, #3b8b97 0%, #7fcbb1 100%);
-
     height: 1px;
     content: '';
     max-height: 1px;
@@ -792,6 +797,9 @@ section.section-programs {
 }
 .bakalavriat div.choice-wrap-after{
     background: linear-gradient(45deg, #925592, #e98958);
+}
+div.choice-wrap-after {
+    background: linear-gradient(90deg, #3b8b97 0%, #7fcbb1 100%);
 }
 .nav-container .answers{
     width: 50%;
@@ -927,12 +935,6 @@ section.section-why.section-vacancy .section-title{
         font-size: 24px;
     }
 
-    .left-right-container .arrow-left{
-        left: 10px;
-    }
-    .left-right-container .arrow-right{
-        right: 10px;
-    }
 
 }
 
@@ -1234,6 +1236,12 @@ section.section-welcome .background{
     width: 100%;
     z-index: -1;
 }
+@media (max-width: 700px) {
+    section.section-welcome .background{
+        background-size: initial;
+    }
+
+}
 
 
 section.section-welcome .section-content {
@@ -1241,17 +1249,18 @@ section.section-welcome .section-content {
     padding-bottom: 95px
 }
 
-section.section-welcome .container {
-    padding-left: 15px;
-    padding-right: 15px
-}
+/*section.section-welcome .container {*/
+/*    padding-left: 15px;*/
+/*    padding-right: 15px*/
+/*}*/
 
 section.section-welcome h1 {
     width: 100%;
     margin-bottom: 35px;
     font-weight: 700;
     font-size: 40px;
-    text-align: left
+    text-align: left;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 section.section-welcome p {
@@ -1551,8 +1560,12 @@ div.partners{
     content: '\25c9'; /* Добавляем маркер в шестнадцатеричном формате*/
     padding-right: 15px; /* Расстояние от маркеров до текста */
     font-size: 30px;
-    color: #b486a6; /* Маркеры  цвета */
     display: inline-block;
+    color: #0f6674;
+}
+.bakalavriat .li_style::before {
+    color: #b486a6; /* Маркеры  цвета */
+
 }
 
 .li-text {
@@ -2085,6 +2098,12 @@ section.section-results .section-text {
 .grid-container-item .btn{
     padding: 25px 150px;
 }
+@media (max-width: 1500px) {
+    .headline {
+        padding: 40px 0;
+    }
+
+}
 @media (max-width: 1000px) {
     .grid-instruction-row {
         flex-direction: column;
@@ -2096,7 +2115,7 @@ section.section-results .section-text {
         margin: 10px;
     }
     .headline {
-        padding: 70px 0;
+        padding: 30px 0;
     }
     section.section-why.section-vacancy .right-block {
         margin: 50px auto auto auto;
@@ -2113,7 +2132,7 @@ section.section-results .section-text {
     }
     .headline {
         font-size: 28px;
-        padding: 30px 0;
+        padding: 20px 0;
     }
 
 }
@@ -2300,6 +2319,7 @@ footer .logo-icon {
     max-width: 40px;
     height: 40px;
     max-height: 40px;
+    cursor: pointer;
 }
 footer .copyright {
     color:#767676;
@@ -2408,7 +2428,7 @@ input.wrong-data {
         margin-right: 100px;
     }
     .programs-list .program-item .program-title{
-        font-size: 28px;
+        font-size: 24px;
     }
 
 }
@@ -2459,6 +2479,7 @@ input.wrong-data {
         margin: 0 10px;
     }
 
+
 }
 
 @media(max-width: 576px) {
@@ -2485,6 +2506,15 @@ input.wrong-data {
     }
     footer .contact-fade{
         font-size: 14px;
+    }
+
+    .left-right-container .arrow-left{
+        opacity: 0;
+        left: 10px;
+    }
+    .left-right-container .arrow-right{
+        right: 10px;
+        opacity: 0;
     }
 
 

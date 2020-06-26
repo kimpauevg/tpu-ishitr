@@ -13809,7 +13809,7 @@ body {
  flex-wrap: nowrap;
  flex-direction: column;
  flex-grow: 1;
- min-width: 375px;
+ min-width: 360px;
  overflow-x: hidden;
  font-family: 'Montserrat', sans-serif;
  font-size: 20px;

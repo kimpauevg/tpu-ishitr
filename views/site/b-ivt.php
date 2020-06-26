@@ -1,14 +1,3 @@
-<?php
-?>
-<?php
-
-/* @var $this yii\web\View */
-
-use yii\web\View;
-
-$this->title = 'Инженерная школа информационных технологий и робототехники | ТПУ';
-?>
-
 <section class="section-welcome">
     <div class="background"></div>
     <div class="section-content">
@@ -90,7 +79,7 @@ $this->title = 'Инженерная школа информационных т�
                         Вы можете подать заявление на обучение у нас уже сейчас
                     </div>
                     <div class="grid-container-item">
-                        <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a>
+                        <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">Подать заявление!</a>
                     </div>
 
                 </div>
@@ -116,7 +105,7 @@ $this->title = 'Инженерная школа информационных т�
 
 <!--компетанции-->
 <section class="section-benefits ">
-    <div class="white-holder2">
+    <div class="white-holder">
         <div class="headline">
             Программа нацелена на компетенции
         </div>
@@ -144,24 +133,6 @@ $this->title = 'Инженерная школа информационных т�
                         </div>
                         <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-2"></div>
-                      <div class=" col-sm-4" data-wow-duration="500ms">
-                        <div class="row">
-                            <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-8">Цель программы</div>
-                        </div>
-                        <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-                    </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
-                        <div class="row">
-                            <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-8">Формат обучения</div>
-                        </div>
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-                    </div>
-                    <div class="col-2"></div>
                 </div>
             </div>
         </div>
@@ -381,33 +352,18 @@ $this->title = 'Инженерная школа информационных т�
     </div>
 </section>
 <!--вакансии-->
-<section class="section-why section-vacancy">
+<section class="section-why" style="background-color:#f5f5f5">
     <div class="section-content">
-        <div class="container">
+        <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms">Выпускник может претендовать на вакансии </div>
+                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Выпускник может претендовать на вакансии </div>
                     <div class="section-text">
-                        <div class="li_style">в крупных медицинских центрах</div>
-                        <div class="li_style">территориальных управлениях здравоохранения</div>
-                        <div class="li_style">IT-компаниях, занимающихся разработкой информационных систем для нужд медицины</div>
-                        <div class="li_style">IT-компаниях, обсуживающих организации и особые экономические Зоны с направлениями в сфере медицины («Санкт-Петербург», «Томск», «Иннополис»)</div>
-                    </div>
-                </div>
-                <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">
-                        Организации-партнеры программы
-                    </div>
-                    <div class="section-text">
-                        <div class="li_style">
-                            в г. Томск: ООО «Медицинские облачные технологии», ООО «Центр корпоративной медицины», ООО «ТомскАСУПроект», ООО «Нео стек технологии», ООО «Медицинские информационные технологии», ООО «Рубиус Групп»
-                        </div>
-                        <div class="li_style">
-                            в г. Москва: ООО «МедПромИнжиниринг», ООО «Microsoft Rus»,ООО «SoftLine», ИЦ «Сколково»и др.
-                        </div>
-                        <div class="li_style">
-                            в г.Новосибирск: ООО «SoftLine» и др.
-                        </div>
+                        Центробанк (г. Москва), ОАО «Томскнефть» ВНК, ООО «Томская электронная компания», ОАО «Востокгазпром», Институт оптики атмосферы СО РАН, ТНЦ СО РАН, ОАО «ТомскНИПИнефть ВНК», Томсктрансгаз, ОАО Томское пиво, ЗАО «ЭлеСи» (г. Томск), группа компаний «ИНКОМ» (г. Томск), Dillinger Stahlbau, Siemens (Германия), Samsung Electronics (Ю. Корея), BMW England, Hughes Corp International, A&AT и др.<br>
+
+                        Возможные должности:
+                        Программист, системный архитектор, аналитик и системный администратор, администратор баз данных, специалист по информационным системам и ресурсам, менеджер по продажам решений и сложных технических систем, менеджер информационных технологий.
+
                     </div>
                 </div>
                 <div class="col-auto right-block">
@@ -596,7 +552,7 @@ $this->title = 'Инженерная школа информационных т�
                         Вы можете подать заявление на обучение у нас уже сейчас
                     </div>
                     <div class="grid-container-item">
-                        <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">Подать заявление!</a>
+                        <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">Подать заявление!</a>
                     </div>
 
                 </div>
@@ -604,16 +560,6 @@ $this->title = 'Инженерная школа информационных т�
         </div>
     </div>
 </section>
-
-<!--партнеры-->
-<section class="partners">
-    <div class="white-holder1">
-        <div class="headline">
-            Стратегические партнеры
-        </div>
-    </div>
-</section>
-
 
 
 
@@ -630,39 +576,27 @@ $this->title = 'Инженерная школа информационных т�
 
             <div class="container-wide">
                 <div class="programs-list row">
-                    <a href="/buh" class="program-item">
+                    <a href="/batp" class="program-item">
                         <div class="program-subject">
                             15.03.04
                         </div>
                         <div class="program-title">Автоматизация технологических процессов и производств</div>
                         <div class="program-sep"></div>
-<!--                        <div class="program-row">-->
-<!--                            <div class="program-cond">-->
-<!--                                <div class="program-icon places"></div>-->
-<!--                                <div class="program-text">11 мест</div>-->
-<!--                            </div>                            -->
-<!--                        </div>-->
                     </a>
-                    <a href="/buh" class="program-item">
+                    <a href="/bdes" class="program-item">
                         <div class="program-subject">
                             54.03.01
                         </div>
                         <div class="program-title">Дизайн</div>
                     </a>
-<!--                    <a href="/buh" class="program-item">-->
-<!--                        <div class="program-subject">-->
-<!--                            09.03.01-->
-<!--                        </div>-->
-<!--                        <div class="program-title">Информатика и вычислительная техника</div>-->
-<!--                    </a>-->
-                    <a href="/buh" class="program-item">
+                    <a href="/bmir" class="program-item">
                         <div class="program-subject">
                             15.03.06
                         </div>
                         <div class="program-title">Мехатроника и робототехника</div>
                     </a>
 
-                    <a href="/buh" class="program-item">
+                    <a href="/bpri" class="program-item">
                         <div class="program-subject">
                             09.03.04
                         </div>
