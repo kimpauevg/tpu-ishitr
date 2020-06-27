@@ -16,31 +16,30 @@
                 </div>
             </div>
             <p>
-                Программа
-                обучения направлена на подготовку специалистов широкого профиля, владеющих
-                навыками выполнения реальных дизайн-проектов, с использованием
-                компьютерных технологий и научных методов исследований. В курс обучения
-                включены программные пакеты: Autodesk 3Ds Max, Autodesk Inventor, Adobe
-                Photoshop, Corel Draw, Houdini, Blender 3D и т. д. Диплом бакалавра-дизайнера
-                позволит применять полученные знания при разработке фирменного стиля,
-                создавать дизайн современных промышленных изделий при помощи современных
-                моделирующих 3D-технологий и анимации.
+                Объекты профессиональной деятельности бакалавров-дизайнеров – образцы
+                промышленной продукции, средства транспорта и предметы культурно-бытового
+                назначения, различные виды полиграфических изданий. В процессе дизайн-
+                проектирования создаются новые образцы промышленной продукции,
+                конкурентоспособность которых обеспечивается повышением эстетических и
+                эргономических качеств, выявленных в результате анализа основных
+                закономерностей развития дизайна в теоретических, исторических, культурных,
+                инженерно-технических, творческих и других аспектах.
             </p>
         </div>
         <div class="container">
             <div class="row flex-column flex-sm-row">
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class=" course-item wow fadeInUp " data-wow-delay="100ms" data-wow-duration="400ms">
+                        <div class=" course-item wow fadeInUp " >
 
                             <div class="course-item__label">Места</div>
-                            <div class="course-item__value">25 бюджетных мест<br><p></p></div>
+                            <div class="course-item__value">? бюджетных мест</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class="course-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
+                        <div class="course-item wow fadeInUp" data-wow-delay="200ms" >
 
                             <div class="course-item__label">форма обучения</div>
                             <div class="course-item__value">Очная – вечернее обучение </div>
@@ -49,28 +48,28 @@
                 </div>
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class="course-item wow fadeInUp " data-wow-delay="300ms" data-wow-duration="400ms">
+                        <div class="course-item wow fadeInUp " data-wow-delay="300ms" >
 
                             <div class="course-item__label">Проходной балл </div>
-                            <div class="course-item__value">2019 год – 255<br>2018 год – 248</div>
+                            <div class="course-item__value">2019 год – ?<br>2018 год – ?</div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="row flex-column flex-sm-row ">
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>
                         <div>Общежитие</div>
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div> Военная кафедра
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>  Электронное обучение
                     </div>
@@ -105,7 +104,17 @@
             <div class="program-holder">
                 <div class="program-target">
                     <div class="headline"> Цель программы </div>
-                    <p class="text">Программа обучения направлена на подготовку программистов, системных архитекторов, аналитиков и системных администраторов, администраторов баз данных, специалистов по информационным системам и ресурсам, менеджеров по продажам решений и сложных технических систем, менеджеров информационных технологий.</p>
+                    <p class="text">
+                        Программа
+                        обучения направлена на подготовку специалистов широкого профиля, владеющих
+                        навыками выполнения реальных дизайн-проектов, с использованием
+                        компьютерных технологий и научных методов исследований. В курс обучения
+                        включены программные пакеты: Autodesk 3Ds Max, Autodesk Inventor, Adobe
+                        Photoshop, Corel Draw, Houdini, Blender 3D и т. д. Диплом бакалавра-дизайнера
+                        позволит применять полученные знания при разработке фирменного стиля,
+                        создавать дизайн современных промышленных изделий при помощи современных
+                        моделирующих 3D-технологий и анимации.
+                    </p>
                 </div>
             </div>
             <hr class="horizontal-line">
@@ -141,7 +150,7 @@
                             <div class="benefit-item benefit-task col-3" >  </div>
                             <div class="benefit-title col-8">Диплом </div>
                         </div>
-                        <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
+                        <div class="benefit-text">Присваивается степень магистра по направлению Дизайн.</div>
                     </div>
                 </div>
             </div>
@@ -159,19 +168,19 @@
                     <div class="section-text row">
                         <div class="col-sm-4 col-12">
                             <div class="circle " >
-                                <div class="circle-title">55</div>
+                                <div class="circle-title">Не указан</div>
                                 <div class="">математика</div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-12">
                             <div class="circle">
-                                <div class="circle-title">53</div>
+                                <div class="circle-title">Не указан</div>
                                 <div class="">информатика </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-12">
                             <div class="circle">
-                                <div class="circle-title">45</div>
+                                <div class="circle-title">Не указан</div>
                                 <div class="">русский </div>
                             </div>
                         </div>
@@ -179,7 +188,7 @@
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block" >
-                        <div class="stat-title">89</div>
+                        <div class="stat-title">Не укаазан</div>
                         <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
                         </div>
                     </div>
@@ -196,168 +205,17 @@
                 Дисциплины бакалаврвской программы
             </div>
             <div class="nav-container">
-                <div class="navbar-bakalavriat gradient-navbar-table">
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Информатика
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Программирование
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Технологии программирования
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Программирование мобильных устройств
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Базы данных
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Web- программирование
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Организация ЭВМ
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Сети и телекоммуникации
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Операционные системы
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Защита информации
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Микропроцессорные системы
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Мультимедиа и компьютерная графика
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Администрирование вычислительных сетей
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Программирование искусственного интеллекта
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-
-                </div>
+                <?= \app\helpers\RenderHelper::renderPrograms([
+                        'Дизайн-проектирование',
+                    'Специальный рисунок',
+                    'Основы проектной графики в промышленном дизайне',
+                    'Компьютерная графика в промышленном дизайне',
+                    'Компьютерное моделирование',
+                    'Техническое конструирование',
+                    'Эргономика и антропометрия',
+                ]);
+                ?>
             </div>
-            <!--            <div class="nav-container">-->
-            <!--                <div class="gradient-navbar navbar-bakalavriat navbar-left">-->
-            <!--                    <div class="choices">-->
-            <!--                        <button class="choice-wrap chosen" data-index="1">-->
-            <!--                            <div class="choice">-->
-            <!--                                Есть ли что-то-->
-            <!--                            </div>-->
-            <!--                        </button>-->
-            <!--                        <div class="choice-wrap-after"></div>-->
-            <!--                        <button class="choice-wrap" data-index="2">-->
-            <!--                            <div class="choice">-->
-            <!--                                Есть ли что-то 2-->
-            <!--                            </div>-->
-            <!---->
-            <!--                        </button>-->
-            <!--                        <div class="choice-wrap-after"></div>-->
-            <!---->
-            <!--                        <button class="choice-wrap" data-index="3">-->
-            <!--                            <div class="choice">-->
-            <!--                                Есть ли что-то 3-->
-            <!--                            </div>-->
-            <!---->
-            <!--                        </button>-->
-            <!--                        <div class="choice-wrap-after"></div>-->
-            <!---->
-            <!--                        <button class="choice-wrap" data-index="4">-->
-            <!--                            <div class="choice">-->
-            <!--                                Есть ли что-то 4-->
-            <!--                            </div>-->
-            <!---->
-            <!--                        </button>-->
-            <!--                        <div class="choice-wrap-after"></div>-->
-            <!--                        <div class="arrow-holder">-->
-            <!--                            <div class="arrow-down">-->
-            <!---->
-            <!--                            </div>-->
-            <!---->
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!---->
-            <!--                <div class="answers">-->
-            <!--                    <div class="answer visible" data-index="1">-->
-            <!--                        Ответ-->
-            <!--                    </div>-->
-            <!--                    <div class="answer" data-index="2">-->
-            <!--                        Ответ 2-->
-            <!--                    </div>-->
-            <!--                    <div class="answer" data-index="3">-->
-            <!--                        Ответ 3-->
-            <!--                    </div>-->
-            <!--                    <div class="answer" data-index="4">-->
-            <!--                        Ответ 4-->
-            <!--                    </div>-->
-            <!---->
-            <!--                </div>-->
-            <!---->
-            <!--            </div>-->
-
         </div>
     </div>
 </section>
@@ -420,83 +278,7 @@
         <div class="headline">
             Преподаватели и эксперты
         </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="assets/combined/b-ivt/Pogrebnoy.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Погребной А.В.
-                        </div>
-                        <div class="info-text">
-                            «Междисциплинарный проект», «МПС»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="assets/combined/b-ivt/Demin.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Демин А.Ю.
-                        </div>
-                        <div class="info-text">
-                            «Мультимедиа и компьютерная графика»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="assets/combined/b-ivt/Malchukov.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Мальчуков А.Н.
-                        </div>
-                        <div class="info-text">
-                            «Схемотехника вычислительных устройств», «Программирование на HDL»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="assets/combined/b-ivt/Mytsko.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Мыцко Е.А.
-                        </div>
-                        <div class="info-text">
-                            «Организация ЭВМ», «Технологии параллельных и распределенных вычислений»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="assets/combined/b-ivt\Andreev.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Андреев С.А.
-                        </div>
-                        <div class="info-text">
-                            «Программирование микропроцессоров и микроконтроллеров»
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="dots">
-
-        </div>
-
+        Отсутствуют фотографии
     </div>
 </section>
 <!--темы работ-->
@@ -530,30 +312,7 @@
         <div class="headline">
             Отзывы наших выпускников
         </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="assets/combined/b-ivt/Fedorova.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Федорова Ольга Евгеньевна
-                        </div>
-                        <div class="info-text">
-                            Информатика и вычислительная техника, 2018<br>
-                            Работает ООО Сегменто, Инженер по качеству<br><br>
-                            4 года проведённые в ТПУ были лучшими в моей жизни. Я получила большой пласт знаний, который сейчас применяю в работе.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="dots">
-
-        </div>
-
+            Отсутствуют вообще
     </div>
 </section>
 

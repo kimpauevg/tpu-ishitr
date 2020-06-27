@@ -248,13 +248,16 @@ section.section-programs .section-title {
     .programs-list .program-item--buh .program-title {
         font-size: 25px
     }
-    section.section-welcome .container:nth-child(2){
-        max-width: 1000px;
-    }
 
 }
-
 @media (min-width:1200px) {
+    section.section-points .left-block .section-text{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+
+    }
+
     .programs-list .program-item .program-title {
         height: 115px
     }
@@ -700,8 +703,12 @@ section.section-competencies .section-content{
     border-spacing: 0 30px
 
 }
-
-
+.bakalavriat .white-holder .headline{
+    color: #b16763;
+}
+.bakalavriat section.partners .white-holder .headline{
+    color: #6a5e72;
+}
 
 
 .gradient-navbar, .gradient-navbar-table{
@@ -883,6 +890,10 @@ section.section-why.section-vacancy .section-title{
     font-size: 28px;
 }
 
+.course-item-holder {
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 1000px) {
     .nav-container{
         flex-direction: column;
@@ -1023,7 +1034,7 @@ h1 {
     background-image: url(new_landing/icons8-parallel-task-100.png);
 }
 .bakalavriat .statistic-block {
-    border: #f0ae8d solid 15px;
+    border: #f0ae8d solid 20px;
 }
 
 .bakalavriat .statistic-block .stat-title {
@@ -1044,23 +1055,23 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 250px;
+    width: 330px;
+    height: 330px;
     text-align: center;
-    border: #85cacf solid 15px;
+    border: #85cacf solid 20px;
     border-radius: 50%
 }
 
 .statistic-block .stat-title {
     color: #456c7a;
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 20px
 }
 
 .statistic-block .stat-text {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.5;
     color: #456c7a;
 }
@@ -1497,6 +1508,14 @@ section.section-why .section-text {
 .bakalavriat section.section-why .section-title{
     font-size: 40px;
 }
+section.section-points .left-block{
+    position: relative;
+
+}
+section.section-points .left-block .section-text{
+    margin-bottom: 0;
+
+}
 
 section.section-why .left-block {
     max-width: 100%
@@ -1517,18 +1536,17 @@ section.section-why .container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 130px;
-    height: 130px;
+    width: 180px;
+    height: 180px;
     text-align: center;
     background-color: white;
-    margin-left: 30px;
     border-radius: 50%
         
 }
 .circle-title {
     color: #b97672;
     font-weight: 700;
-     font-size: 20px;
+     font-size: 33px;
 }
 
 section.partners {
@@ -1644,11 +1662,16 @@ div.partners{
         max-width: 750px
     }
 
-    section.section-why .right-block {
-        margin-right: 100px
+
+}
+@media (max-width: 1200px) {
+    .section-points .left-block, .section-points .right-block{
+        margin: auto;
     }
+    section.section-points .left-block .section-text {
+        margin-bottom: 30px;
 
-
+    }
 }
 section.section-results {
     padding-bottom: 100px
@@ -1706,6 +1729,9 @@ section.section-results .section-text {
 
 .result-item .result-block {
     width: 100%
+}
+section.section-points .container {
+    padding: 100px 0;
 }
 
 .result-item .result-pic {
@@ -2060,10 +2086,10 @@ section.section-results .section-text {
     border: 2px solid #4d94a1;
     border-radius: 15px;
     padding: 15px;
-    margin: 10px;
     background: #ffffff80;
     max-width: 400px;
     height: 113px;
+    width: 96%;
 }
 .bakalavriat .col-auto1{
     border: 2px solid #cbc0d0;

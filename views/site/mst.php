@@ -310,7 +310,7 @@ $this->title = 'Инженерная школа информационных т�
             <div class="left-right-content">
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -323,7 +323,7 @@ $this->title = 'Инженерная школа информационных т�
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
                     </div>
                     <div class="info">
 
@@ -337,7 +337,7 @@ $this->title = 'Инженерная школа информационных т�
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name"> Савельев В.В.
@@ -349,7 +349,7 @@ $this->title = 'Инженерная школа информационных т�
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item">
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item">
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -362,7 +362,7 @@ $this->title = 'Инженерная школа информационных т�
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item">
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item">
                     </div>
                     <div class="info">
                         <div class="info-name"> 
@@ -487,7 +487,7 @@ $this->title = 'Инженерная школа информационных т�
             <div class="left-right-content">
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -501,7 +501,7 @@ $this->title = 'Инженерная школа информационных т�
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -530,13 +530,13 @@ $this->title = 'Инженерная школа информационных т�
         <div class="partners-container">
             <div class="partners">
                 <div class="partners-style">
-                <img src="assets/combined/mst/toronto.jpg" class="" >
+                <img src="/combined/mst/toronto.jpg" class="" >
                 </div>
                 <div class="partners-style">
-                <img src="assets/combined/mst/skolkovo.jpg" class="" >
+                <img src="/combined/mst/skolkovo.jpg" class="" >
                 </div>
                  <div class="partners-style">
-                <img src="assets/combined/mst/TSKM.jpg" class="" >
+                <img src="/combined/mst/TSKM.jpg" class="" >
                 </div>
             </div>
         </div>
@@ -566,8 +566,8 @@ $this->title = 'Инженерная школа информационных т�
                             </div>
                             <div class="subinfo-cell">
                                 +7 (3822) 22-12-36
-                                <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="social-transparent">
-                                <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="social-transparent">
+                                <img src="/combined/new_landing/icons8-whatsapp-90.png" class="social-transparent">
+                                <img src="/combined/new_landing/icons8-vk-round-100.png" class="social-transparent">
                             </div>
                         </div>
                         <div class="row">

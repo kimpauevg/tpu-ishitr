@@ -4,7 +4,7 @@
     <div class="section-content">
         <div class="container pb-5">
             <h1  >Автоматизация технологических<br/> процессов и производств</h1>
-            <div class="container pill-container pb-4 wow fadeInDown" data-wow-delay="300ms">
+            <div class="container pill-container pb-4 wow fadeInDown" >
                 <div class="badge-pill badge-secondary">
                     <div class="pill-text">
                         Бакалавриат
@@ -17,9 +17,6 @@
                 </div>
             </div>
             <p>
-                Программа
-                обучения направлена на подготовку инженерных кадров для нефтегазовой промышленности в области автоматизации
-                технологических процессов транспорта и переработки углеводородного сырья. <br/>
                 Особенностью образовательной программы по направлению 15.03.04 является
                 обучение специалистов для разработки и эксплуатации современных автоматических и
                 автоматизированных средств управления Hi-Tech производствами в нефтегазовой
@@ -31,16 +28,16 @@
             <div class="row flex-column flex-sm-row">
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class=" course-item wow fadeInUp " data-wow-delay="100ms" data-wow-duration="400ms">
+                        <div class=" course-item wow fadeInUp " >
 
                             <div class="course-item__label">Места</div>
-                            <div class="course-item__value">НЕ УКАЗАНО бюджетных мест<br><p></p></div>
+                            <div class="course-item__value">НЕ УКАЗАНО бюджетных мест</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class="course-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
+                        <div class="course-item wow fadeInUp" >
 
                             <div class="course-item__label">форма обучения</div>
                             <div class="course-item__value">НЕ УКАЗАНО </div>
@@ -49,7 +46,7 @@
                 </div>
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class="course-item wow fadeInUp " data-wow-delay="300ms" data-wow-duration="400ms">
+                        <div class="course-item wow fadeInUp " >
 
                             <div class="course-item__label">Проходной балл </div>
                             <div class="course-item__value">НЕ УКАЗАНО</div>
@@ -59,18 +56,18 @@
             </div>
 
             <div class="row flex-column flex-sm-row ">
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>
                         <div>Общежитие</div>
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div> Военная кафедра
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>  Электронное обучение
                     </div>
@@ -106,7 +103,10 @@
                 <div class="program-target">
                     <div class="headline"> Цель программы </div>
                     <p class="text">
-                        НЕ УКАЗАНА!
+                        Программа
+                        обучения направлена на подготовку
+                        Инженерных кадров для нефтегазовой промышленности в области автоматизации
+                        технологических процессов транспорта и переработки углеводородного сырья
                     </p>
                 </div>
             </div>
@@ -124,21 +124,21 @@
         <div class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4" >
                         <div class="row">
                             <div class="benefit-item benefit-graph col-3"></div>
                             <div class="benefit-title col-8">Цель программы</div>
                         </div>
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4" >
                         <div class="row">
                             <div class="benefit-item benefit-programming col-3"> </div>
                             <div class="benefit-title col-8">Формат обучения</div>
                         </div>
                         <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4" >
                         <div class="row">
                             <div class="benefit-item benefit-task col-3" >  </div>
                             <div class="benefit-title col-8">Диплом </div>
@@ -157,7 +157,7 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
+                    <div class="section-title wow fadeInUp"  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
                     <div class="section-text row">
                         <div class="col-sm-4 col-12">
                             <div class="circle " >
@@ -224,7 +224,7 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Наши студенты работают в</div>
+                    <div class="section-title wow fadeInUp"  style="color:#b87571">Наши студенты работают в</div>
                     <div class="section-text">
                         ПАО «НК «Роснефть», ПАО «Лукойл»,<br/>
                         ПАО «Сибур», ПАО «Газпром», ПАО «НОВАТЭК»,<br/>
@@ -244,29 +244,6 @@
     </div>
 </section>
 
-<!--TODO remove -->
-<!--<section class="section-why" style="background-color:#f5f5f5">-->
-<!--    <div class="section-content">-->
-<!--        <div class="container" >-->
-<!--            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">-->
-<!--                <div class="col-auto left-block">-->
-<!--                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Пример с промежутком </div>-->
-<!--                    <div class="section-text">-->
-<!--                        Это потом нужно удалить-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-auto right-block">-->
-<!--                    <div class="statistic-block gap-block">-->
-<!--                        <div class="stat-title">≈ 80 - 90 000</div>-->
-<!--                        <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-
 <!--преподаватели-->
 <section class="lecturers">
     <div class="light-grey-holder1">
@@ -277,7 +254,7 @@
             <div class="left-right-content">
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-atp/gromakov.jpg" class="photo-item" >
+                        <img src="/combined/b-atp/gromakov.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -293,7 +270,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-atp/kurganov.jpg" class="photo-item" >
+                        <img src="/combined/b-atp/kurganov.jpg" class="photo-item" >
                     </div>
                     <div class="info">
 
@@ -309,7 +286,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-atp/malyshenko.jpg" class="photo-item" >
+                        <img src="/combined/b-atp/malyshenko.jpg" class="photo-item" >
                     </div>
                     <div class="info">
 
@@ -359,7 +336,7 @@
             <div class="left-right-content">
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-atp/djitnikov.jpg" class="photo-item" >
+                        <img src="/combined/b-atp/djitnikov.jpg" class="photo-item" >
                     </div>
                     <div class="info">
 

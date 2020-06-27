@@ -4,7 +4,7 @@
     <div class="section-content">
         <div class="container pb-5">
             <h1  >Информатика и вычислительная техника</h1>
-            <div class="container pill-container pb-4 wow fadeInDown" data-wow-delay="300ms">
+            <div class="container pill-container pb-4 wow fadeInDown">
                 <div class="badge-pill badge-secondary">
                     <div class="pill-text">
                         Бакалавриат
@@ -22,7 +22,7 @@
             <div class="row flex-column flex-sm-row">
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class=" course-item wow fadeInUp " data-wow-delay="100ms" data-wow-duration="400ms">
+                        <div class=" course-item wow fadeInUp ">
 
                             <div class="course-item__label">Места</div>
                             <div class="course-item__value">25 бюджетных мест<br><p></p></div>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class="course-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
+                        <div class="course-item wow fadeInUp">
 
                             <div class="course-item__label">форма обучения</div>
                             <div class="course-item__value">Очная – вечернее обучение </div>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class="course-item wow fadeInUp " data-wow-delay="300ms" data-wow-duration="400ms">
+                        <div class="course-item wow fadeInUp ">
 
                             <div class="course-item__label">Проходной балл </div>
                             <div class="course-item__value">2019 год – 255<br>2018 год – 248</div>
@@ -50,18 +50,18 @@
             </div>
 
             <div class="row flex-column flex-sm-row ">
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder">
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>
                         <div>Общежитие</div>
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder"  >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div> Военная кафедра
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" data-wow-duration="400ms">
+                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder"  >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>  Электронное обучение
                     </div>
@@ -113,21 +113,21 @@
         <div class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4"">
                         <div class="row">
                             <div class="benefit-item benefit-graph col-3"></div>
                             <div class="benefit-title col-8">Цель программы</div>
                         </div>
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-programming col-3"> </div>
                             <div class="benefit-title col-8">Формат обучения</div>
                         </div>
                         <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-task col-3" >  </div>
                             <div class="benefit-title col-8">Диплом </div>
@@ -146,7 +146,7 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
+                    <div class="section-title wow fadeInUp"  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
                     <div class="section-text row">
                         <div class="col-sm-4 col-12">
                             <div class="circle " >
@@ -358,7 +358,7 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Выпускник может претендовать на вакансии </div>
+                    <div class="section-title wow fadeInUp"  style="color:#b87571">Выпускник может претендовать на вакансии </div>
                     <div class="section-text">
                         Центробанк (г. Москва), ОАО «Томскнефть» ВНК, ООО «Томская электронная компания», ОАО «Востокгазпром», Институт оптики атмосферы СО РАН, ТНЦ СО РАН, ОАО «ТомскНИПИнефть ВНК», Томсктрансгаз, ОАО Томское пиво, ЗАО «ЭлеСи» (г. Томск), группа компаний «ИНКОМ» (г. Томск), Dillinger Stahlbau, Siemens (Германия), Samsung Electronics (Ю. Корея), BMW England, Hughes Corp International, A&AT и др.<br>
 
@@ -384,7 +384,7 @@
 <!--        <div class="container" >-->
 <!--            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">-->
 <!--                <div class="col-auto left-block">-->
-<!--                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Пример с промежутком </div>-->
+<!--                    <div class="section-title wow fadeInUp"  style="color:#b87571">Пример с промежутком </div>-->
 <!--                    <div class="section-text">-->
 <!--                        Это потом нужно удалить-->
 <!--                    </div>-->
@@ -411,7 +411,7 @@
             <div class="left-right-content">
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-ivt/Pogrebnoy.jpg" class="photo-item" >
+                        <img src="/combined/b-ivt/Pogrebnoy.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -424,7 +424,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-ivt/Demin.jpg" class="photo-item" >
+                        <img src="/combined/b-ivt/Demin.jpg" class="photo-item" >
                     </div>
                     <div class="info">
 
@@ -438,7 +438,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-ivt/Malchukov.jpg" class="photo-item" >
+                        <img src="/combined/b-ivt/Malchukov.jpg" class="photo-item" >
                     </div>
                     <div class="info">
 
@@ -452,7 +452,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-ivt/Mytsko.jpg" class="photo-item" >
+                        <img src="/combined/b-ivt/Mytsko.jpg" class="photo-item" >
                     </div>
                     <div class="info">
 
@@ -466,7 +466,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-ivt\Andreev.jpg" class="photo-item" >
+                        <img src="/combined/b-ivt\Andreev.jpg" class="photo-item" >
                     </div>
                     <div class="info">
 
@@ -521,7 +521,7 @@
             <div class="left-right-content">
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/b-ivt/Fedorova.jpg" class="photo-item" >
+                        <img src="/combined/b-ivt/Fedorova.jpg" class="photo-item" >
                     </div>
                     <div class="info">
 

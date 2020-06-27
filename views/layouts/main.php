@@ -31,9 +31,9 @@ AppAsset::register($this);
     <meta name="keywords" content="" />
     <link rel="shortcut icon" type="image/x-icon" href="http://bis.tpu.ru/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" />
-    <link rel="stylesheet" type="text/css" href="/assets/combined/styles.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/combined/common.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/combined/<?=$action_name . '/' . $action_name?>.css" />
+    <link rel="stylesheet" type="text/css" href="/combined/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/combined/common.css" />
+    <link rel="stylesheet" type="text/css" href="/combined/<?=$action_name . '/' . $action_name?>.css" />
 <!--Вставлено-->
 
     <?php $this->registerCsrfMetaTags() ?>
@@ -59,13 +59,13 @@ AppAsset::register($this);
 
                 <div class="social-row">
                     <div class="social-icon">
-                        <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
+                        <img src="/combined/new_landing/icons8-vk-round-100.png" class="vk">
                     </div>
 <!--                    <div class="social-icon">-->
-<!--                        <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="whatsapp">-->
+<!--                        <img src="/combined/new_landing/icons8-whatsapp-90.png" class="whatsapp">-->
 <!--                    </div>-->
                     <div class="social-icon instagram">
-                        <img src="assets/combined/new_landing/instagram.png" class="instagram">
+                        <img src="/combined/new_landing/instagram.png" class="instagram">
                     </div>
 
                 </div>
@@ -117,13 +117,13 @@ AppAsset::register($this);
             <div class="footer-container">
                 <div class="social-row">
                     <div class="social-icon">
-                        <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="vk">
+                        <img src="/combined/new_landing/icons8-vk-round-100.png" class="vk">
                     </div>
 <!--                    <div class="social-icon">-->
-<!--                        <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="whatsapp">-->
+<!--                        <img src="/combined/new_landing/icons8-whatsapp-90.png" class="whatsapp">-->
 <!--                    </div>-->
                     <div class="social-icon instagram">
-                        <img src="assets/combined/new_landing/instagram.png" class="instagram">
+                        <img src="/combined/new_landing/instagram.png" class="instagram">
                     </div>
 
                 </div>
@@ -136,7 +136,7 @@ AppAsset::register($this);
         © 2019 - Национальный исследовательский Томский политехнический университет
     </div>
 </footer>
-<script type="text/javascript" src="/assets/combined/scripts.js"></script>
+<script type="text/javascript" src="/combined/scripts.js"></script>
 <script type="text/javascript">
     /*<![CDATA[*/
     jQuery(function($) {

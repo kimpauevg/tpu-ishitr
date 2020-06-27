@@ -72,21 +72,21 @@
         <div class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-target col-3"></div>
                             <div class="benefit-title col-9">Цель программы</div>
                         </div>
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-suitcase col-3"> </div>
                             <div class="benefit-title col-9">Формат обучения</div>
                         </div>
                         <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms"> 
+                    <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-hat col-3" >  </div>
                             <div class="benefit-title col-9">Диплом </div>
@@ -102,7 +102,7 @@
             <div class="container" >
                 <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                     <div class="col-auto left-block">
-                        <div class="section-title wow fadeInUp" data-wow-duration="500ms">Выпускник может претендовать на вакансии</div>
+                        <div class="section-title wow fadeInUp">Выпускник может претендовать на вакансии</div>
                         <div class="section-text">
                             в организациях и предприятиях, использующих наукоемкое производство: в НИИ и подразделениях НИОКР предприятий; в организациях инфраструктуры инновационной деятельности (технопарки, инкубаторы, фонды и др.); а отделах маркетинга рекламы и PR коммерческих и государственных предприятий; в органах государственной власти и общественных организациях; в коммуникационных, маркетинговых, рекламных и PR-агентствах различного уровня; средствах массовой информации.
                         </div>
@@ -205,7 +205,7 @@
             <div class="container" >
                 <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                     <div class="col-auto left-block">
-                        <div class="section-title wow fadeInUp" data-wow-duration="500ms">Магистратура дает возможность за два года </div>
+                        <div class="section-title wow fadeInUp">Магистратура дает возможность за два года </div>
                         <div class="section-text">
                             получить второе высшее образование в интересующей области науки и техники. Бакалаврам развить свои компетенции по выбранному ранее направлению подготовки, либо сменить направление обучения и получить образование в новой для себя сфере. Степень магистра открывает большие возможности академической и трудовой мобильности. Современный рынок дает аналитику о том, что Повышение по карьерной лестнице возможно диплома магистра.
                         </div>
@@ -231,20 +231,20 @@
         <div class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4" data-wow-duration="500ms">
+                    <div class="col-sm-4">
                         <div class="row">                                                   <div class="benefit-item benefit-graph col-3"></div>
                             <div class="benefit-title col-9">Анализ</div>
                         </div>
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
                     </div>
-                    <div class="col-sm-4" data-wow-duration="500ms">
+                    <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-programming col-3"> </div>
                             <div class="benefit-title col-9">Разработка</div>
                         </div>
                         <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
                     </div>
-                    <div class="col-sm-4" data-wow-duration="500ms">
+                    <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-task col-3">  </div>
                             <div class="benefit-title col-9">Решение задач </div>
@@ -274,7 +274,7 @@
                             Мы отправим Вам все необходимые материалы, а так же ссылки на полезные ресурсы
                         </div>
                         <div class="grid-container-item">
-                            <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">получить!</a>
+                            <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">получить!</a>
                         </div>
 
                     </div>
@@ -295,7 +295,7 @@
                 <div class="item">
                     <div class="photo">
 
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
 
 
                     </div>
@@ -311,7 +311,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -324,7 +324,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -338,7 +338,7 @@
 
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/new_landing/review-1.jpg" class="photo-item" >
+                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -467,7 +467,7 @@
                 <div class="item">
                     <div class="photo">
 
-                        <img src="assets/combined/rip/Khusainova.jpg" class="photo-item" >
+                        <img src="/combined/rip/Khusainova.jpg" class="photo-item" >
 
 
                     </div>
@@ -488,7 +488,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/rip/Oblozhenko.jpg" class="photo-item" >
+                        <img src="/combined/rip/Oblozhenko.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -507,7 +507,7 @@
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="assets/combined/rip/Kostina.jpg" class="photo-item" >
+                        <img src="/combined/rip/Kostina.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -563,8 +563,8 @@
                             </div>
                             <div class="subinfo-cell">
                                 +7 (3822) 22-12-36
-<!--                                <img src="assets/combined/new_landing/icons8-whatsapp-90.png" class="social-transparent">-->
-                                <img src="assets/combined/new_landing/icons8-vk-round-100.png" class="social-transparent social-vk">
+<!--                                <img src="/combined/new_landing/icons8-whatsapp-90.png" class="social-transparent">-->
+                                <img src="/combined/new_landing/icons8-vk-round-100.png" class="social-transparent social-vk">
                             </div>
                         </div>
                         <div class="row">
