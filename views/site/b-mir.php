@@ -3,7 +3,7 @@
     <div class="background"></div>
     <div class="section-content">
         <div class="container pb-5">
-            <h1  >Информатика и вычислительная техника</h1>
+            <h1  >Мехатроника и робототехника</h1>
             <div class="container pill-container pb-4 wow fadeInDown">
                 <div class="badge-pill badge-secondary">
                     <div class="pill-text">
@@ -12,11 +12,24 @@
                 </div>
                 <div class="badge-pill badge-secondary pill-multirow">
                     <div class="pill-text">
-                        09.04.01 – информатика и <br/> вычислительная техника
+                        15.03.06 – Мехатроника и робототехника
                     </div>
                 </div>
             </div>
-            <p>  Изучение и освоение совокупности принципов, методов и способов человеческой деятельности, направленных на анализ, создание и применение автоматизированных систем обработки информации и управления, ЭВМ, систем и сетей, программного обеспечения вычислительной техники и автоматизированных систем.</p>
+            <p>
+                Область профессиональной деятельности выпускников, освоивших программу
+                бакалавриата по направлению 15.03.06 Мехатроника и робототехника, включает
+                проектирование, исследование, производство и эксплуатацию мехатронных и
+                робототехнических систем для применения в автоматизированном производстве, в
+                оборонной отрасли, Министерстве внутренних дел Российской Федерации, Министерстве
+                Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и
+                ликвидации последствий стихийных бедствий, на транспорте, в сельском хозяйстве, в
+                медицине и в других областях.<br/>
+                Спецификой программы является её направленность на разработку, исследование и
+                модернизацию систем управления робототехническими системами, основанных на
+                применении методов искусственного интеллекта и машинного обучения. Приоритетными
+                разработки направлены на реализацию автономных мобильных мехатронных систем.
+            </p>
         </div>
         <div class="container">
             <div class="row flex-column flex-sm-row">
@@ -25,7 +38,7 @@
                         <div class=" course-item wow fadeInUp ">
 
                             <div class="course-item__label">Места</div>
-                            <div class="course-item__value">25 бюджетных мест<br><p></p></div>
+                            <div class="course-item__value">? бюджетных мест<br><p></p></div>
                         </div>
                     </div>
                 </div>
@@ -34,7 +47,7 @@
                         <div class="course-item wow fadeInUp">
 
                             <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">Очная – вечернее обучение </div>
+                            <div class="course-item__value">? </div>
                         </div>
                     </div>
                 </div>
@@ -43,7 +56,7 @@
                         <div class="course-item wow fadeInUp ">
 
                             <div class="course-item__label">Проходной балл </div>
-                            <div class="course-item__value">2019 год – 255<br>2018 год – 248</div>
+                            <div class="course-item__value">2019 год – ?<br>2018 год – ?</div>
                         </div>
                     </div>
                 </div>
@@ -150,19 +163,19 @@
                     <div class="section-text row">
                         <div class="col-sm-4 col-12">
                             <div class="circle " >
-                                <div class="circle-title">55</div>
+                                <div class="circle-title">?</div>
                                 <div class="">математика</div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-12">
                             <div class="circle">
-                                <div class="circle-title">53</div>
+                                <div class="circle-title">?</div>
                                 <div class="">информатика </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-12">
                             <div class="circle">
-                                <div class="circle-title">45</div>
+                                <div class="circle-title">?</div>
                                 <div class="">русский </div>
                             </div>
                         </div>
@@ -170,7 +183,7 @@
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block" >
-                        <div class="stat-title">89</div>
+                        <div class="stat-title">?</div>
                         <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
                         </div>
                     </div>
@@ -187,108 +200,21 @@
                 Дисциплины бакалаврвской программы
             </div>
             <div class="nav-container">
-                <div class="navbar-bakalavriat gradient-navbar-table">
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Информатика
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Программирование
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Технологии программирования
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Программирование мобильных устройств
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Базы данных
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Web- программирование
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Организация ЭВМ
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Сети и телекоммуникации
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Операционные системы
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Защита информации
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Микропроцессорные системы
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Мультимедиа и компьютерная графика
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Администрирование вычислительных сетей
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Программирование искусственного интеллекта
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-
-                </div>
+                <?= \app\helpers\RenderHelper::renderPrograms([
+                    'Современные технологии',
+                    'Программные средства математических расчетов',
+                    'Теория автоматического управления',
+                    'Теория автоматического управления',
+                    'Основы разработки компонентов мехатроники и робототехники',
+                    'Микропроцессорная техника',
+                    'Детали мехатронных модулей, их конструирование, диагностика и надежность',
+                    'Моделирование мехатронных, робототехнических систем',
+                    'Искусственный интеллект и нейросетевое управление',
+                    'Мобильные роботы',
+                    'Сенсорика и измерительные комплексы',
+                    'Цифровое управление робототехническими комплексами',
+                    'Цифровизация технологических процессов',
+                ])?>
             </div>
             <!--            <div class="nav-container">-->
             <!--                <div class="gradient-navbar navbar-bakalavriat navbar-left">-->
@@ -358,19 +284,20 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp"  style="color:#b87571">Выпускник может претендовать на вакансии </div>
+                    <div class="section-title wow fadeInUp"  style="color:#b87571">Наши студенты работают в </div>
                     <div class="section-text">
-                        Центробанк (г. Москва), ОАО «Томскнефть» ВНК, ООО «Томская электронная компания», ОАО «Востокгазпром», Институт оптики атмосферы СО РАН, ТНЦ СО РАН, ОАО «ТомскНИПИнефть ВНК», Томсктрансгаз, ОАО Томское пиво, ЗАО «ЭлеСи» (г. Томск), группа компаний «ИНКОМ» (г. Томск), Dillinger Stahlbau, Siemens (Германия), Samsung Electronics (Ю. Корея), BMW England, Hughes Corp International, A&AT и др.<br>
-
-                        Возможные должности:
-                        Программист, системный архитектор, аналитик и системный администратор, администратор баз данных, специалист по информационным системам и ресурсам, менеджер по продажам решений и сложных технических систем, менеджер информационных технологий.
-
+                        ОАО «ТПО «Контур», ФГУП «Томский электротехнический завод», ОАО
+                        «Сибэлектромотор», ООО «Завод приборных подшипников», НИИ Электронных
+                        систем ТУСУР, ФГУП НПЦ «Полюс», ОАО «Манометр», ООО «Газпром трансгаз
+                        Томск», в ООО «Томская электронная компания», ОАО «ТомскНИПИнефть ВНК»,
+                        ЦНИИ робототехники и технической кибернетики (г. Санкт-Петербург).<br/>
+                        Должности: инженер, инженер-конструктор, инженер-проектировщик.
                     </div>
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block">
-                        <div class="stat-title">≈ 80 000</div>
-                        <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>
+                        <div class="stat-title">от 50 000</div>
+                        <div class="stat-text">рублей средняя зарплата <br /> в России <br /> (по данным hh.ru)</div>
                     </div>
                 </div>
             </div>
@@ -407,82 +334,7 @@
         <div class="headline">
             Преподаватели и эксперты
         </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Pogrebnoy.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Погребной А.В.
-                        </div>
-                        <div class="info-text">
-                            «Междисциплинарный проект», «МПС»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Demin.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Демин А.Ю.
-                        </div>
-                        <div class="info-text">
-                            «Мультимедиа и компьютерная графика»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Malchukov.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Мальчуков А.Н.
-                        </div>
-                        <div class="info-text">
-                            «Схемотехника вычислительных устройств», «Программирование на HDL»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Mytsko.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Мыцко Е.А.
-                        </div>
-                        <div class="info-text">
-                            «Организация ЭВМ», «Технологии параллельных и распределенных вычислений»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt\Andreev.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Андреев С.А.
-                        </div>
-                        <div class="info-text">
-                            «Программирование микропроцессоров и микроконтроллеров»
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="dots">
-
-        </div>
+        Отсутствуют фотографии
 
     </div>
 </section>
@@ -494,18 +346,13 @@
         </div>
         <div class="section-content">
             <div class="container">
-                <div class="row">
-                    <div class="li-text">
-                        <div class="qualification-list" >
-                            <div class="li_style">Разработка модуля управления автономной посадкой БПЛА на основе монокулярной визуальной одометрии.</div>
-                            <div class="li_style">Разработка приложения для имитационного моделирования поведения группы автономных необитаемых подводных аппаратов.</div>
-                            <div class="li_style">Разработка программно-аппаратных средств управления беспилотным летательным аппаратом вертолётного типа.</div>
-                            <div class="li_style">Разработка клиент- серверного приложения для обработки маршрутов движения мобильных устройств.</div>
-                            <div class="li_style">Разработка облачного сервиса для управления и организации рабочего процесса.</div>
-
-                        </div>
-                    </div>
-                </div>
+                <?= \app\helpers\RenderHelper::renderQualificationWorkThemes([
+                        'Разработка мобильного робота для обезвешивания элементов космических аппаратов.',
+                    'Разработка программно-аппаратного обеспечения управления мобильным роботом.',
+                    'Автоматическое отслеживание и выделение движущихся объектов в видеопотоке.',
+                    'Робот-штабелёр для стеллажного склада.',
+                    'Разработка робота - бармена.',
+                ])?>
             </div>
         </div>
     </div>
@@ -517,30 +364,7 @@
         <div class="headline">
             Отзывы наших выпускников
         </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Fedorova.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Федорова Ольга Евгеньевна
-                        </div>
-                        <div class="info-text">
-                            Информатика и вычислительная техника, 2018<br>
-                            Работает ООО Сегменто, Инженер по качеству<br><br>
-                            4 года проведённые в ТПУ были лучшими в моей жизни. Я получила большой пласт знаний, который сейчас применяю в работе.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="dots">
-
-        </div>
-
+        Отсутствуют фотографии
     </div>
 </section>
 

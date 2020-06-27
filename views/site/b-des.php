@@ -11,7 +11,7 @@
                 </div>
                 <div class="badge-pill badge-secondary pill-multirow">
                     <div class="pill-text">
-                        09.04.01 – информатика и <br/> вычислительная техника
+                        54.03.01 – Дизайн
                     </div>
                 </div>
             </div>
