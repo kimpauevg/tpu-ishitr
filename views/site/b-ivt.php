@@ -131,7 +131,7 @@
                             <div class="benefit-item benefit-task col-3" >  </div>
                             <div class="benefit-title col-8">Диплом </div>
                         </div>
-                        <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
+                        <div class="benefit-text">Присваивается степень бакалавра по направлению Информатика и вычислительная техника.</div>
                     </div>
                 </div>
             </div>
@@ -149,19 +149,19 @@
                         <div class="section-text row">
                             <div class="col-sm-4 col-12">
                                 <div class="circle " > 
-                                    <div class="circle-title">55</div>
+                                    <div class="circle-title">55(?)</div>
                                     <div class="">математика</div>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-12">
                                 <div class="circle">  
-                                    <div class="circle-title">53</div>
+                                    <div class="circle-title">53(?)</div>
                                     <div class="">информатика </div>
                                 </div>
                             </div>
                             <div class="col-sm-4 col-12">
                                 <div class="circle"> 
-                                    <div class="circle-title">45</div>
+                                    <div class="circle-title">45(?)</div>
                                     <div class="">русский </div>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@
                     </div>
                     <div class="col-auto right-block">                          
                         <div class="statistic-block" >
-                            <div class="stat-title">89</div>
+                            <div class="stat-title">89(?)</div>
                             <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
                             </div>                             
                         </div>
@@ -186,168 +186,23 @@
                 Дисциплины бакалаврвской программы
             </div>
             <div class="nav-container">
-                <div class="navbar-bakalavriat gradient-navbar-table">
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Информатика
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Программирование
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Технологии программирования
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Программирование мобильных устройств
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Базы данных
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Web- программирование
-                            </div>
-                        </div>
-                    </div>
-                <div class="choice-wrap-after"></div>
-                <div class="choice-row">
-                    <div class="choice-wrap">
-                        <div class="choice">
-                            Организация ЭВМ
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after after-invisible"></div>
-                    <div class="choice-wrap">
-                        <div class="choice">
-                            Сети и телекоммуникации
-                        </div>
-                    </div>
-                </div>
-                <div class="choice-wrap-after"></div>
-                <div class="choice-row">
-                    <div class="choice-wrap">
-                        <div class="choice">
-                            Операционные системы
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after after-invisible"></div>
-                    <div class="choice-wrap">
-                        <div class="choice">
-                            Защита информации
-                        </div>
-                    </div>
-                </div>
-                <div class="choice-wrap-after"></div>
-                <div class="choice-row">
-                    <div class="choice-wrap">
-                        <div class="choice">
-                            Микропроцессорные системы
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after after-invisible"></div>
-                    <div class="choice-wrap">
-                        <div class="choice">
-                            Мультимедиа и компьютерная графика
-                        </div>
-                    </div>
-                </div>
-                <div class="choice-wrap-after"></div>
-                <div class="choice-row">
-                    <div class="choice-wrap">
-                        <div class="choice">
-                            Администрирование вычислительных сетей
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after after-invisible"></div>
-                    <div class="choice-wrap">
-                        <div class="choice">
-                            Программирование искусственного интеллекта
-                        </div>
-                    </div>
-                </div>
-                <div class="choice-wrap-after"></div>
-
+                <?= \app\helpers\RenderHelper::renderPrograms([
+                        'Информатика',
+                    'Программирование',
+                    'Технологии программирования',
+                    'Программирование мобильных устройств',
+                    'Базы данных',
+                    'Web- программирование',
+                    'Организация ЭВМ',
+                    'Сети и телекоммуникации',
+                    'Операционные системы',
+                    'Защита информации',
+                    'Микропроцессорные системы',
+                    'Мультимедиа и компьютерная графика',
+                    'Администрирование вычислительных сетей',
+                    'Программирование искусственного интеллекта'
+                ])?>
             </div>
-            </div>
-<!--            <div class="nav-container">-->
-<!--                <div class="gradient-navbar navbar-bakalavriat navbar-left">-->
-<!--                    <div class="choices">-->
-<!--                        <button class="choice-wrap chosen" data-index="1">-->
-<!--                            <div class="choice">-->
-<!--                                Есть ли что-то-->
-<!--                            </div>-->
-<!--                        </button>-->
-<!--                        <div class="choice-wrap-after"></div>-->
-<!--                        <button class="choice-wrap" data-index="2">-->
-<!--                            <div class="choice">-->
-<!--                                Есть ли что-то 2-->
-<!--                            </div>-->
-<!---->
-<!--                        </button>-->
-<!--                        <div class="choice-wrap-after"></div>-->
-<!---->
-<!--                        <button class="choice-wrap" data-index="3">-->
-<!--                            <div class="choice">-->
-<!--                                Есть ли что-то 3-->
-<!--                            </div>-->
-<!---->
-<!--                        </button>-->
-<!--                        <div class="choice-wrap-after"></div>-->
-<!---->
-<!--                        <button class="choice-wrap" data-index="4">-->
-<!--                            <div class="choice">-->
-<!--                                Есть ли что-то 4-->
-<!--                            </div>-->
-<!---->
-<!--                        </button>-->
-<!--                        <div class="choice-wrap-after"></div>-->
-<!--                        <div class="arrow-holder">-->
-<!--                            <div class="arrow-down">-->
-<!---->
-<!--                            </div>-->
-<!---->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="answers">-->
-<!--                    <div class="answer visible" data-index="1">-->
-<!--                        Ответ-->
-<!--                    </div>-->
-<!--                    <div class="answer" data-index="2">-->
-<!--                        Ответ 2-->
-<!--                    </div>-->
-<!--                    <div class="answer" data-index="3">-->
-<!--                        Ответ 3-->
-<!--                    </div>-->
-<!--                    <div class="answer" data-index="4">-->
-<!--                        Ответ 4-->
-<!--                    </div>-->
-<!---->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-
         </div>
     </div>
 </section>
@@ -378,26 +233,6 @@
 </section>
 
 <!--TODO remove -->
-<!--<section class="section-why" style="background-color:#f5f5f5">-->
-<!--    <div class="section-content">-->
-<!--        <div class="container" >-->
-<!--            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">-->
-<!--                <div class="col-auto left-block">-->
-<!--                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Пример с промежутком </div>-->
-<!--                    <div class="section-text">-->
-<!--                        Это потом нужно удалить-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-auto right-block">-->
-<!--                    <div class="statistic-block gap-block">-->
-<!--                        <div class="stat-title">≈ 80 - 90 000</div>-->
-<!--                        <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
 
 
 <!--преподаватели-->
@@ -493,18 +328,13 @@
        </div>
        <div class="section-content">
            <div class="container">
-               <div class="row">
-                   <div class="li-text">
-                       <div class="qualification-list" >
-                           <div class="li_style">Разработка модуля управления автономной посадкой БПЛА на основе монокулярной визуальной одометрии.</div>
-                           <div class="li_style">Разработка приложения для имитационного моделирования поведения группы автономных необитаемых подводных аппаратов.</div>
-                           <div class="li_style">Разработка программно-аппаратных средств управления беспилотным летательным аппаратом вертолётного типа.</div>
-                           <div class="li_style">Разработка клиент- серверного приложения для обработки маршрутов движения мобильных устройств.</div>
-                           <div class="li_style">Разработка облачного сервиса для управления и организации рабочего процесса.</div>
-                          
-                       </div>
-                   </div>
-               </div>
+               <?= \app\helpers\RenderHelper::renderQualificationWorkThemes([
+                   'Разработка модуля управления автономной посадкой БПЛА на основе монокулярной визуальной одометрии.',
+                   'Разработка приложения для имитационного моделирования поведения группы автономных необитаемых подводных аппаратов.',
+                   'Разработка программно-аппаратных средств управления беспилотным летательным аппаратом вертолётного типа.',
+                   'Разработка клиент- серверного приложения для обработки маршрутов движения мобильных устройств..',
+                   'Разработка облачного сервиса для управления и организации рабочего процесса.'
+               ])?>
            </div>
        </div>
     </div>

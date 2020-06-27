@@ -149,6 +149,7 @@ section.section-programs .section-title {
     max-width: 375px;
     min-width: 300px;
     height: 250px;
+    margin: 25px;
 }
 .bakalavriat .programs-list .program-item .program-title{
     font-size: 22px;
@@ -605,7 +606,6 @@ section.section-competencies .section-content{
     max-height: 500px;
     position: relative;
     top: 50%;
-    padding: 17px;
     transform: translateY(-50%);
 
 }
@@ -693,8 +693,12 @@ section.section-competencies .section-content{
     align-items: center;
 }
 .qualification-list{
-    display: table-row;
+    width: 100%;
+    display: table;
     justify-items: center;
+    padding: 30px 18%;
+    border-spacing: 0 30px
+
 }
 
 
@@ -703,7 +707,7 @@ section.section-competencies .section-content{
 .gradient-navbar, .gradient-navbar-table{
     background-image: url(main/i/green-gradient.jpg);
 }
-.gradient-navbar.navbar-bakalavriat, .bakalavriat .gradient-navbar-table{
+.bakalavriat .gradient-navbar, .bakalavriat .gradient-navbar-table{
     background: linear-gradient(90deg, #792e7b 0%,#8a386f 25%,#b7514f 50%, #e68659 100%);
 }
 .nav-container{
@@ -765,7 +769,7 @@ section.section-competencies .section-content{
     background: linear-gradient(90deg, #c7e699 0%, #c8e39b 100%);
     color: black;
 }
-.navbar-bakalavriat .choice-wrap.chosen, .navbar-bakalavriat .choice-wrap:hover{
+.bakalavriat .choice-wrap.chosen, .bakalavriat .choice-wrap:hover{
     background: linear-gradient(90deg, #f4e5b1 0%, #fdeaab 100%);
     color: black;
 }
@@ -1310,7 +1314,8 @@ section.section-welcome .course-item {
     display: flex;
     align-content: center;
     max-width: 400px;
-
+    background: #ffffff80;
+    border-radius: 5px;
 }
 section.section-welcome .course-item__label {
     color: #464646b4;
@@ -1486,6 +1491,13 @@ section.section-why .section-text {
     font-size: 16px;
 }
 
+.bakalavriat section.section-why .section-text{
+    font-size: 20px;
+}
+.bakalavriat section.section-why .section-title{
+    font-size: 40px;
+}
+
 section.section-why .left-block {
     max-width: 100%
 }
@@ -1549,18 +1561,22 @@ div.partners{
     text-align: center;
     font-size: 16px;
 }
-
+.bakalavriat .qualification-topics .headline{
+    color: #b16763;
+}
 .li_style {
     list-style: none; /* Скрываем маркеры списка */
-    text-indent: -1em; /* Сдвигаем элементы списка влево */
-    padding: 10px 70px;
+    display: table-row;
+}
+.li__text {
+    display: table-cell;
 }
 
 .li_style::before {
     content: '\25c9'; /* Добавляем маркер в шестнадцатеричном формате*/
-    padding-right: 15px; /* Расстояние от маркеров до текста */
+    padding-right: 50px; /* Расстояние от маркеров до текста */
     font-size: 30px;
-    display: inline-block;
+    display: table-cell;
     color: #0f6674;
 }
 .bakalavriat .li_style::before {
@@ -2516,7 +2532,9 @@ input.wrong-data {
         right: 10px;
         opacity: 0;
     }
-
+    .pb-5 p{
+        background: white;
+    }
 
 
 }

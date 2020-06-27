@@ -8420,8 +8420,7 @@ $(document).ready(function() {
     $('.frame .frame-button').each(function() {
         $(this).attr('href', 'https://apply.tpu.ru/');
     })
-    // let height = $('section.section-welcome').css('height');
-    // let back = $('div.background');
-    // $('div.background').css('max-height', height);
+    let bg_height = +$('section.section-welcome').css('height').replaceAll('px','') + +$('header').css('height').replaceAll('px','') + 'px';
+    $('div.background').css('height', bg_height);
 
 })
