@@ -361,7 +361,7 @@
     </div>
 </section>
 
-<?= \app\helpers\RenderHelper::renderInstructionsForm()?>
+<?= \app\helpers\RenderHelper::renderSectionContactForm()?>
 
 <section class="courses">
     <div class="section-content">

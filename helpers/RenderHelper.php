@@ -239,9 +239,12 @@ class RenderHelper
                                 С 01 декабря 2019 по 14 августа 2020
                             </div>
                         </div>
-                        <button class="contacts-button-documents">
-                            Подать документы сейчас!
-                        </button>
+                        <a href="https://apply.tpu.ru">
+                            <button class="contacts-button-documents">
+                                Подать документы сейчас!
+                            </button>
+
+                        </a>
                     </div>
                 </div>
                 <div class="contacts-table-form">
