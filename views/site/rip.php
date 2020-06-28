@@ -24,8 +24,11 @@
                     <div class="col-auto1">
                         <div class=" course-item">
 
-                            <div class="course-item__label">Места</div>
-                            <div class="course-item__value">40 мест<br><p></p></div>
+                            <div class="course-item__label">
+                                подача документов
+
+                            </div>
+                            <div class="course-item__value">С 01 декабря 2019 года по 14 августа 2020 года</div>
                         </div>
                     </div>
                 </div>
@@ -34,7 +37,7 @@
                         <div class="course-item">
 
                             <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">? </div>
+                            <div class="course-item__value">?</div>
                         </div>
                     </div>
                 </div>
@@ -42,8 +45,8 @@
                     <div class="col-auto1">
                         <div class="course-item ">
 
-                            <div class="course-item__label">Проходной балл </div>
-                            <div class="course-item__value">2019 год – ?<br>2018 год – ?</div>
+                            <div class="course-item__label">Места </div>
+                            <div class="course-item__value">? бюджетных мест</div>
                         </div>
                     </div>
                 </div>
@@ -88,34 +91,35 @@
         </div>
     </div>
 </section>
-    <section class="section-why" style="background-color:#ebebeb">
-        <div class="section-content">
-            <div class="container" >
-                <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
-                    <div class="col-auto left-block">
-                        <div class="section-title">Выпускник может претендовать на вакансии</div>
-                        <div class="section-text">
-                            в научно-исследовательских и научно-производственных организациях: ОАО «ТомскНИПИнефть ВНК;
-                            на производственных предприятиях: АО «Информационные спутниковые системы» имени академика М.Ф. Решетнева;
-                            в IT-компаниях: ООО «Рубиус Групп», ООО «КвантумСофт», ООО «Элком+», ООО «ЮЭС-продакшн», «UbiSoft Entertainment»
-                            (г. Монреаль, Канада);
-                            в нефтегазовых компаниях: ОАО «Востокгазпром», ОАО «Роснефть», ООО «ГазпромТрансгазТомск»;
-                            в иных организациях: группа компаний «Лама» (г. Томск), группа компаний «Центр финансовых технологий» (г. Томск, г.
-                            Новосибирск, г. Санкт-Петербург), Томское отделение Центрального банка России, ООО «КДВ-групп» (г. Томск).<br/>
-                            Выпускники магистратуры работают программистами и инженерами-программистами различных категорий, тестировщиками,
-                            frontend- и backend-разработчиками различных категорий, системными аналитиками, UX/UI-дизайнерами.
-                        </div>
+
+<section class="section-why" style="background-color:#ebebeb">
+    <div class="section-content">
+        <div class="container" >
+            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
+                <div class="col-auto left-block">
+                    <div class="section-title">Выпускник может претендовать на вакансии</div>
+                    <div class="section-text">
+                        в научно-исследовательских и научно-производственных организациях: ОАО «ТомскНИПИнефть ВНК;
+                        на производственных предприятиях: АО «Информационные спутниковые системы» имени академика М.Ф. Решетнева;
+                        в IT-компаниях: ООО «Рубиус Групп», ООО «КвантумСофт», ООО «Элком+», ООО «ЮЭС-продакшн», «UbiSoft Entertainment»
+                        (г. Монреаль, Канада);
+                        в нефтегазовых компаниях: ОАО «Востокгазпром», ОАО «Роснефть», ООО «ГазпромТрансгазТомск»;
+                        в иных организациях: группа компаний «Лама» (г. Томск), группа компаний «Центр финансовых технологий» (г. Томск, г.
+                        Новосибирск, г. Санкт-Петербург), Томское отделение Центрального банка России, ООО «КДВ-групп» (г. Томск).<br/>
+                        Выпускники магистратуры работают программистами и инженерами-программистами различных категорий, тестировщиками,
+                        frontend- и backend-разработчиками различных категорий, системными аналитиками, UX/UI-дизайнерами.
                     </div>
-                    <div class="col-auto right-block">
-                        <div class="statistic-block">
-                            <div class="stat-title">110 - 180 000</div>
-                            <div class="stat-text">рублей зарплата <br />Senior-разработчика<br />  в России <br /> (по данным hh.ru)</div>
-                        </div>
+                </div>
+                <div class="col-auto right-block">
+                    <div class="statistic-block">
+                        <div class="stat-title">110 - 180 000</div>
+                        <div class="stat-text">рублей зарплата <br />Senior-разработчика<br />  в России <br /> (по данным hh.ru)</div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 <section class="frequent-questions section-vacancy">
     <div class="white-holder">
@@ -211,6 +215,16 @@
 Отсутствуют фотографии
     </div>
 </section>
+<section class="partners">
+    <div class="white-holder">
+        <div class="headline">
+            Стратегические партнеры
+        </div>
+        <div class="partners-container">
+            <?= \app\helpers\RenderHelper::renderPartners('rip', 7)?>
+        </div>
+    </div>
+</section>
 
 <section class="reviews">
     <div class="light-grey-holder">
@@ -286,16 +300,6 @@
     </div>
 </section>
 
-<section class="partners">
-    <div class="white-holder">
-        <div class="headline">
-            Стратегические партнеры
-        </div>
-        <div class="partners-container">
-            <?= \app\helpers\RenderHelper::renderPartners('rip', 7)?>
-        </div>
-    </div>
-</section>
 <?=\app\helpers\RenderHelper::renderSectionContactForm()?>
 <section class="courses">
     <div class="section-content">

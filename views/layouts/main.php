@@ -44,12 +44,12 @@ AppAsset::register($this);
 <header>
     <div class="container-wide">
         <div class="header-row">
-            <div class="header-container">
+            <a class="header-container" href="/">
                 <div class="d-flex flex-row align-items-center">
                     <div class="logo-icon"></div>
                     <div class="logo-text">томский<br>политехнический<br>университет</div>
                 </div>
-            </div>
+            </a>
             <div class="header-container">
                 <div class="contact-row">
                     <div class="contact-bold contact">

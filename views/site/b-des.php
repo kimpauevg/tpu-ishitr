@@ -3,7 +3,7 @@
     <div class="section-content">
         <div class="container pb-5">
             <h1  >Дизайн</h1>
-            <div class="container pill-container pb-4 wow fadeInDown" data-wow-delay="300ms">
+            <div class="container pill-container pb-4">
                 <div class="badge-pill badge-secondary">
                     <div class="pill-text">
                         Бакалавриат
@@ -30,7 +30,7 @@
             <div class="row flex-column flex-sm-row">
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class=" course-item wow fadeInUp " >
+                        <div class=" course-item  " >
 
                             <div class="course-item__label">Места</div>
                             <div class="course-item__value">? бюджетных мест</div>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class="course-item wow fadeInUp" data-wow-delay="200ms" >
+                        <div class="course-item">
 
                             <div class="course-item__label">форма обучения</div>
                             <div class="course-item__value">Очная – вечернее обучение </div>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                        <div class="course-item wow fadeInUp " data-wow-delay="300ms" >
+                        <div class="course-item">
 
                             <div class="course-item__label">Проходной балл </div>
                             <div class="course-item__value">2019 год – ?<br>2018 год – ?</div>
@@ -58,18 +58,18 @@
             </div>
 
             <div class="row flex-column flex-sm-row ">
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" >
+                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>
                         <div>Общежитие</div>
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" >
+                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div> Военная кафедра
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder" data-wow-delay="300ms" >
+                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>  Электронное обучение
                     </div>
@@ -131,21 +131,21 @@
         <div class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4" >
                         <div class="row">
                             <div class="benefit-item benefit-graph col-3"></div>
                             <div class="benefit-title col-8">Цель программы</div>
                         </div>
                         <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4" >
                         <div class="row">
                             <div class="benefit-item benefit-programming col-3"> </div>
                             <div class="benefit-title col-8">Формат обучения</div>
                         </div>
                         <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4" >
                         <div class="row">
                             <div class="benefit-item benefit-task col-3" >  </div>
                             <div class="benefit-title col-8">Диплом </div>
@@ -164,7 +164,7 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
+                    <div class="section-title "  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
                     <div class="section-text row">
                         <div class="col-sm-4 col-12">
                             <div class="circle " >
@@ -225,7 +225,7 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Наши студенты работают в</div>
+                    <div class="section-title "  style="color:#b87571">Наши студенты работают в</div>
                     <div class="section-text">
                         (Ранее Выпускник может претендовать на вакансии)<br/>
                         ООО &quot;Титан-media&quot; г. Нижневартовск<br/>
@@ -249,27 +249,6 @@
     </div>
 </section>
 
-<!--TODO remove -->
-<!--<section class="section-why" style="background-color:#f5f5f5">-->
-<!--    <div class="section-content">-->
-<!--        <div class="container" >-->
-<!--            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">-->
-<!--                <div class="col-auto left-block">-->
-<!--                    <div class="section-title wow fadeInUp" data-wow-duration="500ms" style="color:#b87571">Пример с промежутком </div>-->
-<!--                    <div class="section-text">-->
-<!--                        Это потом нужно удалить-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-auto right-block">-->
-<!--                    <div class="statistic-block gap-block">-->
-<!--                        <div class="stat-title">≈ 80 - 90 000</div>-->
-<!--                        <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
 
 
 <!--преподаватели-->
@@ -292,12 +271,14 @@
                 <div class="row">
                     <div class="li-text">
                         <div class="qualification-list" >
-                            <div class="li_style">Разработка модуля управления автономной посадкой БПЛА на основе монокулярной визуальной одометрии.</div>
-                            <div class="li_style">Разработка приложения для имитационного моделирования поведения группы автономных необитаемых подводных аппаратов.</div>
-                            <div class="li_style">Разработка программно-аппаратных средств управления беспилотным летательным аппаратом вертолётного типа.</div>
-                            <div class="li_style">Разработка клиент- серверного приложения для обработки маршрутов движения мобильных устройств.</div>
-                            <div class="li_style">Разработка облачного сервиса для управления и организации рабочего процесса.</div>
 
+                            <?= \app\helpers\RenderHelper::renderQualificationWorkThemes([
+                                'Дизайн-проект модульного комплекта элементов, представляющих сенсорную стимуляцию.',
+                                'Комбинаторный подход в дизайне и разработке высокоэффективной аудиосистемы рупорного типа.',
+                                'Дизайн-проект оболочки портативного многофункционального медицинского устройства.',
+                                'Дизайн комбинаторного комплекта мебели для детей.',
+                                'Дизайн корпуса лампы для светотерапии.',
+                            ])?>
                         </div>
                     </div>
                 </div>

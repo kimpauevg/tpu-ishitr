@@ -21,6 +21,24 @@ class RenderHelper
             'learn' => '?',
             'href' => '/mst',
         ],
+        'urs' => [
+            'code' => '09.04.02',
+            'name' => 'Мехатроника и робототехника',
+            'seats' => 24,
+            'years' => '?',
+            'learn' => '?',
+            'href' => '/urs',
+        ],
+        'pd' => [
+            'code' => '54.04.01',
+            'name' => 'Дизайн',
+            'seats' => 6,
+            'years' => '?',
+            'learn' => '?',
+            'href' => '/pd',
+        ],
+
+
 
     ];
     public static function renderPrograms($program_name_array = [])
@@ -232,6 +250,75 @@ class RenderHelper
 
         </div>
     </div>';
+    }
+    public static function renderInstructionsForm()
+    {
+        return sprintf('<section class="contacts">
+    <div class="section-content">
+        <div class="green-gradient-holder">
+            <div class="contacts-table">
+                <div class="contacts-table-info">
+                    <div class="row">
+                        <div class="contacts-white-headline">
+                             Получите подробную инструкцию и все материалы для поступления
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contacts-white-text">
+                            Мы отправим Вам все необходимые материалы, а так же ссылки на полезные ресурсы 
+                        </div>
+                    </div>
+                    <div class="contacts-table-subinfo">
+                        <div class="row">
+                            <div class="subinfo-cell">
+                                ДЛЯ СВЯЗИ С НАМИ
+                            </div>
+                            <div class="subinfo-cell">
+                                +7 (3822) 22-12-36
+                                <img src="/combined/new_landing/icons8-vk-round-100.png" class="social-transparent">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="subinfo-cell">
+                                ПОДАЧА ДОКУМЕНТОВ
+                            </div>
+                            <div class="subinfo-cell">
+                                С 01 декабря 2019 по 14 августа 2020
+                           </div>
+                        </div>
+                        <button class="contacts-button-documents">
+                           Подать документы сейчас!
+                        </button>
+                    </div>
+                </div>
+                <form class="contacts-table-form">
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" name="name" placeholder="Имя">
+                    </div>
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" name="surname" placeholder="Фамилия">
+
+                    </div>
+                    <div class="contacts-form-field">
+                        <input type="tel" class="contacts-form-input" name="phone" placeholder="Телефон">
+
+                    </div>
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" name="email" placeholder="Email">
+
+                    </div>
+                    <input type="hidden" name="%s" value="%s"/>
+                    <button class="contacts-button-submit" type="button">
+                               Получить!
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>'
+            , \Yii::$app->request->csrfParam, \Yii::$app->request->getCsrfToken());
+
     }
 
 }

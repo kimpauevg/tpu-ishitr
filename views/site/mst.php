@@ -1,19 +1,9 @@
-<?php
-?>
-<?php
-
-/* @var $this yii\web\View */
-
-use yii\web\View;
-
-$this->title = 'Инженерная школа информационных технологий и робототехники | ТПУ';
-?>
 <section class="section-welcome">
     <div class="background"></div>
     <div class="section-content">
         <div class="pb-5 container">
             <h1> Медицинские информационные <br/>системы и телемедицина <br/>(сетевая программа с СибГМУ)</h1>
-            <div class="container pill-container pb-4 wow fadeInDown" data-wow-delay="300ms">
+            <div class="container pill-container pb-4">
                 <div class="badge-pill badge-secondary">
                     <div class="pill-text">
                         Магистерская образовательная программа
@@ -25,32 +15,45 @@ $this->title = 'Инженерная школа информационных т�
                     </div>
                 </div>
             </div>
-            <p>Специалисты, обладающие компетенциями и знаниями на стыке медицины и информационных технологий, будут востребованы на рынке труда, что подтверждает прогноз развития рынка компьютерных услуг Национального исследовательского университета Высшей школы экономики, где отмечается формирование нового массового сегмента ПО – «Телемедицина». Программа направлена на подготовку элитных специалистов широкого профиля в области управления разработкой, разработки, внедрения и сопровождения программного и аппаратного обеспечения, ориентирующихся во всем пространстве комплексной инженерии, способных развивать и создавать новые информационные технологии в медицине.</p>
+            <p>
+                Специалисты, обладающие компетенциями и знаниями на стыке медицины и информационных технологий, будут востребованы на рынке труда, что подтверждает прогноз развития рынка компьютерных услуг Национального исследовательского университета Высшей школы экономики, где отмечается формирование нового массового сегмента ПО – «Телемедицина». Программа направлена на подготовку элитных специалистов широкого профиля в области управления разработкой, разработки, внедрения и сопровождения программного и аппаратного обеспечения, ориентирующихся во всем пространстве комплексной инженерии, способных развивать и создавать новые информационные технологии в медицине.
+            </p>
         </div>
 
         <div class="container">
-            <div class="row flex-column flex-lg-row">
-                <div class="col-auto1">
-                    <div class="course-item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="400ms">
-                        <div class="course-item__label">подача документов</div>
-                        <div class="course-item__value">С 01 декабря 2019 года по 14 августа 2020 года</div>
+            <div class="row flex-column flex-sm-row">
+                <div class="col-lg-4 col-12 course-item-holder">
+                    <div class="col-auto1">
+                        <div class=" course-item">
+
+                            <div class="course-item__label">
+                                подача документов
+
+                            </div>
+                            <div class="course-item__value">С 01 декабря 2019 года по 14 августа 2020 года</div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-auto1">
-                    <div class="course-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
-                        <div class="course-item__label">форма обучения</div>
-                        <div class="course-item__value">Очная (дневная) </div>
+                <div class="col-lg-4 col-12 course-item-holder">
+                    <div class="col-auto1">
+                        <div class="course-item">
+
+                            <div class="course-item__label">форма обучения</div>
+                            <div class="course-item__value">?</div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-auto1">
-                    <div class="course-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
-                        <div class="course-item__label">Места </div>
-                        <div class="course-item__value">10 бюджетных мест</div>
+                <div class="col-lg-4 col-12 course-item-holder">
+                    <div class="col-auto1">
+                        <div class="course-item ">
+
+                            <div class="course-item__label">Места </div>
+                            <div class="course-item__value">10 бюджетных мест</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
@@ -82,14 +85,14 @@ $this->title = 'Инженерная школа информационных т�
         <div class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-target col-3"></div>
                             <div class="benefit-title col-9">Цель программы</div>
                         </div>
                         <div class="benefit-text">Подготовка специалистов, которые относятся к ведущему, в т.ч. руководящему составу медицинских и/или IT организаций, разрабатывающих, использующих или планирующих использовать современные информационные технологии.</div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms">
+                    <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-suitcase col-3"> </div>
                             <div class="benefit-title col-9">Формат обучения</div>
@@ -97,7 +100,7 @@ $this->title = 'Инженерная школа информационных т�
                         <div class="benefit-text">Образовательный процесс построен как на общении студентов с одними из лучших преподавателей ТПУ, так и на живом обмене опытом с действующими специалистами крупных предприятий. 
 </div>
                     </div>
-                    <div class=" col-sm-4" data-wow-duration="500ms"> 
+                    <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-hat col-3" >  </div>
                             <div class="benefit-title col-9">Диплом </div>
@@ -113,7 +116,7 @@ $this->title = 'Инженерная школа информационных т�
         <div class="container">
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms">Выпускник может претендовать на вакансии </div>
+                    <div class="section-title">Выпускник может претендовать на вакансии </div>
                     <div class="section-text">
                         <div class="li_style">в крупных медицинских центрах</div>
                         <div class="li_style">территориальных управлениях здравоохранения</div>
@@ -122,7 +125,7 @@ $this->title = 'Инженерная школа информационных т�
                     </div>
                 </div>
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp" data-wow-duration="500ms">
+                    <div class="section-title">
                         Организации-партнеры программы
                     </div>
                     <div class="section-text">
@@ -139,8 +142,8 @@ $this->title = 'Инженерная школа информационных т�
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block">
-                        <div class="stat-title">55 000 до 110 000</div>
-                        <div class="stat-text">рублей средняя заработная плата</div>
+                        <div class="stat-title">55 000-110 000</div>
+                        <div class="stat-text">рублей средняя<br/> заработная плата</div>
                     </div>
                 </div>
             </div>
@@ -218,7 +221,7 @@ $this->title = 'Инженерная школа информационных т�
             <div class="container" >
                 <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                     <div class="col-auto left-block">
-                        <div class="section-title wow fadeInUp" data-wow-duration="500ms">Магистратура дает возможность за два года </div>
+                        <div class="section-title">Магистратура дает возможность за два года </div>
                         <div class="section-text">
                             За два года получить второе высшее образование или повысить свою квалификацию в интересующей области. Студенты, проходящие обучение в магистратуре ИШИТР, получают углубленную теоретическую и практическую подготовку в научно-исследовательской и профессиональной деятельности.  Степень магистра открывает более широкие перспективы для карьерного роста и возможности трудоустройства по всему миру.
 
@@ -245,20 +248,21 @@ $this->title = 'Инженерная школа информационных т�
         <div class="section-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4" data-wow-duration="500ms">
-                        <div class="row">                                                   <div class="benefit-item benefit-graph col-3"></div>
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <div class="benefit-item benefit-graph col-3"></div>
                             <div class="benefit-title col-9">Использовать</div>
                         </div>
                         <div class="benefit-text"> современные медицинские информационные системы.</div>
                     </div>
-                    <div class="col-sm-4" data-wow-duration="500ms">
+                    <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-programming col-3"> </div>
                             <div class="benefit-title col-9">Разрабатывать и внедрять</div>
                         </div>
                         <div class="benefit-text"> программные компоненты медицинских информационных систем.</div>
                     </div>
-                    <div class="col-sm-4" data-wow-duration="500ms">
+                    <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-task col-3">  </div>
                             <div class="benefit-title col-9">Знать и применять </div>
@@ -273,275 +277,146 @@ $this->title = 'Инженерная школа информационных т�
         </div>
     </div>
 
-
-        <div class="section-content">
-            <div class="container">
-                <div class="grid-container">
-                    <div class="grid-instruction-row">
-                        <div class="grid-container-item grid-instruction-bold">
-                            Получите подробную инструкцию и все материалы для поступления
-                        </div>
-                        <div class="grid-container-item">
-                            Заполните анкету, и после обработки мы вышлем ссылку для скачивания Вам на электронную почту
-                        </div>
-                    </div>
-                    <div class="grid-instruction-row">
-                        <div class="grid-container-item">
-                            Мы отправим Вам все необходимые материалы, а так же ссылки на полезные ресурсы
-                        </div>
-                        <div class="grid-container-item">
-                            <a href="#" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#subscribe-modal">получить!</a>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-       
-    </section>
+     <?= \app\helpers\RenderHelper::renderInstructions()?>
+</section>
 
 <section class="lecturers">
     <div class="light-grey-holder">
         <div class="headline">
             Преподаватели и эксперты
         </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                             Гергет О.М. 
-                        </div>
-                        <div class="info-text">
-                             д.т.н., профессор, ТПУ
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                            Пономарев А.А.
-                        </div>
-                        <div class="info-text">
-                             к.т.н., доцент, ТПУ 
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name"> Савельев В.В.
-                        </div>
-                        <div class="info-text">
-                             к.т.н., доцент, ТПУ 
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/new_landing/review-1.jpg" class="photo-item">
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                           Светлик М.В.
-                        </div>
-                        <div class="info-text">
-                            к.биологических наук, доцент, СибГМУ 
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/new_landing/review-1.jpg" class="photo-item">
-                    </div>
-                    <div class="info">
-                        <div class="info-name"> 
-                            Желева О.В.
-                        </div>
-                        <div class="info-text">
-                            ст. преп., СибГМУ
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="dots">
-        </div>
-    </div>
-</section>
-
-
-<!--section class="frequent-questions">
-    <div class="white-holder">
-        <div class="questions-container">
-            <div class="headline">
-                Часто задаваемые вопросы
-            </div>
-            <div class="nav-container nav-reverse">
-                <div class="answers">
-                    <div class="answer visible" data-index="1">
-                        Ответ
-                    </div>
-                    <div class="answer" data-index="2">
-                        Ответ 2
-                    </div>
-                    <div class="answer" data-index="3">
-                        Ответ 3
-                    </div>
-                    <div class="answer" data-index="4">
-                        Ответ 4
-                    </div>
-                    <div class="answer" data-index="5">
-                        Ответ 4
-                    </div>
-                    <div class="answer" data-index="6">
-                        Ответ 4
-                    </div>
-                    <div class="answer" data-index="7">
-                        Ответ 4
-                    </div>
-
-                </div>
-                <div class="gradient-navbar navbar-right ">
-                    <div class="choices">
-                        <button class="choice-wrap chosen" data-index="1">
-                            <div class="choice">
-                                Есть ли общежитие?
-                            </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="2">
-                            <div class="choice">
-                                Сложно ли поступить после другой специальности?
-                            </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <button class="choice-wrap" data-index="3">
-                            <div class="choice">
-                                Могу ли я поступить после окончания специалитета?
-                            </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <button class="choice-wrap" data-index="4">
-                            <div class="choice">
-                                Можно ли совмещать учебу с работой?
-                            </div>
-
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="5">
-                            <div class="choice">
-                                Что дает магистратура?
-                            </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="6">
-                            <div class="choice">
-                                Как поступить, если я из другой страны?
-                            </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-                        <button class="choice-wrap" data-index="7">
-                            <div class="choice">
-                                Где я могу работать после окончания обучения?
-                            </div>
-                        </button>
-                        <div class="choice-wrap-after"></div>
-
-                        <div class="arrow-holder">
-                            <div class="arrow-down">
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-</section-->
-
-<section class="reviews">
-    <div class="light-grey-holder">
-        <div class="headline">
-            Отзывы наших выпускников
-        </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Кирилл Иванов
-                        </div>
-                        <div class="info-text">
-                            Выпускник ИШИТР<br/>
-                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Другой Иванов
-                        </div>
-                        <div class="info-text">
-                            Выпускник ИШИТР<br/>
-                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="dots">
-
-        </div>
-
+        Отсутствуют фото
+<!--        <div class="left-right-container">-->
+<!--            <div class="left-right-content">-->
+<!--                <div class="item">-->
+<!--                    <div class="photo">-->
+<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
+<!--                    </div>-->
+<!--                    <div class="info">-->
+<!--                        <div class="info-name">-->
+<!--                             Гергет О.М. -->
+<!--                        </div>-->
+<!--                        <div class="info-text">-->
+<!--                             д.т.н., профессор, ТПУ-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="item">-->
+<!--                    <div class="photo">-->
+<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
+<!--                    </div>-->
+<!--                    <div class="info">-->
+<!---->
+<!--                        <div class="info-name">-->
+<!--                            Пономарев А.А.-->
+<!--                        </div>-->
+<!--                        <div class="info-text">-->
+<!--                             к.т.н., доцент, ТПУ -->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="item">-->
+<!--                    <div class="photo">-->
+<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
+<!--                    </div>-->
+<!--                    <div class="info">-->
+<!--                        <div class="info-name"> Савельев В.В.-->
+<!--                        </div>-->
+<!--                        <div class="info-text">-->
+<!--                             к.т.н., доцент, ТПУ -->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="item">-->
+<!--                    <div class="photo">-->
+<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item">-->
+<!--                    </div>-->
+<!--                    <div class="info">-->
+<!--                        <div class="info-name">-->
+<!--                           Светлик М.В.-->
+<!--                        </div>-->
+<!--                        <div class="info-text">-->
+<!--                            к.биологических наук, доцент, СибГМУ -->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="item">-->
+<!--                    <div class="photo">-->
+<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item">-->
+<!--                    </div>-->
+<!--                    <div class="info">-->
+<!--                        <div class="info-name"> -->
+<!--                            Желева О.В.-->
+<!--                        </div>-->
+<!--                        <div class="info-text">-->
+<!--                            ст. преп., СибГМУ-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="dots">-->
+<!--        </div>-->
     </div>
 </section>
 
 <section class="partners">
     <div class="white-holder">
         <div class="headline">
-            Стратегические партнеры             
+            Стратегические партнеры
         </div>
         <div class="partners-container">
-            <div class="partners">
-                <div class="partners-style">
-                    <img src="/combined/mst/toronto.jpg" class="" >
-                </div>
-                <div class="partners-style">
-                    <img src="/combined/mst/skolkovo.jpg" class="" >
-                </div>
-                <div class="partners-style">
-                    <img src="/combined/mst/TSKM.jpg" class="" >
-                </div>
-            </div>
+            <?= \app\helpers\RenderHelper::renderPartners('mst', 4)?>
         </div>
     </div>
 </section>
+
+
+<section class="reviews">
+    <div class="light-grey-holder">
+        <div class="headline">
+            Отзывы наших выпускников
+        </div>
+        Отсутствуют фото
+<!--        <div class="left-right-container">-->
+<!--            <div class="left-right-content">-->
+<!--                <div class="item">-->
+<!--                    <div class="photo">-->
+<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
+<!--                    </div>-->
+<!--                    <div class="info">-->
+<!--                        <div class="info-name">-->
+<!--                            Кирилл Иванов-->
+<!--                        </div>-->
+<!--                        <div class="info-text">-->
+<!--                            Выпускник ИШИТР<br/>-->
+<!--                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="item">-->
+<!--                    <div class="photo">-->
+<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
+<!--                    </div>-->
+<!--                    <div class="info">-->
+<!--                        <div class="info-name">-->
+<!--                            Другой Иванов-->
+<!--                        </div>-->
+<!--                        <div class="info-text">-->
+<!--                            Выпускник ИШИТР<br/>-->
+<!--                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="dots">-->
+<!---->
+<!--        </div>-->
+
+    </div>
+</section>
+
 
 <section class="contacts">
     <div class="section-content">
