@@ -201,80 +201,6 @@ class RenderHelper
         return $html;
     }
 
-    public static function renderSectionContactForm()
-    {
-        return '
-<section class="contacts">
-    <div class="section-content">
-        <div class="green-gradient-holder">
-            <div class="contacts-table">
-                <div class="contacts-table-info">
-                    <div class="row">
-                        <div class="contacts-white-headline">
-                            Получите подробную инструкцию и все материалы для поступления
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="contacts-white-text">
-                            Мы отправим вам
-
-                        </div>
-                    </div>
-                    <div class="contacts-table-subinfo">
-                        <div class="row">
-                            <div class="subinfo-cell">
-                                ДЛЯ СВЯЗИ С НАМИ
-                            </div>
-                            <div class="subinfo-cell">
-                                +7 (3822) 22-12-36
-<!--                                <img src="/combined/new_landing/icons8-whatsapp-90.png" class="social-transparent">-->
-                                <img src="/combined/new_landing/icons8-vk-round-100.png" class="social-transparent social-vk">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="subinfo-cell">
-                                ПОДАЧА ДОКУМЕНТОВ
-                            </div>
-                            <div class="subinfo-cell">
-                                С 01 декабря 2019 по 14 августа 2020
-                            </div>
-                        </div>
-                        <a href="https://apply.tpu.ru">
-                            <button class="contacts-button-documents">
-                                Подать документы сейчас!
-                            </button>
-
-                        </a>
-                    </div>
-                </div>
-                <div class="contacts-table-form">
-                    <div class="contacts-form-field">
-                        <input type="text" class="contacts-form-input" placeholder="Имя">
-                    </div>
-                    <div class="contacts-form-field">
-                        <input type="text" class="contacts-form-input" placeholder="Фамилия">
-
-                    </div>
-                    <div class="contacts-form-field">
-                        <input type="text" class="contacts-form-input" placeholder="Телефон">
-
-                    </div>
-                    <div class="contacts-form-field">
-                        <input type="text" class="contacts-form-input" placeholder="Email">
-
-                    </div>
-                    <button class="contacts-button-submit">
-                        Получить!
-                    </button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-        ';
-    }
-
     public static function renderInstructions()
     {
         return'
@@ -327,7 +253,7 @@ class RenderHelper
                             </div>
                             <div class="subinfo-cell">
                                 +7 (3822) 22-12-36
-                                <img src="/combined/new_landing/icons8-vk-round-100.png" class="social-transparent">
+                                <img src="/combined/new_landing/icons8-vk-round-100.png" class="social-transparent social-vk">
                             </div>
                         </div>
                         <div class="row">
@@ -338,9 +264,11 @@ class RenderHelper
                                 С 01 декабря 2019 по 14 августа 2020
                            </div>
                         </div>
-                        <button class="contacts-button-documents">
-                           Подать документы сейчас!
-                        </button>
+                        <a>
+                            <button class="contacts-button-documents">
+                               Подать документы сейчас!
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <form class="contacts-table-form">

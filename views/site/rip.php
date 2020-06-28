@@ -300,7 +300,7 @@
     </div>
 </section>
 
-<?=\app\helpers\RenderHelper::renderSectionContactForm()?>
+<?=\app\helpers\RenderHelper::renderInstructionsForm()?>
 <section class="courses">
     <div class="section-content">
         <div class="light-grey-holder">
