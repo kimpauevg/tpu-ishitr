@@ -59,7 +59,25 @@ class RenderHelper
             'seats' => 40,
             'years' => '?',
             'learn' => '?',
-            'href' => '/iim',
+            'href' => '/mvr',
+        ],
+        'aik' => [
+            'code' => '27.04.01',
+            'name' => 'Автоматизация измерений и контроля',
+            'main_name' => 'Стандартизация и метрология',
+            'seats' => '?',
+            'years' => '?',
+            'learn' => '?',
+            'href' => '/aik',
+        ],
+        'bds' => [
+            'code' => '09.04.04 ',
+            'name' => 'Технологии больших данных',
+            'main_name' => 'Программная инженерия',
+            'seats' => 25,
+            'years' => '?',
+            'learn' => '?',
+            'href' => '/bds',
         ],
 
     ];
@@ -67,6 +85,11 @@ class RenderHelper
     {
         return self::$all_master_programs[$name];
     }
+    public static function getHref($name)
+    {
+        return self::$all_master_programs[$name]['href'];
+    }
+
     public static function renderPrograms($program_name_array = [])
     {
         $initial_html = '<div class="navbar-bakalavriat gradient-navbar-table">';

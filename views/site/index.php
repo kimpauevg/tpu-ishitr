@@ -229,8 +229,13 @@
                             09.03.01 Информатика и вычислительная техника
                         </div>
                         <div class="long-row--item-value">
-                            Разработка интернет-приложений<br/>
-                            Искусственный интеллект и машинное обучение
+                            <a href="<?=\app\helpers\RenderHelper::getHref('rip')?>">
+                                Разработка интернет-приложений
+                            </a>
+                            <br/>
+                            <a href="<?=\app\helpers\RenderHelper::getHref('iim')?>">
+                                Искусственный интеллект и машинное обучение
+                            </a>
                         </div>
                     </div>
                     <div class="long-row--item--after"></div>
@@ -239,8 +244,14 @@
                             09.03.02 Информационные системы и технологии
                         </div>
                         <div class="long-row--item-value">
-                            Мобильные приложения и виртуальная реальность<br/>
-                            Медицинские информационные системы и телемедицина
+                            <a href="<?=\app\helpers\RenderHelper::getHref('mvr')?>">
+                                Мобильные приложения и виртуальная реальность
+                            </a>
+                            <br/>
+                            <a href="<?=\app\helpers\RenderHelper::getHref('mst')?>">
+                                Медицинские информационные системы и телемедицина
+                            </a>
+
                         </div>
                     </div>
                     <div class="long-row--item--after"></div>
@@ -250,7 +261,9 @@
                             09.03.04 Программная инженерия
                         </div>
                         <div class="long-row--item-value">
-                            Big Data Solutions* (Технологии больших данных) англ. язык
+                            <a href="<?=\app\helpers\RenderHelper::getHref('bds')?>">
+                                Big Data Solutions* (Технологии больших данных) англ. язык
+                            </a>
                         </div>
                     </div>
                     <div class="long-row--item--after"></div>
@@ -259,7 +272,8 @@
                             15.03.04 Автоматизация технологических процессов и производств
                         </div>
                         <div class="long-row--item-value">
-                            Интернет вещей и цифровое производство<br/>
+                            Интернет вещей и цифровое производство
+                            <br/>
                             IoT & Digital Production - англ. язык
                         </div>
                     </div>
@@ -269,7 +283,11 @@
                             15.03.06 Мехатроника и робототехника
                         </div>
                         <div class="long-row--item-value">
-                            Управление робототехническими комплексами и мехатронными системами<br/>
+                            <a href="<?=\app\helpers\RenderHelper::getHref('urs')?>">
+                                Управление робототехническими комплексами и мехатронными системами
+
+                            </a>
+                            <br/>
                             Инженерия реабилитационных и вспомогательных технологий
                         </div>
                     </div>
@@ -279,7 +297,9 @@
                             27.04.01 Стандартизация и метрология
                         </div>
                         <div class="long-row--item-value">
-                            Автоматизация измерений и контроля
+                            <a href="<?=\app\helpers\RenderHelper::getHref('aik')?>">
+                                Автоматизация измерений и контроля
+                            </a>
                         </div>
                     </div>
                     <div class="long-row--item--after"></div>
@@ -289,7 +309,9 @@
                             54.03.01 Дизайн
                         </div>
                         <div class="long-row--item-value">
-                            Промышленный дизайн
+                            <a href="<?=\app\helpers\RenderHelper::getHref('pd')?>">
+                                Промышленный дизайн
+                            </a>
                         </div>
                     </div>
                     <div class="long-row--item--after"></div>

@@ -3,7 +3,8 @@
     <div class="background"></div>
     <div class="section-content">
         <div class="pb-5 container">
-            <h1> Искусственный интеллект<br/> и машинное обучение</h1>
+            <h1>Мобильные приложения и<br/>
+                виртуальная реальность</h1>
             <div class="container pill-container pb-4">
                 <div class="badge-pill badge-secondary">
                     <div class="pill-text">
@@ -210,7 +211,7 @@
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-task col-3">  </div>
-                            <div class="benefit-title col-9">работать</div>
+                            <div class="benefit-title col-9">Работать</div>
                         </div>
                         <div class="benefit-text">
                             с современными методами, технологиями и средствами интеграции информационных и программных систем

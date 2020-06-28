@@ -172,6 +172,9 @@ section.section-welcome .main-item--text{
 .long-row .long-row--item-value{
  font-size: 16px;
 }
+.long-row--item-value > a {
+ color: black;
+}
 
 .frame{
  font-size: 22px;

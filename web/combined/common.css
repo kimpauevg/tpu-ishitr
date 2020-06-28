@@ -259,10 +259,8 @@ section.section-programs .section-title {
     }
 
     .programs-list .program-item .program-title {
-        height: 115px
-    }
-    .programs-list .program-item .program-title {
-        font-size: 25px
+        height: 115px;
+        font-size: 23px
     }
 }
 
@@ -498,7 +496,7 @@ section.section-competencies .section-content{
     color: gray;
 }
 .programs-list .program-item .program-title {
-    max-width: 175px;
+    max-width: 300px;
 }
 .programs-list .program-item .program-cond {
     display: table;
