@@ -8,6 +8,8 @@ class RenderHelper
         'rip' => [
             'code' => '09.04.01',
             'name' => 'Разработка интернет-приложений',
+            'main_name' => 'Информатика и вычислительная техника',
+
             'seats' => 40,
             'years' => '?',
             'learn' => '?',
@@ -16,14 +18,17 @@ class RenderHelper
         'mst' => [
             'code' => '09.04.02',
             'name' => 'Телемедицина',
+            'main_name' => 'Информационные системы и технологии',
             'seats' => 10,
             'years' => '?',
             'learn' => '?',
             'href' => '/mst',
         ],
+
         'urs' => [
             'code' => '09.04.02',
             'name' => 'Мехатроника и робототехника',
+            'main_name' => 'Информационные системы и технологии',
             'seats' => 24,
             'years' => '?',
             'learn' => '?',
@@ -32,15 +37,36 @@ class RenderHelper
         'pd' => [
             'code' => '54.04.01',
             'name' => 'Дизайн',
+            'main_name' => 'Дизайн',
             'seats' => 6,
             'years' => '?',
             'learn' => '?',
             'href' => '/pd',
         ],
-
-
+        'iim' => [
+            'code' => '09.04.01',
+            'name' => 'Искусственный интеллект и машинное обучение',
+            'main_name' => 'Информатика и вычислительная техника',
+            'seats' => 20,
+            'years' => '?',
+            'learn' => '?',
+            'href' => '/iim',
+        ],
+        'mvr' => [
+            'code' => '09.04.02',
+            'name' => 'Мобильные приложения и виртуальная реальность',
+            'main_name' => 'Информационные системы и технологии',
+            'seats' => 40,
+            'years' => '?',
+            'learn' => '?',
+            'href' => '/iim',
+        ],
 
     ];
+    public static function getInfo($name)
+    {
+        return self::$all_master_programs[$name];
+    }
     public static function renderPrograms($program_name_array = [])
     {
         $initial_html = '<div class="navbar-bakalavriat gradient-navbar-table">';
