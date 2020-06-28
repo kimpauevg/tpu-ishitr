@@ -171,50 +171,50 @@
                     <div class="long-row--head">
                         Бакалавриат
                     </div>
-                    <div class="long-row--item">
+                    <a class="long-row--item" href="/bivt">
                         <div class="long-row--item-name">
                             09.03.01 Информатика и вычислительная техника
                         </div>
                         <div class="long-row--item-value">
                             Программирование вычислительных и коммуникационных систем
                         </div>
-                    </div>
+                    </a>
                     <div class="long-row--item--after"></div>
-                    <div class="long-row--item">
+                    <a class="long-row--item" href="/bpri">
                         <div class="long-row--item-name">
                             09.03.04 Программная инженерия
                         </div>
                         <div class="long-row--item-value">
                             Разработка программно-информационных систем
                         </div>
-                    </div>
+                    </a>
                     <div class="long-row--item--after"></div>
-                    <div class="long-row--item">
+                    <a class="long-row--item" href="/batp">
                         <div class="long-row--item-name">
                             15.03.04 Автоматизация технологических процессов и производств
                         </div>
                         <div class="long-row--item-value">
                             Автоматизация технологических процессов и производств в нефтегазовой отрасли
                         </div>
-                    </div>
+                    </a>
                     <div class="long-row--item--after"></div>
-                    <div class="long-row--item">
+                    <a class="long-row--item" href="/bmir">
                         <div class="long-row--item-name">
                             15.03.06 Мехатроника и робототехника
                         </div>
                         <div class="long-row--item-value">
                             Интеллектуальные робототехнические и мехатронные системы
                         </div>
-                    </div>
+                    </a>
                     <div class="long-row--item--after"></div>
-                    <div class="long-row--item">
+                    <a class="long-row--item" href="/bdes">
                         <div class="long-row--item-name">
                             54.03.01 Дизайн
                         </div>
                         <div class="long-row--item-value">
                             Промышленный дизайн
                         </div>
-                    </div>
+                    </a>
                     <div class="long-row--item--after"></div>
 
                 </div>

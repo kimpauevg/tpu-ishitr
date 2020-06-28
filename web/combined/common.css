@@ -955,7 +955,8 @@ section.section-why.section-vacancy .section-title{
 
 body {
     background-color: #fff;
-    color: #464646
+    color: #464646;
+    max-width: 99%;
 }
 
 a,
@@ -1490,7 +1491,7 @@ section.section-why {
 
 section.section-why .section-title {
 
-    font-size: 32px;
+    font-size: 40px;
     color: #3e9983;
     padding-top: 40px;
     margin-bottom: 30px;
@@ -1499,7 +1500,7 @@ section.section-why .section-title {
 
 section.section-why .section-text {
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .bakalavriat section.section-why .section-text{
@@ -1524,8 +1525,8 @@ section.section-why .left-block {
 section.section-why .right-block {
     margin-top: 50px;
     align-self: center;
+    justify-content: space-between;
 }
-
 section.section-why .container {
     padding-left: 15px;
     padding-right: 15px
@@ -1645,11 +1646,7 @@ div.partners{
         padding-bottom: 60px;
     }
     section.section-why .left-block {
-        max-width: 600px
-    }
-    section.section-why .right-block {
-        align-self: flex-start;
-        margin-right: 50px
+        max-width: 60%;
     }
 }
 @media (min-width: 1300px) {
@@ -1657,9 +1654,9 @@ div.partners{
         max-width: 450px
     }
 }
-@media (min-width:1200px) {
+@media (min-width:1400px) {
     section.section-why .left-block {
-        max-width: 750px
+        max-width: 75%;
     }
 
 
@@ -1670,7 +1667,6 @@ div.partners{
     }
     section.section-points .left-block .section-text {
         margin-bottom: 30px;
-
     }
 }
 section.section-results {
@@ -2419,7 +2415,7 @@ footer .copyright {
     padding: 0 28px;
 }
 
-.pb-5 p{
+section.section-welcome p{
     background: #ffffff80;
     border-radius: 5px;
 }

@@ -530,13 +530,13 @@ $this->title = 'Инженерная школа информационных т�
         <div class="partners-container">
             <div class="partners">
                 <div class="partners-style">
-                <img src="/combined/mst/toronto.jpg" class="" >
+                    <img src="/combined/mst/toronto.jpg" class="" >
                 </div>
                 <div class="partners-style">
-                <img src="/combined/mst/skolkovo.jpg" class="" >
+                    <img src="/combined/mst/skolkovo.jpg" class="" >
                 </div>
-                 <div class="partners-style">
-                <img src="/combined/mst/TSKM.jpg" class="" >
+                <div class="partners-style">
+                    <img src="/combined/mst/TSKM.jpg" class="" >
                 </div>
             </div>
         </div>
@@ -624,182 +624,8 @@ $this->title = 'Инженерная школа информационных т�
 
 
             <div class="container-wide">
-                <div class="programs-list row">
-                    <a href="/buh" class="program-item">
-                        <div class="program-subject">
-                            09.03.02
-                        </div>
-                        <div class="program-title">Информационные системы и технологии</div>
-                        <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places">
-                                </div>
-                                <div class="program-text">11 мест</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon years"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon learn"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-
-                        </div>
-                    </a>
-                    <a href="/buh" class="program-item">
-                        <div class="program-subject">
-                            09.03.02
-                        </div>
-                        <div class="program-title">Информационные системы и технологии</div>
-                        <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places">
-                                </div>
-                                <div class="program-text">11 мест</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon years"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon learn"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-
-                        </div>
-                    </a>
-                    <a href="/buh" class="program-item">
-                        <div class="program-subject">
-                            09.03.02
-                        </div>
-                        <div class="program-title">Информационные системы и технологии</div>
-                        <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places">
-                                </div>
-                                <div class="program-text">11 мест</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon years"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon learn"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-
-                        </div>
-                    </a>
-                    <a href="/buh" class="program-item">
-                        <div class="program-subject">
-                            09.03.02
-                        </div>
-                        <div class="program-title">Информационные системы и технологии</div>
-                        <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places">
-                                </div>
-                                <div class="program-text">11 мест</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon years"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon learn"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-
-                        </div>
-                    </a>
-                    <a href="/buh" class="program-item">
-                        <div class="program-subject">
-                            09.03.02
-                        </div>
-                        <div class="program-title">Информационные системы и технологии</div>
-                        <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places">
-                                </div>
-                                <div class="program-text">11 мест</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon years"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon learn"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-
-                        </div>
-                    </a>
-                    <a href="/buh" class="program-item">
-                        <div class="program-subject">
-                            09.03.02
-                        </div>
-                        <div class="program-title">Информационные системы и технологии</div>
-                        <div class="program-sep"></div>
-                        <div class="program-row">
-                            <div class="program-cond">
-                                <div class="program-icon places">
-                                </div>
-                                <div class="program-text">11 мест</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon years"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-                            <div class="program-cond">
-                                <div class="program-icon learn"></div>
-
-                                <div class="program-text">2 года</div>
-                            </div>
-
-                        </div>
-                    </a>
-
-
-                </div>
-
+                <?= \app\helpers\RenderHelper::renderMagisterProgramsAtBottom('mst')?>
             </div>
         </div>
     </div>
-    </div>
 </section>
-
-<section class="d-none">
-    <ul>
-        <li><a href="/ip">Инженерное предпринимательство</a></li>
-        <li><a href="/emp">Экономика и управление на предприятии</a></li>
-        <li><a href="/nef">Экономика и управление на предприятии нефтегазовой отрасли</a></li>
-        <li><a href="/tb">Технологическое брокерство</a></li>
-        <li><a href="/cm">Цифровой маркетинг</a></li>
-    </ul>
-    <ul>
-        <li><a href="/inv">Инноватика</a></li>
-    </ul>
-    <ul>
-        <li><a href="/dpo">Нац. проекты</a></li>
-    </ul>
-</section>
-</div>
-
-

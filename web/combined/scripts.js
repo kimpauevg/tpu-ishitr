@@ -8413,7 +8413,7 @@ $(document).ready(function() {
     $('img.vk, img.social-vk').each(function(){
         elemToLink(this, 'https://vk.com/ic_tpu');
     });
-    $('img.instagram').click(function(){
+    $('img.instagram').each(function(){
         elemToLink(this, 'https://www.instagram.com/ishitr_tpu/');
     });
 

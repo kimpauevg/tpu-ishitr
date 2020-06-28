@@ -4,6 +4,25 @@ namespace app\helpers;
 
 class RenderHelper
 {
+    public static $all_master_programs = [
+        'rip' => [
+            'code' => '09.04.01',
+            'name' => 'Разработка интернет-приложений',
+            'seats' => 40,
+            'years' => '?',
+            'learn' => '?',
+            'href' => '/rip',
+        ],
+        'mst' => [
+            'code' => '09.04.02',
+            'name' => 'Телемедицина',
+            'seats' => 10,
+            'years' => '?',
+            'learn' => '?',
+            'href' => '/mst',
+        ],
+
+    ];
     public static function renderPrograms($program_name_array = [])
     {
         $initial_html = '<div class="navbar-bakalavriat gradient-navbar-table">';
@@ -59,6 +78,160 @@ class RenderHelper
                 </div>
             </div>';
         return $html;
+    }
+
+    public static function renderMagisterProgramsAtBottom($except)
+    {
+        unset(self::$all_master_programs[$except]);
+
+        $html = '
+                <div class="programs-list row">';
+        foreach (self::$all_master_programs as $key => $program) {
+            $html.= sprintf('
+                    <a href="%s" class="program-item">
+                        <div class="program-subject">
+                            %s
+                        </div>
+                        <div class="program-title">%s</div>
+                        <div class="program-sep"></div>
+                        <div class="program-row">
+                            <div class="program-cond">
+                                <div class="program-icon places">
+                                </div>
+                                <div class="program-text">%s мест</div>
+                            </div>
+                            <div class="program-cond">
+                                <div class="program-icon years"></div>
+
+                                <div class="program-text">%s года</div>
+                            </div>
+                            <div class="program-cond">
+                                <div class="program-icon learn"></div>
+
+                                <div class="program-text">%s года</div>
+                            </div>
+
+                        </div>
+                    </a>
+            ', $program['href'], $program['code'], $program['name'], $program['seats'], $program['years'], $program['learn'] );
+        }
+        $html .= '</div>';
+        return $html;
+
+    }
+    public static function renderPartners($suffix, $total)
+    {
+        $html = '
+            <div class="partners">';
+        foreach( range(1, $total) as $number) {
+            $html.= sprintf('
+                <div class="partners-style">
+                    <img src="/combined/%s/partners/%d.png">
+                </div>', $suffix, $number);
+        }
+        $html .= '
+            </div>';
+        return $html;
+    }
+
+    public static function renderSectionContactForm()
+    {
+        return '
+<section class="contacts">
+    <div class="section-content">
+        <div class="green-gradient-holder">
+            <div class="contacts-table">
+                <div class="contacts-table-info">
+                    <div class="row">
+                        <div class="contacts-white-headline">
+                            Получите подробную инструкцию и все материалы для поступления
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contacts-white-text">
+                            Мы отправим вам
+
+                        </div>
+                    </div>
+                    <div class="contacts-table-subinfo">
+                        <div class="row">
+                            <div class="subinfo-cell">
+                                ДЛЯ СВЯЗИ С НАМИ
+                            </div>
+                            <div class="subinfo-cell">
+                                +7 (3822) 22-12-36
+<!--                                <img src="/combined/new_landing/icons8-whatsapp-90.png" class="social-transparent">-->
+                                <img src="/combined/new_landing/icons8-vk-round-100.png" class="social-transparent social-vk">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="subinfo-cell">
+                                ПОДАЧА ДОКУМЕНТОВ
+                            </div>
+                            <div class="subinfo-cell">
+                                С 01 декабря 2019 по 14 августа 2020
+                            </div>
+                        </div>
+                        <button class="contacts-button-documents">
+                            Подать документы сейчас!
+                        </button>
+                    </div>
+                </div>
+                <div class="contacts-table-form">
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" placeholder="Имя">
+                    </div>
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" placeholder="Фамилия">
+
+                    </div>
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" placeholder="Телефон">
+
+                    </div>
+                    <div class="contacts-form-field">
+                        <input type="text" class="contacts-form-input" placeholder="Email">
+
+                    </div>
+                    <button class="contacts-button-submit">
+                        Получить!
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+        ';
+    }
+
+    public static function renderInstructions()
+    {
+        return'
+     <div class="section-content">
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-instruction-row">
+                    <div class="grid-container-item grid-instruction-bold">
+                        Получите подробную инструкцию и все материалы для поступления
+                    </div>
+                    <div class="grid-container-item">
+                        Заполните анкету, и после обработки мы вышлем ссылку для скачивания Вам на электронную почту
+                    </div>
+                </div>
+                <div class="grid-instruction-row">
+                    <div class="grid-container-item">
+                        Мы отправим Вам все необходимые материалы, а так же ссылки на полезные ресурсы
+                    </div>
+                    <div class="grid-container-item">
+                        <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">получить!</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>';
     }
 
 }

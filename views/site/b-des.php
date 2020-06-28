@@ -2,7 +2,7 @@
     <div class="background"></div>
     <div class="section-content">
         <div class="container pb-5">
-            <h1  >Информатика и вычислительная техника</h1>
+            <h1  >Дизайн</h1>
             <div class="container pill-container pb-4 wow fadeInDown" data-wow-delay="300ms">
                 <div class="badge-pill badge-secondary">
                     <div class="pill-text">
