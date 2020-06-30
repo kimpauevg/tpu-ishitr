@@ -155,7 +155,7 @@
     <div class="white-holder">
         <div class="questions-container">
             <div class="headline">
-                Дисциплины магистерской программы программы
+                Дисциплины магистерской программы
             </div>
             <div class="nav-container">
                 <div class="navbar-bakalavriat gradient-navbar-table">
@@ -370,53 +370,6 @@
         </div>
     </div>
 </section>
-
-
-<section class="reviews">
-    <div class="light-grey-holder">
-        <div class="headline">
-            Отзывы наших выпускников
-        </div>
-        Отсутствуют фото
-<!--        <div class="left-right-container">-->
-<!--            <div class="left-right-content">-->
-<!--                <div class="item">-->
-<!--                    <div class="photo">-->
-<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
-<!--                    </div>-->
-<!--                    <div class="info">-->
-<!--                        <div class="info-name">-->
-<!--                            Кирилл Иванов-->
-<!--                        </div>-->
-<!--                        <div class="info-text">-->
-<!--                            Выпускник ИШИТР<br/>-->
-<!--                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="item">-->
-<!--                    <div class="photo">-->
-<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
-<!--                    </div>-->
-<!--                    <div class="info">-->
-<!--                        <div class="info-name">-->
-<!--                            Другой Иванов-->
-<!--                        </div>-->
-<!--                        <div class="info-text">-->
-<!--                            Выпускник ИШИТР<br/>-->
-<!--                            Профессиональные интересы: менеджмент, производственные системы, оптимизация производства, бережное производство, японские системы менеджмента, кайдзен, издательская деятельность.-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="dots">-->
-<!---->
-<!--        </div>-->
-
-    </div>
-</section>
-
 
 <section class="contacts">
     <div class="section-content">

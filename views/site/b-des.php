@@ -315,20 +315,6 @@
     </div>
 </section>
 
-<!--партнеры-->
-<section class="partners">
-    <div class="white-holder">
-        <div class="headline">
-            Стратегические партнеры
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
 <!--другие программы-->
 <section class="courses">
     <div class="section-content">

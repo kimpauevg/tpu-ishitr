@@ -206,8 +206,6 @@
                     'Защита информации',
                     'Операционные системы',
                     'Сети и телекоммуникации',
-                    'Организация ЭВМ',
-                    'Web- программирование',
                     'Базы данных',
                     'Программирование мобильных устройств',
                     'Вычислительные машины, системы и сети',
@@ -224,7 +222,7 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp"  style="color:#b87571">Наши студенты работают в</div>
+                    <div class="section-title wow fadeInUp"  style="color:#b87571">Выпускник может претендовать на вакансии</div>
                     <div class="section-text">
                         ПАО «НК «Роснефть», ПАО «Лукойл»,<br/>
                         ПАО «Сибур», ПАО «Газпром», ПАО «НОВАТЭК»,<br/>

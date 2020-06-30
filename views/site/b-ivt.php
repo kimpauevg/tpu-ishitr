@@ -11,7 +11,7 @@
                 </div>
                 <div class="badge-pill badge-secondary pill-multirow">
                     <div class="pill-text">
-                        09.04.01 – информатика и <br/> вычислительная техника
+                        09.03.01 – информатика и <br/> вычислительная техника
                     </div>
                 </div>
             </div>
@@ -187,8 +187,6 @@
             </div>
             <div class="nav-container">
                 <?= \app\helpers\RenderHelper::renderPrograms([
-                        'Информатика',
-                    'Программирование',
                     'Технологии программирования',
                     'Программирование мобильных устройств',
                     'Базы данных',
@@ -212,24 +210,26 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp"  style="color:#b87571">Наши студенты работают в </div>
+                    <div class="section-title wow fadeInUp"  style="color:#b87571">Выпускник может претендовать на вакансии </div>
                     <div class="section-text">
+
+                        программиста, системного архитектора, аналитика и системного администратора,
+                        администратора баз данных, специалиста по информационным системам и ресурсам,
+                        менеджера по продажам решений и сложных технических систем, менеджера
+                        информационных технологий.<br/><br/>
+                        Компании:<br/>
                         Центробанк (г. Москва), ОАО «Томскнефть» ВНК, ООО «Томская электронная
                         компания», ОАО «Востокгазпром», Институт оптики атмосферы СО РАН, ТНЦ СО
                         РАН, ОАО «ТомскНИПИнефть ВНК», Томсктрансгаз, ОАО Томское пиво, ЗАО
                         «ЭлеСи» (г. Томск), группа компаний «ИНКОМ» (г. Томск), Dillinger Stahlbau,
                         Siemens (Германия), Samsung Electronics (Ю. Корея), BMW England, Hughes Corp
-                        International, A&amp;AT и др.<br/>
-                        Возможные должности:
-                        Программист, системный архитектор, аналитик и системный администратор,
-                        администратор баз данных, специалист по информационным системам и ресурсам,
-                        менеджер по продажам решений и сложных технических систем, менеджер
-                        информационных технологий.
+                        International, A&amp;AT и др.
+
                     </div>
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block">
-                        <div class="stat-title">≈ 80 000</div>
+                        <div class="stat-title">≈ ?</div>
                         <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>
                     </div>
                 </div>
