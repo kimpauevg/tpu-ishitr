@@ -170,6 +170,7 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
                         инженера-конструктора,
                         инженера,
                         инженера-проектировщика<br/><br/>
+                        Компании:<br/>
                         ООО Sibedge (Сибэдж) — международная IT-компания, специализирующаяся на
                         разработке программного обеспечения для автоматизации и цифровой
                         трансформации бизнеса,
@@ -179,7 +180,6 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
                         ООО &quot;Бэтроник&quot;,
                         ООО Нанотехнологический центр &quot;СИГМА. Новосибирск&quot;,
                         Nigmatic Limited<br/>
-                        Должности:
                     </div>
                 </div>
                 <div class="col-auto right-block">

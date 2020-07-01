@@ -152,7 +152,7 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
                 <div class="col-auto left-block">
                     <div class="section-title "  style="color:#b87571">Выпускник может претендовать на вакансии</div>
                     <div class="section-text">
-
+                        Компании:<br/>
                         ООО &quot;Титан-media&quot; г. Нижневартовск,<br/>
                         ООО &quot;Технопоиск&quot; REDMOND, г. Санкт-Петербург,<br/>
                         ООО &quot;ВИТЕКС&quot;, ООО &quot;ИНТЭК&quot;, г. Томск<br/>

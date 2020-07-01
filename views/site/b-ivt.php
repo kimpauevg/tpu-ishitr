@@ -42,40 +42,38 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 
 <!--компетанции-->
 
-<section class="section-benefits ">
-    <div class="white-holder">
-        <div class="headline">
-            Программа нацелена на компетенции
-        </div>
-        <div class="section-content">
-            <div class="container">
-               <div class="row">
-                    <div class=" col-sm-4" >
-                        <div class="row">
-                            <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-8">Цель программы</div>
-                        </div>
-                        <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-                    </div>
-                    <div class=" col-sm-4" >
-                        <div class="row">
-                            <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-8">Формат обучения</div>
-                        </div>
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-                    </div>
-                    <div class=" col-sm-4" >
-                        <div class="row">
-                            <div class="benefit-item benefit-task col-3" >  </div>
-                            <div class="benefit-title col-8">Диплом</div>
-                        </div>
-                        <div class="benefit-text">Присваивается степень бакалавра по направлению Информатика и вычислительная техника.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>      
+<?= \app\helpers\RenderHelper::renderCompetences([
+    [
+        'Знание',
+        'современных методов и средств проектирования
+программных и аппаратных средств вычислительной техники и
+автоматизированных систем обработки информации и управления'
+    ],
+    [
+        'Умение',
+        'работать с аппаратными средствами, программными
+продуктами и технологиями ведущих мировых производителей Intel, Microsoft,
+Altera, Xilinx, Huawei, Atmel, и др.;'
+    ],
+    [
+        'Владение',
+        'языками программирования C++, C#, JavaScript, Python, использование в
+работе пакетов Blender и MATLAB и сред разработки Unity, Visual Studio,
+PyCharm, Android Studio.'
+    ],
+    [
+        'Способность',
+        'разрабатывать программные и аппаратные средства (системы,
+устройства, блоки, программы, базы данных и т. п.) в соответствии с техническим
+заданием и с использованием средств автоматизации проектирования;'
+    ],
+    [
+        'Навыки',
+        'проводить теоретические и эксперименты, готовность внедрять,
+эксплуатировать и обслуживать современные программно-аппаратные комплексы'
+    ],
+
+])?>
 
 <!--баллы егэ-->
 <section class="scores" style="background-color:#f5f5f5">

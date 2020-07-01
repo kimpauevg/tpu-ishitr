@@ -288,7 +288,7 @@
                         программного инженера,
                         младшего инженера по анализу данных,
                         главного инженера по анализу данных,
-                        cтаршего инженера,
+                        cтаршего инженера.
                         <br/><br/>
                         Компании:<br/>
                         ООО Sibedge (Сибэдж),
@@ -310,29 +310,6 @@
         </div>
     </div>
 </section>
-
-<!--TODO remove -->
-<!--<section class="section-why" style="background-color:#f5f5f5">-->
-<!--    <div class="section-content">-->
-<!--        <div class="container" >-->
-<!--            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">-->
-<!--                <div class="col-auto left-block">-->
-<!--                    <div class="section-title "  style="color:#b87571">Пример с промежутком </div>-->
-<!--                    <div class="section-text">-->
-<!--                        Это потом нужно удалить-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-auto right-block">-->
-<!--                    <div class="statistic-block gap-block">-->
-<!--                        <div class="stat-title">≈ 80 - 90 000</div>-->
-<!--                        <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
 
 <!--преподаватели-->
 <section class="lecturers">

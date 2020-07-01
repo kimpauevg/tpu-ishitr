@@ -154,59 +154,31 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
 
 <?= \app\helpers\RenderHelper::masteryOpportunity()?>
 
-<section class="section-competencies">
+<?= \app\helpers\RenderHelper::renderCompetences([
+    [
+        'Исследовать',
+        'и анализировать большие данные, создавать
+их модели и интерпретировать структуры данных в
+таких моделях'
+    ],
+    [
+        'Понимать',
+        'принципы создания, хранения, управления,
+передачи и анализа больших данных с использованием
+новейших технологий, инструментов и систем обработки
+данных в высокопроизводительных сетях'
+    ],
+    [
+        'Применять',
+        'теорию распределенной системы управления
+базами данных к традиционным распределенным
+системам реляционных баз данных, облачным базам
+данных, крупномасштабным системам машинного
+обучения и хранилищам данных'
+    ],
+])?>
 
-    <div class="white-holder">
-        <div class="headline">
-            Программа нацелена на компетенции
-        </div>
-        <div class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-9">Исследовать</div>
-                        </div>
-                        <div class="benefit-text">
-                            и анализировать большие данные, создавать
-                            их модели и интерпретировать структуры данных в
-                            таких моделях
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-9">Понимать</div>
-                        </div>
-                        <div class="benefit-text">
-                            принципы создания, хранения, управления,
-                            передачи и анализа больших данных с использованием
-                            новейших технологий, инструментов и систем обработки
-                            данных в высокопроизводительных сетях
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-task col-3">  </div>
-                            <div class="benefit-title col-9">Применять</div>
-                        </div>
-                        <div class="benefit-text">
-                            теорию распределенной системы управления
-                            базами данных к традиционным распределенным
-                            системам реляционных баз данных, облачным базам
-                            данных, крупномасштабным системам машинного
-                            обучения и хранилищам данных
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <?= \app\helpers\RenderHelper::renderInstructions()?>
-</section>
+<?= \app\helpers\RenderHelper::renderInstructions()?>
 
 <section class="lecturers">
     <div class="light-grey-holder">
@@ -223,7 +195,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
             Стратегические партнеры
         </div>
         <div class="partners-container">
-            <?= \app\helpers\RenderHelper::renderPartners($prefix, 8)?>
+            <?= \app\helpers\RenderHelper::renderPartners($prefix, 5)?>
         </div>
     </div>
 </section>
