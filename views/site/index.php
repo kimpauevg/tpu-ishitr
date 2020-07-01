@@ -28,17 +28,17 @@
         <div class="main-container main-info">
             <div class="main-row"><!-- row flex-column flex-lg-row grid3 -->
                 <div class="main-item">
-                    <div class="main-item--text wow fadeInUp" data-wow-delay="100ms" data-wow-duration="400ms">
+                    <div class="main-item--text">
                         200 преподавателей
                     </div>
                 </div>
                 <div class="main-item">
-                    <div class="main-item--text wow fadeInUp" data-wow-delay="200ms" data-wow-duration="400ms">
+                    <div class="main-item--text">
                         1100 студентов
                     </div>
                 </div>
                 <div class="main-item">
-                    <div class="main-item--text wow fadeInUp" data-wow-delay="300ms" data-wow-duration="400ms">
+                    <div class="main-item--text">
                         18 000 выпускников
                     </div>
                 </div>

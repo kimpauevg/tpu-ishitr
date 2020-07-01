@@ -1,3 +1,5 @@
+<?php $name = 'des';
+$info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 <section class="section-welcome">
     <div class="background"></div>
     <div class="section-content">
@@ -26,77 +28,11 @@
                 инженерно-технических, творческих и других аспектах.
             </p>
         </div>
-        <div class="container">
-            <div class="row flex-column flex-sm-row">
-                <div class="col-lg-4 col-12 course-item-holder">
-                    <div class="col-auto1">
-                        <div class=" course-item  " >
-
-                            <div class="course-item__label">Места</div>
-                            <div class="course-item__value">? бюджетных мест</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 course-item-holder">
-                    <div class="col-auto1">
-                        <div class="course-item">
-
-                            <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">Очная – вечернее обучение </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 course-item-holder">
-                    <div class="col-auto1">
-                        <div class="course-item">
-
-                            <div class="course-item__label">Проходной балл </div>
-                            <div class="course-item__value">2019 год – ?<br>2018 год – ?</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row flex-column flex-sm-row ">
-                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
-                    <div class="course-item-benefit">
-                        <div class="img-tick"></div>
-                        <div>Общежитие</div>
-                    </div>
-                </div>
-                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
-                    <div class="course-item-benefit">
-                        <div class="img-tick"></div> Военная кафедра
-                    </div>
-                </div>
-                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
-                    <div class="course-item-benefit">
-                        <div class="img-tick"></div>  Электронное обучение
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?= \app\helpers\RenderHelper::renderBachelorAfterIntro($name)?>
     </div>
 </section>
 <!--форма подать заявку-->
-<section class="section-request">
-    <div class="section-content">
-        <div class="container">
-            <div class="grid-container">
-                <div class="grid-instruction-row">
-                    <div class="grid-container-item grid-instruction-bold">
-                        Вы можете подать заявление на обучение у нас уже сейчас
-                    </div>
-                    <div class="grid-container-item">
-                        <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">Подать заявление!</a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::applyNow()?>
 <!--цель-->
 <section class="section-competencies">
     <div class="section-content">
@@ -159,7 +95,7 @@
 </section>
 
 <!--баллы егэ-->
-<section class="section-why" style="background-color:#f5f5f5">
+<section class="scores">
     <div class="section-content">
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
@@ -168,27 +104,27 @@
                     <div class="section-text row">
                         <div class="col-sm-4 col-12">
                             <div class="circle " >
-                                <div class="circle-title">Не указан</div>
-                                <div class="">математика</div>
+                                <div class="circle-title">54</div>
+                                <div class="">Обществознание</div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-12">
                             <div class="circle">
-                                <div class="circle-title">Не указан</div>
-                                <div class="">информатика </div>
+                                <div class="circle-title">53</div>
+                                <div class="">Творческий конкурс </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-12">
                             <div class="circle">
-                                <div class="circle-title">Не указан</div>
-                                <div class="">русский </div>
+                                <div class="circle-title">56</div>
+                                <div class="">Русский язык</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block" >
-                        <div class="stat-title">Не укаазан</div>
+                        <div class="stat-title"><?=$info['average']?></div>
                         <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
                         </div>
                     </div>
@@ -220,21 +156,18 @@
     </div>
 </section>
 <!--вакансии-->
-<section class="section-why" style="background-color:#f5f5f5">
+<section class="section-vacancies">
     <div class="section-content">
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title "  style="color:#b87571">Наши студенты работают в</div>
+                    <div class="section-title "  style="color:#b87571">Выпускник может претендовать на вакансии</div>
                     <div class="section-text">
-                        (Ранее Выпускник может претендовать на вакансии)<br/>
-                        ООО &quot;Титан-media&quot; г. Нижневартовск<br/>
-                        ООО &quot;Технопоиск&quot; REDMOND, г. Санкт-Петербург<br/>
-                        ООО &quot;ВИТЕКС&quot;, г. Томск<br/>
-                        ООО &quot;ИНТЭК&quot;, г. Томск<br/>
 
-                        FilmDirectionFX VFX Studio, г. Москва<br/>
-                        Mighty Buildings Inc., г. Москва<br/>
+                        ООО &quot;Титан-media&quot; г. Нижневартовск,<br/>
+                        ООО &quot;Технопоиск&quot; REDMOND, г. Санкт-Петербург,<br/>
+                        ООО &quot;ВИТЕКС&quot;, ООО &quot;ИНТЭК&quot;, г. Томск<br/>
+                        FilmDirectionFX VFX Studio, Mighty Buildings Inc., г. Москва<br/>
                         Avalanche studios, Швеция<br/>
                     </div>
                 </div>
@@ -267,22 +200,13 @@
             Темы выпускных<br> квалификационных работ
         </div>
         <div class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class="li-text">
-                        <div class="qualification-list" >
-
-                            <?= \app\helpers\RenderHelper::renderQualificationWorkThemes([
-                                'Дизайн-проект модульного комплекта элементов, представляющих сенсорную стимуляцию.',
-                                'Комбинаторный подход в дизайне и разработке высокоэффективной аудиосистемы рупорного типа.',
-                                'Дизайн-проект оболочки портативного многофункционального медицинского устройства.',
-                                'Дизайн комбинаторного комплекта мебели для детей.',
-                                'Дизайн корпуса лампы для светотерапии.',
-                            ])?>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?= \app\helpers\RenderHelper::renderQualificationWorkThemes([
+                'Дизайн-проект модульного комплекта элементов, представляющих сенсорную стимуляцию.',
+                'Комбинаторный подход в дизайне и разработке высокоэффективной аудиосистемы рупорного типа.',
+                'Дизайн-проект оболочки портативного многофункционального медицинского устройства.',
+                'Дизайн комбинаторного комплекта мебели для детей.',
+                'Дизайн корпуса лампы для светотерапии.',
+            ])?>
         </div>
     </div>
 </section>
@@ -297,63 +221,6 @@
     </div>
 </section>
 
-<section class="section-request">
-    <div class="section-content">
-        <div class="container">
-            <div class="grid-container">
-                <div class="grid-instruction-row">
-                    <div class="grid-container-item grid-instruction-bold">
-                        Вы можете подать заявление на обучение у нас уже сейчас
-                    </div>
-                    <div class="grid-container-item">
-                        <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">Подать заявление!</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+<?= \app\helpers\RenderHelper::applyNow()?>
 <!--другие программы-->
-<section class="courses">
-    <div class="section-content">
-        <div class="light-grey-holder">
-            <div class="headline">
-                Другие направления бакалавриата
-            </div>
-
-
-            <div class="container-wide">
-                <div class="programs-list row">
-                    <a href="/bdes" class="program-item">
-                        <div class="program-subject">
-                            15.03.04
-                        </div>
-                        <div class="program-title">Автоматизация технологических процессов и производств</div>
-                        <div class="program-sep"></div>
-                    </a>
-                    <a href="/bivt" class="program-item">
-                        <div class="program-subject">
-                            09.03.01
-                        </div>
-                        <div class="program-title">Информатика и вычислительная техника</div>
-                    </a>
-                    <a href="/bmir" class="program-item">
-                        <div class="program-subject">
-                            15.03.06
-                        </div>
-                        <div class="program-title">Мехатроника и робототехника</div>
-                    </a>
-
-                    <a href="/bpri" class="program-item">
-                        <div class="program-subject">
-                            09.03.04
-                        </div>
-                        <div class="program-title">Программная инженерия</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?=\app\helpers\RenderHelper::renderBachelorProgramsAtBottom('des')?>

@@ -9,7 +9,6 @@ class RenderHelper
             'code' => '09.04.01',
             'name' => 'Разработка интернет-приложений',
             'main_name' => 'Информатика и вычислительная техника',
-
             'seats' => 40,
             'years' => '?',
             'learn' => '?',
@@ -81,10 +80,58 @@ class RenderHelper
         ],
 
     ];
+
+    public static $all_bachelor_programs = [
+        'atp' => [
+            'code' => '15.03.04',
+            'name' => 'Автоматизация технологических процессов и производств',
+            'href' => '/batp',
+            'average' => 73,
+            'seats' => 40,
+            'minimal' => 203
+        ],
+        'des' => [
+            'code' => '09.03.01',
+            'name' => 'Информатика и вычислительная техника',
+            'href' => '/bdes',
+            'average' => 82,
+            'seats' => 64,
+            'minimal' => 231
+        ],
+        'ivt' => [
+            'code' => '54.03.01',
+            'name' => 'Дизайн',
+            'href' => '/bivt',
+            'average' => 84,
+            'seats' => 9,
+            'minimal' => 237
+        ],
+        'pri' => [
+            'code' => '09.03.04',
+            'name' => 'Программная инженерия',
+            'href' => '/bpri',
+            'average' => 86,
+            'seats' => 86,
+            'minimal' => 249
+        ],
+        'mir' => [
+            'code' => '15.03.06',
+            'name' => 'Мехатроника и робототехника',
+            'href' => '/bmir',
+            'average' => 78,
+            'seats' => 40,
+            'minimal' => 219
+        ],
+    ];
     public static function getInfo($name)
     {
         return self::$all_master_programs[$name];
     }
+    public static function getBachelorInfo($name)
+    {
+        return self::$all_bachelor_programs[$name];
+    }
+
     public static function getHref($name)
     {
         return self::$all_master_programs[$name]['href'];
@@ -170,22 +217,59 @@ class RenderHelper
                             <div class="program-cond">
                                 <div class="program-icon years"></div>
 
-                                <div class="program-text">%s года</div>
+                                <div class="program-text">2 года</div>
                             </div>
                             <div class="program-cond">
                                 <div class="program-icon learn"></div>
 
-                                <div class="program-text">%s года</div>
+                                <div class="program-text">очно</div>
                             </div>
 
                         </div>
                     </a>
-            ', $program['href'], $program['code'], $program['name'], $program['seats'], $program['years'], $program['learn'] );
+            ', $program['href'], $program['code'], $program['name'], $program['seats']);
         }
         $html .= '</div>';
         return $html;
+    }
+
+    public static function renderBachelorProgramsAtBottom($except)
+    {
+
+        unset(self::$all_bachelor_programs[$except]);
+        $html =
+        '<section class="courses">
+            <div class="section-content">
+                <div class="light-grey-holder">
+                    <div class="headline">
+                        Другие направления бакалавриата
+                    </div>
+        
+        
+                    <div class="container-wide">
+                        <div class="programs-list row">';
+
+        foreach (self::$all_bachelor_programs as $program) {
+            $html.= sprintf('
+                    <a href="%s" class="program-item">
+                        <div class="program-subject">
+                            %s
+                        </div>
+                        <div class="program-title">%s</div>
+                    </a>
+            ', $program['href'], $program['code'], $program['name']);
+        }
+
+        $html .= '     </div>
+                    </div>
+                </div>
+            </div>
+        </section>';
+        return $html;
 
     }
+
+
     public static function renderPartners($suffix, $total)
     {
         $html = '
@@ -252,7 +336,7 @@ class RenderHelper
                                 ДЛЯ СВЯЗИ С НАМИ
                             </div>
                             <div class="subinfo-cell">
-                                +7 (3822) 22-12-36
+                                +7 952 800 26-01
                                 <img src="/combined/new_landing/icons8-vk-round-100.png" class="social-transparent social-vk">
                             </div>
                         </div>
@@ -296,9 +380,85 @@ class RenderHelper
             </div>
         </div>
     </div>
-</section>'
-            , \Yii::$app->request->csrfParam, \Yii::$app->request->getCsrfToken());
+</section>', \Yii::$app->request->csrfParam, \Yii::$app->request->getCsrfToken());
+    }
+    public static function renderBachelorAfterIntro($suffix)
+    {
+        $info = self::getBachelorInfo($suffix);
+        return sprintf( '        
+        <div class="container">
+            <div class="row flex-column flex-sm-row">
+                <div class="col-lg-4 col-12 course-item-holder">
+                    <div class="col-auto1">
+                        <div class="course-item" >
 
+                            <div class="course-item__label">Места</div>
+                            <div class="course-item__value">%s бюджетных мест</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 course-item-holder">
+                    <div class="col-auto1">
+                        <div class="course-item">
+
+                            <div class="course-item__label">форма обучения</div>
+                            <div class="course-item__value">Очная - вечернее обучение</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 course-item-holder">
+                    <div class="col-auto1">
+                        <div class="course-item">
+
+                            <div class="course-item__label">Средний проходной балл </div>
+                            <div class="course-item__value">2017-2019 гг. – %s</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row flex-column flex-sm-row ">
+                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
+                    <div class="course-item-benefit">
+                        <div class="img-tick"></div>
+                        <div>Общежитие</div>
+                    </div>
+                </div>
+                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
+                    <div class="course-item-benefit">
+                        <div class="img-tick"></div> Военная кафедра
+                    </div>
+                </div>
+                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
+                    <div class="course-item-benefit">
+                        <div class="img-tick"></div>  Электронное обучение
+                    </div>
+                </div>
+            </div>
+        </div>
+', $info['seats'], $info['minimal']);
+    }
+
+    public static function applyNow()
+    {
+        return '
+<section class="section-request">
+    <div class="section-content">
+        <div class="container">
+            <div class="grid-container">
+                <div class="grid-instruction-row">
+                    <div class="grid-container-item grid-instruction-bold">
+                        Вы можете подать заявление на обучение у нас уже сейчас
+                    </div>
+                    <div class="grid-container-item">
+                        <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">Подать заявление!</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>';
     }
 
 }

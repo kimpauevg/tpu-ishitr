@@ -33,6 +33,7 @@ AppAsset::register($this);
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" />
     <link rel="stylesheet" type="text/css" href="/combined/styles.css" />
     <link rel="stylesheet" type="text/css" href="/combined/common.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/combined/<?=$action_name . '/' . $action_name?>.css" />
 <!--Вставлено-->
 
@@ -53,7 +54,7 @@ AppAsset::register($this);
             <div class="header-container">
                 <div class="contact-row">
                     <div class="contact-bold contact">
-                        +7 (3822) 22-12-36
+                        +7 952 800 26-01
                     </div>
                 </div>
 
@@ -109,7 +110,7 @@ AppAsset::register($this);
                         Для связи с нами
                     </div>
                     <div class="contact-bold contact">
-                        +7 (3822) 22-12-36
+                        +7 952 800 26-01
                     </div>
                 </div>
 

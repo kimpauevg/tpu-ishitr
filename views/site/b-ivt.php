@@ -21,7 +21,7 @@
             <div class="row flex-column flex-sm-row">
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                    <div class=" course-item wow fadeInUp "  >
+                    <div class=" course-item  "  >
                         
                         <div class="course-item__label">Места</div>
                         <div class="course-item__value">? бюджетных мест</div>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-lg-4 col-12 course-item-holder">
                     <div class="col-auto1">
-                    <div class="course-item wow fadeInUp"  >
+                    <div class="course-item "  >
                         
                         <div class="course-item__label">форма обучения</div>
                             <div class="course-item__value">Очная – вечернее обучение </div>
@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-lg-4 col-12 course-item-holder">
                          <div class="col-auto1">
-                        <div class="course-item wow fadeInUp "  >
+                        <div class="course-item  "  >
                            
                             <div class="course-item__label">Проходной балл </div>
                             <div class="course-item__value">2019 год – ?<br>2018 год – ?</div>
@@ -49,18 +49,18 @@
                 </div>
 
             <div class="row flex-column flex-sm-row ">
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder"  >
+                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>
                         <div>Общежитие</div>
                     </div>
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder"  >
+                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div> Военная кафедра
                     </div>                
                 </div>
-                <div class="course-item wow fadeInUp col-lg-4 col-12 course-item-holder"  >
+                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
                     <div class="course-item-benefit">
                         <div class="img-tick"></div>  Электронное обучение
                     </div>
@@ -145,7 +145,7 @@
             <div class="container" >
                 <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                     <div class="col-auto left-block">
-                        <div class="section-title wow fadeInUp"  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
+                        <div class="section-title "  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
                         <div class="section-text row">
                             <div class="col-sm-4 col-12">
                                 <div class="circle " > 
@@ -210,7 +210,7 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title wow fadeInUp"  style="color:#b87571">Выпускник может претендовать на вакансии </div>
+                    <div class="section-title "  style="color:#b87571">Выпускник может претендовать на вакансии </div>
                     <div class="section-text">
 
                         программиста, системного архитектора, аналитика и системного администратора,
