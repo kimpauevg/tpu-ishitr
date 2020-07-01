@@ -77,24 +77,7 @@
     </div>
 </section>
 <!--форма подать заявку-->
-<section class="section-request">
-    <div class="section-content">
-        <div class="container">
-            <div class="grid-container">
-                <div class="grid-instruction-row">
-                    <div class="grid-container-item grid-instruction-bold">
-                        Вы можете подать заявление на обучение у нас уже сейчас
-                    </div>
-                    <div class="grid-container-item">
-                        <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">Подать заявление!</a>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::applyNow()?>
 <!--цель-->
 <section class="section-competencies">
     <div class="section-content">
@@ -294,7 +277,8 @@
                         <div class="info-text">
                             заслуженный профессор ТПУ, академик Международной академии наук высшей школы
                             и Академии электротехнических наук РФ, д.т.н., профессор Отделения автоматизации
-                            и робототехники Инженерной школы информационных технологий и робототехники.                        </div>
+                            и робототехники Инженерной школы информационных технологий и робототехники.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -367,64 +351,7 @@
     </div>
 </section>
 
-<section class="section-request">
-    <div class="section-content">
-        <div class="container">
-            <div class="grid-container">
-                <div class="grid-instruction-row">
-                    <div class="grid-container-item grid-instruction-bold">
-                        Вы можете подать заявление на обучение у нас уже сейчас
-                    </div>
-                    <div class="grid-container-item">
-                        <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">Подать заявление!</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
+<?= \app\helpers\RenderHelper::applyNow()?>
 
 <!--другие программы-->
-<section class="courses">
-    <div class="section-content">
-        <div class="light-grey-holder">
-            <div class="headline">
-                Другие направления бакалавриата
-            </div>
-
-
-            <div class="container-wide">
-                <div class="programs-list row">
-                    <a href="/bdis" class="program-item">
-                        <div class="program-subject">
-                            54.03.01
-                        </div>
-                        <div class="program-title">Дизайн</div>
-                    </a>
-                    <a href="/bivt" class="program-item">
-                        <div class="program-subject">
-                            09.03.01
-                        </div>
-                        <div class="program-title">Информатика и вычислительная техника</div>
-                    </a>
-                    <a href="/bmir" class="program-item">
-                        <div class="program-subject">
-                            15.03.06
-                        </div>
-                        <div class="program-title">Мехатроника и робототехника</div>
-                    </a>
-
-                    <a href="/bpri" class="program-item">
-                        <div class="program-subject">
-                            09.03.04
-                        </div>
-                        <div class="program-title">Программная инженерия</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderBachelorProgramsAtBottom($prefix)?>
