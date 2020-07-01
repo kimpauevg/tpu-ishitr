@@ -199,6 +199,11 @@ class RenderHelper
         unset(self::$all_master_programs[$except]);
 
         $html = '
+<section class="courses">
+        <div class="light-grey-holder">
+            <div class="headline">
+                Другие магистерские программы
+            </div>
                 <div class="programs-list row">';
         foreach (self::$all_master_programs as $key => $program) {
             $html.= sprintf('
@@ -229,7 +234,10 @@ class RenderHelper
                     </a>
             ', $program['href'], $program['code'], $program['name'], $program['seats']);
         }
-        $html .= '</div>';
+        $html .= '</div>
+    </div>
+</section>
+';
         return $html;
     }
 
@@ -239,7 +247,6 @@ class RenderHelper
         unset(self::$all_bachelor_programs[$except]);
         $html =
         '<section class="courses">
-            <div class="section-content">
                 <div class="light-grey-holder">
                     <div class="headline">
                         Другие направления бакалавриата
@@ -263,7 +270,6 @@ class RenderHelper
         $html .= '     </div>
                     </div>
                 </div>
-            </div>
         </section>';
         return $html;
 
@@ -316,7 +322,6 @@ class RenderHelper
     public static function renderInstructionsForm()
     {
         return sprintf('<section class="contacts">
-    <div class="section-content">
         <div class="green-gradient-holder">
             <div class="contacts-table">
                 <div class="contacts-table-info">
@@ -379,7 +384,6 @@ class RenderHelper
 
             </div>
         </div>
-    </div>
 </section>', \Yii::$app->request->csrfParam, \Yii::$app->request->getCsrfToken());
     }
     public static function renderBachelorAfterIntro($suffix)
@@ -460,5 +464,55 @@ class RenderHelper
     </div>
 </section>';
     }
+    public static function renderCompetences($all_competences)
+    {
+        $possible_benefits = [
+            'benefit-graph',
+            'benefit-programming',
+            'benefit-task',
+            'benefit-target',
+            'benefit-suitcase',
+        ];
+        $html = '
+<section class="section-benefits">
+    <div class="white-holder">
+        <div class="headline">
+            Программа нацелена на компетенции
+        </div>
+        <div class="section-content">
+            <div class="container">
+        ';
+        $competence_rows = array_chunk($all_competences, 3);
+        foreach ($competence_rows as $row_elems){
+            $html .= '
+                <div class="row">            
+            ';
+            foreach ($row_elems as $competence) {
+                $html .= sprintf('
+                    <div class=" col-sm-4" >
+                        <div class="row">
+                            <div class="benefit-item %s col-3"></div>
+                            <div class="benefit-title col-8">%s</div>
+                        </div>
+                        <div class="benefit-text">%s</div>
+                    </div>
+                ', array_shift($possible_benefits),$competence[0], $competence[1]);
+            }
+
+            $html .= '
+                </div>
+            ';
+        }
+
+        $html .= '
+            </div>
+        </div>
+    </div>
+</section>      
+        
+        ';
+        return $html;
+    }
+
 
 }

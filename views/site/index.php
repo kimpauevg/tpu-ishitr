@@ -226,7 +226,7 @@
                     </div>
                     <div class="long-row--item">
                         <div class="long-row--item-name">
-                            09.03.01 Информатика и вычислительная техника
+                            09.04.01 Информатика и вычислительная техника
                         </div>
                         <div class="long-row--item-value">
                             <a href="<?=\app\helpers\RenderHelper::getHref('rip')?>">
@@ -241,7 +241,7 @@
                     <div class="long-row--item--after"></div>
                     <div class="long-row--item">
                         <div class="long-row--item-name">
-                            09.03.02 Информационные системы и технологии
+                            09.04.02 Информационные системы и технологии
                         </div>
                         <div class="long-row--item-value">
                             <a href="<?=\app\helpers\RenderHelper::getHref('mvr')?>">
@@ -258,7 +258,7 @@
 
                     <div class="long-row--item">
                         <div class="long-row--item-name">
-                            09.03.04 Программная инженерия
+                            09.04.04 Программная инженерия
                         </div>
                         <div class="long-row--item-value">
                             <a href="<?=\app\helpers\RenderHelper::getHref('bds')?>">
@@ -278,7 +278,7 @@
                     <div class="long-row--item--after"></div>
                     <div class="long-row--item">
                         <div class="long-row--item-name">
-                            15.03.06 Мехатроника и робототехника
+                            15.04.06 Мехатроника и робототехника
                         </div>
                         <div class="long-row--item-value">
                             <a href="<?=\app\helpers\RenderHelper::getHref('urs')?>">
@@ -302,7 +302,7 @@
 
                     <div class="long-row--item">
                         <div class="long-row--item-name">
-                            54.03.01 Дизайн
+                            54.04.01 Дизайн
                         </div>
                         <div class="long-row--item-value">
                             <a href="<?=\app\helpers\RenderHelper::getHref('pd')?>">
@@ -318,7 +318,7 @@
                     Подать документы прямо сейчас!
                 </div>
                 <div class="button-wrapper">
-                    <a class="frame-button">
+                    <a href="https://apply.tpu.ru" class="frame-button">
                         Подать!
                     </a>
 

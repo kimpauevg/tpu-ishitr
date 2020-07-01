@@ -1,4 +1,5 @@
-
+<?php $name = 'mir';
+$info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 <section class="section-welcome">
     <div class="background"></div>
     <div class="section-content">
@@ -31,77 +32,11 @@
                 разработки направлены на реализацию автономных мобильных мехатронных систем.
             </p>
         </div>
-        <div class="container">
-            <div class="row flex-column flex-sm-row">
-                <div class="col-lg-4 col-12 course-item-holder">
-                    <div class="col-auto1">
-                        <div class=" course-item  ">
-
-                            <div class="course-item__label">Места</div>
-                            <div class="course-item__value">? бюджетных мест<br><p></p></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 course-item-holder">
-                    <div class="col-auto1">
-                        <div class="course-item ">
-
-                            <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">? </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 course-item-holder">
-                    <div class="col-auto1">
-                        <div class="course-item  ">
-
-                            <div class="course-item__label">Проходной балл </div>
-                            <div class="course-item__value">2019 год – ?<br>2018 год – ?</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row flex-column flex-sm-row ">
-                <div class="course-item  col-lg-4 col-12 course-item-holder">
-                    <div class="course-item-benefit">
-                        <div class="img-tick"></div>
-                        <div>Общежитие</div>
-                    </div>
-                </div>
-                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
-                    <div class="course-item-benefit">
-                        <div class="img-tick"></div> Военная кафедра
-                    </div>
-                </div>
-                <div class="course-item  col-lg-4 col-12 course-item-holder"  >
-                    <div class="course-item-benefit">
-                        <div class="img-tick"></div>  Электронное обучение
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?= \app\helpers\RenderHelper::renderBachelorAfterIntro($name)?>
     </div>
 </section>
-<!--форма подать заявку-->
-<section class="section-request">
-    <div class="section-content">
-        <div class="container">
-            <div class="grid-container">
-                <div class="grid-instruction-row">
-                    <div class="grid-container-item grid-instruction-bold">
-                        Вы можете подать заявление на обучение у нас уже сейчас
-                    </div>
-                    <div class="grid-container-item">
-                        <a href="https://apply.tpu.ru/" class="btn btn-danger btn-lg">Подать заявление!</a>
-                    </div>
+<?= \app\helpers\RenderHelper::applyNow()?>
 
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 <!--цель-->
 <section class="section-competencies">
     <div class="section-content">
@@ -129,43 +64,37 @@
 </section>
 
 <!--компетанции-->
-<section class="section-benefits ">
-    <div class="white-holder">
-        <div class="headline">
-            Программа нацелена на компетенции
-        </div>
-        <div class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class=" col-sm-4"">
-                        <div class="row">
-                            <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-8">Цель программы</div>
-                        </div>
-                        <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-                    </div>
-                    <div class=" col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-8">Формат обучения</div>
-                        </div>
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-                    </div>
-                    <div class=" col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-task col-3" >  </div>
-                            <div class="benefit-title col-8">Диплом </div>
-                        </div>
-                        <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderCompetences([
+    [
+        'Участие',
+        'в подготовке технико-экономического обоснования проектов мехатронных и робототехнических систем, их отдельных подсистем и модулей'
+    ],
+    [
+        'Расчет',
+        'предварительных испытаний составных частей опытного образца
+        изделия по заданным программам и методикам'
+    ],
+    [
+        'Проведение',
+        'специального программного обеспечения для решения задач
+        проектирования систем, конструирования механических и мехатронных модулей,
+        управления и обработки информации'
+    ],
+    [
+        'Анализ',
+        'технологической части проекта с обоснованием его технологической
+        реализуемости'
+    ],
+    [
+        'Обоснование',
+        'предлагаемых мер по обеспечению безопасности эксплуатации
+        разрабатываемой системы'
+    ],
+
+])?>
 
 <!--баллы егэ-->
-<section class="section-why" style="background-color:#f5f5f5">
+<section class="scores"">
     <div class="section-content">
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
@@ -174,27 +103,27 @@
                     <div class="section-text row">
                         <div class="col-sm-4 col-12">
                             <div class="circle " >
-                                <div class="circle-title">?</div>
-                                <div class="">математика</div>
+                                <div class="circle-title">51</div>
+                                <div class="">Физика</div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-12">
                             <div class="circle">
-                                <div class="circle-title">?</div>
-                                <div class="">информатика </div>
+                                <div class="circle-title">50</div>
+                                <div class="">Математика </div>
                             </div>
                         </div>
                         <div class="col-sm-4 col-12">
                             <div class="circle">
-                                <div class="circle-title">?</div>
-                                <div class="">русский </div>
+                                <div class="circle-title">56</div>
+                                <div class="">Русский язык </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block" >
-                        <div class="stat-title">?</div>
+                        <div class="stat-title"><?=$info['average']?></div>
                         <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
                         </div>
                     </div>
@@ -236,8 +165,11 @@
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title"  style="color:#b87571">Наши студенты работают в </div>
+                    <div class="section-title">Выпускник может претендовать на вакансии</div>
                     <div class="section-text">
+                        инженера-конструктора,
+                        инженера,
+                        инженера-проектировщика<br/><br/>
                         ООО Sibedge (Сибэдж) — международная IT-компания, специализирующаяся на
                         разработке программного обеспечения для автоматизации и цифровой
                         трансформации бизнеса,
@@ -247,12 +179,7 @@
                         ООО &quot;Бэтроник&quot;,
                         ООО Нанотехнологический центр &quot;СИГМА. Новосибирск&quot;,
                         Nigmatic Limited<br/>
-                        Должности: старший инженер,
-                        главный инженер по анализу данных,
-                        младший инженер по анализу данных,
-                        инженер-программист,
-                        программист,
-                        программный инженер.
+                        Должности:
                     </div>
                 </div>
                 <div class="col-auto right-block">

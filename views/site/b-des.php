@@ -59,40 +59,29 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 </section>
 
 <!--компетанции-->
-<section class="section-benefits ">
-    <div class="white-holder">
-        <div class="headline">
-            Программа нацелена на компетенции
-        </div>
-        <div class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class=" col-sm-4" >
-                        <div class="row">
-                            <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-8">Цель программы</div>
-                        </div>
-                        <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-                    </div>
-                    <div class=" col-sm-4" >
-                        <div class="row">
-                            <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-8">Формат обучения</div>
-                        </div>
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-                    </div>
-                    <div class=" col-sm-4" >
-                        <div class="row">
-                            <div class="benefit-item benefit-task col-3" >  </div>
-                            <div class="benefit-title col-8">Диплом </div>
-                        </div>
-                        <div class="benefit-text">Присваивается степень магистра по направлению Дизайн.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderCompetences([
+    [
+        'Анализ',
+        'и определению требований к дизайн-проекту'
+    ],
+    [
+        'Владение',
+        'рисунком, умение использовать рисунки в практике составления композиции и переработка их в направлении проектирования любого объекта'
+    ],
+    [
+        'Навык',
+        'разработки проектной идеи, основанной на концептуальном, творческом подходе к решению дизайнерской задачи'
+    ],
+    [
+        'Конструирование',
+        'товаров, промышленных образцов и объектов'
+    ],
+    [
+        'Подготовка',
+        'полного набора документации по дизайн-проекту для его реализации, осуществление основных экономических расчетов для реализации проекта.'
+    ],
+
+])?>
 
 <!--баллы егэ-->
 <section class="scores">

@@ -1,3 +1,6 @@
+<?= $prefix = 'mst';
+$info = \app\helpers\RenderHelper::getInfo($prefix)?>
+?>
 <section class="section-welcome">
     <div class="background"></div>
     <div class="section-content">
@@ -372,17 +375,4 @@
 </section>
 
 <?= \app\helpers\RenderHelper::renderInstructionsForm()?>
-<section class="courses">
-    <div class="section-content">
-        <div class="light-grey-holder">
-            <div class="headline">
-                Другие магистерские программы
-            </div>
-
-
-            <div class="container-wide">
-                <?= \app\helpers\RenderHelper::renderMagisterProgramsAtBottom('mst')?>
-            </div>
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderMagisterProgramsAtBottom($prefix)?>

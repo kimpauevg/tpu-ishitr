@@ -1,4 +1,5 @@
-<?php $info = \app\helpers\RenderHelper::getInfo('mvr') ?>
+<?php $prefix = 'mvr';
+$info = \app\helpers\RenderHelper::getInfo($prefix) ?>
 <section class="section-welcome">
     <div class="background"></div>
     <div class="section-content">
@@ -258,17 +259,4 @@
 
 <?= \app\helpers\RenderHelper::renderInstructionsForm()?>
 
-<section class="courses">
-    <div class="section-content">
-        <div class="light-grey-holder">
-            <div class="headline">
-                Другие магистерские программы
-            </div>
-
-
-            <div class="container-wide">
-                <?= \app\helpers\RenderHelper::renderMagisterProgramsAtBottom('mvr')?>
-            </div>
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderMagisterProgramsAtBottom($prefix)?>

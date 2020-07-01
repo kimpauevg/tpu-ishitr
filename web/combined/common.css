@@ -14,7 +14,9 @@ header {
     position:relative;
     top:0;
     color:#1c1d21;
+    background: #ffffff80;
 }
+
 header .logo-icon {
     background:url(main/css/../i/logo-color.png) no-repeat;
     width:63px;
@@ -2557,6 +2559,10 @@ input.wrong-data {
     }
 
 
+}
+section .section-content {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 section.scores {

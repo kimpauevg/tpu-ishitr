@@ -155,7 +155,7 @@
 </section>
 
 <!--баллы егэ-->
-<section class="section-why" style="background-color:#f5f5f5">
+<section class="scores" style="background-color:#f5f5f5">
     <div class="section-content">
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
