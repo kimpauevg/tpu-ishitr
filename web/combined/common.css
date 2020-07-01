@@ -524,6 +524,9 @@ section.section-competencies .section-content{
 .light-grey-holder .headline {
     color: #3e9983;
 }
+.bakalavriat .light-grey-holder .headline{
+    color: #6a5e72;
+}
 .light-grey-holder1 {
     background: #ebebeb;
     display: flex;

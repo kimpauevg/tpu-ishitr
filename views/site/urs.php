@@ -150,29 +150,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix);
     </div>
 </section>
 
-
-
-<section class="section-why" style="background-color:#ebebeb">
-    <div class="section-content">
-        <div class="container" >
-            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
-                <div class="col-auto left-block">
-                    <div class="section-title">Магистратура дает возможность за два года </div>
-                    <div class="section-text">
-                        За два года получить второе высшее образование или повысить свою квалификацию в интересующей области. Студенты, проходящие обучение в магистратуре ИШИТР, получают углубленную теоретическую и практическую подготовку в научно-исследовательской и профессиональной деятельности.  Степень магистра открывает более широкие перспективы для карьерного роста и возможности трудоустройства по всему миру.
-
-                    </div>
-                </div>
-                <div class="col-auto right-block">
-                    <div class="statistic-block">
-                        <div class="stat-title">Диплом ТПУ</div>
-                        <div class="stat-text">Котируется среди <br>работодателей большинства<br> стан мира</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::masteryOpportunity()?>
 
 
 <section class="section-competencies">
@@ -220,8 +198,8 @@ $info = \app\helpers\RenderHelper::getInfo($prefix);
         </div>
     </div>
 
-    <?= \app\helpers\RenderHelper::renderInstructions()?>
 </section>
+<?= \app\helpers\RenderHelper::renderInstructions()?>
 
 <section class="lecturers">
     <div class="light-grey-holder">

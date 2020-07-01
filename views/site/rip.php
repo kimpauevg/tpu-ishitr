@@ -149,27 +149,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
         </div>
     </div>
 </section>
-
-    <section class="section-why" style="background-color:#ebebeb">
-        <div class="section-content">
-            <div class="container" >
-                <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
-                    <div class="col-auto left-block">
-                        <div class="section-title ">Магистратура дает возможность за два года </div>
-                        <div class="section-text">
-                            получить второе высшее образование в интересующей области науки и техники. Бакалаврам развить свои компетенции по выбранному ранее направлению подготовки, либо сменить направление обучения и получить образование в новой для себя сфере. Степень магистра открывает большие возможности академической и трудовой мобильности. Современный рынок дает аналитику о том, что Повышение по карьерной лестнице возможно диплома магистра.
-                        </div>
-                    </div>
-                    <div class="col-auto right-block">
-                        <div class="statistic-block">
-                            <div class="stat-title">Диплом ТПУ</div>
-                            <div class="stat-text">Котируется среди <br>работодателей большинства<br> стан мира</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<?= \app\helpers\RenderHelper::masteryOpportunity()?>
 
 
 <section class="section-competencies">

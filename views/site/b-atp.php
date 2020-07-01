@@ -1,4 +1,5 @@
-
+<?php $prefix = 'atp';
+$info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
 <section class="section-welcome">
     <div class="background"></div>
     <div class="section-content">
@@ -20,60 +21,17 @@
                 Особенностью образовательной программы по направлению 15.03.04 является
                 обучение специалистов для разработки и эксплуатации современных автоматических и
                 автоматизированных средств управления Hi-Tech производствами в нефтегазовой
-                отрасли.
+                отрасли.<br/>
+                Уникальность программы связана с возможностью для студентов:
+                <br/>-участия в научных проектах регионального, национального и международного
+                типов;
+                <br/>-освоение лучших практик (Schneider Electric, Siemens, Honeywell, ABB и др.)
+                автоматизации технологических процессов;
+                <br/>-интенсивной профессионально-ориентированной языковой подготовки.
             </p>
         </div>
-<!--        Нет информации-->
-        <div class="container">
-            <div class="row flex-column flex-sm-row">
-                <div class="col-lg-4 col-12 course-item-holder">
-                    <div class="col-auto1">
-                        <div class=" course-item  " >
+        <?= \app\helpers\RenderHelper::renderBachelorAfterIntro($prefix)?>
 
-                            <div class="course-item__label">Места</div>
-                            <div class="course-item__value">НЕ УКАЗАНО бюджетных мест</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 course-item-holder">
-                    <div class="col-auto1">
-                        <div class="course-item " >
-
-                            <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">НЕ УКАЗАНО </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 course-item-holder">
-                    <div class="col-auto1">
-                        <div class="course-item  " >
-
-                            <div class="course-item__label">Проходной балл </div>
-                            <div class="course-item__value">НЕ УКАЗАНО</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row flex-column flex-sm-row ">
-                <div class="course-item  col-lg-4 col-12 course-item-holder" >
-                    <div class="course-item-benefit">
-                        <div class="img-tick"></div>
-                        <div>Общежитие</div>
-                    </div>
-                </div>
-                <div class="course-item  col-lg-4 col-12 course-item-holder" >
-                    <div class="course-item-benefit">
-                        <div class="img-tick"></div> Военная кафедра
-                    </div>
-                </div>
-                <div class="course-item  col-lg-4 col-12 course-item-holder" >
-                    <div class="course-item-benefit">
-                        <div class="img-tick"></div>  Электронное обучение
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <!--форма подать заявку-->
@@ -88,7 +46,7 @@
                     <p class="text">
                         Программа
                         обучения направлена на подготовку
-                        Инженерных кадров для нефтегазовой промышленности в области автоматизации
+                        инженерных кадров для нефтегазовой промышленности в области автоматизации
                         технологических процессов транспорта и переработки углеводородного сырья
                     </p>
                 </div>
@@ -99,81 +57,78 @@
 </section>
 <!---->
 <!--компетанции-->
-<section class="section-benefits ">
-    <div class="white-holder">
-        <div class="headline">
-            Программа нацелена на компетенции
-        </div>
-        <div class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class=" col-sm-4" >
-                        <div class="row">
-                            <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-8">Цель программы</div>
-                        </div>
-                        <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-                    </div>
-                    <div class=" col-sm-4" >
-                        <div class="row">
-                            <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-8">Формат обучения</div>
-                        </div>
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-                    </div>
-                    <div class=" col-sm-4" >
-                        <div class="row">
-                            <div class="benefit-item benefit-task col-3" >  </div>
-                            <div class="benefit-title col-8">Диплом </div>
-                        </div>
-                        <div class="benefit-text">Присваивается степень магистра по направлению Автоматизация технологических процессов и производств.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderCompetences([
+    [
+        'Применение',
+        'полученных знаний для определения, формулирования и
+        решения инженерных задач при разработке, производстве и эксплуатации
+        современных систем автоматизации технологических процессов и производств'
+    ],
+    [
+        'Планирование',
+        'и проведение эксперимента, интерпретация данных и
+        использование их для ведения инновационной инженерной деятельности в
+        области автоматизации технологических процессов и производств;'
+    ],
+    [
+        'Использование',
+        'подходящего программного и технического
+        оборудования, оснащения и инструментов для решения задач автоматизации
+        технологических процессов и производств'
+    ],
+    [
+        'Владение',
+        'иностранным языком на уровне, позволяющем работать в
+интернациональной среде с пониманием культурных, языковых и социально-
+экономических различий'
+    ],
+    [
+        'Способность',
+        'эффективно работать индивидуально, в качестве члена и
+руководителя группы с ответственностью за риски и работу коллектива при
+решении инновационных инженерных задач в области автоматизации
+технологических процессов и производств'
+    ],
+])?>
 
-<!--баллы егэ-->
-<section class="section-why" style="background-color:#f5f5f5">
-    <div class="section-content">
-        <div class="container" >
-            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
-                <div class="col-auto left-block">
-                    <div class="section-title "  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
-                    <div class="section-text row">
-                        <div class="col-sm-4 col-12">
-                            <div class="circle " >
-                                <div class="circle-title">НЕ УКАЗАНО</div>
-                                <div class="">математика</div>
+    <section class="scores">
+        <div class="section-content">
+            <div class="container" >
+                <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
+                    <div class="col-auto left-block">
+                        <div class="section-title "  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
+                        <div class="section-text row">
+                            <div class="col-sm-4 col-12">
+                                <div class="circle " >
+                                    <div class="circle-title">51</div>
+                                    <div class="">Физика</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-4 col-12">
-                            <div class="circle">
-                                <div class="circle-title">НЕ УКАЗАНО</div>
-                                <div class="">информатика </div>
+                            <div class="col-sm-4 col-12">
+                                <div class="circle">
+                                    <div class="circle-title">50</div>
+                                    <div class="">Математика </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-4 col-12">
-                            <div class="circle">
-                                <div class="circle-title">НЕ УКАЗАНО</div>
-                                <div class="">русский </div>
+                            <div class="col-sm-4 col-12">
+                                <div class="circle">
+                                    <div class="circle-title">56</div>
+                                    <div class="">Русский язык</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-auto right-block">
-                    <div class="statistic-block" >
-                        <div class="stat-title">НЕ УКАЗАНО</div>
-                        <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
+                    <div class="col-auto right-block">
+                        <div class="statistic-block" >
+                            <div class="stat-title"><?=$info['average']?></div>
+                            <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--дисциплины-->
+    </section>
 <section class="frequent-questions">
     <div class="white-holder">
         <div class="questions-container">
