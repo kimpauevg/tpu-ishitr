@@ -80,7 +80,8 @@ class RenderHelper
             'href' => '/batp',
             'average' => 73,
             'seats' => 40,
-            'minimal' => 203
+            'minimal' => 203,
+            'ed_forms' => 'Очная, очно-заочная, заочная',
         ],
         'des' => [
             'code' => '09.03.01',
@@ -88,7 +89,9 @@ class RenderHelper
             'href' => '/bdes',
             'average' => 82,
             'seats' => 64,
-            'minimal' => 231
+            'minimal' => 231,
+            'ed_forms' => 'Очная',
+
         ],
         'ivt' => [
             'code' => '54.03.01',
@@ -96,7 +99,9 @@ class RenderHelper
             'href' => '/bivt',
             'average' => 84,
             'seats' => 9,
-            'minimal' => 237
+            'minimal' => 237,
+            'ed_forms' => 'Очная',
+
         ],
         'pri' => [
             'code' => '09.03.04',
@@ -104,7 +109,8 @@ class RenderHelper
             'href' => '/bpri',
             'average' => 86,
             'seats' => 86,
-            'minimal' => 249
+            'minimal' => 249,
+            'ed_forms' => 'Очная, очно-заочная, заочная',
         ],
         'mir' => [
             'code' => '15.03.06',
@@ -112,7 +118,8 @@ class RenderHelper
             'href' => '/bmir',
             'average' => 78,
             'seats' => 40,
-            'minimal' => 219
+            'minimal' => 219,
+            'ed_forms' => 'Очная',
         ],
     ];
     public static function getInfo($name)
@@ -398,7 +405,7 @@ class RenderHelper
                         <div class="course-item">
 
                             <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">Очная - вечернее обучение</div>
+                            <div class="course-item__value">%s</div>
                         </div>
                     </div>
                 </div>
@@ -432,7 +439,7 @@ class RenderHelper
                 </div>
             </div>
         </div>
-', $info['seats'], $info['minimal']);
+', $info['seats'], $info['ed_forms'], $info['minimal']);
     }
 
     public static function applyNow()

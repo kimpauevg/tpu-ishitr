@@ -24,10 +24,10 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
                 отрасли.<br/>
                 Уникальность программы связана с возможностью для студентов:
                 <br/>-участия в научных проектах регионального, национального и международного
-                типов;
-                <br/>-освоение лучших практик (Schneider Electric, Siemens, Honeywell, ABB и др.)
-                автоматизации технологических процессов;
-                <br/>-интенсивной профессионально-ориентированной языковой подготовки.
+                типов
+                <br/>-освоение лучших практик (Schneider Electric, Siemens, Honeywell, ABB и др.)
+                автоматизации технологических процессов
+                <br/>-интенсивной профессионально-ориентированной языковой подготовки.
             </p>
         </div>
         <?= \app\helpers\RenderHelper::renderBachelorAfterIntro($prefix)?>
@@ -132,7 +132,7 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
     </div>
 </section>
 <!--вакансии-->
-<section class="scores">
+<section class="section-vacancies">
     <div class="section-content">
         <div class="container" >
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
@@ -148,7 +148,7 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
                     </div>
                 </div>
                 <div class="col-auto right-block">
-                    <div class="statistic-block gap-block">
+                    <div class="statistic-block">
                         <div class="stat-title">≈ 60-80 000</div>
                         <div class="stat-text">рублей средняя зарплата <br /> на вахте в России <br /></div>
                     </div>
@@ -161,7 +161,7 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
 <!--преподаватели-->
 
 <section class="lecturers">
-    <div class="light-grey-holder1">
+    <div class="light-grey-holder">
         <div class="headline">
             Преподаватели и эксперты
         </div>
@@ -249,7 +249,7 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
 
 <!--отзывы-->
 <section class="reviews">
-    <div class="light-grey-holder1">
+    <div class="light-grey-holder">
         <div class="headline">
             Отзывы наших выпускников
         </div>

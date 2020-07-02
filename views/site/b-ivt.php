@@ -141,9 +141,9 @@ PyCharm, Android Studio.'
                     </div>
                 </div>
                 <div class="col-auto right-block">
-                    <div class="statistic-block">
-                        <div class="stat-title">≈ ?</div>
-                        <div class="stat-text">рублей средняя зарплата <br />набизнес-консультанта<br />  в России <br /> (по данным hh.ru)</div>
+                    <div class="statistic-block gap-block">
+                        <div class="stat-title">≈110 000 - 180 000</div>
+                        <div class="stat-text">рублей зарплата <br />Senior-разработчика<br />  в России <br /> (по данным hh.ru)</div>
                     </div>
                 </div>
             </div>
@@ -155,90 +155,46 @@ PyCharm, Android Studio.'
 
 
 <!--преподаватели-->
-<section class="lecturers">
-    <div class="light-grey-holder1">
-        <div class="headline">
-            Преподаватели и эксперты
-        </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Pogrebnoy.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                          Погребной А.В.
-                        </div>
-                        <div class="info-text">
-                             «Междисциплинарный проект», «МПС»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Demin.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
+<?= \app\helpers\RenderHelper::renderCarousel('Преподаватели и эксперты', [
+    [
+        'image' => 'Pogrebnoy.jpg',
+        'name' => 'Погребной Александр Владимирович',
+        'desc' => 'кандидат технических наук, доцент отделения
+информационных технологий<br/>
+Дисциплины:<br/>
+Междисциплинарный проект,<br/>
+МПС',
+    ],
+    [
+        'image' => 'Demin.jpg',
+        'name' => 'Демин Антон Юрьевич',
+        'desc' => 'кандидат технических наук, доцент отделения информационных
+технологий<br/>
+Дисциплины:<br/>
+Мультимедиа и компьютерная графика<br/>',
+    ],
+    [
+        'image' => 'Malchukov.jpg',
+        'name' => 'Мальчуков Андрей Николаевич',
+        'desc' => 'кандидат технических наук, доцент отделения
+информационных технологий<br/>
+Дисциплины:<br/>
+Схемотехника вычислительных устройств,<br/>
+Программирование на HDL<br/>
+',
+    ],
+    [
+        'image' => 'Mytsko.jpg',
+        'name' => 'Мыцко Евгений Алксеевич',
+        'desc' => 'ассистент отделения информационных технологий<br/>
+Дисциплины:<br/>
+Организация ЭВМ,<br/>
+Технологии параллельных и распределенных вычислений<br/>
+',
+    ],
 
-                        <div class="info-name">
-                            Демин А.Ю. 
-                        </div>
-                        <div class="info-text">
-                           «Мультимедиа и компьютерная графика»
-                        </div>
-                    </div> 
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Malchukov.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
+], 'b-ivt')?>
 
-                        <div class="info-name">
-                          Мальчуков А.Н.
-                        </div>
-                        <div class="info-text">  
-                            «Схемотехника вычислительных устройств», «Программирование на HDL»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Mytsko.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                          Мыцко Е.А.
-                        </div>
-                        <div class="info-text">
-                            «Организация ЭВМ», «Технологии параллельных и распределенных вычислений»
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt\Andreev.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-
-                        <div class="info-name">
-                          Андреев С.А.
-                        </div>
-                        <div class="info-text">  
-                            «Программирование микропроцессоров и микроконтроллеров»
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="dots">
-
-        </div>
-
-    </div>
-</section>
 <!--темы работ-->
 <section class="qualification-topics">
    <div class="white-holder">
@@ -260,37 +216,29 @@ PyCharm, Android Studio.'
 </section>
 
 <!--отзывы-->
-<section class="reviews">
-    <div class="light-grey-holder1">
-        <div class="headline">
-            Отзывы наших выпускников
-        </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/b-ivt/Fedorova.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
+<?= \app\helpers\RenderHelper::renderReviews([
+    [
+        'image' => 'Fedorova.jpg',
+        'name' => 'Федорова Ольга Евгеньевна',
+        'desc' => 'год выпуска: 2018, работает в: ООО Сегменто,<br/>
+должность: Инженер по качеству<br/>
+«4 года проведённые в ТПУ были лучшими в моей жизни. Я получила большой пласт знаний, который сейчас применяю в работе.»
+',
+    ],
+    [
+        'image' => 'igumnov.jpeg',
+        'name' => 'Игумнов Артём Олегович',
+        'desc' => 'год выпуска: 2011, работает в: ООО &quot;ИНКОМ&quot;,<br/>
+должность: Инженер-программист<br/>
+«Необходимый опыт для формирования общего представления о структуре направления.
+Даже если подробные детали знаний со временем забываются, в итоге всегда можно
+сориентироваться если в процессе работы они понадобятся. Я, конечно, не учился в других
+университетах, чтобы иметь более объективное представление об образовательном
+процессе, но полученный тут опыт, определённо пригодился.»',
+    ],
 
-                        <div class="info-name">
-                            Федорова Ольга Евгеньевна
-                        </div>
-                        <div class="info-text">
-                            Информатика и вычислительная техника, 2018<br>
-                            Работает ООО Сегменто, Инженер по качеству<br><br>
-                            4 года проведённые в ТПУ были лучшими в моей жизни. Я получила большой пласт знаний, который сейчас применяю в работе.
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-        <div class="dots">
+], 'b-ivt')?>
 
-        </div>
-
-    </div>
-</section>
 <?=\app\helpers\RenderHelper::applyNow()?>
 <!--другие программы-->
 <?= \app\helpers\RenderHelper::renderBachelorProgramsAtBottom($name)?>

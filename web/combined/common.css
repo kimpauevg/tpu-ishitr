@@ -561,7 +561,7 @@ section.section-competencies .section-content{
 .left-right-container {
     max-width: 1440px;
     width: 75%;
-    min-height: 520px;
+    min-height: 580px;
     min-width: 320px;
 
     background: white;
@@ -1345,7 +1345,6 @@ section.section-welcome .course-item__value {
 
 @media (min-width:992px) {
     section.section-welcome .course-item {
-        width: 290px;
         padding-bottom: 0
     }
 }
@@ -1519,7 +1518,10 @@ section.section-points .left-block{
 }
 section.section-points .left-block .section-text{
     margin-bottom: 0;
-
+}
+.bakalavriat .scores .section-text > div {
+    justify-content: center;
+    display: flex;
 }
 
 .left-block {
@@ -2087,7 +2089,7 @@ section.section-results .section-text {
     border-radius: 15px;
     padding: 15px;
     background: #ffffff80;
-    max-width: 400px;
+    max-width: 600px;
     height: 113px;
     width: 96%;
 }

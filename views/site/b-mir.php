@@ -172,15 +172,43 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 </section>
 
 <!--преподаватели-->
-<section class="lecturers">
-    <div class="light-grey-holder1">
-        <div class="headline">
-            Преподаватели и эксперты
-        </div>
-        Отсутствуют фотографии и описание
+<?= \app\helpers\RenderHelper::renderCarousel('Преподаватели и эксперты', [
+    [
+        'image' => 'malyshenko.jpg',
+        'name' => 'Малышенко Александр Максимович',
+        'desc' => 'доктор технических наук, профессор
+отделения автоматизации и робототехники<br/>
+Дисциплины:<br/>
+Теория автоматического управления<br/>
+',
+    ],
+    [
+        'image' => 'mamontova.jpg',
+        'name' => 'Мамонова Татьяна Егоровна',
+        'desc' => 'кандидат технических наук, доцент отделения
+автоматизации и робототехники<br/>
+Дисциплины:<br/>
+Программные средства математических расчетов,<br/> 
+Современные технологии,<br/>
+Искусственный интеллект и нейросетевое управление,<br/>
+Учебно-исследовательская работа студентов
+',
+    ],
 
-    </div>
-</section>
+    [
+        'image' => 'tyryshkin.jpg',
+        'name' => 'Тырышкин Александр Васильевич',
+        'desc' => 'кандидат технических наук, доцент отделения
+автоматизации и робототехники<br/>
+Дисциплины:<br/>
+Основы разработки компонентов мехатроники и робототехники,<br/> Детали
+мехатронных модулей, их конструирование, диагностика и надежность,<br/> Учебно-
+исследовательская работа студентов
+',
+    ],
+
+], 'b-mir')?>
+
 <!--темы работ-->
 <section class="qualification-topics">
     <div class="white-holder">
@@ -205,14 +233,6 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 </section>
 
 <!--отзывы-->
-<section class="reviews">
-    <div class="light-grey-holder1">
-        <div class="headline">
-            Отзывы наших выпускников
-        </div>
-        Отсутствуют
-    </div>
-</section>
 <?= \app\helpers\RenderHelper::applyNow()?>
     <!--другие программы-->
-<?= \app\helpers\RenderHelper::renderBachelorProgramsAtBottom($prefix)?>
+<?= \app\helpers\RenderHelper::renderBachelorProgramsAtBottom($name)?>
