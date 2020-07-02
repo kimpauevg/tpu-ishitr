@@ -76,44 +76,21 @@ PyCharm, Android Studio.'
 ])?>
 
 <!--баллы егэ-->
-<section class="scores" style="background-color:#f5f5f5">
-        <div class="section-content">
-            <div class="container" >
-                <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
-                    <div class="col-auto left-block">
-                        <div class="section-title "  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
-                        <div class="section-text row">
-                            <div class="col-sm-4 col-12">
-                                <div class="circle " > 
-                                    <div class="circle-title">53</div>
-                                    <div class="">Информатика</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-12">
-                                <div class="circle">  
-                                    <div class="circle-title">50</div>
-                                    <div class="">Математика </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-12">
-                                <div class="circle"> 
-                                    <div class="circle-title">56</div>
-                                    <div class="">Русский язык</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-auto right-block">                          
-                        <div class="statistic-block" >
-                            <div class="stat-title"><?= $info['average']?></div>
-                            <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
-                            </div>                             
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<?= \app\helpers\RenderHelper::renderBachelorScores([
+    [
+        'score' => 53,
+        'subject'=> 'Информатика'
+    ],
+    [
+        'score' => 50,
+        'subject'=> 'Математика'
+    ],
+    [
+        'score' => 56,
+        'subject'=> 'Русский язык'
+    ],
+])?>
+
 <!--дисциплины-->
 <section class="frequent-questions">
     <div class="white-holder">

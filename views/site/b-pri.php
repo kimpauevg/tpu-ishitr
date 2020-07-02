@@ -155,44 +155,21 @@
 </section>
 
 <!--баллы егэ-->
-<section class="scores" style="background-color:#f5f5f5">
-    <div class="section-content">
-        <div class="container" >
-            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
-                <div class="col-auto left-block">
-                    <div class="section-title "  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
-                    <div class="section-text row">
-                        <div class="col-sm-4 col-12">
-                            <div class="circle " >
-                                <div class="circle-title">?</div>
-                                <div class="">математика</div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-12">
-                            <div class="circle">
-                                <div class="circle-title">?</div>
-                                <div class="">информатика </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-12">
-                            <div class="circle">
-                                <div class="circle-title">?</div>
-                                <div class="">русский </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto right-block">
-                    <div class="statistic-block" >
-                        <div class="stat-title">?</div>
-                        <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderBachelorScores([
+    [
+        'score' => 53,
+        'subject'=> 'Информатика'
+    ],
+    [
+        'score' => 50,
+        'subject'=> 'Математика'
+    ],
+    [
+        'score' => 56,
+        'subject'=> 'Русский язык'
+    ],
+])?>
+
 <!--дисциплины-->
 <section class="frequent-questions">
     <div class="white-holder">
@@ -213,65 +190,6 @@
                     'Проектирование информационных систем',
                 ])?>
             </div>
-            <!--            <div class="nav-container">-->
-            <!--                <div class="gradient-navbar navbar-bakalavriat navbar-left">-->
-            <!--                    <div class="choices">-->
-            <!--                        <button class="choice-wrap chosen" data-index="1">-->
-            <!--                            <div class="choice">-->
-            <!--                                Есть ли что-то-->
-            <!--                            </div>-->
-            <!--                        </button>-->
-            <!--                        <div class="choice-wrap-after"></div>-->
-            <!--                        <button class="choice-wrap" data-index="2">-->
-            <!--                            <div class="choice">-->
-            <!--                                Есть ли что-то 2-->
-            <!--                            </div>-->
-            <!---->
-            <!--                        </button>-->
-            <!--                        <div class="choice-wrap-after"></div>-->
-            <!---->
-            <!--                        <button class="choice-wrap" data-index="3">-->
-            <!--                            <div class="choice">-->
-            <!--                                Есть ли что-то 3-->
-            <!--                            </div>-->
-            <!---->
-            <!--                        </button>-->
-            <!--                        <div class="choice-wrap-after"></div>-->
-            <!---->
-            <!--                        <button class="choice-wrap" data-index="4">-->
-            <!--                            <div class="choice">-->
-            <!--                                Есть ли что-то 4-->
-            <!--                            </div>-->
-            <!---->
-            <!--                        </button>-->
-            <!--                        <div class="choice-wrap-after"></div>-->
-            <!--                        <div class="arrow-holder">-->
-            <!--                            <div class="arrow-down">-->
-            <!---->
-            <!--                            </div>-->
-            <!---->
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!---->
-            <!--                <div class="answers">-->
-            <!--                    <div class="answer visible" data-index="1">-->
-            <!--                        Ответ-->
-            <!--                    </div>-->
-            <!--                    <div class="answer" data-index="2">-->
-            <!--                        Ответ 2-->
-            <!--                    </div>-->
-            <!--                    <div class="answer" data-index="3">-->
-            <!--                        Ответ 3-->
-            <!--                    </div>-->
-            <!--                    <div class="answer" data-index="4">-->
-            <!--                        Ответ 4-->
-            <!--                    </div>-->
-            <!---->
-            <!--                </div>-->
-            <!---->
-            <!--            </div>-->
-
         </div>
     </div>
 </section>

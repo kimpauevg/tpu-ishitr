@@ -10,7 +10,6 @@ class RenderHelper
             'name' => 'Разработка интернет-приложений',
             'main_name' => 'Информатика и вычислительная техника',
             'seats' => 40,
-            'years' => '?',
             'learn' => '?',
             'href' => '/rip',
         ],
@@ -19,7 +18,6 @@ class RenderHelper
             'name' => 'Телемедицина',
             'main_name' => 'Информационные системы и технологии',
             'seats' => 10,
-            'years' => '?',
             'learn' => '?',
             'href' => '/mst',
         ],
@@ -29,7 +27,6 @@ class RenderHelper
             'name' => 'Мехатроника и робототехника',
             'main_name' => 'Информационные системы и технологии',
             'seats' => 24,
-            'years' => '?',
             'learn' => '?',
             'href' => '/urs',
         ],
@@ -38,7 +35,6 @@ class RenderHelper
             'name' => 'Дизайн',
             'main_name' => 'Дизайн',
             'seats' => 6,
-            'years' => '?',
             'learn' => '?',
             'href' => '/pd',
         ],
@@ -47,7 +43,6 @@ class RenderHelper
             'name' => 'Искусственный интеллект и машинное обучение',
             'main_name' => 'Информатика и вычислительная техника',
             'seats' => 20,
-            'years' => '?',
             'learn' => '?',
             'href' => '/iim',
         ],
@@ -56,7 +51,6 @@ class RenderHelper
             'name' => 'Мобильные приложения и виртуальная реальность',
             'main_name' => 'Информационные системы и технологии',
             'seats' => 40,
-            'years' => '?',
             'learn' => '?',
             'href' => '/mvr',
         ],
@@ -65,7 +59,6 @@ class RenderHelper
             'name' => 'Автоматизация измерений и контроля',
             'main_name' => 'Стандартизация и метрология',
             'seats' => '?',
-            'years' => '?',
             'learn' => '?',
             'href' => '/aik',
         ],
@@ -74,7 +67,6 @@ class RenderHelper
             'name' => 'Технологии больших данных',
             'main_name' => 'Программная инженерия',
             'seats' => 25,
-            'years' => '?',
             'learn' => '?',
             'href' => '/bds',
         ],
@@ -489,7 +481,7 @@ class RenderHelper
             ';
             foreach ($row_elems as $competence) {
                 $html .= sprintf('
-                    <div class=" col-sm-4" >
+                    <div class=" col-md-4" >
                         <div class="row">
                             <div class="benefit-item %s col-3"></div>
                             <div class="benefit-title col-8">%s</div>
@@ -547,4 +539,87 @@ class RenderHelper
 ';
     }
 
+    public static function renderBachelorScores($array)
+    {
+        $html = '
+        <section class="scores">
+            <div class="section-content">
+                <div class="container" >
+                    <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
+                        <div class="section-title"  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
+                            <div class="section-text row">
+        ';
+        foreach ($array as $subject_score) {
+            $html .= sprintf('
+                                <div class="col-sm-4 col-12">
+                                    <div class="circle " >
+                                        <div class="circle-title">%s</div>
+                                        <div class="circle-text">%s</div>
+                                    </div>
+                                </div>
+
+            ', $subject_score['score'], $subject_score['subject']);
+        }
+
+        $html.='
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>';
+        return $html;
+    }
+    public static function renderCarousel($title, $slides_array, $prefix)
+    {
+
+        $html = sprintf('
+<section class="lecturers">
+    <div class="light-grey-holder">
+        <div class="headline">
+            %s
+        </div>
+        <div class="left-right-container">
+            <div class="left-right-content">
+        ', $title);
+        foreach ($slides_array as $slide) {
+            $html .= sprintf('
+                <div class="item">
+                    <div class="photo">
+                        <img src="/combined/%s/%s" class="photo-item" >
+                    </div>
+                    <div class="info">
+                        <div class="info-name">
+                            %s
+                        </div>
+                        <div class="info-text">
+                            %s
+                        </div>
+                    </div>
+                </div>
+
+            ', $prefix, $slide['image'], $slide['name'], $slide['desc']);
+        }
+
+        $html .='
+            </div>
+        </div>
+        <div class="dots">
+        </div>
+    </div>
+</section>
+        ';
+        return $html;
+    }
+    public static function renderTeachers($slides_array, $prefix)
+    {
+        $title = 'Преподаватели и эксперты';
+        return self::renderCarousel($title, $slides_array, $prefix);
+    }
+
+    public static function renderReviews($slides_array, $prefix)
+    {
+        $title = 'Отзывы выпускников';
+        return self::renderCarousel($title, $slides_array, $prefix);
+    }
 }

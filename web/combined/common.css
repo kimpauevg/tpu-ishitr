@@ -527,12 +527,12 @@ section.section-competencies .section-content{
 .bakalavriat .light-grey-holder .headline{
     color: #6a5e72;
 }
-.light-grey-holder1 {
+.bakalavriat .light-grey-holder {
     background: #ebebeb;
     display: flex;
     flex-direction: column;
 }
-.light-grey-holder1 .headline {
+.bakalavriat .light-grey-holder .headline {
     color: #6a5e72;
 }
 
@@ -1469,6 +1469,9 @@ section.section-benefits {
 section.section-benefits .container {
     padding-left: 15px;
     padding-right: 15px
+}
+.section-benefits .row {
+    justify-content: center;
 }
 
 @media (min-width:576px) {
@@ -2577,5 +2580,52 @@ section.scores .stat-title {
 section.section-vacancies {
     background-color:#f5f5f5;
     padding: 100px 15px;
+
+}
+.scores .circle {
+    width: 320px;
+    height: 320px;
+}
+.scores .section-text {
+    width: 100%;
+    font-size: 35px;
+}
+.scores .circle-title {
+    font-size: 60px;
+}
+.scores .section-title {
+    text-align: center;
+}
+.bakalavriat .program-item {
+    padding-bottom: 10px;
+}
+.bakalavriat .courses .headline {
+    color: #6a5e72;
+}
+@media (max-width: 1200px) {
+    .scores .circle {
+        width: 240px;
+        height: 240px;
+    }
+    .scores .section-text {
+        font-size: 28px;
+    }
+    .scores .circle-title {
+        font-size: 40px;
+    }
+
+}
+@media (max-width: 767px) {
+    .scores .circle {
+        width: 180px;
+        height: 180px;
+    }
+    .scores .section-text {
+        font-size: 20px;
+    }
+    .scores .circle-title {
+        font-size: 40px;
+    }
+
 
 }

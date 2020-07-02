@@ -62,7 +62,7 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 <?= \app\helpers\RenderHelper::renderCompetences([
     [
         'Анализ',
-        'и определению требований к дизайн-проекту'
+        'и определение требований к дизайн-проекту'
     ],
     [
         'Владение',
@@ -73,7 +73,7 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
         'разработки проектной идеи, основанной на концептуальном, творческом подходе к решению дизайнерской задачи'
     ],
     [
-        'Конструирование',
+        'Создание',
         'товаров, промышленных образцов и объектов'
     ],
     [
@@ -83,45 +83,21 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 
 ])?>
 
-<!--баллы егэ-->
-<section class="scores">
-    <div class="section-content">
-        <div class="container" >
-            <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
-                <div class="col-auto left-block">
-                    <div class="section-title "  style="color:#776c7e;" >Минимальный проходной балл ЕГЭ </div>
-                    <div class="section-text row">
-                        <div class="col-sm-4 col-12">
-                            <div class="circle " >
-                                <div class="circle-title">54</div>
-                                <div class="">Обществознание</div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-12">
-                            <div class="circle">
-                                <div class="circle-title">53</div>
-                                <div class="">Творческий конкурс </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 col-12">
-                            <div class="circle">
-                                <div class="circle-title">56</div>
-                                <div class="">Русский язык</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto right-block">
-                    <div class="statistic-block" >
-                        <div class="stat-title"><?=$info['average']?></div>
-                        <div class="stat-text">средний балл <br>поступивших на<br> бюджетную форму<br> в 2019 году
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderBachelorScores([
+    [
+        'score' => 54,
+        'subject'=> 'Обществознание'
+    ],
+    [
+        'score' => 53,
+        'subject'=> 'Творческий конкурс'
+    ],
+    [
+        'score' => 56,
+        'subject'=> 'Русский язык'
+    ],
+])?>
+
 <!--дисциплины-->
 <section class="frequent-questions">
     <div class="white-holder">
@@ -174,14 +150,39 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 
 
 <!--преподаватели-->
-<section class="lecturers">
-    <div class="light-grey-holder1">
-        <div class="headline">
-            Преподаватели и эксперты
-        </div>
-        Отсутствуют фотографии
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderCarousel('Преподаватели и эксперты', [
+    [
+        'image' => 'khmelevskiy.png',
+        'name' => 'Хмелевский Юрий Петрович',
+        'desc' => 'старший преподаватель отделения автоматизации и робототехники',
+    ],
+    [
+        'image' => 'ryzen.png',
+        'name' => 'Ризен Юлия Сергеевна',
+        'desc' => 'старший преподаватель отделения автоматизации и
+        <br/>робототехники: Основы проектной графики в промышленном дизайне',
+    ],
+    [
+        'image' => 'shklyar.jpg',
+        'name' => 'Шкляр Алексей Викторович',
+        'desc' => 'старший преподаватель отделения автоматизации и робототехники:<br/>
+                    Компьютерная графика в промышленном дизайне, Компьютерное моделирование',
+    ],
+    [
+        'image' => 'seryakov.jpg',
+        'name' => 'Серяков Вадим Александрович',
+        'desc' => 'кандидат технических наук, доцент отделения 
+        автоматизации и робототехники:<br/> Техническое конструирование',
+    ],
+    [
+        'image' => 'vechter.jpg',
+        'name' => 'Вехтер Евгения Викторовна',
+        'desc' => 'кандидат педагогических наук, доцент отделения
+автоматизации и робототехники:<br/> Эргономика и антропометрия',
+    ],
+
+
+], 'b-des')?>
 <!--темы работ-->
 <section class="qualification-topics">
     <div class="white-holder">
@@ -201,14 +202,6 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
 </section>
 
 <!--отзывы-->
-<section class="reviews">
-    <div class="light-grey-holder1">
-        <div class="headline">
-            Отзывы наших выпускников
-        </div>
-            Отсутствуют вообще
-    </div>
-</section>
 
 <?= \app\helpers\RenderHelper::applyNow()?>
 <!--другие программы-->
