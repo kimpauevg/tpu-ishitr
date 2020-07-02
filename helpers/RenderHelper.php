@@ -293,7 +293,7 @@ class RenderHelper
     public static function renderInstructions()
     {
         return'
-     <div class="section-content">
+     <div>
         <div class="container">
             <div class="grid-container">
                 <div class="grid-instruction-row">

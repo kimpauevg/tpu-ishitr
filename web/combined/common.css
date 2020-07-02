@@ -131,13 +131,16 @@ section.section-programs .section-title {
 }
 
 .programs-list {
-    margin-left: 0!important;
-    margin-right: 0!important;
     padding-bottom: 10px;
     justify-content: space-around;
+    max-width: 1440px;
+    justify-self: center;
 
 }
-
+.courses .programs-list.row{
+    margin-left: auto;
+    margin-right: auto;
+}
 .programs-list .program-item {
     display: block;
     max-width: 580px;
@@ -233,12 +236,6 @@ section.section-programs .section-title {
     }
 }
 
-@media (min-width:768px) {
-    .programs-list {
-        margin-left: -8px!important;
-        margin-right: -8px!important
-    }
-}
 
 @media (min-width:992px) {
     .programs-list .program-item {

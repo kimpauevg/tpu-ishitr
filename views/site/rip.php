@@ -15,7 +15,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
                 </div>
                 <div class="badge-pill badge-secondary pill-multirow">
                     <div class="pill-text">
-                        09.04.01 – информатика и <br/> вычислительная техника
+                        <?=$info['code']?> –  <?=$info['main_name']?>
                     </div>
                 </div>
             </div>
@@ -50,51 +50,31 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
                         <div class="course-item ">
 
                             <div class="course-item__label">Места </div>
-                            <div class="course-item__value">? бюджетных мест</div>
+                            <div class="course-item__value"><?= $info['seats']?> бюджетных мест</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<section class="section-request">
     <?= \app\helpers\RenderHelper::renderInstructions()?>
-
 </section>
 
-<section class="section-benefits">
-    <div class="section-content">
-        <div class="container">
-            <div class="row">
-                <div class=" col-sm-4">
-                    <div class="row">
-                        <div class="benefit-item benefit-target col-3"></div>
-                        <div class="benefit-title col-9">Цель программы</div>
-                    </div>
-                    <div class="benefit-text">
-                        Подготовка высококвалифицированных веб-разработчиков для создания и эффективного управления порталами, сайтами, а также
-                        для продвижения продукции и услуг предприятий, связанных с производством или коммерцией.
-                    </div>
-                </div>
-                <div class=" col-sm-4">
-                    <div class="row">
-                        <div class="benefit-item benefit-suitcase col-3"> </div>
-                        <div class="benefit-title col-9">Формат обучения</div>
-                    </div>
-                    <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-                </div>
-                <div class=" col-sm-4">
-                    <div class="row">
-                        <div class="benefit-item benefit-hat col-3" >  </div>
-                        <div class="benefit-title col-9">Диплом </div>
-                    </div>
-                    <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+<?= \app\helpers\RenderHelper::renderCompetences([
+    [
+        'Разрабатывать',
+        'Internet и Web приложения; сетевые приложения и базы данных'
+    ],
+    [
+        'Проектировать',
+        'программные приложения и пользовательские интерфейсы; компьютерный дизайн приложений'
+    ],
+    [
+        'Сопровождать',
+        'авторизированное ПО сторонних разработчиков'
+    ],
+])?>
 
 <section class="section-why" style="background-color:#ebebeb">
     <div class="section-content">
@@ -115,8 +95,8 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
                     </div>
                 </div>
                 <div class="col-auto right-block">
-                    <div class="statistic-block">
-                        <div class="stat-title">110 - 180 000</div>
+                    <div class="statistic-block gap-block">
+                        <div class="stat-title">≈ 110 000 - 180 000</div>
                         <div class="stat-text">рублей зарплата <br />Senior-разработчика<br />  в России <br /> (по данным hh.ru)</div>
                     </div>
                 </div>

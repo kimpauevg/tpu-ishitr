@@ -142,7 +142,7 @@ PyCharm, Android Studio.'
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block gap-block">
-                        <div class="stat-title">≈110 000 - 180 000</div>
+                        <div class="stat-title">≈ 110 000 - 180 000</div>
                         <div class="stat-text">рублей зарплата <br />Senior-разработчика<br />  в России <br /> (по данным hh.ru)</div>
                     </div>
                 </div>
