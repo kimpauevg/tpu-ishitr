@@ -463,7 +463,7 @@ class RenderHelper
     </div>
 </section>';
     }
-    public static function renderCompetences($all_competences)
+    public static function renderCompetences($all_competences, $insert_instructions = false)
     {
         $possible_benefits = [
             'benefit-graph',
@@ -506,9 +506,12 @@ class RenderHelper
         $html .= '
             </div>
         </div>
-    </div>
-</section>      
-        
+    </div>';
+        if ($insert_instructions) {
+            $html .= self::renderInstructions();
+        }
+        $html .=
+            '</section>
         ';
         return $html;
     }
@@ -590,6 +593,10 @@ class RenderHelper
             <div class="left-right-content">
         ', $title);
         foreach ($slides_array as $slide) {
+            $additional_class = '';
+            if (isset($slide['long']) && $slide['long']) {
+                $additional_class = 'info-text__small';
+            }
             $html .= sprintf('
                 <div class="item">
                     <div class="photo">
@@ -599,13 +606,13 @@ class RenderHelper
                         <div class="info-name">
                             %s
                         </div>
-                        <div class="info-text">
+                        <div class="info-text %s">
                             %s
                         </div>
                     </div>
                 </div>
 
-            ', $prefix, $slide['image'], $slide['name'], $slide['desc']);
+            ', $prefix, $slide['image'], $slide['name'], $additional_class, $slide['desc']);
         }
 
         $html .='
