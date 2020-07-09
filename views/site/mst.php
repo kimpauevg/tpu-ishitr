@@ -42,7 +42,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
                         <div class="course-item">
 
                             <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">?</div>
+                            <div class="course-item__value">Очная (обучение в вечернее время)</div>
                         </div>
                     </div>
                 </div>
@@ -263,85 +263,43 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
      <?= \app\helpers\RenderHelper::renderInstructions()?>
 </section>
 
-<section class="lecturers">
-    <div class="light-grey-holder">
-        <div class="headline">
-            Преподаватели и эксперты
-        </div>
-        Отсутствуют фото
-<!--        <div class="left-right-container">-->
-<!--            <div class="left-right-content">-->
-<!--                <div class="item">-->
-<!--                    <div class="photo">-->
-<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
-<!--                    </div>-->
-<!--                    <div class="info">-->
-<!--                        <div class="info-name">-->
-<!--                             Гергет О.М. -->
-<!--                        </div>-->
-<!--                        <div class="info-text">-->
-<!--                             д.т.н., профессор, ТПУ-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="item">-->
-<!--                    <div class="photo">-->
-<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
-<!--                    </div>-->
-<!--                    <div class="info">-->
-<!---->
-<!--                        <div class="info-name">-->
-<!--                            Пономарев А.А.-->
-<!--                        </div>-->
-<!--                        <div class="info-text">-->
-<!--                             к.т.н., доцент, ТПУ -->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="item">-->
-<!--                    <div class="photo">-->
-<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item" >-->
-<!--                    </div>-->
-<!--                    <div class="info">-->
-<!--                        <div class="info-name"> Савельев В.В.-->
-<!--                        </div>-->
-<!--                        <div class="info-text">-->
-<!--                             к.т.н., доцент, ТПУ -->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="item">-->
-<!--                    <div class="photo">-->
-<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item">-->
-<!--                    </div>-->
-<!--                    <div class="info">-->
-<!--                        <div class="info-name">-->
-<!--                           Светлик М.В.-->
-<!--                        </div>-->
-<!--                        <div class="info-text">-->
-<!--                            к.биологических наук, доцент, СибГМУ -->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="item">-->
-<!--                    <div class="photo">-->
-<!--                        <img src="/combined/new_landing/review-1.jpg" class="photo-item">-->
-<!--                    </div>-->
-<!--                    <div class="info">-->
-<!--                        <div class="info-name"> -->
-<!--                            Желева О.В.-->
-<!--                        </div>-->
-<!--                        <div class="info-text">-->
-<!--                            ст. преп., СибГМУ-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="dots">-->
-<!--        </div>-->
-    </div>
-</section>
+<?= \app\helpers\RenderHelper::renderTeachers([
+    [
+        'image' => 'gerget.jpg',
+        'name' => 'Гергет Ольга Михайловна',
+        'desc' => '
+        доктор технических наук, профессор отделения информационных технологий
+',
+    ],
+    [
+        'image' => 'ponomarev.jpg',
+        'name' => 'Пономарев Алексей Анатольевич',
+        'desc' => '
+        кандидат технических наук, доцент отделения информационных технологий
+',
+    ],
+    [
+        'image' => 'saveliev.jpg',
+        'name' => 'Савельев Алексей Олегович',
+        'desc' => '
+        кандидат технических наук, доцент отделения информационных технологий
+',
+    ],
+    [
+        'image' => 'svetlik.jpg',
+        'name' => 'Светлик Михаил Васильевич,',
+        'desc' => '
+        кандидат кандидат биологических наук, доцент, СибГМУ
+',
+    ],
+    [
+        'image' => 'zheleva.jpg',
+        'name' => 'Желева Ольга Викторовна',
+        'desc' => '
+        старший преподаватель, СибГМУ
+',
+    ],
+], $prefix)?>
 
 <section class="partners">
     <div class="white-holder">
@@ -349,7 +307,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
             Стратегические партнеры
         </div>
         <div class="partners-container">
-            <?= \app\helpers\RenderHelper::renderPartners('mst', 4)?>
+            <?= \app\helpers\RenderHelper::renderPartners('mst', 3)?>
         </div>
     </div>
 </section>

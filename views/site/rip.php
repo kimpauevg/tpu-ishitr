@@ -42,7 +42,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
                         <div class="course-item">
 
                             <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">?</div>
+                            <div class="course-item__value">Очная (обучение в вечернее время)</div>
                         </div>
                     </div>
                 </div>
@@ -194,7 +194,8 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
         'image' => 'savrasov.jpg',
         'name' => 'Саврасов Ф.В.',
         'desc' => 'кандидат технических наук, доцент отделения информационных технологий инженерной школы информационных
-технологий и робототехники<br/>
+технологий и робототехники
+<br/>
                    Дисциплины: 
                    <br/>«Пользовательские интерфейсы в интернет приложениях»
 ',

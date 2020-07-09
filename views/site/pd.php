@@ -51,7 +51,7 @@
                         <div class="course-item">
 
                             <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">?</div>
+                            <div class="course-item__value">Очная</div>
                         </div>
                     </div>
                 </div>
@@ -206,96 +206,69 @@
     <?= \app\helpers\RenderHelper::renderInstructions()?>
 </section>
 
-<section class="lecturers">
-    <div class="light-grey-holder">
-        <div class="headline">
-            Преподаватели и эксперты
-        </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/pd/seryakov.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Серяков Вадим Александрович
-                        </div>
-                        <div class="info-text">
-                            Дисциплины:
-                            Техническое конструирование,
-                            Дизайн-проектирование,
-                            Современные материалы и технологии в эргономике дизайна
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/pd/vekhter.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Вехтер Евгения Викторовна
-                        </div>
-                        <div class="info-text">
-                            Дисциплины:
-                            Системное дизайн-проектирование
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/pd/shklyar.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Шкляр Алесей Викторович
-                        </div>
-                        <div class="info-text">
-                            Дисциплины:
-                            Информационные технологии в дизайне,
-                            Компьютерные технологии в дизайне,
-                            Мультимедийные технологии
-                        </div>
-                    </div>
-                </div>
+<?= \app\helpers\RenderHelper::renderTeachers([
+    [
+        'image' => 'seryakov.jpg',
+        'name' => 'Серяков Вадим Александрович',
+        'desc' => '
+                            кандидат технических наук, доцент отделения автоматизации и робототехники
+        <br/>
+                  Дисциплины: 
+                  <br/>«Техническое конструирование»,
+                  <br/>«Дизайн-проектирование»,
+                  <br/>«Современные материалы и технологии в эргономике дизайна»
 
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/pd/kukhta.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Кухта Мария Сергеевна
-                        </div>
-                        <div class="info-text">
-                            Дисциплины:
-                            История и методология дизайн-проектирования
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/pd/mamontov.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Мамонтов Геннадий Яковлевич
-                        </div>
-                        <div class="info-text">
-                            Дисциплины:
-                            Инновации в технике и дизайне
-                        </div>
-                    </div>
-                </div>
+',
+    ],
+//    [
+//        'image' => 'vekhter.jpg',
+//        'name' => 'Вехтер Евгения Викторовна',
+//        'desc' => '
+//кандидат педагогических наук, доцент отделения автоматизации и робототехники
+//        <br/>
+//                  Дисциплины:
+//                  <br/>«Системное дизайн-проектирование»
+//
+//',
+//    ],
+    [
+        'image' => 'shklyar.jpg',
+        'name' => 'Шкляр Алесей Викторович',
+        'desc' => '
+                            старший преподаватель отделения автоматизации и робототехники
+        <br/>
+                  Дисциплины: 
+                  <br/>«Информационные технологии в дизайне»,
+                  <br/>«Компьютерные технологии в дизайне»,
+                  <br/>«Мультимедийные технологии»
 
+',
+    ],
+    [
+        'image' => 'kukhta.jpg',
+        'name' => 'Кухта Мария Сергеевна',
+        'desc' => '
+                            доктор философских наук, профессор отделения автоматизации и робототехники
+        <br/>
+                  Дисциплины: 
+                  <br/>«История и методология дизайн-проектирования»
 
-            </div>
-        </div>
-        <div class="dots">
-        </div>
-    </div>
-</section>
+',
+    ],
+    [
+        'image' => 'mamontov.jpg',
+        'name' => 'Мамонтов Геннадий Яковлевич',
+        'desc' => '
+доктор физико-математических наук, профессор отделения автоматизации и робототехники
+        <br/>
+                  Дисциплины: 
+                  <br/>«Инновации в технике и дизайне»
+
+',
+    ],
+
+], $prefix)?>
+
 
 <section class="partners">
     <div class="white-holder">
@@ -308,15 +281,6 @@
     </div>
 </section>
 
-
-<section class="reviews">
-    <div class="light-grey-holder">
-        <div class="headline">
-            Отзывы наших выпускников
-        </div>
-        Нет фотографий
-    </div>
-</section>
 
 <?= \app\helpers\RenderHelper::renderInstructionsForm()?>
 

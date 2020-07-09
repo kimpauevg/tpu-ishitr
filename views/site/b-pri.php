@@ -220,7 +220,7 @@
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block">
-                        <div class="stat-title">?</div>
+                        <div class="stat-title">≈70 000</div>
                         <div class="stat-text">рублей средняя зарплата <br /> в России <br /> (по данным hh.ru)</div>
                     </div>
                 </div>
