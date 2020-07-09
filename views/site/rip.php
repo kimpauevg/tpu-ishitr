@@ -1,5 +1,6 @@
 <?php $prefix = 'rip';
 $info = \app\helpers\RenderHelper::getInfo($prefix)
+//Новые фотки
 ?>
 
 <section class="section-welcome">
@@ -60,21 +61,39 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
     <?= \app\helpers\RenderHelper::renderInstructions()?>
 </section>
 
+<section class="section-benefits">
+    <div class="section-content">
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-4">
+                    <div class="row">
+                        <div class="benefit-item benefit-target col-3"></div>
+                        <div class="benefit-title col-9">Цель программы</div>
+                    </div>
+                    <div class="benefit-text">
+                        Подготовка высококвалифицированных веб-разработчиков для создания и эффективного управления порталами, сайтами, а также
+                        для продвижения продукции и услуг предприятий, связанных с производством или коммерцией.                    </div>
+                </div>
+                <div class=" col-sm-4">
+                    <div class="row">
+                        <div class="benefit-item benefit-suitcase col-3"> </div>
+                        <div class="benefit-title col-9">Формат обучения</div>
+                    </div>
+                    <div class="benefit-text">Образовательный процесс построен как на общении студентов с одними из лучших преподавателей ТПУ, так и на живом обмене опытом с действующими специалистами крупных предприятий.
+                    </div>
+                </div>
+                <div class=" col-sm-4">
+                    <div class="row">
+                        <div class="benefit-item benefit-hat col-3" >  </div>
+                        <div class="benefit-title col-9">Диплом </div>
+                    </div>
+                    <div class="benefit-text">Присваивается степень магистра по направлению <br>Разработка интернет-приложений.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<?= \app\helpers\RenderHelper::renderCompetences([
-    [
-        'Разрабатывать',
-        'Internet и Web приложения; сетевые приложения и базы данных'
-    ],
-    [
-        'Проектировать',
-        'программные приложения и пользовательские интерфейсы; компьютерный дизайн приложений'
-    ],
-    [
-        'Сопровождать',
-        'авторизированное ПО сторонних разработчиков'
-    ],
-])?>
 
 <section class="section-why" style="background-color:#ebebeb">
     <div class="section-content">
@@ -83,15 +102,13 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
                 <div class="col-auto left-block">
                     <div class="section-title">Выпускник может претендовать на вакансии</div>
                     <div class="section-text">
-                        в научно-исследовательских и научно-производственных организациях: ОАО «ТомскНИПИнефть ВНК;
-                        на производственных предприятиях: АО «Информационные спутниковые системы» имени академика М.Ф. Решетнева;
-                        в IT-компаниях: ООО «Рубиус Групп», ООО «КвантумСофт», ООО «Элком+», ООО «ЮЭС-продакшн», «UbiSoft Entertainment»
-                        (г. Монреаль, Канада);
-                        в нефтегазовых компаниях: ОАО «Востокгазпром», ОАО «Роснефть», ООО «ГазпромТрансгазТомск»;
-                        в иных организациях: группа компаний «Лама» (г. Томск), группа компаний «Центр финансовых технологий» (г. Томск, г.
-                        Новосибирск, г. Санкт-Петербург), Томское отделение Центрального банка России, ООО «КДВ-групп» (г. Томск).<br/>
-                        Выпускники магистратуры работают программистами и инженерами-программистами различных категорий, тестировщиками,
-                        frontend- и backend-разработчиками различных категорий, системными аналитиками, UX/UI-дизайнерами.
+                        программистов, инженеров-программистов различных категорий, тестировщиков,
+                        frontend- и backend-разработчиков различных категорий, системных аналитиков, UX/UI-дизайнеров<br/><br/>
+                        Наши выпускники работают в: ОАО «ТомскНИПИнефть ВНК, АО «Информационные спутниковые системы» имени академика М.Ф. Решетнева,
+                        ООО «Рубиус Групп», ООО «КвантумСофт», ООО «Элком+», ООО «ЮЭС-продакшн», «UbiSoft Entertainment» (г. Монреаль, Канада),
+                        ОАО «Востокгазпром», ОАО «Роснефть», ООО «ГазпромТрансгазТомск», группа компаний «Лама» (г. Томск),
+                        группа компаний «Центр финансовых технологий» (г. Томск, г. Новосибирск, г. Санкт-Петербург),
+                        Томское отделение Центрального банка России, ООО «КДВ-групп» (г. Томск).
                     </div>
                 </div>
                 <div class="col-auto right-block">
@@ -130,55 +147,60 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
     </div>
 </section>
 <?= \app\helpers\RenderHelper::masteryOpportunity()?>
+<?= \app\helpers\RenderHelper::renderCompetences([
+    [
+        'Разрабатывать',
+        'Internet и Web приложения, сетевые приложения и базы данных',
+    ],
+    [
+        'Проектировать',
+        'программные приложения и пользовательские интерфейсы, компьютерный дизайн приложений.',
+    ],
+    [
+        'Сопровождать',
+        'авторизированное ПО сторонних разработчиков',
+    ],
+], true)?>
 
+<?= \app\helpers\RenderHelper::renderTeachers([
+    [
+        'image' => 'fadeev.jpg',
+        'name' => 'Фадеев А.С.',
+        'desc' => 'кандидат технических наук, доцент отделения информационных технологий инженерной школы информационных
+технологий и робототехники, Проректор по информатизации<br/>
+                   Дисциплины:
+                    <br/>«Администрирование в информационных системах»
+',
+    ],
+    [
+        'image' => 'ponomarev.jpg',
+        'name' => 'Пономарев А.А',
+        'desc' => 'кандидат технических наук, доцент отделения информационных технологий инженерной школы
+информационных технологий и робототехники<br/>
+                   Дисциплины: 
+                   <br/>«Технологии и инструменты банков данных»
+',
+    ],
+//    [
+//        'image' => 'sokolova.jpg',
+//        'name' => 'Соколова В.В.',
+//        'desc' => 'кандидат технических наук, доцент отделения информационных технологий инженерной школы
+//информационных технологий и робототехники<br/>
+//                   Дисциплины:
+//                   <br/>«Проектирование интернет приложений»
+//',
+//    ],
+    [
+        'image' => 'savrasov.jpg',
+        'name' => 'Саврасов Ф.В.',
+        'desc' => 'кандидат технических наук, доцент отделения информационных технологий инженерной школы информационных
+технологий и робототехники<br/>
+                   Дисциплины: 
+                   <br/>«Пользовательские интерфейсы в интернет приложениях»
+',
+    ],
+], $prefix)?>
 
-<section class="section-competencies">
-
-    <div class="white-holder">
-        <div class="headline">
-            Программа нацелена на компетенции
-        </div>
-        <div class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-9">Анализ</div>
-                        </div>
-                        <div class="benefit-text">Практико-ориентированная подготовка специалистов, профессионально владеющих технологиями.</div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-9">Разработка</div>
-                        </div>
-                        <div class="benefit-text">Использование разнообразных ресурсов и стилей обучения, учитывающих постоянно изменяющуюся среду для ведения.</div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-task col-3">  </div>
-                            <div class="benefit-title col-9">Решение задач </div>
-                        </div>
-                        <div class="benefit-text">Присваивается степень магистра по направлению Информатика и вычислительная техника.</div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <?= \app\helpers\RenderHelper::renderInstructions()?>
-</section>
-
-<section class="lecturers">
-    <div class="light-grey-holder">
-        <div class="headline">
-            Преподаватели и эксперты
-        </div>
-Отсутствуют фотографии
-    </div>
-</section>
 <section class="partners">
     <div class="white-holder">
         <div class="headline">
@@ -200,7 +222,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
                 <div class="item">
                     <div class="photo">
 
-                        <img src="/combined/rip/Khusainova.jpg" class="photo-item" >
+                        <img src="/combined/rip/khusainova.jpg" class="photo-item" >
 
 
                     </div>
@@ -221,7 +243,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="/combined/rip/Oblozhenko.jpg" class="photo-item" >
+                        <img src="/combined/rip/oblozhenko.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">
@@ -240,7 +262,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
                 </div>
                 <div class="item">
                     <div class="photo">
-                        <img src="/combined/rip/Kostina.jpg" class="photo-item" >
+                        <img src="/combined/rip/kostina.jpg" class="photo-item" >
                     </div>
                     <div class="info">
                         <div class="info-name">

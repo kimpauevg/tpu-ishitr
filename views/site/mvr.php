@@ -105,7 +105,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
         <div class="container">
             <div class="row flex-column flex-lg-row justify-content-start justify-content-lg-between">
                 <div class="col-auto left-block">
-                    <div class="section-title">Наши выпускники работают в</div>
+                    <div class="section-title">Выпускник может претендовать на вакансии</div>
                     <div class="section-text">
                         г. Томск: ОАО «Востокгазпром»,
                         ОАО «ТомскНИПИнефть ВНК»,
