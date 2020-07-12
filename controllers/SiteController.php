@@ -133,6 +133,15 @@ class SiteController extends Controller
         Yii::$app->view->params['action_name'] = 'rip';
         return $this->render('rip');
     }
+    //Интернет вещей и цифровое производство
+    public function actionIvc()
+    {
+        Yii::$app->view->title = 'Интернет вещей и цифровое производство  | ТПУ';
+
+        Yii::$app->view->params['action_name'] = 'ivc';
+        return $this->render('ivc');
+    }
+
     //Искусственный интеллект и машинное обучение
     public function actionIim()
     {
@@ -161,7 +170,7 @@ class SiteController extends Controller
     // Big Data Solutions* (Технологии больших данных) англ. язык
     public function actionBds()
     {
-        Yii::$app->view->title = 'Big Data Solutions | TPU';
+        Yii::$app->view->title = 'Технологии больших данных | ТПУ';
 
         Yii::$app->view->params['action_name'] = 'bds';
         return $this->render('bds');

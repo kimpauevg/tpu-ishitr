@@ -272,7 +272,9 @@
                             15.03.04 Автоматизация технологических процессов и производств
                         </div>
                         <div class="long-row--item-value">
-                            Интернет вещей и цифровое производство
+                            <a href="<?=\app\helpers\RenderHelper::getHref('ivc')?>">
+                                Интернет вещей и цифровое производство
+                            </a>
                         </div>
                     </div>
                     <div class="long-row--item--after"></div>
