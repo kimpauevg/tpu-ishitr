@@ -75,7 +75,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-target col-3"></div>
-                        <div class="benefit-title col-9">Цель программы</div>
+                        <div class="benefit-title col-8">Цель программы</div>
                     </div>
                     <div class="benefit-text">
                         Подготовка специалистов в области проектирования, разработки и сопровождения мобильных решений и приложений виртуальной реальности.
@@ -84,7 +84,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-suitcase col-3"> </div>
-                        <div class="benefit-title col-9">Формат обучения</div>
+                        <div class="benefit-title col-8">Формат обучения</div>
                     </div>
                     <div class="benefit-text">Образовательный процесс построен как на общении студентов с одними из лучших преподавателей ТПУ, так и на живом обмене опытом с действующими специалистами крупных предприятий.
                     </div>
@@ -92,7 +92,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-hat col-3" >  </div>
-                        <div class="benefit-title col-9">Диплом </div>
+                        <div class="benefit-title col-8">Диплом </div>
                     </div>
                     <div class="benefit-text">Присваивается степень магистра по направлению <br><?= $info['main_name']?></div>
                 </div>
@@ -159,50 +159,55 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
 </section>
 <?= \app\helpers\RenderHelper::masteryOpportunity()?>
 
-<section class="section-competencies">
+<?= \app\helpers\RenderHelper::renderCompetences([
+    [
+        'Разрабатывать',
+        'программное обеспечение для мобильных, корпоративных и интернет-ориентированных информационных систем'
+    ],        [
+        'Проектировать и реализовывать',
+        'приложения виртуальной и дополненной реальности, в т.ч. для решения задач направления «Умный город»'
+    ],
+    [
+        'Работать',
+        'с современными методами, технологиями и средствами интеграции информационных и программных систем'
+    ],
 
-    <div class="white-holder">
-        <div class="headline">
-            Программа нацелена на компетенции
-        </div>
-        <div class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-9">Разрабатывать</div>
-                        </div>
-                        <div class="benefit-text">
-                            программное обеспечение для мобильных, корпоративных и интернет-ориентированных информационных систем
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-9">Проектировать и реализовывать</div>
-                        </div>
-                        <div class="benefit-text">
-                            приложения виртуальной и дополненной реальности, в т.ч. для решения задач направления«Умный город»
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-task col-3">  </div>
-                            <div class="benefit-title col-9">Работать</div>
-                        </div>
-                        <div class="benefit-text">
-                            с современными методами, технологиями и средствами интеграции информационных и программных систем
-                        </div>
-                    </div>
+], true)?>
+<?= \app\helpers\RenderHelper::renderTeachers([
 
-                </div>
-            </div>
-        </div>
-    </div>
+            [
+                'image' => 'saveljev.jpg',
+                'name' => 'Савельев Алексей Олегович',
+                'desc' => '
+        Кандидат технических наук, доцент отделения информационных технологий
+        <br/>
+                   Дисциплины: 
+                   <br/>«Инструментарий технологий программирования информационных систем»
 
-    <?= \app\helpers\RenderHelper::renderInstructions()?>
-</section>
+',
+            ],
+            [
+                'image' => 'Pogrebnoy.jpg',
+                'name' => 'Погребной Андрей Владимирович',
+                'desc' => '
+                   Дисциплины: 
+                   <br/>«Инструментарий технологий программирования информационных систем»
+
+',
+            ],
+            [
+                'image' => 'kopnov.jpg',
+                'name' => 'Копнов Максим Валериевич',
+                'desc' => '
+                   Дисциплины: 
+                   <br/>«Управление проектами командной разработки информационных систем»
+
+',
+            ],
+
+
+],$prefix)?>
+
 
 <section class="lecturers">
     <div class="light-grey-holder">
@@ -223,17 +228,6 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
         </div>
     </div>
 </section>
-
-
-<section class="reviews">
-    <div class="light-grey-holder">
-        <div class="headline">
-            Отзывы наших выпускников
-        </div>
-        Отсутствуют
-    </div>
-</section>
-
 <?= \app\helpers\RenderHelper::renderInstructionsForm()?>
 
 <?= \app\helpers\RenderHelper::renderMagisterProgramsAtBottom($prefix)?>

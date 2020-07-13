@@ -91,14 +91,14 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
                     <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-target col-3"></div>
-                            <div class="benefit-title col-9">Цель программы</div>
+                            <div class="benefit-title col-8">Цель программы</div>
                         </div>
                         <div class="benefit-text">Подготовка специалистов, которые относятся к ведущему, в т.ч. руководящему составу медицинских и/или IT организаций, разрабатывающих, использующих или планирующих использовать современные информационные технологии.</div>
                     </div>
                     <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-suitcase col-3"> </div>
-                            <div class="benefit-title col-9">Формат обучения</div>
+                            <div class="benefit-title col-8">Формат обучения</div>
                         </div>
                         <div class="benefit-text">Образовательный процесс построен как на общении студентов с одними из лучших преподавателей ТПУ, так и на живом обмене опытом с действующими специалистами крупных предприятий. 
 </div>
@@ -106,7 +106,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
                     <div class=" col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-hat col-3" >  </div>
-                            <div class="benefit-title col-9">Диплом </div>
+                            <div class="benefit-title col-8">Диплом </div>
                         </div>
                         <div class="benefit-text">Присваивается степень магистра по направлению <br>Информационные системы и технологии.</div>
                     </div>
@@ -221,47 +221,22 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
 
 <?= \app\helpers\RenderHelper::masteryOpportunity()?>
 
+<?= \app\helpers\RenderHelper::renderCompetences([
+    [
+        'Использовать',
+        'современные медицинские информационные системы'
+    ],
+    [
+        'Разрабатывать и внедрять',
+        'программные компоненты медицинских информационных систем'
+    ],
+    [
+        'Знать и применять',
+        'нормативную базу телемедицины и стандарты передачи медицинских данных'
+    ],
 
-<section class="section-competencies">
+], true)?>
 
-    <div class="white-holder">
-        <div class="headline">
-            Программа нацелена на компетенции
-        </div>
-        <div class="section-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-9">Использовать</div>
-                        </div>
-                        <div class="benefit-text"> современные медицинские информационные системы.</div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-9">Разрабатывать и внедрять</div>
-                        </div>
-                        <div class="benefit-text"> программные компоненты медицинских информационных систем.</div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="row">
-                            <div class="benefit-item benefit-task col-3">  </div>
-                            <div class="benefit-title col-9">Знать и применять </div>
-                        </div>
-                        <div class="benefit-text">
-                             нормативную базу телемедицины и стандарты передачи медицинских данных;
- применять методы искусственного интеллекта для принятия решений в области медицины.</div>   
-                    </div>              
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-     <?= \app\helpers\RenderHelper::renderInstructions()?>
-</section>
 
 <?= \app\helpers\RenderHelper::renderTeachers([
     [

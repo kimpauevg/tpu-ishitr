@@ -7539,7 +7539,7 @@ $(document).ready(function() {
                 appendDots: review.parent().siblings(".dots")
             }
         )
-        if (window.screen.width > 1000) {
+        if (window.screen.width > 1200 || (window.screen.width > 1000 && !window.location.href.includes('aik'))) {
             let track = review.children('.slick-list').children('.slick-track');
             track.height($('.left-right-container').height())
 

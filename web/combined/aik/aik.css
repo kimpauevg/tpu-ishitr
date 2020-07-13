@@ -1,3 +1,34 @@
 .background {
     background: url(bg-aik.png) no-repeat top right;
 }
+@media (max-width: 1200px) {
+    .left-right-content .item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-right-content .item .photo {
+        transform: unset;
+        max-width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .left-right-content .item .info {
+        position: relative;
+        width: 100%;
+        padding-top: 30px;
+        transform: unset;
+    }
+
+    .left-right-content .item .info .info-name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .left-right-content .item .info .info-text {
+        text-align: center;
+        width: 100%;
+    }
+}

@@ -1,3 +1,6 @@
 .background{
     background: url(bg-batp.png) no-repeat top right;
 }
+section.section-welcome{
+    padding-top: 0;
+}

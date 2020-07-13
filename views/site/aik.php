@@ -72,7 +72,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-target col-3"></div>
-                        <div class="benefit-title col-9">Цель программы</div>
+                        <div class="benefit-title col-8">Цель программы</div>
                     </div>
                     <div class="benefit-text">
                         Подготовка высококвалифицированных специалистов способных применять современные информационные измерительные технологии в
@@ -82,7 +82,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-suitcase col-3"> </div>
-                        <div class="benefit-title col-9">Формат обучения</div>
+                        <div class="benefit-title col-8">Формат обучения</div>
                     </div>
                     <div class="benefit-text">Образовательный процесс построен как на общении студентов с одними из лучших преподавателей ТПУ, так и на живом обмене опытом с действующими специалистами крупных предприятий.
                     </div>
@@ -90,7 +90,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-hat col-3" >  </div>
-                        <div class="benefit-title col-9">Диплом </div>
+                        <div class="benefit-title col-8">Диплом </div>
                     </div>
                     <div class="benefit-text">Присваивается степень магистра по направлению <br><?= $info['main_name']?></div>
                 </div>
@@ -170,7 +170,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-9">Обеспечивать</div>
+                            <div class="benefit-title col-8">Обеспечивать</div>
                         </div>
                         <div class="benefit-text">
                             выполнение заданий по разработке новых, пересмотру и гармонизации действующих технических регламентов, стандартов и других документов по техническому
@@ -180,7 +180,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-9">Автоматизировать</div>
+                            <div class="benefit-title col-8">Автоматизировать</div>
                         </div>
                         <div class="benefit-text">
                             процессы измерений, контроля и испытаний в производстве и при научных исследованиях.
@@ -189,7 +189,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-task col-3">  </div>
-                            <div class="benefit-title col-9">Анализировать</div>
+                            <div class="benefit-title col-8">Анализировать</div>
                         </div>
                         <div class="benefit-text">
                             состояние и динамику метрологического и нормативного обеспечения производства, стандартизации и сертификации на основе
@@ -313,8 +313,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                             Гариф Дайана Дамировна
                         </div>
                         <div class="info-text info-text__small">
-                            год выпуска: 2017, работает в Федеральное бюджетное учреждение Государственный региональный центр
-                            стандартизации, метрологии и испытаний в Томской области (ФБУ &quot;Томский ЦСМ&quot;), должность: Инженер по метрологии 2 категории
+                            год выпуска: 2017, работает в: ФБУ &quot;Томский ЦСМ&quot;, должность: Инженер по метрологии 2 категории
                             «Я очень благодарна Политеху. В 2011 году, только поступая в университет, я и подумать не могла, что выйду отсюда грамотным специалистом
                             с большим багажом знаний и профессиональных навыков. Здесь я узнала, каково это - решить (как изначально кажется) нерешаемое. Здесь я
                             обрела четкую уверенность в том, каким специалистом я хочу быть в дальнейшем. Здесь я нашла лучших друзей. Но особенно я благодарна

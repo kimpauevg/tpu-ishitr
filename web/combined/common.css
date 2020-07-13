@@ -1012,7 +1012,16 @@ h1 {
 .benefit-text {
     font-size: 14px;
     padding: 10px;
-
+    /* Если плохо удали что ниже*/
+    width: 50%;
+    margin-left: auto;
+    margin-right: 100px;
+}
+@media (max-width: 1400px) {
+    .benefit-text {
+        width: initial;
+        margin: 0;
+    }
 }
 .benefit-target{
     background-image: url(new_landing/icons8-target-100.png);
@@ -1294,9 +1303,6 @@ section.section-welcome p {
 }
 
 @media (min-width:992px) {
-    section.section-welcome {
-        padding-top: 81px
-    }
     section.section-welcome .section-content {
         padding-bottom: 70px
     }

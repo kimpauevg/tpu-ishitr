@@ -78,7 +78,7 @@
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-target col-3"></div>
-                        <div class="benefit-title col-9">Цель программы</div>
+                        <div class="benefit-title col-8">Цель программы</div>
                     </div>
                     <div class="benefit-text">
                         Разработка и апробация инновационных подходов, технологий в дизайн-проектировании изделий
@@ -87,7 +87,7 @@
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-suitcase col-3"> </div>
-                        <div class="benefit-title col-9">Формат обучения</div>
+                        <div class="benefit-title col-8">Формат обучения</div>
                     </div>
                     <div class="benefit-text">Образовательный процесс построен как на общении студентов с одними из лучших преподавателей ТПУ, так и на живом обмене опытом с действующими специалистами крупных предприятий.
                     </div>
@@ -95,7 +95,7 @@
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-hat col-3" >  </div>
-                        <div class="benefit-title col-9">Диплом </div>
+                        <div class="benefit-title col-8">Диплом </div>
                     </div>
                     <div class="benefit-text">Присваивается степень магистра по направлению <br>Дизайн.</div>
                 </div>
@@ -169,7 +169,7 @@
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-9">Подготовка специалистов</div>
+                            <div class="benefit-title col-8">Подготовка специалистов</div>
                         </div>
                         <div class="benefit-text">
                             владеющих технологиями разработки оригинальных проектов, промышленных образцов,
@@ -180,7 +180,7 @@
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-9">Использование</div>
+                            <div class="benefit-title col-8">Использование</div>
                         </div>
                         <div class="benefit-text">
                             разнообразных ресурсов и средств для разработки и обоснования промышленного дизайна изделия и
@@ -190,7 +190,7 @@
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-task col-3">  </div>
-                            <div class="benefit-title col-9">Применение </div>
+                            <div class="benefit-title col-8">Применение </div>
                         </div>
                         <div class="benefit-text">
                             современных технологий 3D и 4D печати для разработки концептуальных, экспериментальных и

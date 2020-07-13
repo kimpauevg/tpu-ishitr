@@ -299,6 +299,8 @@ class RenderHelper
     public static function renderInstructions()
     {
         return'
+</section>
+<section class="section-instructions">
      <div>
         <div class="container">
             <div class="grid-container">

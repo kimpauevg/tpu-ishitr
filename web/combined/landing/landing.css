@@ -4,6 +4,7 @@ div.wrapper{
 section.section-welcome{
  background: none;
  position: static;
+ padding-top: 0;
 }
  .background{
  background: url(../new_landing/bg-landing.png) no-repeat top right ;

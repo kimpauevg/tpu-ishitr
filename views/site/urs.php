@@ -74,7 +74,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix);
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-target col-3"></div>
-                        <div class="benefit-title col-9">Цель программы</div>
+                        <div class="benefit-title col-8">Цель программы</div>
                     </div>
                     <div class="benefit-text">
                         Подготовка высококвалифицированных специалистов международного уровня, способных решать задачи разработки, исследования, производства и
@@ -84,7 +84,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix);
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-suitcase col-3"> </div>
-                        <div class="benefit-title col-9">Формат обучения</div>
+                        <div class="benefit-title col-8">Формат обучения</div>
                     </div>
                     <div class="benefit-text">Образовательный процесс построен как на общении студентов с одними из лучших преподавателей ТПУ, так и на живом обмене опытом с действующими специалистами крупных предприятий.
                     </div>
@@ -92,7 +92,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix);
                 <div class=" col-sm-4">
                     <div class="row">
                         <div class="benefit-item benefit-hat col-3" >  </div>
-                        <div class="benefit-title col-9">Диплом </div>
+                        <div class="benefit-title col-8">Диплом </div>
                     </div>
                     <div class="benefit-text">Присваивается степень магистра по направлению <br>Мехатроника и робототехника.</div>
                 </div>
@@ -163,7 +163,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix);
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-graph col-3"></div>
-                            <div class="benefit-title col-9">Получение опыта</div>
+                            <div class="benefit-title col-8">Получение опыта</div>
                         </div>
                         <div class="benefit-text">
                             разработки новых образцов и совершенствования существующих мехатронных и робототехнических систем, их модулей и подсистем, поиск новых способов управления
@@ -173,7 +173,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix);
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-programming col-3"> </div>
-                            <div class="benefit-title col-9">Разрабатывать и внедрять</div>
+                            <div class="benefit-title col-8">Разрабатывать и внедрять</div>
                         </div>
                         <div class="benefit-text">
                             мехатронные и робототехнические системы, управляющие, информационно-сенсорные
@@ -183,7 +183,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix);
                     <div class="col-sm-4">
                         <div class="row">
                             <div class="benefit-item benefit-task col-3">  </div>
-                            <div class="benefit-title col-9">Получить навыки </div>
+                            <div class="benefit-title col-8">Получить навыки </div>
                         </div>
                         <div class="benefit-text">
                             организации и проведения экспериментов на действующих мехатронных и робототехнических системах,
@@ -249,34 +249,6 @@ $info = \app\helpers\RenderHelper::getInfo($prefix);
 ',
     ],
 ], $prefix)?>
-<section class="lecturers">
-    <div class="light-grey-holder">
-        <div class="headline">
-            Преподаватели и эксперты
-        </div>
-        <div class="left-right-container">
-            <div class="left-right-content">
-                <div class="item">
-                    <div class="photo">
-                        <img src="/combined/urs/malyshenko.jpg" class="photo-item" >
-                    </div>
-                    <div class="info">
-                        <div class="info-name">
-                            Малышенко Александр Максимович
-                        </div>
-                        <div class="info-text">
-                            заслуженный профессор ТПУ, академик Международной академии наук высшей школы
-                            и Академии электротехнических наук РФ, д.т.н., профессор Отделения автоматизации
-                            и робототехники Инженерной школы информационных технологий и робототехники.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="dots">
-        </div>
-    </div>
-</section>
 
 <section class="partners">
     <div class="white-holder">
