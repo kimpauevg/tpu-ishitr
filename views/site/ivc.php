@@ -49,7 +49,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
                         <div class="course-item">
 
                             <div class="course-item__label">форма обучения</div>
-                            <div class="course-item__value">Очная (обучение в вечернее время)</div>
+                            <div class="course-item__value">Очная</div>
                         </div>
                     </div>
                 </div>

@@ -241,7 +241,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
 ',
     ],
     [
-        'image' => 'kazakov.jpg',
+        'image' => 'hudonogova.jpg',
         'name' => 'Худоногова Людмила Игоревна',
         'desc' => '
 кандидат технических наук, доцент отделения автоматизации и робототехники

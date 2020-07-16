@@ -208,16 +208,6 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
 
 ],$prefix)?>
 
-
-<section class="lecturers">
-    <div class="light-grey-holder">
-        <div class="headline">
-            Преподаватели и эксперты
-        </div>
-        Отсутствуют
-    </div>
-</section>
-
 <section class="partners">
     <div class="white-holder">
         <div class="headline">

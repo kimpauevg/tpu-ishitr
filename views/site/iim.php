@@ -133,7 +133,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix) ?>
     <div class="white-holder">
         <div class="questions-container">
             <div class="headline">
-                Дисциплины магистерской программы программы
+                Дисциплины магистерской программы
             </div>
             <div class="nav-container">
                 <?= \app\helpers\RenderHelper::renderPrograms([
