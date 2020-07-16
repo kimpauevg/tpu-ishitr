@@ -80,32 +80,13 @@ class RenderHelper
     ];
 
     public static $all_bachelor_programs = [
-        'atp' => [
-            'code' => '15.03.04',
-            'name' => 'Автоматизация технологических процессов и производств',
-            'href' => '/batp',
-            'average' => 73,
-            'seats' => 40,
-            'minimal' => 203,
-            'ed_forms' => 'Очная, очно-заочная, заочная',
-        ],
-        'des' => [
+        'ivt' => [
             'code' => '09.03.01',
             'name' => 'Информатика и вычислительная техника',
-            'href' => '/bdes',
+            'href' => '/bivt',
             'average' => 82,
             'seats' => 64,
             'minimal' => 231,
-            'ed_forms' => 'Очная',
-
-        ],
-        'ivt' => [
-            'code' => '54.03.01',
-            'name' => 'Дизайн',
-            'href' => '/bivt',
-            'average' => 84,
-            'seats' => 9,
-            'minimal' => 237,
             'ed_forms' => 'Очная',
 
         ],
@@ -118,6 +99,16 @@ class RenderHelper
             'minimal' => 249,
             'ed_forms' => 'Очная, очно-заочная, заочная',
         ],
+
+        'atp' => [
+            'code' => '15.03.04',
+            'name' => 'Автоматизация технологических процессов и производств',
+            'href' => '/batp',
+            'average' => 73,
+            'seats' => 40,
+            'minimal' => 203,
+            'ed_forms' => 'Очная, очно-заочная, заочная',
+        ],
         'mir' => [
             'code' => '15.03.06',
             'name' => 'Мехатроника и робототехника',
@@ -126,6 +117,15 @@ class RenderHelper
             'seats' => 40,
             'minimal' => 219,
             'ed_forms' => 'Очная',
+        ],
+        'des' => [
+            'code' => '54.03.01',
+            'name' => 'Дизайн',
+            'href' => '/bdes',
+            'seats' => 9,
+            'minimal' => 237,
+            'ed_forms' => 'Очная',
+
         ],
     ];
     public static function getInfo($name)
@@ -396,6 +396,19 @@ class RenderHelper
     public static function renderBachelorAfterIntro($suffix)
     {
         $info = self::getBachelorInfo($suffix);
+        $letter = '';
+        switch ($info['seats'] % 10) {
+            case 1:
+                $letter = 'о';
+                break;
+            case 2:
+            case 3:
+            case 4:
+                $letter = 'а';
+                break;
+            default:
+                $letter = '';
+        }
         return sprintf( '        
         <div class="container">
             <div class="row flex-column flex-sm-row">
@@ -404,7 +417,7 @@ class RenderHelper
                         <div class="course-item" >
 
                             <div class="course-item__label">Места</div>
-                            <div class="course-item__value">%s бюджетных мест</div>
+                            <div class="course-item__value">%s бюджетных мест%s</div>
                         </div>
                     </div>
                 </div>
@@ -447,7 +460,7 @@ class RenderHelper
                 </div>
             </div>
         </div>
-', $info['seats'], $info['ed_forms'], $info['minimal']);
+', $info['seats'], $letter, $info['ed_forms'], $info['minimal']);
     }
 
     public static function applyNow()

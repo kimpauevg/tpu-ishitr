@@ -151,13 +151,9 @@ PyCharm, Android Studio.'
     </div>
 </section>
 
-<!--TODO remove -->
-
-
-<!--преподаватели-->
 <?= \app\helpers\RenderHelper::renderCarousel('Преподаватели и эксперты', [
     [
-        'image' => 'Pogrebnoy.jpg',
+        'image' => 'pogrebnoy.jpg',
         'name' => 'Погребной Александр Владимирович',
         'desc' => 'кандидат технических наук, доцент отделения
 информационных технологий<br/>
@@ -166,7 +162,7 @@ PyCharm, Android Studio.'
 МПС',
     ],
     [
-        'image' => 'Demin.jpg',
+        'image' => 'demin.jpg',
         'name' => 'Демин Антон Юрьевич',
         'desc' => 'кандидат технических наук, доцент отделения информационных
 технологий<br/>
@@ -174,7 +170,7 @@ PyCharm, Android Studio.'
 Мультимедиа и компьютерная графика<br/>',
     ],
     [
-        'image' => 'Malchukov.jpg',
+        'image' => 'malchukov.jpg',
         'name' => 'Мальчуков Андрей Николаевич',
         'desc' => 'кандидат технических наук, доцент отделения
 информационных технологий<br/>
@@ -184,7 +180,7 @@ PyCharm, Android Studio.'
 ',
     ],
     [
-        'image' => 'Mytsko.jpg',
+        'image' => 'mytsko.jpg',
         'name' => 'Мыцко Евгений Алксеевич',
         'desc' => 'ассистент отделения информационных технологий<br/>
 Дисциплины:<br/>
@@ -192,10 +188,17 @@ PyCharm, Android Studio.'
 Технологии параллельных и распределенных вычислений<br/>
 ',
     ],
+    [
+        'image' => 'andreev.jpg',
+        'name' => 'Андреев Семён Алексеевич',
+        'desc' => 'ассистент отделения информационных технологий<br/>
+Дисциплины:<br/>
+Программирование микропроцессоров и микроконтроллеров<br/>
+',
+    ],
 
 ], 'b-ivt')?>
 
-<!--темы работ-->
 <section class="qualification-topics">
    <div class="white-holder">
        <div class="headline">
@@ -218,7 +221,7 @@ PyCharm, Android Studio.'
 <!--отзывы-->
 <?= \app\helpers\RenderHelper::renderReviews([
     [
-        'image' => 'Fedorova.jpg',
+        'image' => 'fedorova.jpg',
         'name' => 'Федорова Ольга Евгеньевна',
         'desc' => 'год выпуска: 2018, работает в: ООО Сегменто,<br/>
 должность: Инженер по качеству<br/>

@@ -3,7 +3,7 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
 <section class="section-welcome">
     <div class="background"></div>
     <div class="section-content">
-        <div class="container pb-5">
+        <div class="container pb-3">
             <h1  >Автоматизация технологических<br/> процессов и производств</h1>
             <div class="container pill-container pb-4 wow fadeInDown" >
                 <div class="badge-pill badge-secondary">

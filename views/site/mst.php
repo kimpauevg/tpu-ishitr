@@ -1,5 +1,5 @@
-<?= $prefix = 'mst';
-$info = \app\helpers\RenderHelper::getInfo($prefix)?>
+<?php $prefix = 'mst';
+$info = \app\helpers\RenderHelper::getInfo($prefix)
 ?>
 <section class="section-welcome">
     <div class="background"></div>
@@ -121,10 +121,10 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
                 <div class="col-auto left-block">
                     <div class="section-title">Выпускник может претендовать на вакансии </div>
                     <div class="section-text">
-                        <div class="li_style">в крупных медицинских центрах</div>
-                        <div class="li_style">территориальных управлениях здравоохранения</div>
-                        <div class="li_style">IT-компаниях, занимающихся разработкой информационных систем для нужд медицины</div>
-                        <div class="li_style">IT-компаниях, обсуживающих организации и особые экономические Зоны с направлениями в сфере медицины («Санкт-Петербург», «Томск», «Иннополис»)</div>
+                            в крупных медицинских центрах,
+                            <br/>территориальных управлениях здравоохранения,
+                            <br/>IT-компаниях, занимающихся разработкой информационных систем для нужд медицины,
+                            <br/>IT-компаниях, обсуживающих организации и особые экономические Зоны с направлениями в сфере медицины («Санкт-Петербург», «Томск», «Иннополис»)
                     </div>
                 </div>
                 <div class="col-auto left-block">
@@ -132,15 +132,9 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
                         Организации-партнеры программы
                     </div>
                     <div class="section-text">
-                        <div class="li_style">
                             в г. Томск:<br> ООО «Медицинские облачные технологии», ООО «Центр корпоративной медицины», ООО «ТомскАСУПроект», ООО «Нео стек технологии», ООО «Медицинские информационные технологии», ООО «Рубиус Групп»
-                        </div>
-                        <div class="li_style">
-                            в г. Москва:<br> ООО «МедПромИнжиниринг», ООО «Microsoft Rus»,ООО «SoftLine», ИЦ «Сколково»и др.
-                        </div>
-                        <div class="li_style">
-                            в г.Новосибирск:<br> ООО «SoftLine» и др.
-                        </div>
+                            <br/>в г. Москва:<br> ООО «МедПромИнжиниринг», ООО «Microsoft Rus»,ООО «SoftLine», ИЦ «Сколково»и др.
+                            <br/>в г.Новосибирск:<br> ООО «SoftLine» и др.
                     </div>
                 </div>
                 <div class="col-auto right-block">
@@ -154,6 +148,7 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
     </div>
 </section>
 
+
 <section class="frequent-questions">
     <div class="white-holder">
         <div class="questions-container">
@@ -161,63 +156,21 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)?>
                 Дисциплины магистерской программы
             </div>
             <div class="nav-container">
-                <div class="navbar-bakalavriat gradient-navbar-table">
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                               Организация здравоохранения 
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Нормативная база телемедицины.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Телемедицина и информационные технологии 
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Администрирование в информационных системах 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Искусственный интеллект в медицине
-                            </div>
-                        </div>
-                        <div class="choice-wrap-after after-invisible"></div>
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Медицинские информационные системы  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="choice-wrap-after"></div>
-                    <div class="choice-row">
-                        <div class="choice-wrap">
-                            <div class="choice">
-                                Средства разработки программных приложений 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?= \app\helpers\RenderHelper::renderPrograms([
+                    'Организация здравоохранения',
+                    'Нормативная база телемедицины',
+                    'Телемедицина и информационные технологии',
+                    'Администрирование в информационных системах',
+                    'Искусственный интеллект в медицине',
+                    'Медицинские информационные системы',
+                    'Средства разработки программных приложений',
+                    'Автоматизация клинико-лабораторной диагностики'
+                ])?>
+
             </div>
-        </div>          
+        </div>
     </div>
 </section>
-
-
 
 <?= \app\helpers\RenderHelper::masteryOpportunity()?>
 
