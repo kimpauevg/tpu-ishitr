@@ -115,12 +115,11 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
     <div class="white-holder">
         <div class="questions-container">
             <div class="headline">
-                Дисциплины бакалаврвской программы
+                Дисциплины бакалаврской программы
             </div>
             <div class="nav-container">
                 <?= \app\helpers\RenderHelper::renderPrograms([
                     'Программные средства математических расчетов',
-                    'Теория автоматического управления',
                     'Теория автоматического управления',
                     'Основы разработки компонентов мехатроники и робототехники',
                     'Микропроцессорная техника',

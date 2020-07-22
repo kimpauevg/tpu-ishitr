@@ -122,7 +122,7 @@
     <div class="white-holder">
         <div class="questions-container">
             <div class="headline">
-                Дисциплины бакалаврвской программы
+                Дисциплины бакалаврской программы
             </div>
             <div class="nav-container">
                 <?= \app\helpers\RenderHelper::renderPrograms([

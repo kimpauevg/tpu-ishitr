@@ -110,7 +110,7 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
     <div class="white-holder">
         <div class="questions-container">
             <div class="headline">
-                Дисциплины бакалаврвской программы
+                Дисциплины бакалаврской программы
             </div>
             <div class="nav-container">
                 <?= \app\helpers\RenderHelper::renderPrograms([
@@ -139,6 +139,8 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
                 <div class="col-auto left-block">
                     <div class="section-title "  style="color:#b87571">Выпускник может претендовать на вакансии</div>
                     <div class="section-text">
+                        инженера, инженера по автоматизации, специалиста по автоматизации, инженера КИПиА,
+                        automation project engineer, инженера-конструктора, инженера-технолога.<br/><br/>
                         Компании:<br/>
                         ПАО «НК «Роснефть», ПАО «Лукойл»,
                         ПАО «Сибур», ПАО «Газпром», ПАО «НОВАТЭК»,
@@ -149,7 +151,7 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block">
-                        <div class="stat-title">≈ 60-80 000</div>
+                        <div class="stat-title">60 000 - 80 000</div>
                         <div class="stat-text">рублей средняя зарплата <br /> на вахте в России <br /></div>
                     </div>
                 </div>

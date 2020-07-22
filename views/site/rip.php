@@ -130,7 +130,6 @@ $info = \app\helpers\RenderHelper::getInfo($prefix)
             </div>
             <div class="nav-container">
                 <?= \app\helpers\RenderHelper::renderPrograms([
-                        'Интеллектуальные системы',
                     'Интеллектуальные системы',
                     'Машинное обучение',
                     'Современные платформы программирования',

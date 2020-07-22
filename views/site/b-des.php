@@ -20,7 +20,7 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
             <p>
                 Объекты профессиональной деятельности бакалавров-дизайнеров – образцы
                 промышленной продукции, средства транспорта и предметы культурно-бытового
-                назначения, различные виды полиграфических изданий. В процессе дизайн-
+                назначения, различные виды полиграфических изданий. В процессе дизайн -
                 проектирования создаются новые образцы промышленной продукции,
                 конкурентоспособность которых обеспечивается повышением эстетических и
                 эргономических качеств, выявленных в результате анализа основных
@@ -105,7 +105,7 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
     <div class="white-holder">
         <div class="questions-container">
             <div class="headline">
-                Дисциплины бакалаврвской программы
+                Дисциплины бакалаврской программы
             </div>
             <div class="nav-container">
                 <?= \app\helpers\RenderHelper::renderPrograms([
@@ -135,6 +135,11 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
                 <div class="col-auto left-block">
                     <div class="section-title "  style="color:#b87571">Выпускник может претендовать на вакансии</div>
                     <div class="section-text">
+                        в отделах дизайна и рекламы фирм и предприятий; в проектных
+                        институтах, частных дизайнерских фирмах;, а также в фирмах, занимающихся созданием
+                        интерьеров и экстерьеров общественных и частных зданий и сооружений, в рекламных
+                        фирмах, агентствах средств массовой информации и коммуникации, модельных
+                        агентствах, в издательствах, в промышленном производстве.<br/><br/>
                         Компании:<br/>
                         ООО &quot;Титан-media&quot; г. Нижневартовск,<br/>
                         ООО &quot;Технопоиск&quot; REDMOND, г. Санкт-Петербург,<br/>
@@ -145,7 +150,7 @@ $info = \app\helpers\RenderHelper::getBachelorInfo($name) ?>
                 </div>
                 <div class="col-auto right-block">
                     <div class="statistic-block">
-                        <div class="stat-title">≈50 000</div>
+                        <div class="stat-title">≈ 50 000</div>
                         <div class="stat-text">рублей средняя зарплата <br />дизайнера в России <br/></div>
                     </div>
                 </div>
