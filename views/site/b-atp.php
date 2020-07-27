@@ -44,10 +44,13 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
                 <div class="program-target">
                     <div class="headline"> Цель программы </div>
                     <p class="text">
-                        Программа
-                        обучения направлена на подготовку
-                        инженерных кадров для нефтегазовой промышленности в области автоматизации
-                        технологических процессов транспорта и переработки углеводородного сырья
+                        Подготовка квалифицированных специалистов к производственно-технологической
+                        и инжиниринговой деятельности в нефтегазовой и нефтехимической отраслях;
+                        к внедрению и эксплуатации систем автоматизации любой сложности, включая
+                        АСУ ТП, MES; к проектированию автоматизированных систем управления на базе
+                        современных технических средств и программно-технических комплексов ведущих
+                        мировых производителей; научно-исследовательской работе в области
+                        автоматизации управления техническими объектами.
                     </p>
                 </div>
             </div>
@@ -218,15 +221,10 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
         <div class="dots">
-
         </div>
-
     </div>
 </section>
 <!--темы работ-->
@@ -262,7 +260,6 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
                         <img src="/combined/b-atp/djitnikov.jpg" class="photo-item" >
                     </div>
                     <div class="info">
-
                         <div class="info-name">
                             Житников А. Д.
                         </div>
@@ -285,9 +282,7 @@ $info =  \app\helpers\RenderHelper::getBachelorInfo($prefix);?>
             </div>
         </div>
         <div class="dots">
-
         </div>
-
     </div>
 </section>
 

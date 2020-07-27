@@ -25,14 +25,16 @@ class RenderHelper
             'code' => '09.04.02',
             'name' => 'Телемедицина',
             'main_name' => 'Информационные системы и технологии',
+            'bottom_name' => 'Медицинские информационные системы и телемедицина',
             'seats' => 10,
             'learn' => '?',
             'href' => '/mst',
         ],
         'urs' => [
-            'code' => '09.04.02',
+            'code' => '15.04.06',
             'name' => 'Мехатроника и робототехника',
-            'main_name' => 'Информационные системы и технологии',
+            'main_name' => 'Мехатроника',
+            'bottom_name' => 'Управление робототехническими комплексами и мехатронными системами',
             'seats' => 24,
             'learn' => '?',
             'href' => '/urs',
@@ -48,6 +50,7 @@ class RenderHelper
         'bds' => [
             'code' => '09.04.04 ',
             'name' => 'Технологии больших данных',
+            'bottom_name' => 'Big data solutions',
             'main_name' => 'Программная инженерия',
             'seats' => 25,
             'learn' => '?',
@@ -73,6 +76,7 @@ class RenderHelper
             'code' => '54.04.01',
             'name' => 'Дизайн',
             'main_name' => 'Дизайн',
+            'bottom_name' => 'Промышленный дизайн',
             'seats' => 6,
             'learn' => '?',
             'href' => '/pd',
@@ -237,7 +241,7 @@ class RenderHelper
 
                         </div>
                     </a>
-            ', $program['href'], $program['code'], $program['name'], $program['seats']);
+            ', $program['href'], $program['code'], $program['bottom_name'] ?? $program['name'], $program['seats']);
         }
         $html .= '</div>
     </div>
@@ -560,7 +564,7 @@ class RenderHelper
                 <div class="col-auto right-block">
                     <div class="statistic-block">
                         <div class="stat-title">Диплом ТПУ</div>
-                        <div class="stat-text">Котируется среди <br>работодателей большинства<br> стан мира</div>
+                        <div class="stat-text">Котируется среди <br>работодателей большинства<br> стран мира</div>
                     </div>
                 </div>
             </div>
